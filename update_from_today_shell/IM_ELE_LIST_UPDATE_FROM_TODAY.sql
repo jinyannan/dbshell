@@ -1,0 +1,6 @@
+\echo -----------------------IM_ELE_LIST------------------------
+select now();
+\timing
+delete from IM_ELE_LIST using IM_ELE_LIST_GPTMP_TODAY where IM_ELE_LIST.LICENSE_NO=IM_ELE_LIST_GPTMP_TODAY.LICENSE_NO AND IM_ELE_LIST.L_G_NO=IM_ELE_LIST_GPTMP_TODAY.L_G_NO ;
+insert into IM_ELE_LIST (LICENSE_NO,L_G_NO,G_MODEL,LIC_QTY,LIC_USD_PRICE) select LICENSE_NO,L_G_NO,G_MODEL,LIC_QTY,LIC_USD_PRICE from IM_ELE_LIST_GPTMP_TODAY  where CMD_TYPE='I';
+\timing

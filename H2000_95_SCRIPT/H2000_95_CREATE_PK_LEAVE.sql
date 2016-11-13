@@ -1,0 +1,15 @@
+select now();
+\echo "PK_BWS_EXAM_TEMP on BWS_EXAM_TEMP (BWS_EXAM_NO) ;
+create index PK_BWS_EXAM_TEMP on BWS_EXAM_TEMP (BWS_EXAM_NO) ;
+
+\echo "  add on CNSMATCH (EX_CODE_TS, IM_CODE_TS)"
+create index PK_CNSMATCH add on CNSMATCH (EX_CODE_TS, IM_CODE_TS) ;
+select now();
+\echo "PK_ENTRY_PROC on ENTRY_PROC (ENTRY_ID, DECL_PORT)"
+create index PK_ENTRY_PROC on ENTRY_PROC (ENTRY_ID, DECL_PORT) ;
+select now();
+\echo "PK_ENTRY_PROC_LOG on ENTRY_PROC_LOG (ENTRY_ID, OP_TIME, OP_STEP)"
+create index PK_ENTRY_PROC_LOG on ENTRY_PROC_LOG (ENTRY_ID, OP_TIME, OP_STEP) ;
+select now();
+\echo "  add on ODIOGGCKPT (GROUP_NAME, GROUP_KEY)"
+create index  PK_ODIOGGCKPT add on ODIOGGCKPT (GROUP_NAME, GROUP_KEY) ;

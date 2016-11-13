@@ -1,0 +1,1198 @@
+\echo ---------------ACCOUNT----------------
+VACUUM ANALYZE ACCOUNT_GPTMP_TODAY;
+\echo ---------------AGREEMENT_GOODS_LIST----------------
+VACUUM ANALYZE AGREEMENT_GOODS_LIST_GPTMP_TODAY;
+\echo ---------------AMS_MODI_LOG----------------
+VACUUM ANALYZE AMS_MODI_LOG_GPTMP_TODAY;
+\echo ---------------AMSLIST_BODY----------------
+VACUUM ANALYZE AMSLIST_BODY_GPTMP_TODAY;
+\echo ---------------AMSLIST_HEAD----------------
+VACUUM ANALYZE AMSLIST_HEAD_GPTMP_TODAY;
+\echo ---------------APPL_CLOSE----------------
+VACUUM ANALYZE APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------APPL_CLOSE_CONSUME----------------
+VACUUM ANALYZE APPL_CLOSE_CONSUME_GPTMP_TODAY;
+\echo ---------------APPLY_HEAD----------------
+VACUUM ANALYZE APPLY_HEAD_GPTMP_TODAY;
+\echo ---------------APPLY_LIST----------------
+VACUUM ANALYZE APPLY_LIST_GPTMP_TODAY;
+\echo ---------------ARRIVAL_INFO_HEAD----------------
+VACUUM ANALYZE ARRIVAL_INFO_HEAD_GPTMP_TODAY;
+\echo ---------------ARRIVAL_INFO_LIST----------------
+VACUUM ANALYZE ARRIVAL_INFO_LIST_GPTMP_TODAY;
+\echo ---------------BAK_BWS_EXAM_CERT_LIST----------------
+VACUUM ANALYZE BAK_BWS_EXAM_CERT_LIST_GPTMP_TODAY;
+\echo ---------------BAK_BWS_EXAM_GOOD_LIST----------------
+VACUUM ANALYZE BAK_BWS_EXAM_GOOD_LIST_GPTMP_TODAY;
+\echo ---------------BAK_BWS_EXAM_HEAD----------------
+VACUUM ANALYZE BAK_BWS_EXAM_HEAD_GPTMP_TODAY;
+\echo ---------------BAK_CONSUME----------------
+VACUUM ANALYZE BAK_CONSUME_GPTMP_TODAY;
+\echo ---------------BAK_CONTRACT_HEAD----------------
+VACUUM ANALYZE BAK_CONTRACT_HEAD_GPTMP_TODAY;
+\echo ---------------BAK_DCG_BILL_HEAD----------------
+VACUUM ANALYZE BAK_DCG_BILL_HEAD_GPTMP_TODAY;
+\echo ---------------BAK_DCG_BILL_LIST----------------
+VACUUM ANALYZE BAK_DCG_BILL_LIST_GPTMP_TODAY;
+\echo ---------------BAK_DCG_DEDUCT----------------
+VACUUM ANALYZE BAK_DCG_DEDUCT_GPTMP_TODAY;
+\echo ---------------BAK_DCG_DEDUCT_LOG----------------
+VACUUM ANALYZE BAK_DCG_DEDUCT_LOG_GPTMP_TODAY;
+\echo ---------------BAK_DCG_HEAD----------------
+VACUUM ANALYZE BAK_DCG_HEAD_GPTMP_TODAY;
+\echo ---------------BAK_DCG_LIST----------------
+VACUUM ANALYZE BAK_DCG_LIST_GPTMP_TODAY;
+\echo ---------------BAK_EMS_APPR_HEAD----------------
+VACUUM ANALYZE BAK_EMS_APPR_HEAD_GPTMP_TODAY;
+\echo ---------------BAK_EMS_APPR_LIST----------------
+VACUUM ANALYZE BAK_EMS_APPR_LIST_GPTMP_TODAY;
+\echo ---------------BAK_EMS_CONSUME----------------
+VACUUM ANALYZE BAK_EMS_CONSUME_GPTMP_TODAY;
+\echo ---------------BAK_EMS_DEDUCT_CLR----------------
+VACUUM ANALYZE BAK_EMS_DEDUCT_CLR_GPTMP_TODAY;
+\echo ---------------BAK_EMS_HEAD----------------
+VACUUM ANALYZE BAK_EMS_HEAD_GPTMP_TODAY;
+\echo ---------------BAK_EMS_LIST----------------
+VACUUM ANALYZE BAK_EMS_LIST_GPTMP_TODAY;
+\echo ---------------BAK_EX_CONTRACT_LIST----------------
+VACUUM ANALYZE BAK_EX_CONTRACT_LIST_GPTMP_TODAY;
+\echo ---------------BAK_EX_FASCICLE_LIST----------------
+VACUUM ANALYZE BAK_EX_FASCICLE_LIST_GPTMP_TODAY;
+\echo ---------------BAK_FASCICLE_HEAD----------------
+VACUUM ANALYZE BAK_FASCICLE_HEAD_GPTMP_TODAY;
+\echo ---------------BAK_IM_CONTRACT_LIST----------------
+VACUUM ANALYZE BAK_IM_CONTRACT_LIST_GPTMP_TODAY;
+\echo ---------------BAK_IM_FASCICLE_LIST----------------
+VACUUM ANALYZE BAK_IM_FASCICLE_LIST_GPTMP_TODAY;
+\echo ---------------BANK_ACCOUNT----------------
+VACUUM ANALYZE BANK_ACCOUNT_GPTMP_TODAY;
+\echo ---------------BCK_COP_HEAD----------------
+VACUUM ANALYZE BCK_COP_HEAD_GPTMP_TODAY;
+\echo ---------------BCK_COP_LIST----------------
+VACUUM ANALYZE BCK_COP_LIST_GPTMP_TODAY;
+\echo ---------------BCK_COP_LIST_TEMP----------------
+VACUUM ANALYZE BCK_COP_LIST_TEMP_GPTMP_TODAY;
+\echo ---------------BCK_COP_PARA_HEAD----------------
+VACUUM ANALYZE BCK_COP_PARA_HEAD_GPTMP_TODAY;
+\echo ---------------BCK_COP_PARA_LIST----------------
+VACUUM ANALYZE BCK_COP_PARA_LIST_GPTMP_TODAY;
+\echo ---------------BCK_EXECUTOR----------------
+VACUUM ANALYZE BCK_EXECUTOR_GPTMP_TODAY;
+\echo ---------------BCK_HANDOVER----------------
+VACUUM ANALYZE BCK_HANDOVER_GPTMP_TODAY;
+\echo ---------------BCK_HANDOVER_TYPE----------------
+VACUUM ANALYZE BCK_HANDOVER_TYPE_GPTMP_TODAY;
+\echo ---------------BCK_HEAD----------------
+VACUUM ANALYZE BCK_HEAD_GPTMP_TODAY;
+\echo ---------------BCK_SEQ----------------
+VACUUM ANALYZE BCK_SEQ_GPTMP_TODAY;
+\echo ---------------BCK_STOCK_HEAD----------------
+VACUUM ANALYZE BCK_STOCK_HEAD_GPTMP_TODAY;
+\echo ---------------BCK_STOCK_LIST----------------
+VACUUM ANALYZE BCK_STOCK_LIST_GPTMP_TODAY;
+\echo ---------------BCK_WORKFLOW----------------
+VACUUM ANALYZE BCK_WORKFLOW_GPTMP_TODAY;
+\echo ---------------BTI_DATA_CONTA_LIST----------------
+VACUUM ANALYZE BTI_DATA_CONTA_LIST_GPTMP_TODAY;
+\echo ---------------BTI_DATA_HEAD----------------
+VACUUM ANALYZE BTI_DATA_HEAD_GPTMP_TODAY;
+\echo ---------------BTI_DATA_TS_LIST----------------
+VACUUM ANALYZE BTI_DATA_TS_LIST_GPTMP_TODAY;
+\echo ---------------BWS_AUDIT_HEAD----------------
+VACUUM ANALYZE BWS_AUDIT_HEAD_GPTMP_TODAY;
+\echo ---------------BWS_AUDIT_LIST----------------
+VACUUM ANALYZE BWS_AUDIT_LIST_GPTMP_TODAY;
+\echo ---------------BWS_DCR_BILL_LIST----------------
+VACUUM ANALYZE BWS_DCR_BILL_LIST_GPTMP_TODAY;
+\echo ---------------BWS_DCR_HEAD----------------
+VACUUM ANALYZE BWS_DCR_HEAD_GPTMP_TODAY;
+\echo ---------------BWS_DCR_LIST----------------
+VACUUM ANALYZE BWS_DCR_LIST_GPTMP_TODAY;
+\echo ---------------BWS_DEDUCT----------------
+VACUUM ANALYZE BWS_DEDUCT_GPTMP_TODAY;
+\echo ---------------BWS_DEDUCT_LOG----------------
+VACUUM ANALYZE BWS_DEDUCT_LOG_GPTMP_TODAY;
+\echo ---------------BWS_EXAM_CERT_LIST----------------
+VACUUM ANALYZE BWS_EXAM_CERT_LIST_GPTMP_TODAY;
+\echo ---------------BWS_EXAM_GOOD_LIST----------------
+VACUUM ANALYZE BWS_EXAM_GOOD_LIST_GPTMP_TODAY;
+\echo ---------------BWS_EXAM_HEAD----------------
+VACUUM ANALYZE BWS_EXAM_HEAD_GPTMP_TODAY;
+\echo ---------------BWS_EXAM_PASSCERT----------------
+VACUUM ANALYZE BWS_EXAM_PASSCERT_GPTMP_TODAY;
+\echo ---------------BWS_FORM_HEAD----------------
+VACUUM ANALYZE BWS_FORM_HEAD_GPTMP_TODAY;
+\echo ---------------BWS_FORM_LIST----------------
+VACUUM ANALYZE BWS_FORM_LIST_GPTMP_TODAY;
+\echo ---------------BWS_GB_LIST----------------
+VACUUM ANALYZE BWS_GB_LIST_GPTMP_TODAY;
+\echo ---------------BWS_HEAD----------------
+VACUUM ANALYZE BWS_HEAD_GPTMP_TODAY;
+\echo ---------------BWS_LIST----------------
+VACUUM ANALYZE BWS_LIST_GPTMP_TODAY;
+\echo ---------------BWS_MANIFEST_HEAD----------------
+VACUUM ANALYZE BWS_MANIFEST_HEAD_GPTMP_TODAY;
+\echo ---------------BWS_MANIFEST_LIST----------------
+VACUUM ANALYZE BWS_MANIFEST_LIST_GPTMP_TODAY;
+\echo ---------------BWS_SEQ----------------
+VACUUM ANALYZE BWS_SEQ_GPTMP_TODAY;
+\echo ---------------BWS_VAR----------------
+VACUUM ANALYZE BWS_VAR_GPTMP_TODAY;
+\echo ---------------BWS_WORKFLOW----------------
+VACUUM ANALYZE BWS_WORKFLOW_GPTMP_TODAY;
+\echo ---------------CCTS_ERROR_LOG----------------
+VACUUM ANALYZE CCTS_ERROR_LOG_GPTMP_TODAY;
+\echo ---------------CCTS_ONLINE_RESULT----------------
+VACUUM ANALYZE CCTS_ONLINE_RESULT_GPTMP_TODAY;
+\echo ---------------CCTS_ONLINE_RESULT_BAK----------------
+VACUUM ANALYZE CCTS_ONLINE_RESULT_BAK_GPTMP_TODAY;
+\echo ---------------CCTS_PERFORMANCE----------------
+VACUUM ANALYZE CCTS_PERFORMANCE_GPTMP_TODAY;
+\echo ---------------CCTS_RSK_RESULT----------------
+VACUUM ANALYZE CCTS_RSK_RESULT_GPTMP_TODAY;
+\echo ---------------CCTS_RSK_RESULT_BAK----------------
+VACUUM ANALYZE CCTS_RSK_RESULT_BAK_GPTMP_TODAY;
+\echo ---------------CDL_CERTIFICATE----------------
+VACUUM ANALYZE CDL_CERTIFICATE_GPTMP_TODAY;
+\echo ---------------CDL_CHK----------------
+VACUUM ANALYZE CDL_CHK_GPTMP_TODAY;
+\echo ---------------CDL_COMMODITY----------------
+VACUUM ANALYZE CDL_COMMODITY_GPTMP_TODAY;
+\echo ---------------CDL_COMP_COMM_MODIFY_LOG----------------
+VACUUM ANALYZE CDL_COMP_COMM_MODIFY_LOG_GPTMP_TODAY;
+\echo ---------------CDL_COMP_COMM_OP_LOG----------------
+VACUUM ANALYZE CDL_COMP_COMM_OP_LOG_GPTMP_TODAY;
+\echo ---------------CDL_COMPANY----------------
+VACUUM ANALYZE CDL_COMPANY_GPTMP_TODAY;
+\echo ---------------CDL_CONTAINER----------------
+VACUUM ANALYZE CDL_CONTAINER_GPTMP_TODAY;
+\echo ---------------CDL_DEL_CERTIFICATE_LOG----------------
+VACUUM ANALYZE CDL_DEL_CERTIFICATE_LOG_GPTMP_TODAY;
+\echo ---------------CDL_DEL_CONTAINER_LOG----------------
+VACUUM ANALYZE CDL_DEL_CONTAINER_LOG_GPTMP_TODAY;
+\echo ---------------CDL_DEL_HEAD_LOG----------------
+VACUUM ANALYZE CDL_DEL_HEAD_LOG_GPTMP_TODAY;
+\echo ---------------CDL_DEL_LIST_LOG----------------
+VACUUM ANALYZE CDL_DEL_LIST_LOG_GPTMP_TODAY;
+\echo ---------------CDL_EDI_MESS----------------
+VACUUM ANALYZE CDL_EDI_MESS_GPTMP_TODAY;
+\echo ---------------CDL_EMS_DEDUCT----------------
+VACUUM ANALYZE CDL_EMS_DEDUCT_GPTMP_TODAY;
+\echo ---------------CDL_EMS_DEDUCT_LOG----------------
+VACUUM ANALYZE CDL_EMS_DEDUCT_LOG_GPTMP_TODAY;
+\echo ---------------CDL_ENTRY_HEAD----------------
+VACUUM ANALYZE CDL_ENTRY_HEAD_GPTMP_TODAY;
+\echo ---------------CDL_ENTRY_LIST----------------
+VACUUM ANALYZE CDL_ENTRY_LIST_GPTMP_TODAY;
+\echo ---------------CDL_HEAD----------------
+VACUUM ANALYZE CDL_HEAD_GPTMP_TODAY;
+\echo ---------------CDL_LICENSE_DEDUCT----------------
+VACUUM ANALYZE CDL_LICENSE_DEDUCT_GPTMP_TODAY;
+\echo ---------------CDL_LIST----------------
+VACUUM ANALYZE CDL_LIST_GPTMP_TODAY;
+\echo ---------------CDL_LOCK_COMMODITY----------------
+VACUUM ANALYZE CDL_LOCK_COMMODITY_GPTMP_TODAY;
+\echo ---------------CDL_MODI_LOG----------------
+VACUUM ANALYZE CDL_MODI_LOG_GPTMP_TODAY;
+\echo ---------------CDL_OP_LOG----------------
+VACUUM ANALYZE CDL_OP_LOG_GPTMP_TODAY;
+\echo ---------------CDL_OVERDUE_LIST----------------
+VACUUM ANALYZE CDL_OVERDUE_LIST_GPTMP_TODAY;
+\echo ---------------CDL_STATUS_DETAIL----------------
+VACUUM ANALYZE CDL_STATUS_DETAIL_GPTMP_TODAY;
+\echo ---------------CDL_WORKFLOW----------------
+VACUUM ANALYZE CDL_WORKFLOW_GPTMP_TODAY;
+\echo ---------------CHK_COP_RATIO----------------
+VACUUM ANALYZE CHK_COP_RATIO_GPTMP_TODAY;
+\echo ---------------CHK_COUNTER----------------
+VACUUM ANALYZE CHK_COUNTER_GPTMP_TODAY;
+\echo ---------------CHK_RATE_LIMIT----------------
+VACUUM ANALYZE CHK_RATE_LIMIT_GPTMP_TODAY;
+\echo ---------------CHKHS_MNLPROC----------------
+VACUUM ANALYZE CHKHS_MNLPROC_GPTMP_TODAY;
+\echo ---------------CIC_CODE----------------
+VACUUM ANALYZE CIC_CODE_GPTMP_TODAY;
+\echo ---------------CIC_HEAD----------------
+VACUUM ANALYZE CIC_HEAD_GPTMP_TODAY;
+\echo ---------------CIC_LIST----------------
+VACUUM ANALYZE CIC_LIST_GPTMP_TODAY;
+\echo ---------------CIC_MAXID----------------
+VACUUM ANALYZE CIC_MAXID_GPTMP_TODAY;
+\echo ---------------CIC_SEND_REL----------------
+VACUUM ANALYZE CIC_SEND_REL_GPTMP_TODAY;
+\echo ---------------CLAIM----------------
+VACUUM ANALYZE CLAIM_GPTMP_TODAY;
+\echo ---------------CLC_CHKRATE_LIMIT----------------
+VACUUM ANALYZE CLC_CHKRATE_LIMIT_GPTMP_TODAY;
+\echo ---------------CLC_GPR_RATIO----------------
+VACUUM ANALYZE CLC_GPR_RATIO_GPTMP_TODAY;
+\echo ---------------CLC_GPR_RATIO_BAK----------------
+VACUUM ANALYZE CLC_GPR_RATIO_BAK_GPTMP_TODAY;
+\echo ---------------CNS_COUNTER_TABLE----------------
+VACUUM ANALYZE CNS_COUNTER_TABLE_GPTMP_TODAY;
+\echo ---------------CO_CLASS_REL----------------
+VACUUM ANALYZE CO_CLASS_REL_GPTMP_TODAY;
+\echo ---------------COMPANY_REL----------------
+VACUUM ANALYZE COMPANY_REL_GPTMP_TODAY;
+\echo ---------------CONSUME----------------
+VACUUM ANALYZE CONSUME_GPTMP_TODAY;
+\echo ---------------CONSUME_DB----------------
+VACUUM ANALYZE CONSUME_DB_GPTMP_TODAY;
+\echo ---------------CONSUME_GOODS----------------
+VACUUM ANALYZE CONSUME_GOODS_GPTMP_TODAY;
+\echo ---------------CONTA----------------
+VACUUM ANALYZE CONTA_GPTMP_TODAY;
+\echo ---------------CONTA_MONITOR----------------
+VACUUM ANALYZE CONTA_MONITOR_GPTMP_TODAY;
+\echo ---------------CONTRACT_HEAD----------------
+VACUUM ANALYZE CONTRACT_HEAD_GPTMP_TODAY;
+\echo ---------------CONTRACT_WORKFLOW----------------
+VACUUM ANALYZE CONTRACT_WORKFLOW_GPTMP_TODAY;
+\echo ---------------CONVEYANCE----------------
+VACUUM ANALYZE CONVEYANCE_GPTMP_TODAY;
+\echo ---------------CONVEYANCE_SEGMENT----------------
+VACUUM ANALYZE CONVEYANCE_SEGMENT_GPTMP_TODAY;
+\echo ---------------COP_CONSUME----------------
+VACUUM ANALYZE COP_CONSUME_GPTMP_TODAY;
+\echo ---------------COP_SPEC_REL----------------
+VACUUM ANALYZE COP_SPEC_REL_GPTMP_TODAY;
+\echo ---------------COPLOG_DELETE_REL----------------
+VACUUM ANALYZE COPLOG_DELETE_REL_GPTMP_TODAY;
+\echo ---------------COPLOG_MODIFY_REL----------------
+VACUUM ANALYZE COPLOG_MODIFY_REL_GPTMP_TODAY;
+\echo ---------------CORP_HEAD----------------
+VACUUM ANALYZE CORP_HEAD_GPTMP_TODAY;
+\echo ---------------CORP_LIST----------------
+VACUUM ANALYZE CORP_LIST_GPTMP_TODAY;
+\echo ---------------CORP_TABLE----------------
+VACUUM ANALYZE CORP_TABLE_GPTMP_TODAY;
+\echo ---------------CORP_TYPE----------------
+VACUUM ANALYZE CORP_TYPE_GPTMP_TODAY;
+\echo ---------------COUNTER_TABLE----------------
+VACUUM ANALYZE COUNTER_TABLE_GPTMP_TODAY;
+\echo ---------------CREDIT_INFO----------------
+VACUUM ANALYZE CREDIT_INFO_GPTMP_TODAY;
+\echo ---------------CTS_CHKRATE_LIMIT----------------
+VACUUM ANALYZE CTS_CHKRATE_LIMIT_GPTMP_TODAY;
+\echo ---------------CTS_CHKRATE_LIMIT_BAK----------------
+VACUUM ANALYZE CTS_CHKRATE_LIMIT_BAK_GPTMP_TODAY;
+\echo ---------------CTS_PERIOD----------------
+VACUUM ANALYZE CTS_PERIOD_GPTMP_TODAY;
+\echo ---------------CUS_GOOD_CONSUME----------------
+VACUUM ANALYZE CUS_GOOD_CONSUME_GPTMP_TODAY;
+\echo ---------------CUSTOMS_DEFAULT----------------
+VACUUM ANALYZE CUSTOMS_DEFAULT_GPTMP_TODAY;
+\echo ---------------CUSTOMS_ESEAL_CONFIG----------------
+VACUUM ANALYZE CUSTOMS_ESEAL_CONFIG_GPTMP_TODAY;
+\echo ---------------DCG_BAK_LIST----------------
+VACUUM ANALYZE DCG_BAK_LIST_GPTMP_TODAY;
+\echo ---------------DCG_BILL_HEAD----------------
+VACUUM ANALYZE DCG_BILL_HEAD_GPTMP_TODAY;
+\echo ---------------DCG_BILL_LIST----------------
+VACUUM ANALYZE DCG_BILL_LIST_GPTMP_TODAY;
+\echo ---------------DCG_COPR_INFO----------------
+VACUUM ANALYZE DCG_COPR_INFO_GPTMP_TODAY;
+\echo ---------------DCG_DEDUCT----------------
+VACUUM ANALYZE DCG_DEDUCT_GPTMP_TODAY;
+\echo ---------------DCG_DEDUCT_LOG----------------
+VACUUM ANALYZE DCG_DEDUCT_LOG_GPTMP_TODAY;
+\echo ---------------DCG_HEAD----------------
+VACUUM ANALYZE DCG_HEAD_GPTMP_TODAY;
+\echo ---------------DCG_LIST----------------
+VACUUM ANALYZE DCG_LIST_GPTMP_TODAY;
+\echo ---------------DCG_SEQ----------------
+VACUUM ANALYZE DCG_SEQ_GPTMP_TODAY;
+\echo ---------------DCG_WORKFLOW----------------
+VACUUM ANALYZE DCG_WORKFLOW_GPTMP_TODAY;
+\echo ---------------DECL_CO_ENTRY_COUNT----------------
+VACUUM ANALYZE DECL_CO_ENTRY_COUNT_GPTMP_TODAY;
+\echo ---------------DECL_CO_ENTRY_COUNT_TEMP----------------
+VACUUM ANALYZE DECL_CO_ENTRY_COUNT_TEMP_GPTMP_TODAY;
+\echo ---------------DECLAR_COUNTER_REL----------------
+VACUUM ANALYZE DECLAR_COUNTER_REL_GPTMP_TODAY;
+\echo ---------------DECLAR_REL----------------
+VACUUM ANALYZE DECLAR_REL_GPTMP_TODAY;
+\echo ---------------DECLARER_REL----------------
+VACUUM ANALYZE DECLARER_REL_GPTMP_TODAY;
+\echo ---------------DECLOG_FULL_REL----------------
+VACUUM ANALYZE DECLOG_FULL_REL_GPTMP_TODAY;
+\echo ---------------DECLOG_MOD_REL----------------
+VACUUM ANALYZE DECLOG_MOD_REL_GPTMP_TODAY;
+\echo ---------------DECLOG_MODIFY_REL----------------
+VACUUM ANALYZE DECLOG_MODIFY_REL_GPTMP_TODAY;
+\echo ---------------DECLOG_SCORE_HEAD----------------
+VACUUM ANALYZE DECLOG_SCORE_HEAD_GPTMP_TODAY;
+\echo ---------------DECLOG_SCORE_LIST----------------
+VACUUM ANALYZE DECLOG_SCORE_LIST_GPTMP_TODAY;
+\echo ---------------DEL_EGS_ARC_AGENT_LIST----------------
+VACUUM ANALYZE DEL_EGS_ARC_AGENT_LIST_GPTMP_TODAY;
+\echo ---------------DEL_EGS_ARC_HEAD----------------
+VACUUM ANALYZE DEL_EGS_ARC_HEAD_GPTMP_TODAY;
+\echo ---------------DEL_EGS_ARC_LIST----------------
+VACUUM ANALYZE DEL_EGS_ARC_LIST_GPTMP_TODAY;
+\echo ---------------DEL_EGS_ARC_MERCHANT_LIST----------------
+VACUUM ANALYZE DEL_EGS_ARC_MERCHANT_LIST_GPTMP_TODAY;
+\echo ---------------DEL_EGS_CLEAR_CERT----------------
+VACUUM ANALYZE DEL_EGS_CLEAR_CERT_GPTMP_TODAY;
+\echo ---------------DEL_EGS_CLEAR_HEAD----------------
+VACUUM ANALYZE DEL_EGS_CLEAR_HEAD_GPTMP_TODAY;
+\echo ---------------DEL_EGS_CLEAR_LIST----------------
+VACUUM ANALYZE DEL_EGS_CLEAR_LIST_GPTMP_TODAY;
+\echo ---------------DEL_EGS_DECLARE_CERT----------------
+VACUUM ANALYZE DEL_EGS_DECLARE_CERT_GPTMP_TODAY;
+\echo ---------------DEL_EGS_DECLARE_HEAD----------------
+VACUUM ANALYZE DEL_EGS_DECLARE_HEAD_GPTMP_TODAY;
+\echo ---------------DEL_EGS_DECLARE_LIST----------------
+VACUUM ANALYZE DEL_EGS_DECLARE_LIST_GPTMP_TODAY;
+\echo ---------------DEL_MOD_APPLY----------------
+VACUUM ANALYZE DEL_MOD_APPLY_GPTMP_TODAY;
+\echo ---------------DISTRIBUTIVE_BILL_DECLARE----------------
+VACUUM ANALYZE DISTRIBUTIVE_BILL_DECLARE_GPTMP_TODAY;
+\echo ---------------DISTRIBUTIVE_DECLARE----------------
+VACUUM ANALYZE DISTRIBUTIVE_DECLARE_GPTMP_TODAY;
+\echo ---------------DISTRIBUTIVE_TRANSIT_WAY----------------
+VACUUM ANALYZE DISTRIBUTIVE_TRANSIT_WAY_GPTMP_TODAY;
+\echo ---------------DST_COUNTER_TABLE----------------
+VACUUM ANALYZE DST_COUNTER_TABLE_GPTMP_TODAY;
+\echo ---------------DST_DEDUCT----------------
+VACUUM ANALYZE DST_DEDUCT_GPTMP_TODAY;
+\echo ---------------DST_EXG----------------
+VACUUM ANALYZE DST_EXG_GPTMP_TODAY;
+\echo ---------------DST_EXG_ORI_ENTRY----------------
+VACUUM ANALYZE DST_EXG_ORI_ENTRY_GPTMP_TODAY;
+\echo ---------------DST_HEAD----------------
+VACUUM ANALYZE DST_HEAD_GPTMP_TODAY;
+\echo ---------------DST_IMG----------------
+VACUUM ANALYZE DST_IMG_GPTMP_TODAY;
+\echo ---------------DST_IMG_ORI_ENTRY----------------
+VACUUM ANALYZE DST_IMG_ORI_ENTRY_GPTMP_TODAY;
+\echo ---------------DTT_COP_PARAM----------------
+VACUUM ANALYZE DTT_COP_PARAM_GPTMP_TODAY;
+\echo ---------------DUTY_CHECK_LOG----------------
+VACUUM ANALYZE DUTY_CHECK_LOG_GPTMP_TODAY;
+\echo ---------------DUTYFORM_HEAD----------------
+VACUUM ANALYZE DUTYFORM_HEAD_GPTMP_TODAY;
+\echo ---------------DUTYFORM_LIST----------------
+VACUUM ANALYZE DUTYFORM_LIST_GPTMP_TODAY;
+\echo ---------------ECO_HEAD----------------
+VACUUM ANALYZE ECO_HEAD_GPTMP_TODAY;
+\echo ---------------ECO_LIST----------------
+VACUUM ANALYZE ECO_LIST_GPTMP_TODAY;
+\echo ---------------ECO_PARTS----------------
+VACUUM ANALYZE ECO_PARTS_GPTMP_TODAY;
+\echo ---------------ECO_WORKFLOW----------------
+VACUUM ANALYZE ECO_WORKFLOW_GPTMP_TODAY;
+\echo ---------------EGS_ADMIT_HEAD----------------
+VACUUM ANALYZE EGS_ADMIT_HEAD_GPTMP_TODAY;
+\echo ---------------EGS_ADMIT_HS----------------
+VACUUM ANALYZE EGS_ADMIT_HS_GPTMP_TODAY;
+\echo ---------------EGS_ADMIT_LIST----------------
+VACUUM ANALYZE EGS_ADMIT_LIST_GPTMP_TODAY;
+\echo ---------------EGS_ARC_AGENT_LIST----------------
+VACUUM ANALYZE EGS_ARC_AGENT_LIST_GPTMP_TODAY;
+\echo ---------------EGS_ARC_HEAD----------------
+VACUUM ANALYZE EGS_ARC_HEAD_GPTMP_TODAY;
+\echo ---------------EGS_ARC_LIST----------------
+VACUUM ANALYZE EGS_ARC_LIST_GPTMP_TODAY;
+\echo ---------------EGS_ARC_MERCHANT_LIST----------------
+VACUUM ANALYZE EGS_ARC_MERCHANT_LIST_GPTMP_TODAY;
+\echo ---------------EGS_CHECK_LOG----------------
+VACUUM ANALYZE EGS_CHECK_LOG_GPTMP_TODAY;
+\echo ---------------EGS_CLEAR_CERT----------------
+VACUUM ANALYZE EGS_CLEAR_CERT_GPTMP_TODAY;
+\echo ---------------EGS_CLEAR_HEAD----------------
+VACUUM ANALYZE EGS_CLEAR_HEAD_GPTMP_TODAY;
+\echo ---------------EGS_CLEAR_LIST----------------
+VACUUM ANALYZE EGS_CLEAR_LIST_GPTMP_TODAY;
+\echo ---------------EGS_DECLARE_CERT----------------
+VACUUM ANALYZE EGS_DECLARE_CERT_GPTMP_TODAY;
+\echo ---------------EGS_DECLARE_HEAD----------------
+VACUUM ANALYZE EGS_DECLARE_HEAD_GPTMP_TODAY;
+\echo ---------------EGS_DECLARE_LIST----------------
+VACUUM ANALYZE EGS_DECLARE_LIST_GPTMP_TODAY;
+\echo ---------------EGS_DEDUCT----------------
+VACUUM ANALYZE EGS_DEDUCT_GPTMP_TODAY;
+\echo ---------------EGS_LEND_HEAD----------------
+VACUUM ANALYZE EGS_LEND_HEAD_GPTMP_TODAY;
+\echo ---------------EGS_LEND_LIST----------------
+VACUUM ANALYZE EGS_LEND_LIST_GPTMP_TODAY;
+\echo ---------------EGS_PATROL_HEAD----------------
+VACUUM ANALYZE EGS_PATROL_HEAD_GPTMP_TODAY;
+\echo ---------------EGS_PATROL_LIST----------------
+VACUUM ANALYZE EGS_PATROL_LIST_GPTMP_TODAY;
+\echo ---------------EGS_SEQ----------------
+VACUUM ANALYZE EGS_SEQ_GPTMP_TODAY;
+\echo ---------------EGS_WORKFLOW----------------
+VACUUM ANALYZE EGS_WORKFLOW_GPTMP_TODAY;
+\echo ---------------EMS_ACCOUNT----------------
+VACUUM ANALYZE EMS_ACCOUNT_GPTMP_TODAY;
+\echo ---------------EMS_APPR_HEAD----------------
+VACUUM ANALYZE EMS_APPR_HEAD_GPTMP_TODAY;
+\echo ---------------EMS_APPR_LIST----------------
+VACUUM ANALYZE EMS_APPR_LIST_GPTMP_TODAY;
+\echo ---------------EMS_CLAIM----------------
+VACUUM ANALYZE EMS_CLAIM_GPTMP_TODAY;
+\echo ---------------EMS_CLR_LIST----------------
+VACUUM ANALYZE EMS_CLR_LIST_GPTMP_TODAY;
+\echo ---------------EMS_CLR_TMP----------------
+VACUUM ANALYZE EMS_CLR_TMP_GPTMP_TODAY;
+\echo ---------------EMS_COMPLEX----------------
+VACUUM ANALYZE EMS_COMPLEX_GPTMP_TODAY;
+\echo ---------------EMS_COMPLEX2----------------
+VACUUM ANALYZE EMS_COMPLEX2_GPTMP_TODAY;
+\echo ---------------EMS_CONSUME----------------
+VACUUM ANALYZE EMS_CONSUME_GPTMP_TODAY;
+\echo ---------------EMS_CONSUME_CLR----------------
+VACUUM ANALYZE EMS_CONSUME_CLR_GPTMP_TODAY;
+\echo ---------------EMS_CONSUME_CLR_D----------------
+VACUUM ANALYZE EMS_CONSUME_CLR_D_GPTMP_TODAY;
+\echo ---------------EMS_DCR_CONSUME----------------
+VACUUM ANALYZE EMS_DCR_CONSUME_GPTMP_TODAY;
+\echo ---------------EMS_DCR_ENT----------------
+VACUUM ANALYZE EMS_DCR_ENT_GPTMP_TODAY;
+\echo ---------------EMS_DCR_HEAD----------------
+VACUUM ANALYZE EMS_DCR_HEAD_GPTMP_TODAY;
+\echo ---------------EMS_DCR_LIST----------------
+VACUUM ANALYZE EMS_DCR_LIST_GPTMP_TODAY;
+\echo ---------------EMS_DCR_RUB_LIST----------------
+VACUUM ANALYZE EMS_DCR_RUB_LIST_GPTMP_TODAY;
+\echo ---------------EMS_DEDUCT----------------
+VACUUM ANALYZE EMS_DEDUCT_GPTMP_TODAY;
+\echo ---------------EMS_DEDUCT_CLR----------------
+VACUUM ANALYZE EMS_DEDUCT_CLR_GPTMP_TODAY;
+\echo ---------------EMS_DEDUCT_LOG----------------
+VACUUM ANALYZE EMS_DEDUCT_LOG_GPTMP_TODAY;
+\echo ---------------EMS_ENP----------------
+VACUUM ANALYZE EMS_ENP_GPTMP_TODAY;
+\echo ---------------EMS_ENP_JOU----------------
+VACUUM ANALYZE EMS_ENP_JOU_GPTMP_TODAY;
+\echo ---------------EMS_HEAD----------------
+VACUUM ANALYZE EMS_HEAD_GPTMP_TODAY;
+\echo ---------------EMS_LIST----------------
+VACUUM ANALYZE EMS_LIST_GPTMP_TODAY;
+\echo ---------------EMS_MESSAGE_LOG----------------
+VACUUM ANALYZE EMS_MESSAGE_LOG_GPTMP_TODAY;
+\echo ---------------EMS_PRESS----------------
+VACUUM ANALYZE EMS_PRESS_GPTMP_TODAY;
+\echo ---------------EMS_PRESS_CLEAR----------------
+VACUUM ANALYZE EMS_PRESS_CLEAR_GPTMP_TODAY;
+\echo ---------------EMS_SEQ----------------
+VACUUM ANALYZE EMS_SEQ_GPTMP_TODAY;
+\echo ---------------EMS_TMP_CLR----------------
+VACUUM ANALYZE EMS_TMP_CLR_GPTMP_TODAY;
+\echo ---------------EMS_VAR----------------
+VACUUM ANALYZE EMS_VAR_GPTMP_TODAY;
+\echo ---------------EMS_VERIFY----------------
+VACUUM ANALYZE EMS_VERIFY_GPTMP_TODAY;
+\echo ---------------EMS_VERIFY_DETAIL----------------
+VACUUM ANALYZE EMS_VERIFY_DETAIL_GPTMP_TODAY;
+\echo ---------------EMS_WORKFLOW----------------
+VACUUM ANALYZE EMS_WORKFLOW_GPTMP_TODAY;
+\echo ---------------ENTRY_AUTOREL_ERR_LIST----------------
+VACUUM ANALYZE ENTRY_AUTOREL_ERR_LIST_GPTMP_TODAY;
+\echo ---------------ENTRY_AUTOREL_ERR_LOG----------------
+VACUUM ANALYZE ENTRY_AUTOREL_ERR_LOG_GPTMP_TODAY;
+\echo ---------------ENTRY_CENTRY_SELECT----------------
+VACUUM ANALYZE ENTRY_CENTRY_SELECT_GPTMP_TODAY;
+\echo ---------------ENTRY_CENTRY_SELECT_DEL----------------
+VACUUM ANALYZE ENTRY_CENTRY_SELECT_DEL_GPTMP_TODAY;
+\echo ---------------ENTRY_CERTIFICATE----------------
+VACUUM ANALYZE ENTRY_CERTIFICATE_GPTMP_TODAY;
+\echo ---------------ENTRY_CERTIFICATE_LOG----------------
+VACUUM ANALYZE ENTRY_CERTIFICATE_LOG_GPTMP_TODAY;
+\echo ---------------ENTRY_CONTAINER----------------
+VACUUM ANALYZE ENTRY_CONTAINER_GPTMP_TODAY;
+\echo ---------------ENTRY_CONTAINER_LOG----------------
+VACUUM ANALYZE ENTRY_CONTAINER_LOG_GPTMP_TODAY;
+\echo ---------------ENTRY_DEL_HEAD_LOG----------------
+VACUUM ANALYZE ENTRY_DEL_HEAD_LOG_GPTMP_TODAY;
+\echo ---------------ENTRY_DEL_LIST_LOG----------------
+VACUUM ANALYZE ENTRY_DEL_LIST_LOG_GPTMP_TODAY;
+\echo ---------------ENTRY_EVALUATION----------------
+VACUUM ANALYZE ENTRY_EVALUATION_GPTMP_TODAY;
+\echo ---------------ENTRY_GPM_RTX----------------
+VACUUM ANALYZE ENTRY_GPM_RTX_GPTMP_TODAY;
+\echo ---------------ENTRY_GPM_RTX_PRINTLOG----------------
+VACUUM ANALYZE ENTRY_GPM_RTX_PRINTLOG_GPTMP_TODAY;
+\echo ---------------ENTRY_GPM_RTX_SENDLOG----------------
+VACUUM ANALYZE ENTRY_GPM_RTX_SENDLOG_GPTMP_TODAY;
+\echo ---------------ENTRY_HEAD----------------
+VACUUM ANALYZE ENTRY_HEAD_GPTMP_TODAY;
+\echo ---------------ENTRY_LIST----------------
+VACUUM ANALYZE ENTRY_LIST_GPTMP_TODAY;
+\echo ---------------ENTRY_MODI_LOG----------------
+VACUUM ANALYZE ENTRY_MODI_LOG_GPTMP_TODAY;
+\echo ---------------ENTRY_OP_LOG----------------
+VACUUM ANALYZE ENTRY_OP_LOG_GPTMP_TODAY;
+\echo ---------------ENTRY_PROC----------------
+VACUUM ANALYZE ENTRY_PROC_GPTMP_TODAY;
+\echo ---------------ENTRY_PROC_LOG----------------
+VACUUM ANALYZE ENTRY_PROC_LOG_GPTMP_TODAY;
+\echo ---------------ENTRY_QUERY----------------
+VACUUM ANALYZE ENTRY_QUERY_GPTMP_TODAY;
+\echo ---------------ENTRY_WORKFLOW----------------
+VACUUM ANALYZE ENTRY_WORKFLOW_GPTMP_TODAY;
+\echo ---------------EPA_CHEM_CERT----------------
+VACUUM ANALYZE EPA_CHEM_CERT_GPTMP_TODAY;
+\echo ---------------EPA_CHK----------------
+VACUUM ANALYZE EPA_CHK_GPTMP_TODAY;
+\echo ---------------EPA_SCARP_CERT----------------
+VACUUM ANALYZE EPA_SCARP_CERT_GPTMP_TODAY;
+\echo ---------------ERR_LOG----------------
+VACUUM ANALYZE ERR_LOG_GPTMP_TODAY;
+\echo ---------------EX_APPL_CLOSE----------------
+VACUUM ANALYZE EX_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------EX_ARRIVAL_CONTA----------------
+VACUUM ANALYZE EX_ARRIVAL_CONTA_GPTMP_TODAY;
+\echo ---------------EX_ARRIVAL_ERR_CHK----------------
+VACUUM ANALYZE EX_ARRIVAL_ERR_CHK_GPTMP_TODAY;
+\echo ---------------EX_ARRIVAL_SHIP----------------
+VACUUM ANALYZE EX_ARRIVAL_SHIP_GPTMP_TODAY;
+\echo ---------------EX_CDL_MNL_DEDUCT----------------
+VACUUM ANALYZE EX_CDL_MNL_DEDUCT_GPTMP_TODAY;
+\echo ---------------EX_CONTA_ENTRY_CHK----------------
+VACUUM ANALYZE EX_CONTA_ENTRY_CHK_GPTMP_TODAY;
+\echo ---------------EX_CONTRACT_CLEAR----------------
+VACUUM ANALYZE EX_CONTRACT_CLEAR_GPTMP_TODAY;
+\echo ---------------EX_CONTRACT_DEDUC----------------
+VACUUM ANALYZE EX_CONTRACT_DEDUC_GPTMP_TODAY;
+\echo ---------------EX_CONTRACT_LIST----------------
+VACUUM ANALYZE EX_CONTRACT_LIST_GPTMP_TODAY;
+\echo ---------------EX_COP_RATE----------------
+VACUUM ANALYZE EX_COP_RATE_GPTMP_TODAY;
+\echo ---------------EX_DECL_ALARM_HEAD----------------
+VACUUM ANALYZE EX_DECL_ALARM_HEAD_GPTMP_TODAY;
+\echo ---------------EX_DECL_ALARM_LIST----------------
+VACUUM ANALYZE EX_DECL_ALARM_LIST_GPTMP_TODAY;
+\echo ---------------EX_DECL_CUR_HEAD----------------
+VACUUM ANALYZE EX_DECL_CUR_HEAD_GPTMP_TODAY;
+\echo ---------------EX_DECL_CUR_LIST----------------
+VACUUM ANALYZE EX_DECL_CUR_LIST_GPTMP_TODAY;
+\echo ---------------EX_DECL_HIS_HEAD----------------
+VACUUM ANALYZE EX_DECL_HIS_HEAD_GPTMP_TODAY;
+\echo ---------------EX_DECL_HIS_LIST----------------
+VACUUM ANALYZE EX_DECL_HIS_LIST_GPTMP_TODAY;
+\echo ---------------EX_ELE_HEAD----------------
+VACUUM ANALYZE EX_ELE_HEAD_GPTMP_TODAY;
+\echo ---------------EX_ELE_LIST----------------
+VACUUM ANALYZE EX_ELE_LIST_GPTMP_TODAY;
+\echo ---------------EX_EXAM_JOU----------------
+VACUUM ANALYZE EX_EXAM_JOU_GPTMP_TODAY;
+\echo ---------------EX_EXAM_MANA_HEAD----------------
+VACUUM ANALYZE EX_EXAM_MANA_HEAD_GPTMP_TODAY;
+\echo ---------------EX_EXAM_MANA_LIST----------------
+VACUUM ANALYZE EX_EXAM_MANA_LIST_GPTMP_TODAY;
+\echo ---------------EX_FASCICLE_LIST----------------
+VACUUM ANALYZE EX_FASCICLE_LIST_GPTMP_TODAY;
+\echo ---------------EX_LIC_CODE_TS----------------
+VACUUM ANALYZE EX_LIC_CODE_TS_GPTMP_TODAY;
+\echo ---------------EX_TRAN_JOU----------------
+VACUUM ANALYZE EX_TRAN_JOU_GPTMP_TODAY;
+\echo ---------------EX_TRANS_ALARM_CONTA_REL----------------
+VACUUM ANALYZE EX_TRANS_ALARM_CONTA_REL_GPTMP_TODAY;
+\echo ---------------EX_TRANS_ALARM_GOODS_CONTA_REL----------------
+VACUUM ANALYZE EX_TRANS_ALARM_GOODS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------EX_TRANS_ALARM_LIST_REL----------------
+VACUUM ANALYZE EX_TRANS_ALARM_LIST_REL_GPTMP_TODAY;
+\echo ---------------EX_TRANS_CONTA_REL----------------
+VACUUM ANALYZE EX_TRANS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------EX_TRANS_GOODS_CONTA_REL----------------
+VACUUM ANALYZE EX_TRANS_GOODS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------EX_TRANS_HIS_CONTA_REL----------------
+VACUUM ANALYZE EX_TRANS_HIS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------EX_TRANS_HIS_GOODS_CONTA_REL----------------
+VACUUM ANALYZE EX_TRANS_HIS_GOODS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------EX_TRANS_HIS_LIST_REL----------------
+VACUUM ANALYZE EX_TRANS_HIS_LIST_REL_GPTMP_TODAY;
+\echo ---------------EX_TRANS_LIST_REL----------------
+VACUUM ANALYZE EX_TRANS_LIST_REL_GPTMP_TODAY;
+\echo ---------------EX_TRN_ARRIVAL_CONTA----------------
+VACUUM ANALYZE EX_TRN_ARRIVAL_CONTA_GPTMP_TODAY;
+\echo ---------------EX_TRN_CONTA_ENTRY_ARV----------------
+VACUUM ANALYZE EX_TRN_CONTA_ENTRY_ARV_GPTMP_TODAY;
+\echo ---------------EX_TRN_CONTA_ENTRY_CHK----------------
+VACUUM ANALYZE EX_TRN_CONTA_ENTRY_CHK_GPTMP_TODAY;
+\echo ---------------EXA_APPL_CLOSE----------------
+VACUUM ANALYZE EXA_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------EXAM_CONTA_END_LOG----------------
+VACUUM ANALYZE EXAM_CONTA_END_LOG_GPTMP_TODAY;
+\echo ---------------EXAM_CONTA_HEAD----------------
+VACUUM ANALYZE EXAM_CONTA_HEAD_GPTMP_TODAY;
+\echo ---------------EXAM_CONTA_LIST----------------
+VACUUM ANALYZE EXAM_CONTA_LIST_GPTMP_TODAY;
+\echo ---------------EXC_ELE----------------
+VACUUM ANALYZE EXC_ELE_GPTMP_TODAY;
+\echo ---------------EXC_EX_CHK----------------
+VACUUM ANALYZE EXC_EX_CHK_GPTMP_TODAY;
+\echo ---------------EXC_EXAM----------------
+VACUUM ANALYZE EXC_EXAM_GPTMP_TODAY;
+\echo ---------------EXP_MFT_CHK_RESULT----------------
+VACUUM ANALYZE EXP_MFT_CHK_RESULT_GPTMP_TODAY;
+\echo ---------------EXTERNAL_JOU----------------
+VACUUM ANALYZE EXTERNAL_JOU_GPTMP_TODAY;
+\echo ---------------FASCICLE_HEAD----------------
+VACUUM ANALYZE FASCICLE_HEAD_GPTMP_TODAY;
+\echo ---------------FCB_CHK----------------
+VACUUM ANALYZE FCB_CHK_GPTMP_TODAY;
+\echo ---------------FCB_CONTA----------------
+VACUUM ANALYZE FCB_CONTA_GPTMP_TODAY;
+\echo ---------------FCB_CONTA_MODI----------------
+VACUUM ANALYZE FCB_CONTA_MODI_GPTMP_TODAY;
+\echo ---------------FCB_HEAD----------------
+VACUUM ANALYZE FCB_HEAD_GPTMP_TODAY;
+\echo ---------------FCB_HEAD_MODI----------------
+VACUUM ANALYZE FCB_HEAD_MODI_GPTMP_TODAY;
+\echo ---------------FCB_LIST----------------
+VACUUM ANALYZE FCB_LIST_GPTMP_TODAY;
+\echo ---------------FCB_LIST_MODI----------------
+VACUUM ANALYZE FCB_LIST_MODI_GPTMP_TODAY;
+\echo ---------------FCB_RSK----------------
+VACUUM ANALYZE FCB_RSK_GPTMP_TODAY;
+\echo ---------------FCB_WORKFLOW----------------
+VACUUM ANALYZE FCB_WORKFLOW_GPTMP_TODAY;
+\echo ---------------FEE_INVOICE----------------
+VACUUM ANALYZE FEE_INVOICE_GPTMP_TODAY;
+\echo ---------------FORFEIT_FORM----------------
+VACUUM ANALYZE FORFEIT_FORM_GPTMP_TODAY;
+\echo ---------------FORM_CHK----------------
+VACUUM ANALYZE FORM_CHK_GPTMP_TODAY;
+\echo ---------------GUARANTEE_DEL_LOG----------------
+VACUUM ANALYZE GUARANTEE_DEL_LOG_GPTMP_TODAY;
+\echo ---------------GUARANTEE_LIST----------------
+VACUUM ANALYZE GUARANTEE_LIST_GPTMP_TODAY;
+\echo ---------------GUARANTEE_R----------------
+VACUUM ANALYZE GUARANTEE_R_GPTMP_TODAY;
+\echo ---------------H2000_SMS_SEND----------------
+VACUUM ANALYZE H2000_SMS_SEND_GPTMP_TODAY;
+\echo ---------------H2000_SMS_SENDLOG----------------
+VACUUM ANALYZE H2000_SMS_SENDLOG_GPTMP_TODAY;
+\echo ---------------HIS_TRN_COP_REL----------------
+VACUUM ANALYZE HIS_TRN_COP_REL_GPTMP_TODAY;
+\echo ---------------HIS_TRN_DR_REL----------------
+VACUUM ANALYZE HIS_TRN_DR_REL_GPTMP_TODAY;
+\echo ---------------HIS_TRN_ESEAL_REL----------------
+VACUUM ANALYZE HIS_TRN_ESEAL_REL_GPTMP_TODAY;
+\echo ---------------HIS_TRN_VE_REL----------------
+VACUUM ANALYZE HIS_TRN_VE_REL_GPTMP_TODAY;
+\echo ---------------IM_APPL_CLOSE----------------
+VACUUM ANALYZE IM_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------IM_CDL_MNL_DEDUCT----------------
+VACUUM ANALYZE IM_CDL_MNL_DEDUCT_GPTMP_TODAY;
+\echo ---------------IM_CONTRACT_CLEAR----------------
+VACUUM ANALYZE IM_CONTRACT_CLEAR_GPTMP_TODAY;
+\echo ---------------IM_CONTRACT_DEDUC----------------
+VACUUM ANALYZE IM_CONTRACT_DEDUC_GPTMP_TODAY;
+\echo ---------------IM_CONTRACT_LIST----------------
+VACUUM ANALYZE IM_CONTRACT_LIST_GPTMP_TODAY;
+\echo ---------------IM_COP_RATE----------------
+VACUUM ANALYZE IM_COP_RATE_GPTMP_TODAY;
+\echo ---------------IM_DECL_ALARM_HEAD----------------
+VACUUM ANALYZE IM_DECL_ALARM_HEAD_GPTMP_TODAY;
+\echo ---------------IM_DECL_ALARM_LIST----------------
+VACUUM ANALYZE IM_DECL_ALARM_LIST_GPTMP_TODAY;
+\echo ---------------IM_DECL_CUR_HEAD----------------
+VACUUM ANALYZE IM_DECL_CUR_HEAD_GPTMP_TODAY;
+\echo ---------------IM_DECL_CUR_LIST----------------
+VACUUM ANALYZE IM_DECL_CUR_LIST_GPTMP_TODAY;
+\echo ---------------IM_DECL_HIS_HEAD----------------
+VACUUM ANALYZE IM_DECL_HIS_HEAD_GPTMP_TODAY;
+\echo ---------------IM_DECL_HIS_LIST----------------
+VACUUM ANALYZE IM_DECL_HIS_LIST_GPTMP_TODAY;
+\echo ---------------IM_ELE_HEAD----------------
+VACUUM ANALYZE IM_ELE_HEAD_GPTMP_TODAY;
+\echo ---------------IM_ELE_LIST----------------
+VACUUM ANALYZE IM_ELE_LIST_GPTMP_TODAY;
+\echo ---------------IM_EXAM_JOU----------------
+VACUUM ANALYZE IM_EXAM_JOU_GPTMP_TODAY;
+\echo ---------------IM_EXAM_MANA_HEAD----------------
+VACUUM ANALYZE IM_EXAM_MANA_HEAD_GPTMP_TODAY;
+\echo ---------------IM_EXAM_MANA_LIST----------------
+VACUUM ANALYZE IM_EXAM_MANA_LIST_GPTMP_TODAY;
+\echo ---------------IM_FASCICLE_LIST----------------
+VACUUM ANALYZE IM_FASCICLE_LIST_GPTMP_TODAY;
+\echo ---------------IM_LIC_CODE_TS----------------
+VACUUM ANALYZE IM_LIC_CODE_TS_GPTMP_TODAY;
+\echo ---------------IM_TRAN_JOU----------------
+VACUUM ANALYZE IM_TRAN_JOU_GPTMP_TODAY;
+\echo ---------------IM_TRANS_ALARM_CONTA_REL----------------
+VACUUM ANALYZE IM_TRANS_ALARM_CONTA_REL_GPTMP_TODAY;
+\echo ---------------IM_TRANS_ALARM_GOODS_CONTA_REL----------------
+VACUUM ANALYZE IM_TRANS_ALARM_GOODS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------IM_TRANS_ALARM_LIST_REL----------------
+VACUUM ANALYZE IM_TRANS_ALARM_LIST_REL_GPTMP_TODAY;
+\echo ---------------IM_TRANS_CONTA_REL----------------
+VACUUM ANALYZE IM_TRANS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------IM_TRANS_GOODS_CONTA_REL----------------
+VACUUM ANALYZE IM_TRANS_GOODS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------IM_TRANS_HIS_CONTA_REL----------------
+VACUUM ANALYZE IM_TRANS_HIS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------IM_TRANS_HIS_GOODS_CONTA_REL----------------
+VACUUM ANALYZE IM_TRANS_HIS_GOODS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------IM_TRANS_HIS_LIST_REL----------------
+VACUUM ANALYZE IM_TRANS_HIS_LIST_REL_GPTMP_TODAY;
+\echo ---------------IM_TRANS_LIST_REL----------------
+VACUUM ANALYZE IM_TRANS_LIST_REL_GPTMP_TODAY;
+\echo ---------------IMA_APPL_CLOSE----------------
+VACUUM ANALYZE IMA_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------INCOME_INFO----------------
+VACUUM ANALYZE INCOME_INFO_GPTMP_TODAY;
+\echo ---------------INVESTER_REL----------------
+VACUUM ANALYZE INVESTER_REL_GPTMP_TODAY;
+\echo ---------------INVLOG_REL----------------
+VACUUM ANALYZE INVLOG_REL_GPTMP_TODAY;
+\echo ---------------JOB_PARAMETER----------------
+VACUUM ANALYZE JOB_PARAMETER_GPTMP_TODAY;
+\echo ---------------LSP_CHK----------------
+VACUUM ANALYZE LSP_CHK_GPTMP_TODAY;
+\echo ---------------LSP_HEAD----------------
+VACUUM ANALYZE LSP_HEAD_GPTMP_TODAY;
+\echo ---------------LSP_LIST----------------
+VACUUM ANALYZE LSP_LIST_GPTMP_TODAY;
+\echo ---------------MAIL_FILE----------------
+VACUUM ANALYZE MAIL_FILE_GPTMP_TODAY;
+\echo ---------------MANA_REL----------------
+VACUUM ANALYZE MANA_REL_GPTMP_TODAY;
+\echo ---------------MANIFEST_CHK----------------
+VACUUM ANALYZE MANIFEST_CHK_GPTMP_TODAY;
+\echo ---------------MANIFEST_CHK_LOG----------------
+VACUUM ANALYZE MANIFEST_CHK_LOG_GPTMP_TODAY;
+\echo ---------------MANIFEST_CONTA----------------
+VACUUM ANALYZE MANIFEST_CONTA_GPTMP_TODAY;
+\echo ---------------MANIFEST_EXCH_LOG----------------
+VACUUM ANALYZE MANIFEST_EXCH_LOG_GPTMP_TODAY;
+\echo ---------------MANIFEST_EXCH_LOG_BAK----------------
+VACUUM ANALYZE MANIFEST_EXCH_LOG_BAK_GPTMP_TODAY;
+\echo ---------------MANIFEST_HEAD----------------
+VACUUM ANALYZE MANIFEST_HEAD_GPTMP_TODAY;
+\echo ---------------MANIFEST_HEAD_XMS_LOG----------------
+VACUUM ANALYZE MANIFEST_HEAD_XMS_LOG_GPTMP_TODAY;
+\echo ---------------MANIFEST_LIST----------------
+VACUUM ANALYZE MANIFEST_LIST_GPTMP_TODAY;
+\echo ---------------MANIFEST_LIST_CONTA----------------
+VACUUM ANALYZE MANIFEST_LIST_CONTA_GPTMP_TODAY;
+\echo ---------------MANIFEST_LIST_LOG----------------
+VACUUM ANALYZE MANIFEST_LIST_LOG_GPTMP_TODAY;
+\echo ---------------MANIFEST_LIST_RSKINFO_LOG----------------
+VACUUM ANALYZE MANIFEST_LIST_RSKINFO_LOG_GPTMP_TODAY;
+\echo ---------------MNL_PARA----------------
+VACUUM ANALYZE MNL_PARA_GPTMP_TODAY;
+\echo ---------------MNL_PRESS----------------
+VACUUM ANALYZE MNL_PRESS_GPTMP_TODAY;
+\echo ---------------MNL_RECEIVE_RECEIPT----------------
+VACUUM ANALYZE MNL_RECEIVE_RECEIPT_GPTMP_TODAY;
+\echo ---------------MNL_SEQ----------------
+VACUUM ANALYZE MNL_SEQ_GPTMP_TODAY;
+\echo ---------------MNLBAK_ACCOUNT----------------
+VACUUM ANALYZE MNLBAK_ACCOUNT_GPTMP_TODAY;
+\echo ---------------MNLBAK_APPL_CLOSE----------------
+VACUUM ANALYZE MNLBAK_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------MNLBAK_CLAIM----------------
+VACUUM ANALYZE MNLBAK_CLAIM_GPTMP_TODAY;
+\echo ---------------MNLBAK_CONSUME----------------
+VACUUM ANALYZE MNLBAK_CONSUME_GPTMP_TODAY;
+\echo ---------------MNLBAK_CONTRACT_HEAD----------------
+VACUUM ANALYZE MNLBAK_CONTRACT_HEAD_GPTMP_TODAY;
+\echo ---------------MNLBAK_CONTRACT_WORKFLOW----------------
+VACUUM ANALYZE MNLBAK_CONTRACT_WORKFLOW_GPTMP_TODAY;
+\echo ---------------MNLBAK_EX_CONTRACT_CLEAR----------------
+VACUUM ANALYZE MNLBAK_EX_CONTRACT_CLEAR_GPTMP_TODAY;
+\echo ---------------MNLBAK_EX_CONTRACT_DEDUC----------------
+VACUUM ANALYZE MNLBAK_EX_CONTRACT_DEDUC_GPTMP_TODAY;
+\echo ---------------MNLBAK_EX_CONTRACT_LIST----------------
+VACUUM ANALYZE MNLBAK_EX_CONTRACT_LIST_GPTMP_TODAY;
+\echo ---------------MNLBAK_EX_FASCICLE_LIST----------------
+VACUUM ANALYZE MNLBAK_EX_FASCICLE_LIST_GPTMP_TODAY;
+\echo ---------------MNLBAK_FASCICLE_HEAD----------------
+VACUUM ANALYZE MNLBAK_FASCICLE_HEAD_GPTMP_TODAY;
+\echo ---------------MNLBAK_FEE_INVOICE----------------
+VACUUM ANALYZE MNLBAK_FEE_INVOICE_GPTMP_TODAY;
+\echo ---------------MNLBAK_IM_CONTRACT_CLEAR----------------
+VACUUM ANALYZE MNLBAK_IM_CONTRACT_CLEAR_GPTMP_TODAY;
+\echo ---------------MNLBAK_IM_CONTRACT_DEDUC----------------
+VACUUM ANALYZE MNLBAK_IM_CONTRACT_DEDUC_GPTMP_TODAY;
+\echo ---------------MNLBAK_IM_CONTRACT_LIST----------------
+VACUUM ANALYZE MNLBAK_IM_CONTRACT_LIST_GPTMP_TODAY;
+\echo ---------------MNLBAK_IM_FASCICLE_LIST----------------
+VACUUM ANALYZE MNLBAK_IM_FASCICLE_LIST_GPTMP_TODAY;
+\echo ---------------MNLBAK_PRESS_CLEAR----------------
+VACUUM ANALYZE MNLBAK_PRESS_CLEAR_GPTMP_TODAY;
+\echo ---------------MNLBAK_SERVICE_FEE----------------
+VACUUM ANALYZE MNLBAK_SERVICE_FEE_GPTMP_TODAY;
+\echo ---------------MNLBAK_SERVICE_LIST----------------
+VACUUM ANALYZE MNLBAK_SERVICE_LIST_GPTMP_TODAY;
+\echo ---------------MOD_PROJECT_HEAD----------------
+VACUUM ANALYZE MOD_PROJECT_HEAD_GPTMP_TODAY;
+\echo ---------------MOD_PROJECT_LIST----------------
+VACUUM ANALYZE MOD_PROJECT_LIST_GPTMP_TODAY;
+\echo ---------------MOD_RED_HEAD----------------
+VACUUM ANALYZE MOD_RED_HEAD_GPTMP_TODAY;
+\echo ---------------MOD_RED_LIST----------------
+VACUUM ANALYZE MOD_RED_LIST_GPTMP_TODAY;
+\echo ---------------NONENTRY_CHK_RESULT----------------
+VACUUM ANALYZE NONENTRY_CHK_RESULT_GPTMP_TODAY;
+\echo ---------------NORSK_COMPANY----------------
+VACUUM ANALYZE NORSK_COMPANY_GPTMP_TODAY;
+\echo ---------------NORSK_COMPANY_BAK----------------
+VACUUM ANALYZE NORSK_COMPANY_BAK_GPTMP_TODAY;
+\echo ---------------NORSK_CONDITION----------------
+VACUUM ANALYZE NORSK_CONDITION_GPTMP_TODAY;
+\echo ---------------NORSK_CONDITION_BAK----------------
+VACUUM ANALYZE NORSK_CONDITION_BAK_GPTMP_TODAY;
+\echo ---------------NORSK_TRADE_MODE----------------
+VACUUM ANALYZE NORSK_TRADE_MODE_GPTMP_TODAY;
+\echo ---------------NORSK_TRADE_MODE_BAK----------------
+VACUUM ANALYZE NORSK_TRADE_MODE_BAK_GPTMP_TODAY;
+\echo ---------------OCC_ELE_HEAD----------------
+VACUUM ANALYZE OCC_ELE_HEAD_GPTMP_TODAY;
+\echo ---------------OCC_ELE_LIST----------------
+VACUUM ANALYZE OCC_ELE_LIST_GPTMP_TODAY;
+\echo ---------------OCC_EXAM----------------
+VACUUM ANALYZE OCC_EXAM_GPTMP_TODAY;
+\echo ---------------OCC_RECEIPT----------------
+VACUUM ANALYZE OCC_RECEIPT_GPTMP_TODAY;
+\echo ---------------OTHER_STF_RECORD----------------
+VACUUM ANALYZE OTHER_STF_RECORD_GPTMP_TODAY;
+\echo ---------------PAPERLESS_SELFSAVE_CERT----------------
+VACUUM ANALYZE PAPERLESS_SELFSAVE_CERT_GPTMP_TODAY;
+\echo ---------------PAYOUT_REMIT_HEAD----------------
+VACUUM ANALYZE PAYOUT_REMIT_HEAD_GPTMP_TODAY;
+\echo ---------------PAYOUT_REMIT_LIST----------------
+VACUUM ANALYZE PAYOUT_REMIT_LIST_GPTMP_TODAY;
+\echo ---------------PES_CANCEL----------------
+VACUUM ANALYZE PES_CANCEL_GPTMP_TODAY;
+\echo ---------------PES_NOTE----------------
+VACUUM ANALYZE PES_NOTE_GPTMP_TODAY;
+\echo ---------------PES_WORKFLOW----------------
+VACUUM ANALYZE PES_WORKFLOW_GPTMP_TODAY;
+\echo ---------------PORT_BIND_REL----------------
+VACUUM ANALYZE PORT_BIND_REL_GPTMP_TODAY;
+\echo ---------------PRE_APPL_CLOSE----------------
+VACUUM ANALYZE PRE_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------PRE_APPL_CLOSE_CONSUME----------------
+VACUUM ANALYZE PRE_APPL_CLOSE_CONSUME_GPTMP_TODAY;
+\echo ---------------PRE_CDL_COMMODITY----------------
+VACUUM ANALYZE PRE_CDL_COMMODITY_GPTMP_TODAY;
+\echo ---------------PRE_CDL_COMPANY----------------
+VACUUM ANALYZE PRE_CDL_COMPANY_GPTMP_TODAY;
+\echo ---------------PRE_COMPANY_REL----------------
+VACUUM ANALYZE PRE_COMPANY_REL_GPTMP_TODAY;
+\echo ---------------PRE_CONSUME----------------
+VACUUM ANALYZE PRE_CONSUME_GPTMP_TODAY;
+\echo ---------------PRE_CONTRACT_HEAD----------------
+VACUUM ANALYZE PRE_CONTRACT_HEAD_GPTMP_TODAY;
+\echo ---------------PRE_DECL_REL----------------
+VACUUM ANALYZE PRE_DECL_REL_GPTMP_TODAY;
+\echo ---------------PRE_EX_APPL_CLOSE----------------
+VACUUM ANALYZE PRE_EX_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------PRE_EX_CONTRACT_LIST----------------
+VACUUM ANALYZE PRE_EX_CONTRACT_LIST_GPTMP_TODAY;
+\echo ---------------PRE_EX_FASCICLE_LIST----------------
+VACUUM ANALYZE PRE_EX_FASCICLE_LIST_GPTMP_TODAY;
+\echo ---------------PRE_EXA_APPL_CLOSE----------------
+VACUUM ANALYZE PRE_EXA_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------PRE_FASCICLE_HEAD----------------
+VACUUM ANALYZE PRE_FASCICLE_HEAD_GPTMP_TODAY;
+\echo ---------------PRE_IM_APPL_CLOSE----------------
+VACUUM ANALYZE PRE_IM_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------PRE_IM_CONTRACT_LIST----------------
+VACUUM ANALYZE PRE_IM_CONTRACT_LIST_GPTMP_TODAY;
+\echo ---------------PRE_IM_FASCICLE_LIST----------------
+VACUUM ANALYZE PRE_IM_FASCICLE_LIST_GPTMP_TODAY;
+\echo ---------------PRE_IMA_APPL_CLOSE----------------
+VACUUM ANALYZE PRE_IMA_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------PRE_INVESTER_REL----------------
+VACUUM ANALYZE PRE_INVESTER_REL_GPTMP_TODAY;
+\echo ---------------PRE_MANA_REL----------------
+VACUUM ANALYZE PRE_MANA_REL_GPTMP_TODAY;
+\echo ---------------PRE_PROJECT_HEAD----------------
+VACUUM ANALYZE PRE_PROJECT_HEAD_GPTMP_TODAY;
+\echo ---------------PRE_PROJECT_LIST----------------
+VACUUM ANALYZE PRE_PROJECT_LIST_GPTMP_TODAY;
+\echo ---------------PRE_RED_HEAD----------------
+VACUUM ANALYZE PRE_RED_HEAD_GPTMP_TODAY;
+\echo ---------------PRE_RED_LIST----------------
+VACUUM ANALYZE PRE_RED_LIST_GPTMP_TODAY;
+\echo ---------------PRE_REL_ALC_WORK----------------
+VACUUM ANALYZE PRE_REL_ALC_WORK_GPTMP_TODAY;
+\echo ---------------PRESS_CLEAR----------------
+VACUUM ANALYZE PRESS_CLEAR_GPTMP_TODAY;
+\echo ---------------PRICE_LIBRARY----------------
+VACUUM ANALYZE PRICE_LIBRARY_GPTMP_TODAY;
+\echo ---------------PRICE_LIBRARY_ENTRY----------------
+VACUUM ANALYZE PRICE_LIBRARY_ENTRY_GPTMP_TODAY;
+\echo ---------------PRICE_LIBRARY_MAN----------------
+VACUUM ANALYZE PRICE_LIBRARY_MAN_GPTMP_TODAY;
+\echo ---------------PRICE_LIBRARY_RISK----------------
+VACUUM ANALYZE PRICE_LIBRARY_RISK_GPTMP_TODAY;
+\echo ---------------PROJECT_HEAD----------------
+VACUUM ANALYZE PROJECT_HEAD_GPTMP_TODAY;
+\echo ---------------PROJECT_LIST----------------
+VACUUM ANALYZE PROJECT_LIST_GPTMP_TODAY;
+\echo ---------------PROJECT_MAX_NO----------------
+VACUUM ANALYZE PROJECT_MAX_NO_GPTMP_TODAY;
+\echo ---------------PROJECT_MAX_NO_2007----------------
+VACUUM ANALYZE PROJECT_MAX_NO_2007_GPTMP_TODAY;
+\echo ---------------RAM_HEAD----------------
+VACUUM ANALYZE RAM_HEAD_GPTMP_TODAY;
+\echo ---------------RAM_LIST----------------
+VACUUM ANALYZE RAM_LIST_GPTMP_TODAY;
+\echo ---------------RAM_PRINT_LOG----------------
+VACUUM ANALYZE RAM_PRINT_LOG_GPTMP_TODAY;
+\echo ---------------RAM_RG_COP_OWNER----------------
+VACUUM ANALYZE RAM_RG_COP_OWNER_GPTMP_TODAY;
+\echo ---------------RAM_RG_COP_PROJECT----------------
+VACUUM ANALYZE RAM_RG_COP_PROJECT_GPTMP_TODAY;
+\echo ---------------RAM_RG_COPINFO----------------
+VACUUM ANALYZE RAM_RG_COPINFO_GPTMP_TODAY;
+\echo ---------------RAM_RG_HEAD----------------
+VACUUM ANALYZE RAM_RG_HEAD_GPTMP_TODAY;
+\echo ---------------RAM_RN_INFO----------------
+VACUUM ANALYZE RAM_RN_INFO_GPTMP_TODAY;
+\echo ---------------RAM_RY_COMMUNICATION----------------
+VACUUM ANALYZE RAM_RY_COMMUNICATION_GPTMP_TODAY;
+\echo ---------------RAM_STATUS----------------
+VACUUM ANALYZE RAM_STATUS_GPTMP_TODAY;
+\echo ---------------RAM_STATUS_LIST----------------
+VACUUM ANALYZE RAM_STATUS_LIST_GPTMP_TODAY;
+\echo ---------------RAM_STATUS_MODI_LOG----------------
+VACUUM ANALYZE RAM_STATUS_MODI_LOG_GPTMP_TODAY;
+\echo ---------------RCP_INCOME_HEAD----------------
+VACUUM ANALYZE RCP_INCOME_HEAD_GPTMP_TODAY;
+\echo ---------------RCP_INCOME_HEAD_BAK----------------
+VACUUM ANALYZE RCP_INCOME_HEAD_BAK_GPTMP_TODAY;
+\echo ---------------RCP_INCOME_LIST----------------
+VACUUM ANALYZE RCP_INCOME_LIST_GPTMP_TODAY;
+\echo ---------------RCP_INCOME_LIST_BAK----------------
+VACUUM ANALYZE RCP_INCOME_LIST_BAK_GPTMP_TODAY;
+\echo ---------------RCP_PAYMENT_HEAD----------------
+VACUUM ANALYZE RCP_PAYMENT_HEAD_GPTMP_TODAY;
+\echo ---------------RCP_PAYMENT_HEAD_BAK----------------
+VACUUM ANALYZE RCP_PAYMENT_HEAD_BAK_GPTMP_TODAY;
+\echo ---------------RCP_PAYMENT_LIST----------------
+VACUUM ANALYZE RCP_PAYMENT_LIST_GPTMP_TODAY;
+\echo ---------------RCP_PAYMENT_LIST_BAK----------------
+VACUUM ANALYZE RCP_PAYMENT_LIST_BAK_GPTMP_TODAY;
+\echo ---------------RCP_RECORD_HEAD----------------
+VACUUM ANALYZE RCP_RECORD_HEAD_GPTMP_TODAY;
+\echo ---------------RCP_RECORD_HEAD_BAK----------------
+VACUUM ANALYZE RCP_RECORD_HEAD_BAK_GPTMP_TODAY;
+\echo ---------------RCP_RECORD_LIST----------------
+VACUUM ANALYZE RCP_RECORD_LIST_GPTMP_TODAY;
+\echo ---------------RCP_RECORD_LIST_BAK----------------
+VACUUM ANALYZE RCP_RECORD_LIST_BAK_GPTMP_TODAY;
+\echo ---------------RCP_WORKFLOW----------------
+VACUUM ANALYZE RCP_WORKFLOW_GPTMP_TODAY;
+\echo ---------------RED_ENTRY_HEAD----------------
+VACUUM ANALYZE RED_ENTRY_HEAD_GPTMP_TODAY;
+\echo ---------------RED_ENTRY_LIST----------------
+VACUUM ANALYZE RED_ENTRY_LIST_GPTMP_TODAY;
+\echo ---------------RED_FEE_INVOICE----------------
+VACUUM ANALYZE RED_FEE_INVOICE_GPTMP_TODAY;
+\echo ---------------RED_HEAD----------------
+VACUUM ANALYZE RED_HEAD_GPTMP_TODAY;
+\echo ---------------RED_LIST----------------
+VACUUM ANALYZE RED_LIST_GPTMP_TODAY;
+\echo ---------------RED_MAX_NO----------------
+VACUUM ANALYZE RED_MAX_NO_GPTMP_TODAY;
+\echo ---------------RED_MAX_NO_2007----------------
+VACUUM ANALYZE RED_MAX_NO_2007_GPTMP_TODAY;
+\echo ---------------RED_RECEIVE_RECEIPT----------------
+VACUUM ANALYZE RED_RECEIVE_RECEIPT_GPTMP_TODAY;
+\echo ---------------RED_SERVICE_FEE----------------
+VACUUM ANALYZE RED_SERVICE_FEE_GPTMP_TODAY;
+\echo ---------------REL_ALC_WORK----------------
+VACUUM ANALYZE REL_ALC_WORK_GPTMP_TODAY;
+\echo ---------------RETURN_REL----------------
+VACUUM ANALYZE RETURN_REL_GPTMP_TODAY;
+\echo ---------------RISK_CONTROL----------------
+VACUUM ANALYZE RISK_CONTROL_GPTMP_TODAY;
+\echo ---------------RSK_ASSAY_APPLICATION----------------
+VACUUM ANALYZE RSK_ASSAY_APPLICATION_GPTMP_TODAY;
+\echo ---------------RSK_CASE_FEEDBACK_HEAD----------------
+VACUUM ANALYZE RSK_CASE_FEEDBACK_HEAD_GPTMP_TODAY;
+\echo ---------------RSK_CASE_FEEDBACK_LIST----------------
+VACUUM ANALYZE RSK_CASE_FEEDBACK_LIST_GPTMP_TODAY;
+\echo ---------------RSK_CASE_FEEDBACK_LIST_CERT----------------
+VACUUM ANALYZE RSK_CASE_FEEDBACK_LIST_CERT_GPTMP_TODAY;
+\echo ---------------RSK_CASE_TRANSFER_G_NO----------------
+VACUUM ANALYZE RSK_CASE_TRANSFER_G_NO_GPTMP_TODAY;
+\echo ---------------RSK_CASE_TRANSFER_HEAD----------------
+VACUUM ANALYZE RSK_CASE_TRANSFER_HEAD_GPTMP_TODAY;
+\echo ---------------RSK_CASE_TRANSFER_LIST----------------
+VACUUM ANALYZE RSK_CASE_TRANSFER_LIST_GPTMP_TODAY;
+\echo ---------------RSK_CODE_TS----------------
+VACUUM ANALYZE RSK_CODE_TS_GPTMP_TODAY;
+\echo ---------------RSK_CODE_TS_BAK----------------
+VACUUM ANALYZE RSK_CODE_TS_BAK_GPTMP_TODAY;
+\echo ---------------RSK_CONDITION----------------
+VACUUM ANALYZE RSK_CONDITION_GPTMP_TODAY;
+\echo ---------------RSK_CONDITION_BAK----------------
+VACUUM ANALYZE RSK_CONDITION_BAK_GPTMP_TODAY;
+\echo ---------------RSK_CONTA_CAPACITY----------------
+VACUUM ANALYZE RSK_CONTA_CAPACITY_GPTMP_TODAY;
+\echo ---------------RSK_CONTA_CAPACITY_BAK----------------
+VACUUM ANALYZE RSK_CONTA_CAPACITY_BAK_GPTMP_TODAY;
+\echo ---------------RSK_EXAM_HEAD_REL----------------
+VACUUM ANALYZE RSK_EXAM_HEAD_REL_GPTMP_TODAY;
+\echo ---------------RSK_EXAM_LIST_CONTAINER----------------
+VACUUM ANALYZE RSK_EXAM_LIST_CONTAINER_GPTMP_TODAY;
+\echo ---------------RSK_EXAM_LIST_REL----------------
+VACUUM ANALYZE RSK_EXAM_LIST_REL_GPTMP_TODAY;
+\echo ---------------RSK_EXAM_OP_LOG----------------
+VACUUM ANALYZE RSK_EXAM_OP_LOG_GPTMP_TODAY;
+\echo ---------------RSK_FAKE_CODE_TS----------------
+VACUUM ANALYZE RSK_FAKE_CODE_TS_GPTMP_TODAY;
+\echo ---------------RSK_FAKE_CODE_TS_BAK----------------
+VACUUM ANALYZE RSK_FAKE_CODE_TS_BAK_GPTMP_TODAY;
+\echo ---------------RSK_FIT_LOG_REL----------------
+VACUUM ANALYZE RSK_FIT_LOG_REL_GPTMP_TODAY;
+\echo ---------------RSK_FIT_RESULT_LOG----------------
+VACUUM ANALYZE RSK_FIT_RESULT_LOG_GPTMP_TODAY;
+\echo ---------------RSK_INSTR_ATTR_REL----------------
+VACUUM ANALYZE RSK_INSTR_ATTR_REL_GPTMP_TODAY;
+\echo ---------------RSK_INSTR_PROC_REL----------------
+VACUUM ANALYZE RSK_INSTR_PROC_REL_GPTMP_TODAY;
+\echo ---------------RSK_OP_LOG----------------
+VACUUM ANALYZE RSK_OP_LOG_GPTMP_TODAY;
+\echo ---------------RSK_RECHECK_REL----------------
+VACUUM ANALYZE RSK_RECHECK_REL_GPTMP_TODAY;
+\echo ---------------RSK_REPLICATION_LOG----------------
+VACUUM ANALYZE RSK_REPLICATION_LOG_GPTMP_TODAY;
+\echo ---------------RSK_RESULT_REL----------------
+VACUUM ANALYZE RSK_RESULT_REL_GPTMP_TODAY;
+\echo ---------------RSK_TRADE_CO----------------
+VACUUM ANALYZE RSK_TRADE_CO_GPTMP_TODAY;
+\echo ---------------RSK_TRADE_CO_BAK----------------
+VACUUM ANALYZE RSK_TRADE_CO_BAK_GPTMP_TODAY;
+\echo ---------------RSK_UNLOCK_OP_LOG----------------
+VACUUM ANALYZE RSK_UNLOCK_OP_LOG_GPTMP_TODAY;
+\echo ---------------RSK_VS_EXAM----------------
+VACUUM ANALYZE RSK_VS_EXAM_GPTMP_TODAY;
+\echo ---------------RSK_WORKFLOW----------------
+VACUUM ANALYZE RSK_WORKFLOW_GPTMP_TODAY;
+\echo ---------------SERVICE_FEE----------------
+VACUUM ANALYZE SERVICE_FEE_GPTMP_TODAY;
+\echo ---------------SERVICE_LIST----------------
+VACUUM ANALYZE SERVICE_LIST_GPTMP_TODAY;
+\echo ---------------SHIP_TONNAGE----------------
+VACUUM ANALYZE SHIP_TONNAGE_GPTMP_TODAY;
+\echo ---------------SPECIAL_ENTRY----------------
+VACUUM ANALYZE SPECIAL_ENTRY_GPTMP_TODAY;
+\echo ---------------STATUS_DETAIL----------------
+VACUUM ANALYZE STATUS_DETAIL_GPTMP_TODAY;
+\echo ---------------STATUS_DETAIL----------------
+VACUUM ANALYZE STATUS_DETAIL_GPTMP_TODAY;
+\echo ---------------STF_RECORD----------------
+VACUUM ANALYZE STF_RECORD_GPTMP_TODAY;
+\echo ---------------STL_DATA_CONTA_LIST----------------
+VACUUM ANALYZE STL_DATA_CONTA_LIST_GPTMP_TODAY;
+\echo ---------------STL_DATA_HEAD----------------
+VACUUM ANALYZE STL_DATA_HEAD_GPTMP_TODAY;
+\echo ---------------STL_DATA_TS_LIST----------------
+VACUUM ANALYZE STL_DATA_TS_LIST_GPTMP_TODAY;
+\echo ---------------STL_REQUEST_CHK----------------
+VACUUM ANALYZE STL_REQUEST_CHK_GPTMP_TODAY;
+\echo ---------------TAR_DEL_LOG----------------
+VACUUM ANALYZE TAR_DEL_LOG_GPTMP_TODAY;
+\echo ---------------TCS_COUNTER----------------
+VACUUM ANALYZE TCS_COUNTER_GPTMP_TODAY;
+\echo ---------------TCS_DETAIL_HEAD----------------
+VACUUM ANALYZE TCS_DETAIL_HEAD_GPTMP_TODAY;
+\echo ---------------TCS_DETAIL_LIST----------------
+VACUUM ANALYZE TCS_DETAIL_LIST_GPTMP_TODAY;
+\echo ---------------TCS_ERROR_LOG----------------
+VACUUM ANALYZE TCS_ERROR_LOG_GPTMP_TODAY;
+\echo ---------------TCS_SEND_LOG----------------
+VACUUM ANALYZE TCS_SEND_LOG_GPTMP_TODAY;
+\echo ---------------TCS_STATISTIC_REPORT----------------
+VACUUM ANALYZE TCS_STATISTIC_REPORT_GPTMP_TODAY;
+\echo ---------------TEMP_DB----------------
+VACUUM ANALYZE TEMP_DB_GPTMP_TODAY;
+\echo ---------------TEMP_DEL_EMS_CONSUME----------------
+VACUUM ANALYZE TEMP_DEL_EMS_CONSUME_GPTMP_TODAY;
+\echo ---------------TEMP_DEL_EMS_HEAD----------------
+VACUUM ANALYZE TEMP_DEL_EMS_HEAD_GPTMP_TODAY;
+\echo ---------------TEMP_PAGE_RANGE----------------
+VACUUM ANALYZE TEMP_PAGE_RANGE_GPTMP_TODAY;
+\echo ---------------TEP_COMPANY----------------
+VACUUM ANALYZE TEP_COMPANY_GPTMP_TODAY;
+\echo ---------------TEP_DEBIT_REC_REQUEST----------------
+VACUUM ANALYZE TEP_DEBIT_REC_REQUEST_GPTMP_TODAY;
+\echo ---------------TEP_DEBIT_REC_RESPONSE----------------
+VACUUM ANALYZE TEP_DEBIT_REC_RESPONSE_GPTMP_TODAY;
+\echo ---------------TEP_EPLAT_RESPONSE----------------
+VACUUM ANALYZE TEP_EPLAT_RESPONSE_GPTMP_TODAY;
+\echo ---------------TEP_ERR_LOG----------------
+VACUUM ANALYZE TEP_ERR_LOG_GPTMP_TODAY;
+\echo ---------------TEP_LOG----------------
+VACUUM ANALYZE TEP_LOG_GPTMP_TODAY;
+\echo ---------------TEP_PAY_LOG----------------
+VACUUM ANALYZE TEP_PAY_LOG_GPTMP_TODAY;
+\echo ---------------TEP_PAY_REC_REQUEST----------------
+VACUUM ANALYZE TEP_PAY_REC_REQUEST_GPTMP_TODAY;
+\echo ---------------TEP_PAY_REC_RESPONSE----------------
+VACUUM ANALYZE TEP_PAY_REC_RESPONSE_GPTMP_TODAY;
+\echo ---------------TEP_REC_LOG----------------
+VACUUM ANALYZE TEP_REC_LOG_GPTMP_TODAY;
+\echo ---------------TEP_SEQ----------------
+VACUUM ANALYZE TEP_SEQ_GPTMP_TODAY;
+\echo ---------------TEP_STATUS_QUERY----------------
+VACUUM ANALYZE TEP_STATUS_QUERY_GPTMP_TODAY;
+\echo ---------------TEP_VOUCHER_REC_LIST----------------
+VACUUM ANALYZE TEP_VOUCHER_REC_LIST_GPTMP_TODAY;
+\echo ---------------TEP_VOUCHER_REC_LIST_DETAIL----------------
+VACUUM ANALYZE TEP_VOUCHER_REC_LIST_DETAIL_GPTMP_TODAY;
+\echo ---------------TEP_VOUCHER_REC_PAGE_LIST----------------
+VACUUM ANALYZE TEP_VOUCHER_REC_PAGE_LIST_GPTMP_TODAY;
+\echo ---------------TMP_EMS_CONSUME----------------
+VACUUM ANALYZE TMP_EMS_CONSUME_GPTMP_TODAY;
+\echo ---------------TMP_EMS_DCR_ENT----------------
+VACUUM ANALYZE TMP_EMS_DCR_ENT_GPTMP_TODAY;
+\echo ---------------TMP_EMS_HEAD----------------
+VACUUM ANALYZE TMP_EMS_HEAD_GPTMP_TODAY;
+\echo ---------------TMP_EMS_LIST----------------
+VACUUM ANALYZE TMP_EMS_LIST_GPTMP_TODAY;
+\echo ---------------TRADE_ERR----------------
+VACUUM ANALYZE TRADE_ERR_GPTMP_TODAY;
+\echo ---------------TRADE_GPM_RTX----------------
+VACUUM ANALYZE TRADE_GPM_RTX_GPTMP_TODAY;
+\echo ---------------TRANSFER_FEE----------------
+VACUUM ANALYZE TRANSFER_FEE_GPTMP_TODAY;
+\echo ---------------TRANSFER_FEE_LOG----------------
+VACUUM ANALYZE TRANSFER_FEE_LOG_GPTMP_TODAY;
+\echo ---------------TRN_ALC_REL----------------
+VACUUM ANALYZE TRN_ALC_REL_GPTMP_TODAY;
+\echo ---------------TRN_CHECK----------------
+VACUUM ANALYZE TRN_CHECK_GPTMP_TODAY;
+\echo ---------------TRN_CHK_GOODS----------------
+VACUUM ANALYZE TRN_CHK_GOODS_GPTMP_TODAY;
+\echo ---------------TRN_COP_REL----------------
+VACUUM ANALYZE TRN_COP_REL_GPTMP_TODAY;
+\echo ---------------TRN_DELAY_FORM----------------
+VACUUM ANALYZE TRN_DELAY_FORM_GPTMP_TODAY;
+\echo ---------------TRN_DR_REL----------------
+VACUUM ANALYZE TRN_DR_REL_GPTMP_TODAY;
+\echo ---------------TRN_ESEAL_REL----------------
+VACUUM ANALYZE TRN_ESEAL_REL_GPTMP_TODAY;
+\echo ---------------TRN_EXAM_MAX_SEQ----------------
+VACUUM ANALYZE TRN_EXAM_MAX_SEQ_GPTMP_TODAY;
+\echo ---------------TRN_I_E_PORT----------------
+VACUUM ANALYZE TRN_I_E_PORT_GPTMP_TODAY;
+\echo ---------------TRN_PARAMETER----------------
+VACUUM ANALYZE TRN_PARAMETER_GPTMP_TODAY;
+\echo ---------------TRN_POP_COP_REL----------------
+VACUUM ANALYZE TRN_POP_COP_REL_GPTMP_TODAY;
+\echo ---------------TRN_POP_HEAD----------------
+VACUUM ANALYZE TRN_POP_HEAD_GPTMP_TODAY;
+\echo ---------------TRN_POP_LIST----------------
+VACUUM ANALYZE TRN_POP_LIST_GPTMP_TODAY;
+\echo ---------------TRN_PRE_MAX_SEQ----------------
+VACUUM ANALYZE TRN_PRE_MAX_SEQ_GPTMP_TODAY;
+\echo ---------------TRN_SHIP----------------
+VACUUM ANALYZE TRN_SHIP_GPTMP_TODAY;
+\echo ---------------TRN_VE_REL----------------
+VACUUM ANALYZE TRN_VE_REL_GPTMP_TODAY;
+\echo ---------------TRN_VEHICLE----------------
+VACUUM ANALYZE TRN_VEHICLE_GPTMP_TODAY;
+\echo ---------------YD_DECLARE_REL----------------
+VACUUM ANALYZE YD_DECLARE_REL_GPTMP_TODAY;

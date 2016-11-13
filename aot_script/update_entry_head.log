@@ -1,0 +1,95 @@
+Timing is on.
+"Begin drop indexs......"
+              now              
+-------------------------------
+ 2011-10-24 09:39:10.035093+08
+(1 row)
+
+Time: 1.200 ms
+DROP INDEX
+Time: 1970.536 ms
+DROP INDEX
+Time: 4382.557 ms
+DROP INDEX
+Time: 650.271 ms
+DROP INDEX
+Time: 351.208 ms
+DROP INDEX
+Time: 338.113 ms
+psql:update_entry_head.sql:10: ERROR:  index "ix_entryhead_declport_ops" does not exist
+DROP INDEX
+Time: 334.522 ms
+DROP INDEX
+Time: 232.981 ms
+DROP INDEX
+Time: 124.356 ms
+DROP INDEX
+Time: 196.208 ms
+DROP INDEX
+Time: 146.710 ms
+DROP INDEX
+Time: 178.887 ms
+DROP INDEX
+Time: 139.656 ms
+DROP INDEX
+Time: 155.947 ms
+DROP INDEX
+Time: 128.661 ms
+              now              
+-------------------------------
+ 2011-10-24 09:39:19.367909+08
+(1 row)
+
+Time: 0.736 ms
+"End drop indexs......"
+"Begin update data......"
+              now              
+-------------------------------
+ 2011-10-24 09:39:19.368699+08
+(1 row)
+
+Time: 0.328 ms
+TRUNCATE TABLE
+Time: 6120.160 ms
+INSERT 0 395606923
+Time: 498041.199 ms
+              now              
+-------------------------------
+ 2011-10-24 09:47:43.530623+08
+(1 row)
+
+Time: 1.298 ms
+"End update data......"
+"Begin rebuild indexs......"
+CREATE INDEX
+Time: 86008.009 ms
+CREATE INDEX
+Time: 62266.050 ms
+CREATE INDEX
+Time: 62433.248 ms
+CREATE INDEX
+Time: 38418.601 ms
+CREATE INDEX
+Time: 54307.363 ms
+CREATE INDEX
+Time: 63922.801 ms
+CREATE INDEX
+Time: 51057.292 ms
+CREATE INDEX
+Time: 59373.567 ms
+CREATE INDEX
+Time: 49692.696 ms
+CREATE INDEX
+Time: 49427.606 ms
+CREATE INDEX
+Time: 22086.497 ms
+CREATE INDEX
+Time: 20938.879 ms
+CREATE INDEX
+Time: 78978.866 ms
+CREATE INDEX
+Time: 78566.291 ms
+CREATE INDEX
+Time: 83311.764 ms
+"End rebuild indexs......"
+Timing is off.

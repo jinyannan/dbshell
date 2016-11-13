@@ -1,0 +1,1642 @@
+Timing is on.
+---------------ACCOUNT----------------
+psql:H2000_95_VACUUM.sql:3: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 3013.383 ms
+---------------AGREEMENT_GOODS_LIST----------------
+psql:H2000_95_VACUUM.sql:5: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 215.000 ms
+---------------AMS_MODI_LOG----------------
+psql:H2000_95_VACUUM.sql:7: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 132.890 ms
+---------------AMSLIST_BODY----------------
+psql:H2000_95_VACUUM.sql:9: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 85.890 ms
+---------------AMSLIST_HEAD----------------
+psql:H2000_95_VACUUM.sql:11: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 211.673 ms
+---------------APPL_CLOSE----------------
+psql:H2000_95_VACUUM.sql:13: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 712.972 ms
+---------------APPL_CLOSE_CONSUME----------------
+psql:H2000_95_VACUUM.sql:15: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 43.814 ms
+---------------APPLY_HEAD----------------
+psql:H2000_95_VACUUM.sql:17: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 51.849 ms
+---------------APPLY_LIST----------------
+psql:H2000_95_VACUUM.sql:19: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 33.790 ms
+---------------ARRIVAL_INFO_HEAD----------------
+psql:H2000_95_VACUUM.sql:21: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 343.918 ms
+---------------ARRIVAL_INFO_LIST----------------
+psql:H2000_95_VACUUM.sql:23: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 13013.322 ms
+---------------BAK_BWS_EXAM_CERT_LIST----------------
+psql:H2000_95_VACUUM.sql:25: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 50.524 ms
+---------------BAK_BWS_EXAM_GOOD_LIST----------------
+psql:H2000_95_VACUUM.sql:27: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 27.664 ms
+---------------BAK_BWS_EXAM_HEAD----------------
+psql:H2000_95_VACUUM.sql:29: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 23.248 ms
+---------------BAK_CONSUME----------------
+psql:H2000_95_VACUUM.sql:31: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 47063.750 ms
+---------------BAK_CONTRACT_HEAD----------------
+psql:H2000_95_VACUUM.sql:33: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 1887.210 ms
+---------------BAK_DCG_BILL_HEAD----------------
+psql:H2000_95_VACUUM.sql:35: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 365.704 ms
+---------------BAK_DCG_BILL_LIST----------------
+psql:H2000_95_VACUUM.sql:37: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 252.351 ms
+---------------BAK_DCG_DEDUCT----------------
+psql:H2000_95_VACUUM.sql:39: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 377.682 ms
+---------------BAK_DCG_DEDUCT_LOG----------------
+psql:H2000_95_VACUUM.sql:41: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 309.146 ms
+---------------BAK_DCG_HEAD----------------
+psql:H2000_95_VACUUM.sql:43: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 250.216 ms
+---------------BAK_DCG_LIST----------------
+psql:H2000_95_VACUUM.sql:45: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 276.364 ms
+---------------BAK_EMS_APPR_HEAD----------------
+psql:H2000_95_VACUUM.sql:47: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 102.244 ms
+---------------BAK_EMS_APPR_LIST----------------
+psql:H2000_95_VACUUM.sql:49: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 67.683 ms
+---------------BAK_EMS_CONSUME----------------
+psql:H2000_95_VACUUM.sql:51: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 36653.189 ms
+---------------BAK_EMS_DEDUCT_CLR----------------
+psql:H2000_95_VACUUM.sql:53: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 55.257 ms
+---------------BAK_EMS_HEAD----------------
+psql:H2000_95_VACUUM.sql:55: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 1299.371 ms
+---------------BAK_EMS_LIST----------------
+psql:H2000_95_VACUUM.sql:57: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 7544.337 ms
+---------------BAK_EX_CONTRACT_LIST----------------
+psql:H2000_95_VACUUM.sql:59: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 6387.043 ms
+---------------BAK_EX_FASCICLE_LIST----------------
+psql:H2000_95_VACUUM.sql:61: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 44.386 ms
+---------------BAK_FASCICLE_HEAD----------------
+psql:H2000_95_VACUUM.sql:63: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 67.505 ms
+---------------BAK_IM_CONTRACT_LIST----------------
+psql:H2000_95_VACUUM.sql:65: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 21959.669 ms
+---------------BAK_IM_FASCICLE_LIST----------------
+psql:H2000_95_VACUUM.sql:67: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 128.354 ms
+---------------BANK_ACCOUNT----------------
+psql:H2000_95_VACUUM.sql:69: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 90.285 ms
+---------------BCK_COP_HEAD----------------
+psql:H2000_95_VACUUM.sql:71: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 3076.266 ms
+---------------BCK_COP_LIST----------------
+psql:H2000_95_VACUUM.sql:73: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 10860.561 ms
+---------------BCK_COP_LIST_TEMP----------------
+psql:H2000_95_VACUUM.sql:75: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 103.064 ms
+---------------BCK_COP_PARA_HEAD----------------
+psql:H2000_95_VACUUM.sql:77: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 76.796 ms
+---------------BCK_COP_PARA_LIST----------------
+psql:H2000_95_VACUUM.sql:79: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 165.145 ms
+---------------BCK_EXECUTOR----------------
+psql:H2000_95_VACUUM.sql:81: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 96.817 ms
+---------------BCK_HANDOVER----------------
+psql:H2000_95_VACUUM.sql:83: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 120.334 ms
+---------------BCK_HANDOVER_TYPE----------------
+psql:H2000_95_VACUUM.sql:85: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 81.353 ms
+---------------BCK_HEAD----------------
+psql:H2000_95_VACUUM.sql:87: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 903.033 ms
+---------------BCK_SEQ----------------
+psql:H2000_95_VACUUM.sql:89: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 101.590 ms
+---------------BCK_STOCK_HEAD----------------
+psql:H2000_95_VACUUM.sql:91: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 89.248 ms
+---------------BCK_STOCK_LIST----------------
+psql:H2000_95_VACUUM.sql:93: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 78.838 ms
+---------------BCK_WORKFLOW----------------
+psql:H2000_95_VACUUM.sql:95: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 877.112 ms
+---------------BTI_DATA_CONTA_LIST----------------
+psql:H2000_95_VACUUM.sql:97: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 121.602 ms
+---------------BTI_DATA_HEAD----------------
+psql:H2000_95_VACUUM.sql:99: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 99.038 ms
+---------------BTI_DATA_TS_LIST----------------
+psql:H2000_95_VACUUM.sql:101: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 241.363 ms
+---------------BWS_AUDIT_HEAD----------------
+psql:H2000_95_VACUUM.sql:103: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 29.828 ms
+---------------BWS_AUDIT_LIST----------------
+psql:H2000_95_VACUUM.sql:105: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 15.086 ms
+---------------BWS_DCR_BILL_LIST----------------
+psql:H2000_95_VACUUM.sql:107: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 38.600 ms
+---------------BWS_DCR_HEAD----------------
+psql:H2000_95_VACUUM.sql:109: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 63.437 ms
+---------------BWS_DCR_LIST----------------
+psql:H2000_95_VACUUM.sql:111: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 18.673 ms
+---------------BWS_DEDUCT----------------
+psql:H2000_95_VACUUM.sql:113: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 43.657 ms
+---------------BWS_DEDUCT_LOG----------------
+psql:H2000_95_VACUUM.sql:115: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 20.582 ms
+---------------BWS_EXAM_CERT_LIST----------------
+psql:H2000_95_VACUUM.sql:117: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 31.774 ms
+---------------BWS_EXAM_GOOD_LIST----------------
+psql:H2000_95_VACUUM.sql:119: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 45.527 ms
+---------------BWS_EXAM_HEAD----------------
+psql:H2000_95_VACUUM.sql:121: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 29.191 ms
+---------------BWS_EXAM_PASSCERT----------------
+psql:H2000_95_VACUUM.sql:123: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 23.986 ms
+---------------BWS_FORM_HEAD----------------
+psql:H2000_95_VACUUM.sql:125: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 24.599 ms
+---------------BWS_FORM_LIST----------------
+psql:H2000_95_VACUUM.sql:127: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 31.255 ms
+---------------BWS_GB_LIST----------------
+psql:H2000_95_VACUUM.sql:129: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 20.208 ms
+---------------BWS_HEAD----------------
+psql:H2000_95_VACUUM.sql:131: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 44.900 ms
+---------------BWS_LIST----------------
+psql:H2000_95_VACUUM.sql:133: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 27.987 ms
+---------------BWS_MANIFEST_HEAD----------------
+psql:H2000_95_VACUUM.sql:135: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 15.980 ms
+---------------BWS_MANIFEST_LIST----------------
+psql:H2000_95_VACUUM.sql:137: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 23.782 ms
+---------------BWS_SEQ----------------
+psql:H2000_95_VACUUM.sql:139: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 84.120 ms
+---------------BWS_VAR----------------
+psql:H2000_95_VACUUM.sql:141: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 45.895 ms
+---------------BWS_WORKFLOW----------------
+psql:H2000_95_VACUUM.sql:143: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 60.728 ms
+---------------CCTS_ERROR_LOG----------------
+psql:H2000_95_VACUUM.sql:145: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 1439.332 ms
+---------------CCTS_ONLINE_RESULT----------------
+psql:H2000_95_VACUUM.sql:147: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 22377.887 ms
+---------------CCTS_ONLINE_RESULT_BAK----------------
+psql:H2000_95_VACUUM.sql:149: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 78565.092 ms
+---------------CCTS_PERFORMANCE----------------
+psql:H2000_95_VACUUM.sql:151: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 33867.845 ms
+---------------CCTS_RSK_RESULT----------------
+psql:H2000_95_VACUUM.sql:153: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 138.800 ms
+---------------CCTS_RSK_RESULT_BAK----------------
+psql:H2000_95_VACUUM.sql:155: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 122.270 ms
+---------------CDL_CERTIFICATE----------------
+psql:H2000_95_VACUUM.sql:157: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 177.253 ms
+---------------CDL_CHK----------------
+psql:H2000_95_VACUUM.sql:159: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 487.509 ms
+---------------CDL_COMMODITY----------------
+psql:H2000_95_VACUUM.sql:161: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 192.562 ms
+---------------CDL_COMP_COMM_MODIFY_LOG----------------
+psql:H2000_95_VACUUM.sql:163: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 79.534 ms
+---------------CDL_COMP_COMM_OP_LOG----------------
+psql:H2000_95_VACUUM.sql:165: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 92.235 ms
+---------------CDL_COMPANY----------------
+psql:H2000_95_VACUUM.sql:167: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 104.127 ms
+---------------CDL_CONTAINER----------------
+psql:H2000_95_VACUUM.sql:169: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 43.553 ms
+---------------CDL_DEL_CERTIFICATE_LOG----------------
+psql:H2000_95_VACUUM.sql:171: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 101.700 ms
+---------------CDL_DEL_CONTAINER_LOG----------------
+psql:H2000_95_VACUUM.sql:173: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 23.958 ms
+---------------CDL_DEL_HEAD_LOG----------------
+psql:H2000_95_VACUUM.sql:175: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 84.599 ms
+---------------CDL_DEL_LIST_LOG----------------
+psql:H2000_95_VACUUM.sql:177: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 120.934 ms
+---------------CDL_EDI_MESS----------------
+psql:H2000_95_VACUUM.sql:179: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 82.099 ms
+---------------CDL_EMS_DEDUCT----------------
+psql:H2000_95_VACUUM.sql:181: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 70.982 ms
+---------------CDL_EMS_DEDUCT_LOG----------------
+psql:H2000_95_VACUUM.sql:183: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 80.662 ms
+---------------CDL_ENTRY_HEAD----------------
+psql:H2000_95_VACUUM.sql:185: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 116.850 ms
+---------------CDL_ENTRY_LIST----------------
+psql:H2000_95_VACUUM.sql:187: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 1789.100 ms
+---------------CDL_HEAD----------------
+psql:H2000_95_VACUUM.sql:189: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 1135.617 ms
+---------------CDL_LICENSE_DEDUCT----------------
+psql:H2000_95_VACUUM.sql:191: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 112.702 ms
+---------------CDL_LIST----------------
+psql:H2000_95_VACUUM.sql:193: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 993.239 ms
+---------------CDL_LOCK_COMMODITY----------------
+psql:H2000_95_VACUUM.sql:195: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 85.688 ms
+---------------CDL_MODI_LOG----------------
+psql:H2000_95_VACUUM.sql:197: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 300.887 ms
+---------------CDL_OP_LOG----------------
+psql:H2000_95_VACUUM.sql:199: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 182.238 ms
+---------------CDL_OVERDUE_LIST----------------
+psql:H2000_95_VACUUM.sql:201: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 155.603 ms
+---------------CDL_STATUS_DETAIL----------------
+psql:H2000_95_VACUUM.sql:203: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 92.414 ms
+---------------CDL_WORKFLOW----------------
+psql:H2000_95_VACUUM.sql:205: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 297.625 ms
+---------------CHK_COP_RATIO----------------
+psql:H2000_95_VACUUM.sql:207: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 112.391 ms
+---------------CHK_COUNTER----------------
+psql:H2000_95_VACUUM.sql:209: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 4329.210 ms
+---------------CHK_RATE_LIMIT----------------
+psql:H2000_95_VACUUM.sql:211: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 99.456 ms
+---------------CHKHS_MNLPROC----------------
+psql:H2000_95_VACUUM.sql:213: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 92.676 ms
+---------------CIC_CODE----------------
+psql:H2000_95_VACUUM.sql:215: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 799.114 ms
+---------------CIC_HEAD----------------
+psql:H2000_95_VACUUM.sql:217: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 10592.491 ms
+---------------CIC_LIST----------------
+psql:H2000_95_VACUUM.sql:219: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 2881.639 ms
+---------------CIC_MAXID----------------
+psql:H2000_95_VACUUM.sql:221: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 44.169 ms
+---------------CIC_SEND_REL----------------
+psql:H2000_95_VACUUM.sql:223: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 919.606 ms
+---------------CLAIM----------------
+psql:H2000_95_VACUUM.sql:225: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 69.908 ms
+---------------CLC_CHKRATE_LIMIT----------------
+psql:H2000_95_VACUUM.sql:227: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 77.584 ms
+---------------CLC_GPR_RATIO----------------
+psql:H2000_95_VACUUM.sql:229: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 64.938 ms
+---------------CLC_GPR_RATIO_BAK----------------
+psql:H2000_95_VACUUM.sql:231: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 70.135 ms
+---------------CNS_COUNTER_TABLE----------------
+psql:H2000_95_VACUUM.sql:233: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 53.187 ms
+---------------CO_CLASS_REL----------------
+psql:H2000_95_VACUUM.sql:235: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 587.306 ms
+---------------COMPANY_REL----------------
+psql:H2000_95_VACUUM.sql:237: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 18813.845 ms
+---------------CONSUME----------------
+psql:H2000_95_VACUUM.sql:239: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 114696.472 ms
+---------------CONSUME_DB----------------
+psql:H2000_95_VACUUM.sql:241: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 51.618 ms
+---------------CONSUME_GOODS----------------
+psql:H2000_95_VACUUM.sql:243: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 54.923 ms
+---------------CONTA----------------
+psql:H2000_95_VACUUM.sql:245: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 3154.017 ms
+---------------CONTA_MONITOR----------------
+psql:H2000_95_VACUUM.sql:247: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 351.582 ms
+---------------CONTRACT_HEAD----------------
+psql:H2000_95_VACUUM.sql:249: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 18102.633 ms
+---------------CONTRACT_WORKFLOW----------------
+psql:H2000_95_VACUUM.sql:251: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 4127.458 ms
+---------------CONVEYANCE----------------
+psql:H2000_95_VACUUM.sql:253: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 280.815 ms
+---------------CONVEYANCE_SEGMENT----------------
+psql:H2000_95_VACUUM.sql:255: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 127.759 ms
+---------------COP_CONSUME----------------
+psql:H2000_95_VACUUM.sql:257: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 88.989 ms
+---------------COP_SPEC_REL----------------
+psql:H2000_95_VACUUM.sql:259: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 18.020 ms
+---------------COPLOG_DELETE_REL----------------
+psql:H2000_95_VACUUM.sql:261: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 324.945 ms
+---------------COPLOG_MODIFY_REL----------------
+psql:H2000_95_VACUUM.sql:263: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 1868.799 ms
+---------------CORP_HEAD----------------
+psql:H2000_95_VACUUM.sql:265: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 111.002 ms
+---------------CORP_LIST----------------
+psql:H2000_95_VACUUM.sql:267: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 98.810 ms
+---------------CORP_TABLE----------------
+psql:H2000_95_VACUUM.sql:269: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 29.755 ms
+---------------CORP_TYPE----------------
+psql:H2000_95_VACUUM.sql:271: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 70.715 ms
+---------------COUNTER_TABLE----------------
+psql:H2000_95_VACUUM.sql:273: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 433.390 ms
+---------------CREDIT_INFO----------------
+psql:H2000_95_VACUUM.sql:275: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 80.431 ms
+---------------CTS_CHKRATE_LIMIT----------------
+psql:H2000_95_VACUUM.sql:277: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 164.337 ms
+---------------CTS_CHKRATE_LIMIT_BAK----------------
+psql:H2000_95_VACUUM.sql:279: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 78.500 ms
+---------------CTS_PERIOD----------------
+psql:H2000_95_VACUUM.sql:281: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 125.619 ms
+---------------CUS_GOOD_CONSUME----------------
+psql:H2000_95_VACUUM.sql:283: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 2991.844 ms
+---------------CUSTOMS_DEFAULT----------------
+psql:H2000_95_VACUUM.sql:285: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 97.398 ms
+---------------CUSTOMS_ESEAL_CONFIG----------------
+psql:H2000_95_VACUUM.sql:287: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 105.858 ms
+---------------DCG_BAK_LIST----------------
+psql:H2000_95_VACUUM.sql:289: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 99.950 ms
+---------------DCG_BILL_HEAD----------------
+psql:H2000_95_VACUUM.sql:291: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 5301.857 ms
+---------------DCG_BILL_LIST----------------
+psql:H2000_95_VACUUM.sql:293: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 5693.106 ms
+---------------DCG_COPR_INFO----------------
+psql:H2000_95_VACUUM.sql:295: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 82.927 ms
+---------------DCG_DEDUCT----------------
+psql:H2000_95_VACUUM.sql:297: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 10753.166 ms
+---------------DCG_DEDUCT_LOG----------------
+psql:H2000_95_VACUUM.sql:299: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 4248.529 ms
+---------------DCG_HEAD----------------
+psql:H2000_95_VACUUM.sql:301: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 11618.455 ms
+---------------DCG_LIST----------------
+psql:H2000_95_VACUUM.sql:303: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 43593.195 ms
+---------------DCG_SEQ----------------
+psql:H2000_95_VACUUM.sql:305: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 211.924 ms
+---------------DCG_WORKFLOW----------------
+psql:H2000_95_VACUUM.sql:307: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 688.286 ms
+---------------DECL_CO_ENTRY_COUNT----------------
+psql:H2000_95_VACUUM.sql:309: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 253.542 ms
+---------------DECL_CO_ENTRY_COUNT_TEMP----------------
+psql:H2000_95_VACUUM.sql:311: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 140.333 ms
+---------------DECLAR_COUNTER_REL----------------
+psql:H2000_95_VACUUM.sql:313: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 81.348 ms
+---------------DECLAR_REL----------------
+psql:H2000_95_VACUUM.sql:315: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 685.525 ms
+---------------DECLARER_REL----------------
+psql:H2000_95_VACUUM.sql:317: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 15554.700 ms
+---------------DECLOG_FULL_REL----------------
+psql:H2000_95_VACUUM.sql:319: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 242.734 ms
+---------------DECLOG_MOD_REL----------------
+psql:H2000_95_VACUUM.sql:321: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 1021.160 ms
+---------------DECLOG_MODIFY_REL----------------
+psql:H2000_95_VACUUM.sql:323: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 286.437 ms
+---------------DECLOG_SCORE_HEAD----------------
+psql:H2000_95_VACUUM.sql:325: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 5016.052 ms
+---------------DECLOG_SCORE_LIST----------------
+psql:H2000_95_VACUUM.sql:327: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 5069.622 ms
+---------------DEL_EGS_ARC_AGENT_LIST----------------
+psql:H2000_95_VACUUM.sql:329: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 50.614 ms
+---------------DEL_EGS_ARC_HEAD----------------
+psql:H2000_95_VACUUM.sql:331: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 22.107 ms
+---------------DEL_EGS_ARC_LIST----------------
+psql:H2000_95_VACUUM.sql:333: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 22.533 ms
+---------------DEL_EGS_ARC_MERCHANT_LIST----------------
+psql:H2000_95_VACUUM.sql:335: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 23.190 ms
+---------------DEL_EGS_CLEAR_CERT----------------
+psql:H2000_95_VACUUM.sql:337: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 58.405 ms
+---------------DEL_EGS_CLEAR_HEAD----------------
+psql:H2000_95_VACUUM.sql:339: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 77.959 ms
+---------------DEL_EGS_CLEAR_LIST----------------
+psql:H2000_95_VACUUM.sql:341: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 71.713 ms
+---------------DEL_EGS_DECLARE_CERT----------------
+psql:H2000_95_VACUUM.sql:343: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 42.787 ms
+---------------DEL_EGS_DECLARE_HEAD----------------
+psql:H2000_95_VACUUM.sql:345: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 79.903 ms
+---------------DEL_EGS_DECLARE_LIST----------------
+psql:H2000_95_VACUUM.sql:347: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 174.121 ms
+---------------DEL_MOD_APPLY----------------
+psql:H2000_95_VACUUM.sql:349: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 3776.746 ms
+---------------DISTRIBUTIVE_BILL_DECLARE----------------
+psql:H2000_95_VACUUM.sql:351: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 725.449 ms
+---------------DISTRIBUTIVE_DECLARE----------------
+psql:H2000_95_VACUUM.sql:353: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 368.029 ms
+---------------DISTRIBUTIVE_TRANSIT_WAY----------------
+psql:H2000_95_VACUUM.sql:355: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 322.799 ms
+---------------DST_COUNTER_TABLE----------------
+psql:H2000_95_VACUUM.sql:357: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 76.759 ms
+---------------DST_DEDUCT----------------
+psql:H2000_95_VACUUM.sql:359: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 2378.276 ms
+---------------DST_EXG----------------
+psql:H2000_95_VACUUM.sql:361: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 287.279 ms
+---------------DST_EXG_ORI_ENTRY----------------
+psql:H2000_95_VACUUM.sql:363: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 42.870 ms
+---------------DST_HEAD----------------
+psql:H2000_95_VACUUM.sql:365: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 3749.316 ms
+---------------DST_IMG----------------
+psql:H2000_95_VACUUM.sql:367: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 16198.493 ms
+---------------DST_IMG_ORI_ENTRY----------------
+psql:H2000_95_VACUUM.sql:369: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 1537.127 ms
+---------------DTT_COP_PARAM----------------
+psql:H2000_95_VACUUM.sql:371: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 80.228 ms
+---------------DUTY_CHECK_LOG----------------
+psql:H2000_95_VACUUM.sql:373: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 40168.068 ms
+---------------DUTYFORM_HEAD----------------
+psql:H2000_95_VACUUM.sql:375: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 41718.072 ms
+---------------DUTYFORM_LIST----------------
+psql:H2000_95_VACUUM.sql:377: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 450407.950 ms
+---------------ECO_HEAD----------------
+psql:H2000_95_VACUUM.sql:379: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 559.653 ms
+---------------ECO_LIST----------------
+psql:H2000_95_VACUUM.sql:381: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 412.038 ms
+---------------ECO_PARTS----------------
+psql:H2000_95_VACUUM.sql:383: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 912.952 ms
+---------------ECO_WORKFLOW----------------
+psql:H2000_95_VACUUM.sql:385: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 451.904 ms
+---------------EGS_ADMIT_HEAD----------------
+psql:H2000_95_VACUUM.sql:387: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 166.343 ms
+---------------EGS_ADMIT_HS----------------
+psql:H2000_95_VACUUM.sql:389: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 135.562 ms
+---------------EGS_ADMIT_LIST----------------
+psql:H2000_95_VACUUM.sql:391: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 107.297 ms
+---------------EGS_ARC_AGENT_LIST----------------
+psql:H2000_95_VACUUM.sql:393: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 103.615 ms
+---------------EGS_ARC_HEAD----------------
+psql:H2000_95_VACUUM.sql:395: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 209.179 ms
+---------------EGS_ARC_LIST----------------
+psql:H2000_95_VACUUM.sql:397: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 111.433 ms
+---------------EGS_ARC_MERCHANT_LIST----------------
+psql:H2000_95_VACUUM.sql:399: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 81.251 ms
+---------------EGS_CHECK_LOG----------------
+psql:H2000_95_VACUUM.sql:401: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 82.309 ms
+---------------EGS_CLEAR_CERT----------------
+psql:H2000_95_VACUUM.sql:403: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 76.756 ms
+---------------EGS_CLEAR_HEAD----------------
+psql:H2000_95_VACUUM.sql:405: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 103.217 ms
+---------------EGS_CLEAR_LIST----------------
+psql:H2000_95_VACUUM.sql:407: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 71.176 ms
+---------------EGS_DECLARE_CERT----------------
+psql:H2000_95_VACUUM.sql:409: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 96.783 ms
+---------------EGS_DECLARE_HEAD----------------
+psql:H2000_95_VACUUM.sql:411: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 189.024 ms
+---------------EGS_DECLARE_LIST----------------
+psql:H2000_95_VACUUM.sql:413: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 147.878 ms
+---------------EGS_DEDUCT----------------
+psql:H2000_95_VACUUM.sql:415: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 108.500 ms
+---------------EGS_LEND_HEAD----------------
+psql:H2000_95_VACUUM.sql:417: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 59.042 ms
+---------------EGS_LEND_LIST----------------
+psql:H2000_95_VACUUM.sql:419: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 49.856 ms
+---------------EGS_PATROL_HEAD----------------
+psql:H2000_95_VACUUM.sql:421: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 78.550 ms
+---------------EGS_PATROL_LIST----------------
+psql:H2000_95_VACUUM.sql:423: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 19.985 ms
+---------------EGS_SEQ----------------
+psql:H2000_95_VACUUM.sql:425: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 77.796 ms
+---------------EGS_WORKFLOW----------------
+psql:H2000_95_VACUUM.sql:427: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 89.638 ms
+---------------EMS_ACCOUNT----------------
+psql:H2000_95_VACUUM.sql:429: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 2358.445 ms
+---------------EMS_APPR_HEAD----------------
+psql:H2000_95_VACUUM.sql:431: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 107.895 ms
+---------------EMS_APPR_LIST----------------
+psql:H2000_95_VACUUM.sql:433: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 771.075 ms
+---------------EMS_CLAIM----------------
+psql:H2000_95_VACUUM.sql:435: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 89.949 ms
+---------------EMS_CLR_LIST----------------
+psql:H2000_95_VACUUM.sql:437: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 771029.854 ms
+---------------EMS_CLR_TMP----------------
+psql:H2000_95_VACUUM.sql:439: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 225.789 ms
+---------------EMS_COMPLEX----------------
+psql:H2000_95_VACUUM.sql:441: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 109.998 ms
+---------------EMS_COMPLEX2----------------
+psql:H2000_95_VACUUM.sql:443: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 64.131 ms
+---------------EMS_CONSUME----------------
+psql:H2000_95_VACUUM.sql:445: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 6012683.970 ms
+---------------EMS_CONSUME_CLR----------------
+psql:H2000_95_VACUUM.sql:447: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 203.737 ms
+---------------EMS_CONSUME_CLR_D----------------
+psql:H2000_95_VACUUM.sql:449: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 43.654 ms
+---------------EMS_DCR_CONSUME----------------
+psql:H2000_95_VACUUM.sql:451: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 70066.879 ms
+---------------EMS_DCR_ENT----------------
+psql:H2000_95_VACUUM.sql:453: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 169917.428 ms
+---------------EMS_DCR_HEAD----------------
+psql:H2000_95_VACUUM.sql:455: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 2521.978 ms
+---------------EMS_DCR_LIST----------------
+psql:H2000_95_VACUUM.sql:457: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 163222.760 ms
+---------------EMS_DCR_RUB_LIST----------------
+psql:H2000_95_VACUUM.sql:459: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 83.020 ms
+---------------EMS_DEDUCT----------------
+psql:H2000_95_VACUUM.sql:461: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+psql:H2000_95_VACUUM.sql:461: NOTICE:  Releasing gangs to finish aborting the transaction.
+psql:H2000_95_VACUUM.sql:461: ERROR:  Error on receive from seg31 sdw4:40007 pid=7160: server closed the connection unexpectedly
+DETAIL:  
+	This probably means the server terminated abnormally
+	before or while processing the request.
+ERROR:  GPDB performed segment reconfiguration. (cdbgang.c:1659)
+---------------EMS_DEDUCT_CLR----------------
+psql:H2000_95_VACUUM.sql:463: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+psql:H2000_95_VACUUM.sql:463: ERROR:  All segment databases are unavailable
+---------------EMS_DEDUCT_LOG----------------
+psql:H2000_95_VACUUM.sql:465: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+psql:H2000_95_VACUUM.sql:465: ERROR:  All segment databases are unavailable
+---------------EMS_ENP----------------
+psql:H2000_95_VACUUM.sql:467: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 25900.200 ms
+---------------EMS_ENP_JOU----------------
+psql:H2000_95_VACUUM.sql:469: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 52.269 ms
+---------------EMS_HEAD----------------
+psql:H2000_95_VACUUM.sql:471: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 40774.390 ms
+---------------EMS_LIST----------------
+psql:H2000_95_VACUUM.sql:473: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 246303.579 ms
+---------------EMS_MESSAGE_LOG----------------
+psql:H2000_95_VACUUM.sql:475: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 262.683 ms
+---------------EMS_PRESS----------------
+psql:H2000_95_VACUUM.sql:477: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 81.146 ms
+---------------EMS_PRESS_CLEAR----------------
+psql:H2000_95_VACUUM.sql:479: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 81.859 ms
+---------------EMS_SEQ----------------
+psql:H2000_95_VACUUM.sql:481: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 76.803 ms
+---------------EMS_TMP_CLR----------------
+psql:H2000_95_VACUUM.sql:483: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 44.040 ms
+---------------EMS_VAR----------------
+psql:H2000_95_VACUUM.sql:485: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 93.709 ms
+---------------EMS_VERIFY----------------
+psql:H2000_95_VACUUM.sql:487: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 15.713 ms
+---------------EMS_VERIFY_DETAIL----------------
+psql:H2000_95_VACUUM.sql:489: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 22.133 ms
+---------------EMS_WORKFLOW----------------
+psql:H2000_95_VACUUM.sql:491: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 3683.900 ms
+---------------ENTRY_AUTOREL_ERR_LIST----------------
+psql:H2000_95_VACUUM.sql:493: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 975.605 ms
+---------------ENTRY_AUTOREL_ERR_LOG----------------
+psql:H2000_95_VACUUM.sql:495: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 391.509 ms
+---------------ENTRY_CENTRY_SELECT----------------
+psql:H2000_95_VACUUM.sql:497: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 87641.942 ms
+---------------ENTRY_CENTRY_SELECT_DEL----------------
+psql:H2000_95_VACUUM.sql:499: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 346.067 ms
+---------------ENTRY_CERTIFICATE----------------
+psql:H2000_95_VACUUM.sql:501: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 25156.058 ms
+---------------ENTRY_CERTIFICATE_LOG----------------
+psql:H2000_95_VACUUM.sql:503: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 4156.746 ms
+---------------ENTRY_CONTAINER----------------
+psql:H2000_95_VACUUM.sql:505: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 46994.033 ms
+---------------ENTRY_CONTAINER_LOG----------------
+psql:H2000_95_VACUUM.sql:507: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 4117.536 ms
+---------------ENTRY_DEL_HEAD_LOG----------------
+psql:H2000_95_VACUUM.sql:509: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 30237.479 ms
+---------------ENTRY_DEL_LIST_LOG----------------
+psql:H2000_95_VACUUM.sql:511: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 56155.674 ms
+---------------ENTRY_EVALUATION----------------
+psql:H2000_95_VACUUM.sql:513: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 2851.958 ms
+---------------ENTRY_GPM_RTX----------------
+psql:H2000_95_VACUUM.sql:515: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 16835.740 ms
+---------------ENTRY_GPM_RTX_PRINTLOG----------------
+psql:H2000_95_VACUUM.sql:517: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 46203.267 ms
+---------------ENTRY_GPM_RTX_SENDLOG----------------
+psql:H2000_95_VACUUM.sql:519: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 143658.399 ms
+---------------ENTRY_HEAD----------------
+psql:H2000_95_VACUUM.sql:521: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 4105.242 ms
+---------------ENTRY_LIST----------------
+psql:H2000_95_VACUUM.sql:523: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 4868.358 ms
+---------------ENTRY_MODI_LOG----------------
+psql:H2000_95_VACUUM.sql:525: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 30138.603 ms
+---------------ENTRY_OP_LOG----------------
+psql:H2000_95_VACUUM.sql:527: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 18991.886 ms
+---------------ENTRY_PROC----------------
+psql:H2000_95_VACUUM.sql:529: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 179.918 ms
+---------------ENTRY_PROC_LOG----------------
+---------------ENTRY_QUERY----------------
+psql:H2000_95_VACUUM.sql:533: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 496.122 ms
+---------------ENTRY_WORKFLOW----------------
+psql:H2000_95_VACUUM.sql:535: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 673.194 ms
+---------------EPA_CHEM_CERT----------------
+psql:H2000_95_VACUUM.sql:537: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 356.610 ms
+---------------EPA_CHK----------------
+psql:H2000_95_VACUUM.sql:539: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 5338.627 ms
+---------------EPA_SCARP_CERT----------------
+psql:H2000_95_VACUUM.sql:541: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 453.195 ms
+---------------ERR_LOG----------------
+psql:H2000_95_VACUUM.sql:543: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 8604.557 ms
+---------------EX_APPL_CLOSE----------------
+psql:H2000_95_VACUUM.sql:545: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 144.950 ms
+---------------EX_ARRIVAL_CONTA----------------
+psql:H2000_95_VACUUM.sql:547: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 493246.590 ms
+---------------EX_ARRIVAL_ERR_CHK----------------
+psql:H2000_95_VACUUM.sql:549: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 696.403 ms
+---------------EX_ARRIVAL_SHIP----------------
+psql:H2000_95_VACUUM.sql:551: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 978.038 ms
+---------------EX_CDL_MNL_DEDUCT----------------
+psql:H2000_95_VACUUM.sql:553: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 50.572 ms
+---------------EX_CONTA_ENTRY_CHK----------------
+psql:H2000_95_VACUUM.sql:555: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 73642.888 ms
+---------------EX_CONTRACT_CLEAR----------------
+psql:H2000_95_VACUUM.sql:557: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 2070.482 ms
+---------------EX_CONTRACT_DEDUC----------------
+psql:H2000_95_VACUUM.sql:559: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 30173.221 ms
+---------------EX_CONTRACT_LIST----------------
+psql:H2000_95_VACUUM.sql:561: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 8952.741 ms
+---------------EX_COP_RATE----------------
+psql:H2000_95_VACUUM.sql:563: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 50.204 ms
+---------------EX_DECL_ALARM_HEAD----------------
+psql:H2000_95_VACUUM.sql:565: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 133.170 ms
+---------------EX_DECL_ALARM_LIST----------------
+psql:H2000_95_VACUUM.sql:567: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 69.254 ms
+---------------EX_DECL_CUR_HEAD----------------
+psql:H2000_95_VACUUM.sql:569: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 154123.039 ms
+---------------EX_DECL_CUR_LIST----------------
+psql:H2000_95_VACUUM.sql:571: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 108856.314 ms
+---------------EX_DECL_HIS_HEAD----------------
+psql:H2000_95_VACUUM.sql:573: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 167.926 ms
+---------------EX_DECL_HIS_LIST----------------
+psql:H2000_95_VACUUM.sql:575: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 34.176 ms
+---------------EX_ELE_HEAD----------------
+psql:H2000_95_VACUUM.sql:577: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 2561.726 ms
+---------------EX_ELE_LIST----------------
+psql:H2000_95_VACUUM.sql:579: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 3094.218 ms
+---------------EX_EXAM_JOU----------------
+psql:H2000_95_VACUUM.sql:581: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 10115.416 ms
+---------------EX_EXAM_MANA_HEAD----------------
+psql:H2000_95_VACUUM.sql:583: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 3777.877 ms
+---------------EX_EXAM_MANA_LIST----------------
+psql:H2000_95_VACUUM.sql:585: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 3134.909 ms
+---------------EX_FASCICLE_LIST----------------
+psql:H2000_95_VACUUM.sql:587: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 1652.322 ms
+---------------EX_LIC_CODE_TS----------------
+psql:H2000_95_VACUUM.sql:589: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 96.492 ms
+---------------EX_TRAN_JOU----------------
+psql:H2000_95_VACUUM.sql:591: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 111.338 ms
+---------------EX_TRANS_ALARM_CONTA_REL----------------
+psql:H2000_95_VACUUM.sql:593: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 97.478 ms
+---------------EX_TRANS_ALARM_GOODS_CONTA_REL----------------
+psql:H2000_95_VACUUM.sql:595: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 27.690 ms
+---------------EX_TRANS_ALARM_LIST_REL----------------
+psql:H2000_95_VACUUM.sql:597: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 36.196 ms
+---------------EX_TRANS_CONTA_REL----------------
+psql:H2000_95_VACUUM.sql:599: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 163356.276 ms
+---------------EX_TRANS_GOODS_CONTA_REL----------------
+psql:H2000_95_VACUUM.sql:601: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 4207.302 ms
+---------------EX_TRANS_HIS_CONTA_REL----------------
+psql:H2000_95_VACUUM.sql:603: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 356.005 ms
+---------------EX_TRANS_HIS_GOODS_CONTA_REL----------------
+psql:H2000_95_VACUUM.sql:605: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 256.363 ms
+---------------EX_TRANS_HIS_LIST_REL----------------
+psql:H2000_95_VACUUM.sql:607: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 264.112 ms
+---------------EX_TRANS_LIST_REL----------------
+psql:H2000_95_VACUUM.sql:609: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 118384.880 ms
+---------------EX_TRN_ARRIVAL_CONTA----------------
+psql:H2000_95_VACUUM.sql:611: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 561.880 ms
+---------------EX_TRN_CONTA_ENTRY_ARV----------------
+psql:H2000_95_VACUUM.sql:613: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 166.348 ms
+---------------EX_TRN_CONTA_ENTRY_CHK----------------
+psql:H2000_95_VACUUM.sql:615: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 127.892 ms
+---------------EXA_APPL_CLOSE----------------
+psql:H2000_95_VACUUM.sql:617: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 142.891 ms
+---------------EXAM_CONTA_END_LOG----------------
+psql:H2000_95_VACUUM.sql:619: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 71.263 ms
+---------------EXAM_CONTA_HEAD----------------
+psql:H2000_95_VACUUM.sql:621: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 873.497 ms
+---------------EXAM_CONTA_LIST----------------
+psql:H2000_95_VACUUM.sql:623: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 968.780 ms
+---------------EXC_ELE----------------
+psql:H2000_95_VACUUM.sql:625: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 1072118.920 ms
+---------------EXC_EX_CHK----------------
+psql:H2000_95_VACUUM.sql:627: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 349.320 ms
+---------------EXC_EXAM----------------
+psql:H2000_95_VACUUM.sql:629: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 294270.413 ms
+---------------EXP_MFT_CHK_RESULT----------------
+psql:H2000_95_VACUUM.sql:631: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 52.544 ms
+---------------EXTERNAL_JOU----------------
+psql:H2000_95_VACUUM.sql:633: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 72.680 ms
+---------------FASCICLE_HEAD----------------
+psql:H2000_95_VACUUM.sql:635: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 656.126 ms
+---------------FCB_CHK----------------
+psql:H2000_95_VACUUM.sql:637: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 781.090 ms
+---------------FCB_CONTA----------------
+psql:H2000_95_VACUUM.sql:639: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 344.661 ms
+---------------FCB_CONTA_MODI----------------
+psql:H2000_95_VACUUM.sql:641: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 47.888 ms
+---------------FCB_HEAD----------------
+psql:H2000_95_VACUUM.sql:643: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 1313.695 ms
+---------------FCB_HEAD_MODI----------------
+psql:H2000_95_VACUUM.sql:645: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 65.475 ms
+---------------FCB_LIST----------------
+psql:H2000_95_VACUUM.sql:647: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 474.461 ms
+---------------FCB_LIST_MODI----------------
+psql:H2000_95_VACUUM.sql:649: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 83.870 ms
+---------------FCB_RSK----------------
+psql:H2000_95_VACUUM.sql:651: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 71.550 ms
+---------------FCB_WORKFLOW----------------
+psql:H2000_95_VACUUM.sql:653: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 938.507 ms
+---------------FEE_INVOICE----------------
+psql:H2000_95_VACUUM.sql:655: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 101.361 ms
+---------------FORFEIT_FORM----------------
+psql:H2000_95_VACUUM.sql:657: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.
+VACUUM
+Time: 176.272 ms
+---------------FORM_CHK----------------
+psql:H2000_95_VACUUM.sql:659: NOTICE:  'VACUUM FULL' is not safe for large tables and has been known to yield unpredictable runtimes.
+HINT:  Use 'VACUUM' instead.

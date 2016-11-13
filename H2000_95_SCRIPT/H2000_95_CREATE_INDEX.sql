@@ -1,0 +1,1076 @@
+\timing
+select now();
+\echo "create index IDX_AGREEMENTGOODSLIST_D_DATE on AGREEMENT_GOODS_LIST (D_DATE, AGREEMENT_ID, CODE_TS, QTY_1);"
+create index IDX_AGREEMENTGOODSLIST_D_DATE on AGREEMENT_GOODS_LIST (D_DATE, AGREEMENT_ID, CODE_TS, QTY_1);
+select now();
+\echo "create index IX_AMSLISTHEAD_LOGFLAG on AMSLIST_HEAD (LOG_FLAG);"
+create index IX_AMSLISTHEAD_LOGFLAG on AMSLIST_HEAD (LOG_FLAG);
+select now();
+\echo "create index IDX_APPLY_HEAD_CONTACT_NO on APPLY_HEAD (CONTACT_NO);"
+create index IDX_APPLY_HEAD_CONTACT_NO on APPLY_HEAD (CONTACT_NO);
+select now();
+\echo "create index IDX_APPLY_HEAD_RECV on APPLY_HEAD (RECV_PORT, EXAM_TIME);"
+create index IDX_APPLY_HEAD_RECV on APPLY_HEAD (RECV_PORT, EXAM_TIME);
+select now();
+\echo "create index IDX_APPLY_HEAD_SEND on APPLY_HEAD (SEND_PORT, EXAM_TIME);"
+create index IDX_APPLY_HEAD_SEND on APPLY_HEAD (SEND_PORT, EXAM_TIME);
+select now();
+\echo "create index IDX_APPLY_HEAD_TRANS_PRE_NO on APPLY_HEAD (TRANS_PRE_NO);"
+create index IDX_APPLY_HEAD_TRANS_PRE_NO on APPLY_HEAD (TRANS_PRE_NO);
+select now();
+\echo "create index IDX_APPLY_LIST_CONTACT_NO on APPLY_LIST (CONTACT_NO);"
+create index IDX_APPLY_LIST_CONTACT_NO on APPLY_LIST (CONTACT_NO);
+select now();
+\echo "create index IDX_ARRIVAL_HEAD_RECV_DATE on ARRIVAL_INFO_HEAD (ARRIVE_DATE);"
+create index IDX_ARRIVAL_HEAD_RECV_DATE on ARRIVAL_INFO_HEAD (ARRIVE_DATE);
+select now();
+\echo "create index IDX_ARRIVAL_LIST_RECV_DATE on ARRIVAL_INFO_LIST (ARRIVE_DATE);"
+create index IDX_ARRIVAL_LIST_RECV_DATE on ARRIVAL_INFO_LIST (ARRIVE_DATE);
+select now();
+\echo "create index IX_BAK_HEAD_PRE_NO on BAK_CONTRACT_HEAD (PRE_MANUAL_NO);"
+create index IX_BAK_HEAD_PRE_NO on BAK_CONTRACT_HEAD (PRE_MANUAL_NO);
+select now();
+\echo "create index IX_BAKDCGBILLH_DCGNO on BAK_DCG_BILL_HEAD (DCG_NO);"
+create index IX_BAKDCGBILLH_DCGNO on BAK_DCG_BILL_HEAD (DCG_NO);
+select now();
+\echo "create index IX_BAKDCGDEDUCT_DCGNO on BAK_DCG_DEDUCT (DCG_NO);"
+create index IX_BAKDCGDEDUCT_DCGNO on BAK_DCG_DEDUCT (DCG_NO);
+select now();
+\echo "create index IX_BAKDCGDEDUCTLOG_DCGNO on BAK_DCG_DEDUCT_LOG (DCG_NO);"
+create index IX_BAKDCGDEDUCTLOG_DCGNO on BAK_DCG_DEDUCT_LOG (DCG_NO);
+select now();
+\echo "create index IDX_BAKEMSCONSUME_ETLMARK on BAK_EMS_CONSUME (ETL_MARK);"
+create index IDX_BAKEMSCONSUME_ETLMARK on BAK_EMS_CONSUME (ETL_MARK);
+select now();
+\echo "create index IX_BCK_COP_HEAD_INDEX1 on BCK_COP_HEAD (TRADE_CODE, CUSTOMS_CODE);"
+create index IX_BCK_COP_HEAD_INDEX1 on BCK_COP_HEAD (TRADE_CODE, CUSTOMS_CODE);
+select now();
+\echo "create index IX_BCK_HANDOVER_INDEX1 on BCK_HANDOVER (HANDOVER_NO, CREATE_DATE, HANDOVER_TYPE);"
+create index IX_BCK_HANDOVER_INDEX1 on BCK_HANDOVER (HANDOVER_NO, CREATE_DATE, HANDOVER_TYPE);
+select now();
+\echo "create index IX_BCK_HEAD_INDEX1 on BCK_HEAD (APPLY_CUSTOMS_CODE, EXE_MARK, EXE_MARK_DATE, APPLY_POS, BCK_NO);"
+create index IX_BCK_HEAD_INDEX1 on BCK_HEAD (APPLY_CUSTOMS_CODE, EXE_MARK, EXE_MARK_DATE, APPLY_POS, BCK_NO);
+select now();
+\echo "create index IX_BCK_STOCK_HEAD_INDEX1 on BCK_STOCK_HEAD (TRADE_CODE);"
+create index IX_BCK_STOCK_HEAD_INDEX1 on BCK_STOCK_HEAD (TRADE_CODE);
+select now();
+\echo "create index IX_BCK_WORKFLOW_INDEX1 on BCK_WORKFLOW (BCK_NO, OPER_ER);"
+create index IX_BCK_WORKFLOW_INDEX1 on BCK_WORKFLOW (BCK_NO, OPER_ER);
+select now();
+\echo "create index IDX_BTIDATAHEAD_CREATEDATE on BTI_DATA_HEAD (CREATE_DATE);"
+create index IDX_BTIDATAHEAD_CREATEDATE on BTI_DATA_HEAD (CREATE_DATE);
+select now();
+\echo "create index IX_BWSDEDUCT_BWSGNO on BWS_DEDUCT (BWS_NO, BWS_G_NO);"
+create index IX_BWSDEDUCT_BWSGNO on BWS_DEDUCT (BWS_NO, BWS_G_NO);
+select now();
+\echo "create index IX_BWSDEDUCT_BWSNO on BWS_DEDUCT (BWS_NO);"
+create index IX_BWSDEDUCT_BWSNO on BWS_DEDUCT (BWS_NO);
+select now();
+\echo "create index IX_BWSDEDUCT_NO_TYPE on BWS_DEDUCT (BWS_NO, BWS_G_TYPE);"
+create index IX_BWSDEDUCT_NO_TYPE on BWS_DEDUCT (BWS_NO, BWS_G_TYPE);
+select now();
+\echo "create index IX_BWSEXAMCERTLST_CERTNOTP on BWS_EXAM_CERT_LIST (CERT_NO);"
+create index IX_BWSEXAMCERTLST_CERTNOTP on BWS_EXAM_CERT_LIST (CERT_NO);
+select now();
+\echo "create index IX_BWSEXAMGDLST_CERTNO on BWS_EXAM_GOOD_LIST (CERT_NO);"
+create index IX_BWSEXAMGDLST_CERTNO on BWS_EXAM_GOOD_LIST (CERT_NO);
+select now();
+\echo "create index IX_BWSHEAD_CTCODE on BWS_HEAD (MASTER_CUSTOMS, TRADE_CODE);"
+create index IX_BWSHEAD_CTCODE on BWS_HEAD (MASTER_CUSTOMS, TRADE_CODE);
+select now();
+\echo "create index IDX_CTS_ERR_CREATE_DATE on CCTS_ERROR_LOG (CREATE_DATE);"
+create index IDX_CTS_ERR_CREATE_DATE on CCTS_ERROR_LOG (CREATE_DATE);
+select now();
+\echo "create index IDX_CTS_ERR_ENTRY_ID on CCTS_ERROR_LOG (ENTRY_ID);"
+create index IDX_CTS_ERR_ENTRY_ID on CCTS_ERROR_LOG (ENTRY_ID);
+select now();
+\echo "create index IDX_COR_ENTRY_ID on CCTS_ONLINE_RESULT (ENTRY_ID);"
+create index IDX_COR_ENTRY_ID on CCTS_ONLINE_RESULT (ENTRY_ID);
+select now();
+\echo "create index IDX_COR_BAK_ENTRY_ID on CCTS_ONLINE_RESULT_BAK (ENTRY_ID);"
+create index IDX_COR_BAK_ENTRY_ID on CCTS_ONLINE_RESULT_BAK (ENTRY_ID);
+select now();
+\echo "create index IDX_CTS_ORB_CREATEDATE on CCTS_ONLINE_RESULT_BAK (CREATE_DATE);"
+create index IDX_CTS_ORB_CREATEDATE on CCTS_ONLINE_RESULT_BAK (CREATE_DATE);
+select now();
+\echo "create index IDX_CTS_ENTRY_ID on CCTS_PERFORMANCE (ENTRY_ID);"
+create index IDX_CTS_ENTRY_ID on CCTS_PERFORMANCE (ENTRY_ID);
+select now();
+\echo "create index IX_CDLCHK_BILL_NO on CDL_CHK (BILL_NO, VOYAGE_NO, SHIP_ID, I_E_PORT);"
+create index IX_CDLCHK_BILL_NO on CDL_CHK (BILL_NO, VOYAGE_NO, SHIP_ID, I_E_PORT);
+select now();
+\echo "create index IX_CDLCOMMODITY_TRADECO on CDL_COMMODITY (TRADE_CO, CUSTOMS_CODE);"
+create index IX_CDLCOMMODITY_TRADECO on CDL_COMMODITY (TRADE_CO, CUSTOMS_CODE);
+select now();
+\echo "create index IX_PRE_RECORDS_NO on CDL_COMMODITY (PRE_RECORDS_NO);"
+create index IX_PRE_RECORDS_NO on CDL_COMMODITY (PRE_RECORDS_NO);
+select now();
+\echo "create index IX_CDLENTRYHEAD_LISTDATE on CDL_ENTRY_HEAD (LIST_DATE);"
+create index IX_CDLENTRYHEAD_LISTDATE on CDL_ENTRY_HEAD (LIST_DATE);
+select now();
+\echo "create index IX_CDLHEAD_DDATE on CDL_HEAD (D_DATE);"
+create index IX_CDLHEAD_DDATE on CDL_HEAD (D_DATE);
+select now();
+\echo "create index IX_CDLOPLOG_OP on CDL_OP_LOG (OP_TYPE, OP_TIME);"
+create index IX_CDLOPLOG_OP on CDL_OP_LOG (OP_TYPE, OP_TIME);
+select now();
+\echo "create index IX_CDLWORKFLOW_CREATEDATE on CDL_WORKFLOW (CREATE_DATE, STEP_ID);"
+create index IX_CDLWORKFLOW_CREATEDATE on CDL_WORKFLOW (CREATE_DATE, STEP_ID);
+select now();
+\echo "create index IDX_CIC_HEAD_ENTRY_NO on CIC_HEAD (ENTRY_NO);"
+create index IDX_CIC_HEAD_ENTRY_NO on CIC_HEAD (ENTRY_NO);
+select now();
+\echo "create index IDX_CIC_LIST_CAR_COVER_NO on CIC_LIST (CAR_COVER_NO);"
+create index IDX_CIC_LIST_CAR_COVER_NO on CIC_LIST (CAR_COVER_NO);
+select now();
+\echo "create index IDX_CIC_SEND_REL_CIC_NO on CIC_SEND_REL (CIC_NO);"
+create index IDX_CIC_SEND_REL_CIC_NO on CIC_SEND_REL (CIC_NO);
+select now();
+\echo "create index IDX_COMPANY_REL_COP_IO_CODE on COMPANY_REL (COP_IO_CODE);"
+create index IDX_COMPANY_REL_COP_IO_CODE on COMPANY_REL (COP_IO_CODE);
+select now();
+\echo "create index IDX_CUSTOMS_CODE on COMPANY_REL (CUSTOMS_CODE);"
+create index IDX_CUSTOMS_CODE on COMPANY_REL (CUSTOMS_CODE);
+select now();
+\echo "create index IDX_FULL_NAME on COMPANY_REL (FULL_NAME);"
+create index IDX_FULL_NAME on COMPANY_REL (FULL_NAME);
+select now();
+\echo "create index IDX_GB_CODE on COMPANY_REL (COP_GB_CODE);"
+create index IDX_GB_CODE on COMPANY_REL (COP_GB_CODE);
+select now();
+\echo "create index IDX_REG_CO on COMPANY_REL (REG_CO);"
+create index IDX_REG_CO on COMPANY_REL (REG_CO);
+select now();
+\echo "create index IX_CONTRACTHEAD_APPRDATE on CONTRACT_HEAD (APPR_DATE, CUSTOMS_CODE);"
+create index IX_CONTRACTHEAD_APPRDATE on CONTRACT_HEAD (APPR_DATE, CUSTOMS_CODE);
+select now();
+\echo "create index IX_CONTRACTHEAD_CLEARAPPLDATE on CONTRACT_HEAD (CLEAR_APPL_DATE, CUSTOMS_CODE);"
+create index IX_CONTRACTHEAD_CLEARAPPLDATE on CONTRACT_HEAD (CLEAR_APPL_DATE, CUSTOMS_CODE);
+select now();
+\echo "create index IX_CONTRACTHEAD_CLEARDATE on CONTRACT_HEAD (CLEAR_DATE, CUSTOMS_CODE);"
+create index IX_CONTRACTHEAD_CLEARDATE on CONTRACT_HEAD (CLEAR_DATE, CUSTOMS_CODE);
+select now();
+\echo "create index IX_CONTRACTHEAD_CLOSEDATE on CONTRACT_HEAD (CLOSE_DATE, CUSTOMS_CODE);"
+create index IX_CONTRACTHEAD_CLOSEDATE on CONTRACT_HEAD (CLOSE_DATE, CUSTOMS_CODE);
+select now();
+\echo "create index IX_CONTRACTHEAD_CUSTOMSCODE on CONTRACT_HEAD (CUSTOMS_CODE);"
+create index IX_CONTRACTHEAD_CUSTOMSCODE on CONTRACT_HEAD (CUSTOMS_CODE);
+select now();
+\echo "create index IX_CONTRACTHEAD_EDATE on CONTRACT_HEAD (E_DATE, CUSTOMS_CODE);"
+create index IX_CONTRACTHEAD_EDATE on CONTRACT_HEAD (E_DATE, CUSTOMS_CODE);
+select now();
+\echo "create index IX_CONTRACTHEAD_OWNERCODE on CONTRACT_HEAD (OWNER_CODE);"
+create index IX_CONTRACTHEAD_OWNERCODE on CONTRACT_HEAD (OWNER_CODE);
+select now();
+\echo "create index IX_CONTRACTHEAD_PRENO on CONTRACT_HEAD (PRE_MANUAL_NO);"
+create index IX_CONTRACTHEAD_PRENO on CONTRACT_HEAD (PRE_MANUAL_NO);
+select now();
+\echo "create index IX_CONTRACTHEAD_TRADECO on CONTRACT_HEAD (TRADE_CO);"
+create index IX_CONTRACTHEAD_TRADECO on CONTRACT_HEAD (TRADE_CO);
+select now();
+\echo "create index IX_CODE_TS_COP on COP_CONSUME (EX_CODE_TS, IM_CODE_TS, CUS_CODE);"
+create index IX_CODE_TS_COP on COP_CONSUME (EX_CODE_TS, IM_CODE_TS, CUS_CODE);
+select now();
+\echo "create index IDX_CHKRATE_LIMIT_CUSTOMS_CODE on CTS_CHKRATE_LIMIT (CUSTOMS_CODE);"
+create index IDX_CHKRATE_LIMIT_CUSTOMS_CODE on CTS_CHKRATE_LIMIT (CUSTOMS_CODE);
+select now();
+\echo "create index IX_CODE_TS on CUS_GOOD_CONSUME (EX_CODE_TS, IM_CODE_TS, CUS_CODE);"
+create index IX_CODE_TS on CUS_GOOD_CONSUME (EX_CODE_TS, IM_CODE_TS, CUS_CODE);
+select now();
+\echo "create index IX_DCGBILLH_DCGNO on DCG_BILL_HEAD (DCG_NO);"
+create index IX_DCGBILLH_DCGNO on DCG_BILL_HEAD (DCG_NO);
+select now();
+\echo "create index IX_DCGDEDUCT_EMSNO on DCG_DEDUCT (EMS_NO, EMS_G_NO);"
+create index IX_DCGDEDUCT_EMSNO on DCG_DEDUCT (EMS_NO, EMS_G_NO);
+select now();
+\echo "create index IX_DCGDEDUCT_NOTYPE on DCG_DEDUCT (DCG_NO, G_TYPE);"
+create index IX_DCGDEDUCT_NOTYPE on DCG_DEDUCT (DCG_NO, G_TYPE);
+select now();
+\echo "create index IX_DCGDEDUCTLOG_DCGNO on DCG_DEDUCT_LOG (DCG_NO);"
+create index IX_DCGDEDUCTLOG_DCGNO on DCG_DEDUCT_LOG (DCG_NO);
+select now();
+\echo "create index IX_DCGHEADENDD on DCG_HEAD (END_DATE);"
+create index IX_DCGHEADENDD on DCG_HEAD (END_DATE);
+select now();
+\echo "create index IX_DCGHEAD_EXCUMCODE on DCG_HEAD (EX_CUSTOMS_CODE);"
+create index IX_DCGHEAD_EXCUMCODE on DCG_HEAD (EX_CUSTOMS_CODE);
+select now();
+\echo "create index IX_DCGHEAD_EXEMSNO on DCG_HEAD (EX_EMS_NO);"
+create index IX_DCGHEAD_EXEMSNO on DCG_HEAD (EX_EMS_NO);
+select now();
+\echo "create index IX_DCGHEAD_IMCUMCODE on DCG_HEAD (IM_CUSTOMS_CODE);"
+create index IX_DCGHEAD_IMCUMCODE on DCG_HEAD (IM_CUSTOMS_CODE);
+select now();
+\echo "create index IX_DCGHEAD_EMSNO on DCG_LIST (EMS_NO, EMS_G_NO);"
+create index IX_DCGHEAD_EMSNO on DCG_LIST (EMS_NO, EMS_G_NO);
+select now();
+\echo "create index IX_DCGHEAD_EXGNO on DCG_LIST (DCG_NO, EX_G_NO);"
+create index IX_DCGHEAD_EXGNO on DCG_LIST (DCG_NO, EX_G_NO);
+select now();
+\echo "create index DECL_CTRL_IDX on DECLARER_REL (CUSTOMS_CODE, CTRL_MARK);"
+create index DECL_CTRL_IDX on DECLARER_REL (CUSTOMS_CODE, CTRL_MARK);
+select now();
+\echo "create index DECL_ID_CODE_IDX on DECLARER_REL (DECL_ID_CODE);"
+create index DECL_ID_CODE_IDX on DECLARER_REL (DECL_ID_CODE);
+select now();
+\echo "create index DECL_SCORE_IDX on DECLARER_REL (CUSTOMS_CODE, SCORE);"
+create index DECL_SCORE_IDX on DECLARER_REL (CUSTOMS_CODE, SCORE);
+select now();
+\echo "create index DECL_TRADE_IDX on DECLARER_REL (TRADE_CO);"
+create index DECL_TRADE_IDX on DECLARER_REL (TRADE_CO);
+select now();
+\echo "create index DECL_ZG_CODE_IDX on DECLARER_REL (CUSTOMS_CODE, DECL_ZG_CODE);"
+create index DECL_ZG_CODE_IDX on DECLARER_REL (CUSTOMS_CODE, DECL_ZG_CODE);
+select now();
+\echo "create index DECL_ID_CODE_INDEX on DECLAR_REL (DECL_ID_CODE);"
+create index DECL_ID_CODE_INDEX on DECLAR_REL (DECL_ID_CODE);
+select now();
+\echo "create index DECL_TRADE_INDEX on DECLAR_REL (TRADE_CO);"
+create index DECL_TRADE_INDEX on DECLAR_REL (TRADE_CO);
+select now();
+\echo "create index DECL_TYPE_INDEX on DECLAR_REL (CUSTOMS_CODE, DECL_TYPE);"
+create index DECL_TYPE_INDEX on DECLAR_REL (CUSTOMS_CODE, DECL_TYPE);
+select now();
+\echo "create index DECL_ZG_CODE_INDEX on DECLAR_REL (DECL_ZG_CODE);"
+create index DECL_ZG_CODE_INDEX on DECLAR_REL (DECL_ZG_CODE);
+select now();
+\echo "create index DECLOG_DECLCO_F_INDEX on DECLOG_FULL_REL (DECL_CO, CUSTOMS_CODE);"
+create index DECLOG_DECLCO_F_INDEX on DECLOG_FULL_REL (DECL_CO, CUSTOMS_CODE);
+select now();
+\echo "create index DECLOG_DECLCO_M_INDEX on DECLOG_MODIFY_REL (LOG_DECL_CO, LOG_DECL_CUST);"
+create index DECLOG_DECLCO_M_INDEX on DECLOG_MODIFY_REL (LOG_DECL_CO, LOG_DECL_CUST);
+select now();
+\echo "create index DCLMLOG_CUSTMOD_IDX on DECLOG_MOD_REL (CUSTOMS_CODE, LOG_MODE);"
+create index DCLMLOG_CUSTMOD_IDX on DECLOG_MOD_REL (CUSTOMS_CODE, LOG_MODE);
+select now();
+\echo "create index DCLSLOG_CUSTOMS_IDX on DECLOG_SCORE_HEAD (CUSTOMS_CODE);"
+create index DCLSLOG_CUSTOMS_IDX on DECLOG_SCORE_HEAD (CUSTOMS_CODE);
+select now();
+\echo "create index DCLSLOG_ERRTYPE_IDX on DECLOG_SCORE_LIST (ERROR_TYPE);"
+create index DCLSLOG_ERRTYPE_IDX on DECLOG_SCORE_LIST (ERROR_TYPE);
+select now();
+\echo "create index DCLSLOG_SEQNO_IDX on DECLOG_SCORE_LIST (SEQ_NO);"
+create index DCLSLOG_SEQNO_IDX on DECLOG_SCORE_LIST (SEQ_NO);
+select now();
+\echo "create index IX_DELMODAPPLY_APPLYTIME on DEL_MOD_APPLY (APPLY_TIME);"
+create index IX_DELMODAPPLY_APPLYTIME on DEL_MOD_APPLY (APPLY_TIME);
+select now();
+\echo "create index IX_DEDUCT_ENTRYID on DST_DEDUCT (ENTRY_ID);"
+create index IX_DEDUCT_ENTRYID on DST_DEDUCT (ENTRY_ID);
+select now();
+\echo "create index IX_DEDUCT_VERIFYDATE on DST_DEDUCT (VERIFY_DATE);"
+create index IX_DEDUCT_VERIFYDATE on DST_DEDUCT (VERIFY_DATE);
+select now();
+\echo "create index IX_EXG_CODETS on DST_EXG (CODE_TS);"
+create index IX_EXG_CODETS on DST_EXG (CODE_TS);
+select now();
+\echo "create index IX_EXG_RELNO on DST_EXG (REL_NO);"
+create index IX_EXG_RELNO on DST_EXG (REL_NO);
+select now();
+\echo "create index IX_EXG_SEQNO on DST_EXG (DST_SEQ_NO);"
+create index IX_EXG_SEQNO on DST_EXG (DST_SEQ_NO);
+select now();
+\echo "create index IX_EXGENTRY_RELNO on DST_EXG_ORI_ENTRY (REL_NO);"
+create index IX_EXGENTRY_RELNO on DST_EXG_ORI_ENTRY (REL_NO);
+select now();
+\echo "create index IX_EXGENTRY_SEQNO on DST_EXG_ORI_ENTRY (DST_SEQ_NO);"
+create index IX_EXGENTRY_SEQNO on DST_EXG_ORI_ENTRY (DST_SEQ_NO);
+select now();
+\echo "create index IX_DSTHEAD_CUSCODE on DST_HEAD (MASTER_CUSTOMS);"
+create index IX_DSTHEAD_CUSCODE on DST_HEAD (MASTER_CUSTOMS);
+select now();
+\echo "create index IX_DSTHEAD_EMSNO on DST_HEAD (EMS_NO);"
+create index IX_DSTHEAD_EMSNO on DST_HEAD (EMS_NO);
+select now();
+\echo "create index IX_DSTHEAD_OPTIME on DST_HEAD (OP_TIME);"
+create index IX_DSTHEAD_OPTIME on DST_HEAD (OP_TIME);
+select now();
+\echo "create index IX_IMG_CODETS on DST_IMG (CODE_TS);"
+create index IX_IMG_CODETS on DST_IMG (CODE_TS);
+select now();
+\echo "create index IX_IMG_RELNO on DST_IMG (REL_NO);"
+create index IX_IMG_RELNO on DST_IMG (REL_NO);
+select now();
+\echo "create index IX_IMG_SEQNO on DST_IMG (DST_SEQ_NO);"
+create index IX_IMG_SEQNO on DST_IMG (DST_SEQ_NO);
+select now();
+\echo "create index IX_IMGENTRY_RELNO on DST_IMG_ORI_ENTRY (REL_NO);"
+create index IX_IMGENTRY_RELNO on DST_IMG_ORI_ENTRY (REL_NO);
+select now();
+\echo "create index IX_IMGENTRY_SEQNO on DST_IMG_ORI_ENTRY (DST_SEQ_NO);"
+create index IX_IMGENTRY_SEQNO on DST_IMG_ORI_ENTRY (DST_SEQ_NO);
+select now();
+\echo "create index IX_DUTYFORMLIST_BOOK_NO on DUTYFORM_LIST (BOOK_NO);"
+create index IX_DUTYFORMLIST_BOOK_NO on DUTYFORM_LIST (BOOK_NO);
+select now();
+\echo "create index IX_DUTYFORMLIST_DUTYFORNO on DUTYFORM_LIST (DUTYFOR_NO);"
+create index IX_DUTYFORMLIST_DUTYFORNO on DUTYFORM_LIST (DUTYFOR_NO);
+select now();
+\echo "create index IX_DUTYFORMLIST_OPCDATE on DUTYFORM_LIST (OP_C_DATE);"
+create index IX_DUTYFORMLIST_OPCDATE on DUTYFORM_LIST (OP_C_DATE);
+select now();
+\echo "create index IX_DUTYFORMLIST_PDATE on DUTYFORM_LIST (P_DATE);"
+create index IX_DUTYFORMLIST_PDATE on DUTYFORM_LIST (P_DATE);
+select now();
+\echo "create index IX_DUTYCHECKLOG_EPORTID on DUTY_CHECK_LOG (EPORT_ID);"
+create index IX_DUTYCHECKLOG_EPORTID on DUTY_CHECK_LOG (EPORT_ID);
+select now();
+\echo "create index IX_DUTYCHECKLOG_GUAID on DUTY_CHECK_LOG (GUA_ID);"
+create index IX_DUTYCHECKLOG_GUAID on DUTY_CHECK_LOG (GUA_ID);
+select now();
+\echo "create index IX_ECO_HEAD_IN_DATE on ECO_HEAD (IN_DATE);"
+create index IX_ECO_HEAD_IN_DATE on ECO_HEAD (IN_DATE);
+select now();
+\echo "create index IX_EGSADMITHEAD_PREADMNO on EGS_ADMIT_HEAD (PRE_ADM_NO);"
+create index IX_EGSADMITHEAD_PREADMNO on EGS_ADMIT_HEAD (PRE_ADM_NO);
+select now();
+\echo "create index IX_EGSARCHEAD_INPUTDATE on EGS_ARC_HEAD (INPUT_DATE);"
+create index IX_EGSARCHEAD_INPUTDATE on EGS_ARC_HEAD (INPUT_DATE);
+select now();
+\echo "create index IX_EGSARCHEAD_MASTERCUSTOMS on EGS_ARC_HEAD (MASTER_CUSTOMS);"
+create index IX_EGSARCHEAD_MASTERCUSTOMS on EGS_ARC_HEAD (MASTER_CUSTOMS);
+select now();
+\echo "create index IX_EGSARCHEAD_PREEGSNO on EGS_ARC_HEAD (PRE_EGS_NO);"
+create index IX_EGSARCHEAD_PREEGSNO on EGS_ARC_HEAD (PRE_EGS_NO);
+select now();
+\echo "create index IX_EGSARCHEAD_REGCUSTOMS on EGS_ARC_HEAD (REG_CUSTOMS);"
+create index IX_EGSARCHEAD_REGCUSTOMS on EGS_ARC_HEAD (REG_CUSTOMS);
+select now();
+\echo "create index IX_EGSDECLAREHEAD_DECLAREDATE on EGS_DECLARE_HEAD (DECLARE_DATE);"
+create index IX_EGSDECLAREHEAD_DECLAREDATE on EGS_DECLARE_HEAD (DECLARE_DATE);
+select now();
+\echo "create index IX_EGSDECLAREHEAD_EGSNO on EGS_DECLARE_HEAD (EGS_NO);"
+create index IX_EGSDECLAREHEAD_EGSNO on EGS_DECLARE_HEAD (EGS_NO);
+select now();
+\echo "create index IX_EGSDECLAREHEAD_MASTERCUSTOM on EGS_DECLARE_HEAD (MASTER_CUSTOMS, EXE_MARK);"
+create index IX_EGSDECLAREHEAD_MASTERCUSTOM on EGS_DECLARE_HEAD (MASTER_CUSTOMS, EXE_MARK);
+select now();
+\echo "create index IX_EGSDECLAREHEAD_PREDECLNO on EGS_DECLARE_HEAD (PRE_DECL_NO);"
+create index IX_EGSDECLAREHEAD_PREDECLNO on EGS_DECLARE_HEAD (PRE_DECL_NO);
+select now();
+\echo "create index IX_EGSDECLARELIST_FIRSTDECL on EGS_DECLARE_LIST (FIRST_DECL_NO, FIRST_G_NO);"
+create index IX_EGSDECLARELIST_FIRSTDECL on EGS_DECLARE_LIST (FIRST_DECL_NO, FIRST_G_NO);
+select now();
+\echo "create index IX_EGSDEDUCT_CLR on EGS_DEDUCT (CLR_NO, CLR_G_NO);"
+create index IX_EGSDEDUCT_CLR on EGS_DEDUCT (CLR_NO, CLR_G_NO);
+select now();
+\echo "create index IX_EGSLENDHEAD_EGSNO on EGS_LEND_HEAD (EGS_NO);"
+create index IX_EGSLENDHEAD_EGSNO on EGS_LEND_HEAD (EGS_NO);
+select now();
+\echo "create index IX_EGSLENDHEAD_LENDDATE on EGS_LEND_HEAD (LEND_DATE);"
+create index IX_EGSLENDHEAD_LENDDATE on EGS_LEND_HEAD (LEND_DATE);
+select now();
+\echo "create index IX_EGSLENDHEAD_MASTERCUSTOMS on EGS_LEND_HEAD (MASTER_CUSTOMS, EXE_MARK);"
+create index IX_EGSLENDHEAD_MASTERCUSTOMS on EGS_LEND_HEAD (MASTER_CUSTOMS, EXE_MARK);
+select now();
+\echo "create index IX_EGSLENDHEAD_PRELENDNO on EGS_LEND_HEAD (PRE_LEND_NO);"
+create index IX_EGSLENDHEAD_PRELENDNO on EGS_LEND_HEAD (PRE_LEND_NO);
+select now();
+\echo "create index IDX_EMS_CONSUME_EMSNO on EMS_CONSUME (EMS_NO);"
+create index IDX_EMS_CONSUME_EMSNO on EMS_CONSUME (EMS_NO);
+select now();
+\echo "create index IX_EMSCONSUME_MODIFY_MARK on EMS_CONSUME (EMS_NO, MODIFY_MARK);"
+create index IX_EMSCONSUME_MODIFY_MARK on EMS_CONSUME (EMS_NO, MODIFY_MARK);
+select now();
+\echo "create index IX_EMSDEDUCT_EMSGNO on EMS_DEDUCT (EMS_G_NO);"
+create index IX_EMSDEDUCT_EMSGNO on EMS_DEDUCT (EMS_G_NO);
+select now();
+\echo "create index IX_EMSDEDUCT_EMSNO on EMS_DEDUCT (EMS_NO);"
+create index IX_EMSDEDUCT_EMSNO on EMS_DEDUCT (EMS_NO);
+select now();
+\echo "create index IX_EMSDEDUCTLOG_EMSGNO on EMS_DEDUCT_LOG (EMS_NO, NOTE);"
+create index IX_EMSDEDUCTLOG_EMSGNO on EMS_DEDUCT_LOG (EMS_NO, NOTE);
+select now();
+\echo "create index IX_EMSHEAD_COPNO on EMS_HEAD (COP_EMS_NO, TRADE_CODE);"
+create index IX_EMSHEAD_COPNO on EMS_HEAD (COP_EMS_NO, TRADE_CODE);
+select now();
+\echo "create index IX_EMSHEAD_CUSTOMSCODE on EMS_HEAD (MASTER_CUSTOMS);"
+create index IX_EMSHEAD_CUSTOMSCODE on EMS_HEAD (MASTER_CUSTOMS);
+select now();
+\echo "create index IX_EMSHEAD_ETL_MARK on EMS_HEAD (ETL_MARK);"
+create index IX_EMSHEAD_ETL_MARK on EMS_HEAD (ETL_MARK);
+select now();
+\echo "create index IX_EMSHEAD_LASTEMSNO on EMS_HEAD (LAST_EMS_NO);"
+create index IX_EMSHEAD_LASTEMSNO on EMS_HEAD (LAST_EMS_NO);
+select now();
+\echo "create index IX_EMSHEAD_PRENO on EMS_HEAD (PRE_EMS_NO);"
+create index IX_EMSHEAD_PRENO on EMS_HEAD (PRE_EMS_NO);
+select now();
+\echo "create index IX_EMSLIST_ETL_MARK on EMS_LIST (ETL_MARK);"
+create index IX_EMSLIST_ETL_MARK on EMS_LIST (ETL_MARK);
+select now();
+\echo "create index IX_ENTRY_EVALUATION_ASSID on ENTRY_EVALUATION (ASS_ID);"
+create index IX_ENTRY_EVALUATION_ASSID on ENTRY_EVALUATION (ASS_ID);
+select now();
+\echo "create index IX_ENTRYHEAD_CONTRNO on ENTRY_HEAD (CONTR_NO);"
+create index IX_ENTRYHEAD_CONTRNO on ENTRY_HEAD (CONTR_NO);
+select now();
+\echo "create index IX_ENTRYHEAD_DDATE on ENTRY_HEAD (D_DATE);"
+create index IX_ENTRYHEAD_DDATE on ENTRY_HEAD (D_DATE);
+select now();
+\echo "create index IX_ENTRYHEAD_DECLPORT on ENTRY_HEAD (DECL_PORT);"
+create index IX_ENTRYHEAD_DECLPORT on ENTRY_HEAD (DECL_PORT);
+select now();
+\echo "create index IX_ENTRYHEAD_IEPORT on ENTRY_HEAD (I_E_PORT);"
+create index IX_ENTRYHEAD_IEPORT on ENTRY_HEAD (I_E_PORT);
+select now();
+\echo "create index IX_ENTRYHEAD_MANUALNO on ENTRY_HEAD (MANUAL_NO);"
+create index IX_ENTRYHEAD_MANUALNO on ENTRY_HEAD (MANUAL_NO);
+select now();
+\echo "create index IX_ENTRYHEAD_RELATIVEID on ENTRY_HEAD (RELATIVE_ID);"
+create index IX_ENTRYHEAD_RELATIVEID on ENTRY_HEAD (RELATIVE_ID);
+select now();
+\echo "create index IX_ENTRYHEAD_TRADECO on ENTRY_HEAD (TRADE_CO);"
+create index IX_ENTRYHEAD_TRADECO on ENTRY_HEAD (TRADE_CO);
+select now();
+\echo "create index SYS.IX_ENTRY_MODI_LOG_OP_TIME on ENTRY_MODI_LOG (OP_TIME);"
+create index SYS.IX_ENTRY_MODI_LOG_OP_TIME on ENTRY_MODI_LOG (OP_TIME);
+select now();
+\echo "create index IX_ENTRYPROC_DDATE on ENTRY_PROC (D_DATE);"
+create index IX_ENTRYPROC_DDATE on ENTRY_PROC (D_DATE);
+select now();
+\echo "create index IX_ENTRYPROC_DECLPORT on ENTRY_PROC (DECL_PORT);"
+create index IX_ENTRYPROC_DECLPORT on ENTRY_PROC (DECL_PORT);
+select now();
+\echo "create index IX_ENTRYPROC_LASTSTEPTIME on ENTRY_PROC (LAST_STEP_TIME);"
+create index IX_ENTRYPROC_LASTSTEPTIME on ENTRY_PROC (LAST_STEP_TIME);
+select now();
+\echo "create index IX_ENTRYPROC_RTXTIME on ENTRY_PROC (RTX_TIME);"
+create index IX_ENTRYPROC_RTXTIME on ENTRY_PROC (RTX_TIME);
+select now();
+\echo "create index IX_ENTRY_WORKFLOW on ENTRY_WORKFLOW (CREATE_DATE, STEP_ID);"
+create index IX_ENTRY_WORKFLOW on ENTRY_WORKFLOW (CREATE_DATE, STEP_ID);
+select now();
+\echo "create index IX_EPA_CHK_CERT_NO on EPA_CHK (CERTIFICATE_NO, CERT_TYPE);"
+create index IX_EPA_CHK_CERT_NO on EPA_CHK (CERTIFICATE_NO, CERT_TYPE);
+select now();
+\echo "create index IDX_EXAM_CONTA_HEAD_ENTRY_ID on EXAM_CONTA_HEAD (ENTRY_ID);"
+create index IDX_EXAM_CONTA_HEAD_ENTRY_ID on EXAM_CONTA_HEAD (ENTRY_ID);
+select now();
+\echo "create index IX_DECL_DATE on EXC_ELE (DECL_DATE);"
+create index IX_DECL_DATE on EXC_ELE (DECL_DATE);
+select now();
+\echo "create index IX_EXC_ELE on EXC_ELE (PORT_CODE, RECV_DATE);"
+create index IX_EXC_ELE on EXC_ELE (PORT_CODE, RECV_DATE);
+select now();
+\echo "create index IX_EXC_TRADECO on EXC_ELE (TRADE_CO);"
+create index IX_EXC_TRADECO on EXC_ELE (TRADE_CO);
+select now();
+\echo "create index IX_EXC_EXAM on EXC_EXAM (ENTRY_ID);"
+create index IX_EXC_EXAM on EXC_EXAM (ENTRY_ID);
+select now();
+\echo "create index IX_EXC_EXAM_2 on EXC_EXAM (IMPLE_DATE);"
+create index IX_EXC_EXAM_2 on EXC_EXAM (IMPLE_DATE);
+select now();
+\echo "create index IDX_ARV_SHIP on EX_ARRIVAL_CONTA (REC_NO);"
+create index IDX_ARV_SHIP on EX_ARRIVAL_CONTA (REC_NO);
+select now();
+\echo "create index IDX_CONTA_RECV_DATE on EX_ARRIVAL_CONTA (RECV_DATE);"
+create index IDX_CONTA_RECV_DATE on EX_ARRIVAL_CONTA (RECV_DATE);
+select now();
+\echo "create index IDX_EX_ARRIVAL_CONTA_BILL_NO on EX_ARRIVAL_CONTA (BILL_NO)"
+create index IDX_EX_ARRIVAL_CONTA_BILL_NO on EX_ARRIVAL_CONTA (BILL_NO)
+select now();
+\echo "create index IDX_EX_ARRIVAL_CONTA_ENTRY_ID on EX_ARRIVAL_CONTA (ENTRY_ID)"
+create index IDX_EX_ARRIVAL_CONTA_ENTRY_ID on EX_ARRIVAL_CONTA (ENTRY_ID)
+select now();
+\echo "create index IDX_EX_ARRIVAL_SHIP_REC_NO on EX_ARRIVAL_SHIP (REC_NO)"
+create index IDX_EX_ARRIVAL_SHIP_REC_NO on EX_ARRIVAL_SHIP (REC_NO)
+select now();
+\echo "create index IX_EXCDLMNLDEDUCT_ENTRYID on EX_CDL_MNL_DEDUCT (ENTRY_ID);"
+create index IX_EXCDLMNLDEDUCT_ENTRYID on EX_CDL_MNL_DEDUCT (ENTRY_ID);
+select now();
+\echo "create index IDX_CONTA_ENTRY on EX_CONTA_ENTRY_CHK (ENTRY_ID);"
+create index IDX_CONTA_ENTRY on EX_CONTA_ENTRY_CHK (ENTRY_ID);
+select now();
+\echo "create index IX_EXCONTRACTDEDUC_ENTRYID on EX_CONTRACT_DEDUC (ENTRY_ID);"
+create index IX_EXCONTRACTDEDUC_ENTRYID on EX_CONTRACT_DEDUC (ENTRY_ID);
+select now();
+\echo "create index IX_EXCONTRACTDEDUC_MANUALNO on EX_CONTRACT_DEDUC (MANUAL_NO, CONTR_ITEM);"
+create index IX_EXCONTRACTDEDUC_MANUALNO on EX_CONTRACT_DEDUC (MANUAL_NO, CONTR_ITEM);
+select now();
+\echo "create index IDX_EX_DECL_ALARM_HEAD_RECV on EX_DECL_ALARM_HEAD (RECV_PORT, EXAM_TIME);"
+create index IDX_EX_DECL_ALARM_HEAD_RECV on EX_DECL_ALARM_HEAD (RECV_PORT, EXAM_TIME);
+select now();
+\echo "create index IDX_EX_DECL_ALARM_HEAD_SEND on EX_DECL_ALARM_HEAD (SEND_PORT, EXAM_TIME);"
+create index IDX_EX_DECL_ALARM_HEAD_SEND on EX_DECL_ALARM_HEAD (SEND_PORT, EXAM_TIME);
+select now();
+\echo "create index IDX_EX_DECL_ALARM_HEAD_TURN_NO on EX_DECL_ALARM_HEAD (TURN_NO);"
+create index IDX_EX_DECL_ALARM_HEAD_TURN_NO on EX_DECL_ALARM_HEAD (TURN_NO);
+select now();
+\echo "create index IDX_EX_DECL_ALARM_LIST_TURN_NO on EX_DECL_ALARM_LIST (TURN_NO);"
+create index IDX_EX_DECL_ALARM_LIST_TURN_NO on EX_DECL_ALARM_LIST (TURN_NO);
+select now();
+\echo "create index IDX_EX_DECL_CUR_HEAD_BAT_NO on EX_DECL_CUR_HEAD (BATCH_NO);"
+create index IDX_EX_DECL_CUR_HEAD_BAT_NO on EX_DECL_CUR_HEAD (BATCH_NO);
+select now();
+\echo "create index IDX_EX_DECL_CUR_HEAD_RECV on EX_DECL_CUR_HEAD (RECV_PORT, EXAM_TIME);"
+create index IDX_EX_DECL_CUR_HEAD_RECV on EX_DECL_CUR_HEAD (RECV_PORT, EXAM_TIME);
+select now();
+\echo "create index IDX_EX_DECL_CUR_HEAD_SEND on EX_DECL_CUR_HEAD (SEND_PORT, EXAM_TIME);"
+create index IDX_EX_DECL_CUR_HEAD_SEND on EX_DECL_CUR_HEAD (SEND_PORT, EXAM_TIME);
+select now();
+\echo "create index IDX_EX_DECL_CUR_HEAD_TURN_NO on EX_DECL_CUR_HEAD (TURN_NO);"
+create index IDX_EX_DECL_CUR_HEAD_TURN_NO on EX_DECL_CUR_HEAD (TURN_NO);
+select now();
+\echo "create index IDX_EX_DECL_CUR_LIST_TURN_NO on EX_DECL_CUR_LIST (TURN_NO);"
+create index IDX_EX_DECL_CUR_LIST_TURN_NO on EX_DECL_CUR_LIST (TURN_NO);
+select now();
+\echo "create index IDX_EX_DECL_HIS_HEAD_RECV on EX_DECL_HIS_HEAD (RECV_PORT, EXAM_TIME);"
+create index IDX_EX_DECL_HIS_HEAD_RECV on EX_DECL_HIS_HEAD (RECV_PORT, EXAM_TIME);
+select now();
+\echo "create index IDX_EX_DECL_HIS_HEAD_SEND on EX_DECL_HIS_HEAD (SEND_PORT, EXAM_TIME);"
+create index IDX_EX_DECL_HIS_HEAD_SEND on EX_DECL_HIS_HEAD (SEND_PORT, EXAM_TIME);
+select now();
+\echo "create index IDX_EX_DECL_HIS_HEAD_TURN_NO on EX_DECL_HIS_HEAD (TURN_NO);"
+create index IDX_EX_DECL_HIS_HEAD_TURN_NO on EX_DECL_HIS_HEAD (TURN_NO);
+select now();
+\echo "create index IDX_EX_DECL_HIS_LIST_TURN_NO on EX_DECL_HIS_LIST (TURN_NO);"
+create index IDX_EX_DECL_HIS_LIST_TURN_NO on EX_DECL_HIS_LIST (TURN_NO);
+select now();
+\echo "create index IDX_EX_EXAM_JOU_IMPLETE_DATE on EX_EXAM_JOU (IMPLETE_DATE);"
+create index IDX_EX_EXAM_JOU_IMPLETE_DATE on EX_EXAM_JOU (IMPLETE_DATE);
+select now();
+\echo "create index IDX_EX_EXAM_JOU_MOD_DEL_DATE on EX_EXAM_JOU (MOD_DEL_DATE);"
+create index IDX_EX_EXAM_JOU_MOD_DEL_DATE on EX_EXAM_JOU (MOD_DEL_DATE);
+select now();
+\echo "create index IX_EXEXAMJOU_LICENSENO on EX_EXAM_JOU (LICENSE_NO);"
+create index IX_EXEXAMJOU_LICENSENO on EX_EXAM_JOU (LICENSE_NO);
+select now();
+\echo "create index IX_EXFASCICLELIST_MANUALNO on EX_FASCICLE_LIST (MANUAL_NO);"
+create index IX_EXFASCICLELIST_MANUALNO on EX_FASCICLE_LIST (MANUAL_NO);
+select now();
+\echo "create index IDX_EX_ALARM_CONTA_REL_CONTA_N on EX_TRANS_ALARM_CONTA_REL (CONTA_NO);"
+create index IDX_EX_ALARM_CONTA_REL_CONTA_N on EX_TRANS_ALARM_CONTA_REL (CONTA_NO);
+select now();
+\echo "create index IDX_EX_ALARM_LIST_REL_ENTRY_NO on EX_TRANS_ALARM_LIST_REL (ENTRY_NO);"
+create index IDX_EX_ALARM_LIST_REL_ENTRY_NO on EX_TRANS_ALARM_LIST_REL (ENTRY_NO);
+select now();
+\echo "create index IDX_EX_CONTA_REL_CONTA_NO on EX_TRANS_CONTA_REL (CONTA_NO);"
+create index IDX_EX_CONTA_REL_CONTA_NO on EX_TRANS_CONTA_REL (CONTA_NO);
+select now();
+\echo "create index IDX_EX_CONTA_REL_TRANS_NAME on EX_TRANS_CONTA_REL (TRANS_NAME);"
+create index IDX_EX_CONTA_REL_TRANS_NAME on EX_TRANS_CONTA_REL (TRANS_NAME);
+select now();
+\echo "create index IDX_EX_HIS_CONTA_REL_CONTA_NO on EX_TRANS_HIS_CONTA_REL (CONTA_NO);"
+create index IDX_EX_HIS_CONTA_REL_CONTA_NO on EX_TRANS_HIS_CONTA_REL (CONTA_NO);
+select now();
+\echo "create index IDX_EX_HIS_LIST_REL_ENTRY_NO on EX_TRANS_HIS_LIST_REL (ENTRY_NO);"
+create index IDX_EX_HIS_LIST_REL_ENTRY_NO on EX_TRANS_HIS_LIST_REL (ENTRY_NO);
+select now();
+\echo "create index IDX_EX_LIST_REL_ENTRY_NO on EX_TRANS_LIST_REL (ENTRY_NO);"
+create index IDX_EX_LIST_REL_ENTRY_NO on EX_TRANS_LIST_REL (ENTRY_NO);
+select now();
+\echo "create index IX_EX_TRN_ARV_CONTA_CREATE_DAT on EX_TRN_ARRIVAL_CONTA (CREATE_DATE);"
+create index IX_EX_TRN_ARV_CONTA_CREATE_DAT on EX_TRN_ARRIVAL_CONTA (CREATE_DATE);
+select now();
+\echo "create index IX_EX_TRN_ARV_CONTA_ENTRY_ID on EX_TRN_ARRIVAL_CONTA (ENTRY_ID);"
+create index IX_EX_TRN_ARV_CONTA_ENTRY_ID on EX_TRN_ARRIVAL_CONTA (ENTRY_ID);
+select now();
+\echo "create index IX_EX_TRN_CONTA_ENTRY_ARV_M on EX_TRN_CONTA_ENTRY_ARV (TRAF_NAME, VOYAGE_NO, BILL_NO, TRAF_MODE, CUSTOMS_CODE, CONTA_ID);"
+create index IX_EX_TRN_CONTA_ENTRY_ARV_M on EX_TRN_CONTA_ENTRY_ARV (TRAF_NAME, VOYAGE_NO, BILL_NO, TRAF_MODE, CUSTOMS_CODE, CONTA_ID);
+select now();
+\echo "create index IX_EX_TRN_CONTA_ENTRY_ARV_N on EX_TRN_CONTA_ENTRY_ARV (BILL_NO, TRAF_MODE, CUSTOMS_CODE, CONTA_ID);"
+create index IX_EX_TRN_CONTA_ENTRY_ARV_N on EX_TRN_CONTA_ENTRY_ARV (BILL_NO, TRAF_MODE, CUSTOMS_CODE, CONTA_ID);
+select now();
+\echo "create index IX_EX_TRN_CONTA_ENTRY_ARV_S on EX_TRN_CONTA_ENTRY_ARV (TRAF_NAME, TRAF_MODE, CUSTOMS_CODE, CONTA_ID);"
+create index IX_EX_TRN_CONTA_ENTRY_ARV_S on EX_TRN_CONTA_ENTRY_ARV (TRAF_NAME, TRAF_MODE, CUSTOMS_CODE, CONTA_ID);
+select now();
+\echo "create index IX_FASCICLEHEAD_MANUALNO on FASCICLE_HEAD (MANUAL_NO);"
+create index IX_FASCICLEHEAD_MANUALNO on FASCICLE_HEAD (MANUAL_NO);
+select now();
+\echo "create index IX_FCB_CHK_FORM_ID on FCB_CHK (ENTRY_ID);"
+create index IX_FCB_CHK_FORM_ID on FCB_CHK (ENTRY_ID);
+select now();
+\echo "create index IX_FCB_ARRIVE on FCB_HEAD (ARRIVE_TIME);"
+create index IX_FCB_ARRIVE on FCB_HEAD (ARRIVE_TIME);
+select now();
+\echo "create index IX_FCB_FCBREAL_I_E on FCB_HEAD (REAL_I_E_TIME);"
+create index IX_FCB_FCBREAL_I_E on FCB_HEAD (REAL_I_E_TIME);
+select now();
+\echo "create index IX_FCB_INPUT on FCB_HEAD (INPUT_TIME);"
+create index IX_FCB_INPUT on FCB_HEAD (INPUT_TIME);
+select now();
+\echo "create index IX_FCB_LEAVE on FCB_HEAD (LEAVE_TIME);"
+create index IX_FCB_LEAVE on FCB_HEAD (LEAVE_TIME);
+select now();
+\echo "create index IX_FCB_MAIN_CUS on FCB_HEAD (MAIN_CUS);"
+create index IX_FCB_MAIN_CUS on FCB_HEAD (MAIN_CUS);
+select now();
+\echo "create index IX_FCB_PORT_CUS on FCB_HEAD (PORT_CUS);"
+create index IX_FCB_PORT_CUS on FCB_HEAD (PORT_CUS);
+select now();
+\echo "create index IX_FCB_PRE_NO on FCB_HEAD (PRE_NO);"
+create index IX_FCB_PRE_NO on FCB_HEAD (PRE_NO);
+select now();
+\echo "create index IX_FCB_REL on FCB_HEAD (REL_TIME);"
+create index IX_FCB_REL on FCB_HEAD (REL_TIME);
+select now();
+\echo "create index IX_FCB_SUR on FCB_HEAD (SUR_TIME);"
+create index IX_FCB_SUR on FCB_HEAD (SUR_TIME);
+select now();
+\echo "create index IX_FCBWORKFLOW_CREATEDATE on FCB_WORKFLOW (CREATE_DATE, STEP_ID);"
+create index IX_FCBWORKFLOW_CREATEDATE on FCB_WORKFLOW (CREATE_DATE, STEP_ID);
+select now();
+\echo "create index IX_FORM_CHK_BILLNO on FORM_CHK (BILL_NO);"
+create index IX_FORM_CHK_BILLNO on FORM_CHK (BILL_NO);
+select now();
+\echo "create index IX_FORM_CHK_GEN_DATE on FORM_CHK (GEN_DATE, I_E_FLAG, I_E_PORT);"
+create index IX_FORM_CHK_GEN_DATE on FORM_CHK (GEN_DATE, I_E_FLAG, I_E_PORT);
+select now();
+\echo "create index IX_FORM_CHK_SHIPID on FORM_CHK (SHIP_ID, VOYAGE_NO);"
+create index IX_FORM_CHK_SHIPID on FORM_CHK (SHIP_ID, VOYAGE_NO);
+select now();
+\echo "create index IX_FORM_CHK_TRANSNO on FORM_CHK (TRANS_NO);"
+create index IX_FORM_CHK_TRANSNO on FORM_CHK (TRANS_NO);
+select now();
+\echo "create index IX_GUARANTEER_DECLPORT on GUARANTEE_R (DECL_PORT);"
+create index IX_GUARANTEER_DECLPORT on GUARANTEE_R (DECL_PORT);
+select now();
+\echo "create index IX_GUARANTEER_ENTRYID on GUARANTEE_R (ENTRY_ID);"
+create index IX_GUARANTEER_ENTRYID on GUARANTEE_R (ENTRY_ID);
+select now();
+\echo "create index IX_GUARANTEER_REGRDATE on GUARANTEE_R (REGR_DATE);"
+create index IX_GUARANTEER_REGRDATE on GUARANTEE_R (REGR_DATE);
+select now();
+\echo "create index IX_GUARANTEER_TRADECO on GUARANTEE_R (TRADE_CO);"
+create index IX_GUARANTEER_TRADECO on GUARANTEE_R (TRADE_CO);
+select now();
+\echo "create index IX_IMCDLMNLDEDUCT_ENTRYID on IM_CDL_MNL_DEDUCT (ENTRY_ID);"
+create index IX_IMCDLMNLDEDUCT_ENTRYID on IM_CDL_MNL_DEDUCT (ENTRY_ID);
+select now();
+\echo "create index IX_IMCONTRACTDEDUC_ENTRYID on IM_CONTRACT_DEDUC (ENTRY_ID);"
+create index IX_IMCONTRACTDEDUC_ENTRYID on IM_CONTRACT_DEDUC (ENTRY_ID);
+select now();
+\echo "create index IX_IMCONTRACTDEDUC_MANUALNO on IM_CONTRACT_DEDUC (MANUAL_NO, CONTR_ITEM);"
+create index IX_IMCONTRACTDEDUC_MANUALNO on IM_CONTRACT_DEDUC (MANUAL_NO, CONTR_ITEM);
+select now();
+\echo "create index IDX_IM_DECL_ALARM_HEAD_RECV on IM_DECL_ALARM_HEAD (RECV_PORT, EXAM_TIME);"
+create index IDX_IM_DECL_ALARM_HEAD_RECV on IM_DECL_ALARM_HEAD (RECV_PORT, EXAM_TIME);
+select now();
+\echo "create index IDX_IM_DECL_ALARM_HEAD_SEND on IM_DECL_ALARM_HEAD (SEND_PORT, EXAM_TIME);"
+create index IDX_IM_DECL_ALARM_HEAD_SEND on IM_DECL_ALARM_HEAD (SEND_PORT, EXAM_TIME);
+select now();
+\echo "create index IDX_IM_DECL_ALARM_HEAD_TURN_NO on IM_DECL_ALARM_HEAD (TURN_NO);"
+create index IDX_IM_DECL_ALARM_HEAD_TURN_NO on IM_DECL_ALARM_HEAD (TURN_NO);
+select now();
+\echo "create index IDX_IM_DECL_ALARM_LIST_TURN_NO on IM_DECL_ALARM_LIST (TURN_NO);"
+create index IDX_IM_DECL_ALARM_LIST_TURN_NO on IM_DECL_ALARM_LIST (TURN_NO);
+select now();
+\echo "create index IDX_IM_DECL_CUR_HEAD_CONT_NO on IM_DECL_CUR_HEAD (CONTACT_NO);"
+create index IDX_IM_DECL_CUR_HEAD_CONT_NO on IM_DECL_CUR_HEAD (CONTACT_NO);
+select now();
+\echo "create index IDX_IM_DECL_CUR_HEAD_RECV on IM_DECL_CUR_HEAD (RECV_PORT, EXAM_TIME);"
+create index IDX_IM_DECL_CUR_HEAD_RECV on IM_DECL_CUR_HEAD (RECV_PORT, EXAM_TIME);
+select now();
+\echo "create index IDX_IM_DECL_CUR_HEAD_SEND on IM_DECL_CUR_HEAD (SEND_PORT, EXAM_TIME);"
+create index IDX_IM_DECL_CUR_HEAD_SEND on IM_DECL_CUR_HEAD (SEND_PORT, EXAM_TIME);
+select now();
+\echo "create index IDX_IM_DECL_CUR_HEAD_TURN_NO on IM_DECL_CUR_HEAD (TURN_NO);"
+create index IDX_IM_DECL_CUR_HEAD_TURN_NO on IM_DECL_CUR_HEAD (TURN_NO);
+select now();
+\echo "create index IDX_IM_DECL_CUR_LIST_TURN_NO on IM_DECL_CUR_LIST (TURN_NO);"
+create index IDX_IM_DECL_CUR_LIST_TURN_NO on IM_DECL_CUR_LIST (TURN_NO);
+select now();
+\echo "create index IDX_IM_DECL_HIS_HEAD_RECV on IM_DECL_HIS_HEAD (RECV_PORT, EXAM_TIME);"
+create index IDX_IM_DECL_HIS_HEAD_RECV on IM_DECL_HIS_HEAD (RECV_PORT, EXAM_TIME);
+select now();
+\echo "create index IDX_IM_DECL_HIS_HEAD_SEND on IM_DECL_HIS_HEAD (SEND_PORT, EXAM_TIME);"
+create index IDX_IM_DECL_HIS_HEAD_SEND on IM_DECL_HIS_HEAD (SEND_PORT, EXAM_TIME);
+select now();
+\echo "create index IDX_IM_DECL_HIS_HEAD_TURN_NO on IM_DECL_HIS_HEAD (TURN_NO);"
+create index IDX_IM_DECL_HIS_HEAD_TURN_NO on IM_DECL_HIS_HEAD (TURN_NO);
+select now();
+\echo "create index IDX_IM_DECL_HIS_LIST_TURN_NO on IM_DECL_HIS_LIST (TURN_NO);"
+create index IDX_IM_DECL_HIS_LIST_TURN_NO on IM_DECL_HIS_LIST (TURN_NO);
+select now();
+\echo "create index IDX_IM_EXAM_JOU_IMPLETE_DATE on IM_EXAM_JOU (IMPLETE_DATE);"
+create index IDX_IM_EXAM_JOU_IMPLETE_DATE on IM_EXAM_JOU (IMPLETE_DATE);
+select now();
+\echo "create index IDX_IM_EXAM_JOU_MOD_DEL_DATE on IM_EXAM_JOU (MOD_DEL_DATE);"
+create index IDX_IM_EXAM_JOU_MOD_DEL_DATE on IM_EXAM_JOU (MOD_DEL_DATE);
+select now();
+\echo "create index IX_IMEXAMJOU_LICENSENO on IM_EXAM_JOU (LICENSE_NO);"
+create index IX_IMEXAMJOU_LICENSENO on IM_EXAM_JOU (LICENSE_NO);
+select now();
+\echo "create index IX_IMFASCICLELIST_MANUALNO on IM_FASCICLE_LIST (MANUAL_NO);"
+create index IX_IMFASCICLELIST_MANUALNO on IM_FASCICLE_LIST (MANUAL_NO);
+select now();
+\echo "create index IDX_IM_ALARM_CONTA_REL_CONTA_N on IM_TRANS_ALARM_CONTA_REL (CONTA_NO);"
+create index IDX_IM_ALARM_CONTA_REL_CONTA_N on IM_TRANS_ALARM_CONTA_REL (CONTA_NO);
+select now();
+\echo "create index IDX_IM_ALARM_LIST_REL_ENTRY_NO on IM_TRANS_ALARM_LIST_REL (ENTRY_NO);"
+create index IDX_IM_ALARM_LIST_REL_ENTRY_NO on IM_TRANS_ALARM_LIST_REL (ENTRY_NO);
+select now();
+\echo "create index IDX_IM_CONTA_REL_CONTA_NO on IM_TRANS_CONTA_REL (CONTA_NO);"
+create index IDX_IM_CONTA_REL_CONTA_NO on IM_TRANS_CONTA_REL (CONTA_NO);
+select now();
+\echo "create index IDX_IM_CONTA_REL_TRANS_NAME on IM_TRANS_CONTA_REL (TRANS_NAME);"
+create index IDX_IM_CONTA_REL_TRANS_NAME on IM_TRANS_CONTA_REL (TRANS_NAME);
+select now();
+\echo "create index IDX_IM_HIS_CONTA_REL_CONTA_NO on IM_TRANS_HIS_CONTA_REL (CONTA_NO);"
+create index IDX_IM_HIS_CONTA_REL_CONTA_NO on IM_TRANS_HIS_CONTA_REL (CONTA_NO);
+select now();
+\echo "create index IDX_IM_HIS_LIST_REL_ENTRY_NO on IM_TRANS_HIS_LIST_REL (ENTRY_NO);"
+create index IDX_IM_HIS_LIST_REL_ENTRY_NO on IM_TRANS_HIS_LIST_REL (ENTRY_NO);
+select now();
+\echo "create index IDX_IM_LIST_REL_ENTRY_NO on IM_TRANS_LIST_REL (ENTRY_NO);"
+create index IDX_IM_LIST_REL_ENTRY_NO on IM_TRANS_LIST_REL (ENTRY_NO);
+select now();
+\echo "create index IX_LSP_CHK_ENTRY_ID on LSP_CHK (ENTRY_ID);"
+create index IX_LSP_CHK_ENTRY_ID on LSP_CHK (ENTRY_ID);
+select now();
+\echo "create index IDX_LSPHEAD_ENTRYID on LSP_HEAD (ENTRY_ID);"
+create index IDX_LSPHEAD_ENTRYID on LSP_HEAD (ENTRY_ID);
+select now();
+\echo "create index IX_MANIFEST_CHK_FORM_ID on MANIFEST_CHK (FORM_ID);"
+create index IX_MANIFEST_CHK_FORM_ID on MANIFEST_CHK (FORM_ID);
+select now();
+\echo "create index IX_MANIFEST_EXCH_LOG_BILL_NO on MANIFEST_EXCH_LOG (BILL_NO);"
+create index IX_MANIFEST_EXCH_LOG_BILL_NO on MANIFEST_EXCH_LOG (BILL_NO);
+select now();
+\echo "create index IX_MANIFEST_HEAD_NAME on MANIFEST_HEAD (I_E_FLAG, CUSTOMS_CODE, TRAF_MODE, VOYAGE_NO, SHIP_NAME_EN);"
+create index IX_MANIFEST_HEAD_NAME on MANIFEST_HEAD (I_E_FLAG, CUSTOMS_CODE, TRAF_MODE, VOYAGE_NO, SHIP_NAME_EN);
+select now();
+\echo "create index IX_MANIFESTLIST_TRANSNO on MANIFEST_LIST (TRANS_NO);"
+create index IX_MANIFESTLIST_TRANSNO on MANIFEST_LIST (TRANS_NO);
+select now();
+\echo "create index IX_MANIFEST_LIST_BILLORI on MANIFEST_LIST (BILL_NO_ORI, VOYAGE_NO, CUSTOMS_CODE);"
+create index IX_MANIFEST_LIST_BILLORI on MANIFEST_LIST (BILL_NO_ORI, VOYAGE_NO, CUSTOMS_CODE);
+select now();
+\echo "create index IX_MANIFEST_LIST_I_E_DATE on MANIFEST_LIST (I_E_DATE, CUSTOMS_CODE, TRAF_MODE, I_E_FLAG);"
+create index IX_MANIFEST_LIST_I_E_DATE on MANIFEST_LIST (I_E_DATE, CUSTOMS_CODE, TRAF_MODE, I_E_FLAG);
+select now();
+\echo "create index IX_MANIFEST_LIST_VOYAGE_NO on MANIFEST_LIST (VOYAGE_NO, SHIP_ID, CUSTOMS_CODE, I_E_DATE);"
+create index IX_MANIFEST_LIST_VOYAGE_NO on MANIFEST_LIST (VOYAGE_NO, SHIP_ID, CUSTOMS_CODE, I_E_DATE);
+select now();
+\echo "create index IDX_MANIFEST_LIST_RSKINFO_LOG_ on MANIFEST_LIST_RSKINFO_LOG (RSK_DATE, CUSTOMS_CODE);"
+create index IDX_MANIFEST_LIST_RSKINFO_LOG_ on MANIFEST_LIST_RSKINFO_LOG (RSK_DATE, CUSTOMS_CODE);
+select now();
+\echo "create index IX_EXFASCICLELIST_MANUALNO1 on MNLBAK_EX_FASCICLE_LIST (MANUAL_NO);"
+create index IX_EXFASCICLELIST_MANUALNO1 on MNLBAK_EX_FASCICLE_LIST (MANUAL_NO);
+select now();
+\echo "create index IX_FASCICLEHEAD_MANUALNO1 on MNLBAK_FASCICLE_HEAD (MANUAL_NO);"
+create index IX_FASCICLEHEAD_MANUALNO1 on MNLBAK_FASCICLE_HEAD (MANUAL_NO);
+select now();
+\echo "create index IX_IMFASCICLELIST_MANUALNO1 on MNLBAK_IM_FASCICLE_LIST (MANUAL_NO);"
+create index IX_IMFASCICLELIST_MANUALNO1 on MNLBAK_IM_FASCICLE_LIST (MANUAL_NO);
+select now();
+\echo "create index IDX_CTS_TRADE_COMPANY on NORSK_COMPANY (TRADE_CO, CUSTOMS_CODE);"
+create index IDX_CTS_TRADE_COMPANY on NORSK_COMPANY (TRADE_CO, CUSTOMS_CODE);
+select now();
+\echo "create index IDX_CTS_TRADE_COMPANY_BAK on NORSK_COMPANY_BAK (TRADE_CO, CUSTOMS_CODE);"
+create index IDX_CTS_TRADE_COMPANY_BAK on NORSK_COMPANY_BAK (TRADE_CO, CUSTOMS_CODE);
+select now();
+\echo "create index IDX_CTS_CUSTOMS_CODE on NORSK_CONDITION (CUSTOMS_CODE);"
+create index IDX_CTS_CUSTOMS_CODE on NORSK_CONDITION (CUSTOMS_CODE);
+select now();
+\echo "create index IDX_CTS_CUSTOMS_CODE_BAK on NORSK_CONDITION_BAK (CUSTOMS_CODE);"
+create index IDX_CTS_CUSTOMS_CODE_BAK on NORSK_CONDITION_BAK (CUSTOMS_CODE);
+select now();
+\echo "create index IDX_CTS_TRADE_CUSTOMS on NORSK_TRADE_MODE (TRADE_MODE, CUSTOMS_CODE);"
+create index IDX_CTS_TRADE_CUSTOMS on NORSK_TRADE_MODE (TRADE_MODE, CUSTOMS_CODE);
+select now();
+\echo "create index IDX_CTS_TRADE_CUSTOMS_BAK on NORSK_TRADE_MODE_BAK (TRADE_MODE, CUSTOMS_CODE);"
+create index IDX_CTS_TRADE_CUSTOMS_BAK on NORSK_TRADE_MODE_BAK (TRADE_MODE, CUSTOMS_CODE);
+select now();
+\echo "create index IX_ENTRYID_GNO on OCC_EXAM (ENTRY_ID, G_NO);"
+create index IX_ENTRYID_GNO on OCC_EXAM (ENTRY_ID, G_NO);
+select now();
+\echo "create index IDX_STF_OTHER_MANUAL_NO on OTHER_STF_RECORD (MANUAL_NO);"
+create index IDX_STF_OTHER_MANUAL_NO on OTHER_STF_RECORD (MANUAL_NO);
+select now();
+\echo "create index IDX_STF_OTHER_STF_ID on OTHER_STF_RECORD (STF_ID);"
+create index IDX_STF_OTHER_STF_ID on OTHER_STF_RECORD (STF_ID);
+select now();
+\echo "create index IDX_PAPERLESS_SELF_RELTIME on PAPERLESS_SELFSAVE_CERT (REL_TIME, DECL_PORT, I_E_FLAG);"
+create index IDX_PAPERLESS_SELF_RELTIME on PAPERLESS_SELFSAVE_CERT (REL_TIME, DECL_PORT, I_E_FLAG);
+select now();
+\echo "create index IX_PAYOUT_ENTRY_ID on PAYOUT_REMIT_LIST (ENTRY_ID);"
+create index IX_PAYOUT_ENTRY_ID on PAYOUT_REMIT_LIST (ENTRY_ID);
+select now();
+\echo "create index IX_PESCANCEL_NOTENO on PES_CANCEL (NOTE_NO);"
+create index IX_PESCANCEL_NOTENO on PES_CANCEL (NOTE_NO);
+select now();
+\echo "create index IDX_TRN_BIND_PRE_NO on PORT_BIND_REL (PRE_NO);"
+create index IDX_TRN_BIND_PRE_NO on PORT_BIND_REL (PRE_NO);
+select now();
+\echo "create index IX_PRECDLCOMMODITY_RECORDSDATE on PRE_CDL_COMMODITY (RECORDS_DATE, PROC_FLAG);"
+create index IX_PRECDLCOMMODITY_RECORDSDATE on PRE_CDL_COMMODITY (RECORDS_DATE, PROC_FLAG);
+select now();
+\echo "create index IX_PRECDLCOMMODITY_TRADECO on PRE_CDL_COMMODITY (TRADE_CO, CUSTOMS_CODE);"
+create index IX_PRECDLCOMMODITY_TRADECO on PRE_CDL_COMMODITY (TRADE_CO, CUSTOMS_CODE);
+select now();
+\echo "create index IX_RECORDS_NO on PRE_CDL_COMMODITY (RECORDS_NO);"
+create index IX_RECORDS_NO on PRE_CDL_COMMODITY (RECORDS_NO);
+select now();
+\echo "create index IX_CDLCOMPANYLOG_RECORDSDATE on PRE_CDL_COMPANY (RECORDS_DATE, PROC_FLAG);"
+create index IX_CDLCOMPANYLOG_RECORDSDATE on PRE_CDL_COMPANY (RECORDS_DATE, PROC_FLAG);
+select now();
+\echo "create index DECL_ID_CODE_P_INDEX on PRE_DECL_REL (DECL_ID_CODE);"
+create index DECL_ID_CODE_P_INDEX on PRE_DECL_REL (DECL_ID_CODE);
+select now();
+\echo "create index DECL_TRADE_P_INDEX on PRE_DECL_REL (TRADE_CO);"
+create index DECL_TRADE_P_INDEX on PRE_DECL_REL (TRADE_CO);
+select now();
+\echo "create index IDX_PRICE_LIBRARY on PRICE_LIBRARY (CREATE_DATE);"
+create index IDX_PRICE_LIBRARY on PRICE_LIBRARY (CREATE_DATE);
+select now();
+\echo "create index IX_PRICELIBRARY_CODETS on PRICE_LIBRARY (CODE_TS);"
+create index IX_PRICELIBRARY_CODETS on PRICE_LIBRARY (CODE_TS);
+select now();
+\echo "create index IX_PRICE_LIBRARY on PRICE_LIBRARY (I_E_FLAG, REC_TYPE, CREATE_DATE, CODE_TS);"
+create index IX_PRICE_LIBRARY on PRICE_LIBRARY (I_E_FLAG, REC_TYPE, CREATE_DATE, CODE_TS);
+select now();
+\echo "create index IDX_PRICELIBRARYENTRY_CDATE on PRICE_LIBRARY_ENTRY (CREATE_DATE);"
+create index IDX_PRICELIBRARYENTRY_CDATE on PRICE_LIBRARY_ENTRY (CREATE_DATE);
+select now();
+\echo "create index IX_PRICELIBRARYENTRY_CODETS on PRICE_LIBRARY_ENTRY (CODE_TS);"
+create index IX_PRICELIBRARYENTRY_CODETS on PRICE_LIBRARY_ENTRY (CODE_TS);
+select now();
+\echo "create index IDX_PRICELIBRARYMAN_CDATE on PRICE_LIBRARY_MAN (CREATE_DATE);"
+create index IDX_PRICELIBRARYMAN_CDATE on PRICE_LIBRARY_MAN (CREATE_DATE);
+select now();
+\echo "create index IX_PRICELIBRARYMAN_CODETS on PRICE_LIBRARY_MAN (CODE_TS);"
+create index IX_PRICELIBRARYMAN_CODETS on PRICE_LIBRARY_MAN (CODE_TS);
+select now();
+\echo "create index IDX_PRICELIBRARYRISK_CDATE on PRICE_LIBRARY_RISK (CREATE_DATE);"
+create index IDX_PRICELIBRARYRISK_CDATE on PRICE_LIBRARY_RISK (CREATE_DATE);
+select now();
+\echo "create index IX_PRICELIBRARYRISK_CODETS on PRICE_LIBRARY_RISK (CODE_TS);"
+create index IX_PRICELIBRARYRISK_CODETS on PRICE_LIBRARY_RISK (CODE_TS);
+select now();
+\echo "create index IX_PROJECTHEAD_CUSTEXE on PROJECT_HEAD (MASTER_CUSTOMS, EXE_MARK);"
+create index IX_PROJECTHEAD_CUSTEXE on PROJECT_HEAD (MASTER_CUSTOMS, EXE_MARK);
+select now();
+\echo "create index IX_PROJECTHEAD_PREPROJECTID on PROJECT_HEAD (PRE_PROJECT_ID);"
+create index IX_PROJECTHEAD_PREPROJECTID on PROJECT_HEAD (PRE_PROJECT_ID);
+select now();
+\echo "create index IX_RAMHEAD_CODENAME on RAM_HEAD (OWNER_CODE, OWNER_NAME);"
+create index IX_RAMHEAD_CODENAME on RAM_HEAD (OWNER_CODE, OWNER_NAME);
+select now();
+\echo "create index IX_RAMHEAD_CUSTEXE on RAM_HEAD (MASTER_CUSTOMS, RAM_TYPE, EXE_MARK);"
+create index IX_RAMHEAD_CUSTEXE on RAM_HEAD (MASTER_CUSTOMS, RAM_TYPE, EXE_MARK);
+select now();
+\echo "create index IX_RAMHEAD_PRERAMID on RAM_HEAD (PRE_RAM_ID);"
+create index IX_RAMHEAD_PRERAMID on RAM_HEAD (PRE_RAM_ID);
+select now();
+\echo "create index IX_RAMLIST_CUTID on RAM_LIST (CUT_ID);"
+create index IX_RAMLIST_CUTID on RAM_LIST (CUT_ID);
+select now();
+\echo "create index IX_RGCOPINFO_COP on RAM_RG_COPINFO (COP_CODE, COP_NAME);"
+create index IX_RGCOPINFO_COP on RAM_RG_COPINFO (COP_CODE, COP_NAME);
+select now();
+\echo "create index IX_RGHEAD_CUSTEXE on RAM_RG_HEAD (MASTER_CUSTOMS, EXE_MARK);"
+create index IX_RGHEAD_CUSTEXE on RAM_RG_HEAD (MASTER_CUSTOMS, EXE_MARK);
+select now();
+\echo "create index IX_RGHEAD_PRERAMID on RAM_RG_HEAD (PRE_RAM_ID);"
+create index IX_RGHEAD_PRERAMID on RAM_RG_HEAD (PRE_RAM_ID);
+select now();
+\echo "create index IX_RNHEAD_CODENAME on RAM_RN_INFO (COP_CODE, COP_NAME);"
+create index IX_RNHEAD_CODENAME on RAM_RN_INFO (COP_CODE, COP_NAME);
+select now();
+\echo "create index IX_RNHEAD_CUSTEXE on RAM_RN_INFO (MASTER_CUSTOMS, EXE_MARK);"
+create index IX_RNHEAD_CUSTEXE on RAM_RN_INFO (MASTER_CUSTOMS, EXE_MARK);
+select now();
+\echo "create index IX_RNHEAD_PRERAMID on RAM_RN_INFO (PRE_RAM_ID);"
+create index IX_RNHEAD_PRERAMID on RAM_RN_INFO (PRE_RAM_ID);
+select now();
+\echo "create index IX_RYCOMMUNICATION_RECCUSTOMS on RAM_RY_COMMUNICATION (REC_CUSTOMS_CODE);"
+create index IX_RYCOMMUNICATION_RECCUSTOMS on RAM_RY_COMMUNICATION (REC_CUSTOMS_CODE);
+select now();
+\echo "create index IX_RAMSTATUS_OWNER on RAM_STATUS (OWNER_CODE, OWNER_NAME);"
+create index IX_RAMSTATUS_OWNER on RAM_STATUS (OWNER_CODE, OWNER_NAME);
+select now();
+\echo "create index IX_REDENTRYHEAD_MANUALNO on RED_ENTRY_HEAD (MANUAL_NO);"
+create index IX_REDENTRYHEAD_MANUALNO on RED_ENTRY_HEAD (MANUAL_NO);
+select now();
+\echo "create index IX_REDHEAD_CUSTEXE on RED_HEAD (MASTER_CUSTOMS, EXE_MARK);"
+create index IX_REDHEAD_CUSTEXE on RED_HEAD (MASTER_CUSTOMS, EXE_MARK);
+select now();
+\echo "create index IX_REDHEAD_PRECUTID on RED_HEAD (PRE_CUT_ID);"
+create index IX_REDHEAD_PRECUTID on RED_HEAD (PRE_CUT_ID);
+select now();
+\echo "create index IX_REDHEAD_PROJECTID on RED_HEAD (PROJECT_ID);"
+create index IX_REDHEAD_PROJECTID on RED_HEAD (PROJECT_ID);
+select now();
+\echo "create index IX_REL_ALC_WORK_STEP_ID on REL_ALC_WORK (STEP_ID, CUSTOMS_CODE, VOYAGE_NO, TRAF_NAME);"
+create index IX_REL_ALC_WORK_STEP_ID on REL_ALC_WORK (STEP_ID, CUSTOMS_CODE, VOYAGE_NO, TRAF_NAME);
+select now();
+\echo "create index IDX_ENTRY_ID_FEEDBACK_LIST on RSK_CASE_FEEDBACK_LIST (ENTRY_ID, CASE_ID);"
+create index IDX_ENTRY_ID_FEEDBACK_LIST on RSK_CASE_FEEDBACK_LIST (ENTRY_ID, CASE_ID);
+select now();
+\echo "create index IDX_ENTRY_ID_LIST_CERT on RSK_CASE_FEEDBACK_LIST_CERT (ENTRY_ID, CASE_ID);"
+create index IDX_ENTRY_ID_LIST_CERT on RSK_CASE_FEEDBACK_LIST_CERT (ENTRY_ID, CASE_ID);
+select now();
+\echo "create index IDX_ENTRY_ID_G_NO on RSK_CASE_TRANSFER_G_NO (ENTRY_ID, CASE_ID);"
+create index IDX_ENTRY_ID_G_NO on RSK_CASE_TRANSFER_G_NO (ENTRY_ID, CASE_ID);
+select now();
+\echo "create index IDX_ENTRY_ID_TRANSFER_LIST on RSK_CASE_TRANSFER_LIST (ENTRY_ID, CASE_ID);"
+create index IDX_ENTRY_ID_TRANSFER_LIST on RSK_CASE_TRANSFER_LIST (ENTRY_ID, CASE_ID);
+select now();
+\echo "create index IDX_CTS_CODE_CUSTOMS on RSK_CODE_TS (CODE_TS, CUSTOMS_CODE);"
+create index IDX_CTS_CODE_CUSTOMS on RSK_CODE_TS (CODE_TS, CUSTOMS_CODE);
+select now();
+\echo "create index IDX_CTS_CODE_CUSTOMS_BAK on RSK_CODE_TS_BAK (CODE_TS, CUSTOMS_CODE);"
+create index IDX_CTS_CODE_CUSTOMS_BAK on RSK_CODE_TS_BAK (CODE_TS, CUSTOMS_CODE);
+select now();
+\echo "create index IDX_CTS_CORP_CUSTOMS on RSK_CONDITION (TRADE_CO, CUSTOMS_CODE);"
+create index IDX_CTS_CORP_CUSTOMS on RSK_CONDITION (TRADE_CO, CUSTOMS_CODE);
+select now();
+\echo "create index IDX_CTS_CORP_CUSTOMS_BAK on RSK_CONDITION_BAK (TRADE_CO, CUSTOMS_CODE);"
+create index IDX_CTS_CORP_CUSTOMS_BAK on RSK_CONDITION_BAK (TRADE_CO, CUSTOMS_CODE);
+select now();
+\echo "create index IDX_CTS_CONTA_CUSTOMS on RSK_CONTA_CAPACITY (CONTA_MODEL, CUSTOMS_CODE);"
+create index IDX_CTS_CONTA_CUSTOMS on RSK_CONTA_CAPACITY (CONTA_MODEL, CUSTOMS_CODE);
+select now();
+\echo "create index IDX_CTS_CONTA_CUSTOMS_BAK on RSK_CONTA_CAPACITY_BAK (CONTA_MODEL, CUSTOMS_CODE);"
+create index IDX_CTS_CONTA_CUSTOMS_BAK on RSK_CONTA_CAPACITY_BAK (CONTA_MODEL, CUSTOMS_CODE);
+select now();
+\echo "create index IDX_RSK_EXAM_HEAD_EXAM_PROC_TI on RSK_EXAM_HEAD_REL (EXAM_PROC_TIME);"
+create index IDX_RSK_EXAM_HEAD_EXAM_PROC_TI on RSK_EXAM_HEAD_REL (EXAM_PROC_TIME);
+select now();
+\echo "create index IDX_RSK_EXAM_HEAD_FORMID_RSKNO on RSK_EXAM_HEAD_REL (FORM_ID, RSK_NO);"
+create index IDX_RSK_EXAM_HEAD_FORMID_RSKNO on RSK_EXAM_HEAD_REL (FORM_ID, RSK_NO);
+select now();
+\echo "create index IDX_RSK_EXAM_HEAD_FORM_ID on RSK_EXAM_HEAD_REL (FORM_ID);"
+create index IDX_RSK_EXAM_HEAD_FORM_ID on RSK_EXAM_HEAD_REL (FORM_ID);
+select now();
+\echo "create index IDX_RSK_EXAM_HEAD_RSKNO on RSK_EXAM_HEAD_REL (RSK_NO);"
+create index IDX_RSK_EXAM_HEAD_RSKNO on RSK_EXAM_HEAD_REL (RSK_NO);
+select now();
+\echo "create index IX_RSKEXAMOPLOG_FORM_ID on RSK_EXAM_OP_LOG (FORM_ID);"
+create index IX_RSKEXAMOPLOG_FORM_ID on RSK_EXAM_OP_LOG (FORM_ID);
+select now();
+\echo "create index IDX_CTS_CODE_TS on RSK_FAKE_CODE_TS (CODE_TS, CUSTOMS_CODE);"
+create index IDX_CTS_CODE_TS on RSK_FAKE_CODE_TS (CODE_TS, CUSTOMS_CODE);
+select now();
+\echo "create index IDX_CTS_CODE_TS_BAK on RSK_FAKE_CODE_TS_BAK (CODE_TS, CUSTOMS_CODE);"
+create index IDX_CTS_CODE_TS_BAK on RSK_FAKE_CODE_TS_BAK (CODE_TS, CUSTOMS_CODE);
+select now();
+\echo "create index IDX_RSK_FIT_LOG_FORM_ID on RSK_FIT_LOG_REL (FORM_ID);"
+create index IDX_RSK_FIT_LOG_FORM_ID on RSK_FIT_LOG_REL (FORM_ID);
+select now();
+\echo "create index IDX_RSK_INSTR_ATTR_CUS_STAT on RSK_INSTR_ATTR_REL (RSK_CUSTOMS, RSK_INSTR_STAT);"
+create index IDX_RSK_INSTR_ATTR_CUS_STAT on RSK_INSTR_ATTR_REL (RSK_CUSTOMS, RSK_INSTR_STAT);
+select now();
+\echo "create index IDX_RSK_INSTR_ATTR_OPID on RSK_INSTR_ATTR_REL (IN_OP_ID);"
+create index IDX_RSK_INSTR_ATTR_OPID on RSK_INSTR_ATTR_REL (IN_OP_ID);
+select now();
+\echo "create index IDX_RSK_RESULT_EXAM_REC_ID on RSK_RESULT_REL (EXAM_REC_ID);"
+create index IDX_RSK_RESULT_EXAM_REC_ID on RSK_RESULT_REL (EXAM_REC_ID);
+select now();
+\echo "create index IDX_RSK_RESULT_FORM_ID on RSK_RESULT_REL (FORM_ID);"
+create index IDX_RSK_RESULT_FORM_ID on RSK_RESULT_REL (FORM_ID);
+select now();
+\echo "create index IDX_CTS_TRADE_CO on RSK_TRADE_CO (TRADE_CO, CUSTOMS_CODE);"
+create index IDX_CTS_TRADE_CO on RSK_TRADE_CO (TRADE_CO, CUSTOMS_CODE);
+select now();
+\echo "create index IDX_CTS_TRADE_CO_BAK on RSK_TRADE_CO_BAK (TRADE_CO, CUSTOMS_CODE);"
+create index IDX_CTS_TRADE_CO_BAK on RSK_TRADE_CO_BAK (TRADE_CO, CUSTOMS_CODE);
+select now();
+\echo "create index IDX_RSK_WORKFLOW_CUSTOMSCODE on RSK_WORKFLOW (INPUT_DATE, CHK_CUSTOMS_CODE);"
+create index IDX_RSK_WORKFLOW_CUSTOMSCODE on RSK_WORKFLOW (INPUT_DATE, CHK_CUSTOMS_CODE);
+select now();
+\echo "create index IX_SHIP_TONNAGE_DUTYFORM on SHIP_TONNAGE (DUTYFORM_NO);"
+create index IX_SHIP_TONNAGE_DUTYFORM on SHIP_TONNAGE (DUTYFORM_NO);
+select now();
+\echo "create index IDX_STF_CORP_ID on STF_CORP_RECORD (STF_CORP_ID);"
+create index IDX_STF_CORP_ID on STF_CORP_RECORD (STF_CORP_ID);
+select now();
+\echo "create index IDX_STF_RECORD_MANUAL_NO on STF_RECORD (MANUAL_NO);"
+create index IDX_STF_RECORD_MANUAL_NO on STF_RECORD (MANUAL_NO);
+select now();
+\echo "create index IDX_STF_RECORD_STF_ID on STF_RECORD (STF_ID);"
+create index IDX_STF_RECORD_STF_ID on STF_RECORD (STF_ID);
+select now();
+\echo "create index IDX_STLDATAHEAD_DESTINATIONCUS on STL_DATA_HEAD (DESTINATION_CUSTOMS_CODE);"
+create index IDX_STLDATAHEAD_DESTINATIONCUS on STL_DATA_HEAD (DESTINATION_CUSTOMS_CODE);
+select now();
+\echo "create index IDX_STLDATAHEAD_ENTRYID on STL_DATA_HEAD (ENTRY_ID);"
+create index IDX_STLDATAHEAD_ENTRYID on STL_DATA_HEAD (ENTRY_ID);
+select now();
+\echo "create index IDX_STLREQUESTCHK_ENTRYID on STL_REQUEST_CHK (ENTRY_ID);"
+create index IDX_STLREQUESTCHK_ENTRYID on STL_REQUEST_CHK (ENTRY_ID);
+select now();
+\echo "create index IX_TCSDETAILHEAD_MSGID on TCS_DETAIL_HEAD (MSG_ID);"
+create index IX_TCSDETAILHEAD_MSGID on TCS_DETAIL_HEAD (MSG_ID);
+select now();
+\echo "create index IX_TCSDETAILHEAD_RECEIVE on TCS_DETAIL_HEAD (RECEIVE_DATE, ACCOUNT_ORG_CODE);"
+create index IX_TCSDETAILHEAD_RECEIVE on TCS_DETAIL_HEAD (RECEIVE_DATE, ACCOUNT_ORG_CODE);
+select now();
+\echo "create index IX_TCSERRORLOG_BIZIDCREATETIME on TCS_ERROR_LOG (BIZ_ID, CREATE_TIME);"
+create index IX_TCSERRORLOG_BIZIDCREATETIME on TCS_ERROR_LOG (BIZ_ID, CREATE_TIME);
+select now();
+\echo "create index IX_TCSSENDLOG_ENTRYID on TCS_SEND_LOG (ENTRY_ID, TAX_ID);"
+create index IX_TCSSENDLOG_ENTRYID on TCS_SEND_LOG (ENTRY_ID, TAX_ID);
+select now();
+\echo "create index IX_TCSSENDLOG_SENDDATE on TCS_SEND_LOG (SEND_DATE, ACCOUNT_ORG_CODE);"
+create index IX_TCSSENDLOG_SENDDATE on TCS_SEND_LOG (SEND_DATE, ACCOUNT_ORG_CODE);
+select now();
+\echo "create index IX_TEPCOMPANY_TRADECODE on TEP_COMPANY (TRADE_CODE);"
+create index IX_TEPCOMPANY_TRADECODE on TEP_COMPANY (TRADE_CODE);
+select now();
+\echo "create index IX_TEPPAYLOG_ENTRYID_TAXID on TEP_PAY_LOG (ENTRY_ID, TAX_ID);"
+create index IX_TEPPAYLOG_ENTRYID_TAXID on TEP_PAY_LOG (ENTRY_ID, TAX_ID);
+select now();
+\echo "create index IX_TEPPAYLOG_GUAID on TEP_PAY_LOG (GUA_ID);"
+create index IX_TEPPAYLOG_GUAID on TEP_PAY_LOG (GUA_ID);
+select now();
+\echo "create index IX_TEPPAYLOG_PRINT on TEP_PAY_LOG (CUSTOMS_CODE, TAX_TYPE, PAYER_BANK_CODE, REC_DATE, BATCH_PRINT_DATE);"
+create index IX_TEPPAYLOG_PRINT on TEP_PAY_LOG (CUSTOMS_CODE, TAX_TYPE, PAYER_BANK_CODE, REC_DATE, BATCH_PRINT_DATE);
+select now();
+\echo "create index IX_TEPPAYLOG_REC on TEP_PAY_LOG (DEBIT_ORDER_DATE, REC_DATE, P_LIMIT);"
+create index IX_TEPPAYLOG_REC on TEP_PAY_LOG (DEBIT_ORDER_DATE, REC_DATE, P_LIMIT);
+select now();
+\echo "create index IX_TEPRECLOG_RECDATE_RESULTNO on TEP_REC_LOG (REC_DATE, RESULT_NO);"
+create index IX_TEPRECLOG_RECDATE_RESULTNO on TEP_REC_LOG (REC_DATE, RESULT_NO);
+select now();
+\echo "create index IX_CUSTOMSCODE on TEP_VOUCHER_REC_LIST (CUSTOMS_CODE);"
+create index IX_CUSTOMSCODE on TEP_VOUCHER_REC_LIST (CUSTOMS_CODE);
+select now();
+\echo "create index IX_PAYEEBANKACCOUNT on TEP_VOUCHER_REC_LIST_DETAIL (PAYEE_BANK_ACCOUNT);"
+create index IX_PAYEEBANKACCOUNT on TEP_VOUCHER_REC_LIST_DETAIL (PAYEE_BANK_ACCOUNT);
+select now();
+\echo "create index IX_PAYEEBRANCHCODE on TEP_VOUCHER_REC_LIST_DETAIL (PAYEE_BRANCH_CODE);"
+create index IX_PAYEEBRANCHCODE on TEP_VOUCHER_REC_LIST_DETAIL (PAYEE_BRANCH_CODE);
+select now();
+\echo "create index IDX_TRN_COP_REL on TRN_COP_REL (CO_CUSTOMS_NO);"
+create index IDX_TRN_COP_REL on TRN_COP_REL (CO_CUSTOMS_NO);
+select now();
+\echo "create index IDX_TRN_COP_REL_PORT on TRN_COP_REL (MAIN_PORT);"
+create index IDX_TRN_COP_REL_PORT on TRN_COP_REL (MAIN_PORT);
+select now();
+\echo "create index IDX_TRN_DR_VEL_IDNO on TRN_DR_REL (DR_IDCARD_NO);"
+create index IDX_TRN_DR_VEL_IDNO on TRN_DR_REL (DR_IDCARD_NO);
+select now();
+\echo "create index IDX_ESEAL_CO_REG_NO on TRN_ESEAL_REL (CO_REG_NO);"
+create index IDX_ESEAL_CO_REG_NO on TRN_ESEAL_REL (CO_REG_NO);
+select now();
+\echo "create index IDX_ESEAL_CUSTOMS_CODE on TRN_ESEAL_REL (CUSTOMS_CODE);"
+create index IDX_ESEAL_CUSTOMS_CODE on TRN_ESEAL_REL (CUSTOMS_CODE);
+select now();
+\echo "create index IDX_ESEAL_REL_CUSTOMS on TRN_ESEAL_REL (VE_CUSTOMS_NO);"
+create index IDX_ESEAL_REL_CUSTOMS on TRN_ESEAL_REL (VE_CUSTOMS_NO);
+select now();
+\echo "create index IDX_TOP_INPUT_DATE on TRN_POP_HEAD (INPUT_DATE);"
+create index IDX_TOP_INPUT_DATE on TRN_POP_HEAD (INPUT_DATE);
+select now();
+\echo "create index IDX_TOP_ENTRY_ID on TRN_POP_LIST (ENTRY_ID);"
+create index IDX_TOP_ENTRY_ID on TRN_POP_LIST (ENTRY_ID);
+select now();
+\echo "create index IDX_TRN_VE_MOTOR_NO on TRN_VE_REL (VE_MOTOR_NO);"
+create index IDX_TRN_VE_MOTOR_NO on TRN_VE_REL (VE_MOTOR_NO);
+select now();
+\echo "create index IDX_TRN_VE_REL on TRN_VE_REL (VE_NAME);"
+create index IDX_TRN_VE_REL on TRN_VE_REL (VE_NAME);
+select now();
+\echo "create index IDX_TRN_VE_REL_EC on TRN_VE_REL (CAR_EC_NO);"
+create index IDX_TRN_VE_REL_EC on TRN_VE_REL (CAR_EC_NO);
+select now();
+\echo "create index IDX_TRN_VE_REL_PORT on TRN_VE_REL (MAIN_PORT);"
+create index IDX_TRN_VE_REL_PORT on TRN_VE_REL (MAIN_PORT);
+select now();
+\echo "create index TRADE_CO_INDEX on YD_DECLARE_REL (TRADE_CO);"
+create index TRADE_CO_INDEX on YD_DECLARE_REL (TRADE_CO);
+\echo timing

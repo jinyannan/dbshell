@@ -1,0 +1,7188 @@
+---------------ACCOUNT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------AGREEMENT_GOODS_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------AMS_MODI_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------AMSLIST_BODY----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------AMSLIST_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------APPL_CLOSE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------APPL_CLOSE_CONSUME----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------APPLY_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------APPLY_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------ARRIVAL_INFO_HEAD----------------
+ pg_relation_size 
+------------------
+           983040
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+           983040
+(1 row)
+
+---------------ARRIVAL_INFO_LIST----------------
+ pg_relation_size 
+------------------
+         69795840
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         69795840
+(1 row)
+
+---------------BAK_BWS_EXAM_CERT_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_BWS_EXAM_GOOD_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_BWS_EXAM_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_CONSUME----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_CONTRACT_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_DCG_BILL_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_DCG_BILL_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_DCG_DEDUCT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_DCG_DEDUCT_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_DCG_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_DCG_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_EMS_APPR_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_EMS_APPR_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_EMS_CONSUME----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_EMS_DEDUCT_CLR----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_EMS_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_EMS_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_EX_CONTRACT_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_EX_FASCICLE_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_FASCICLE_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_IM_CONTRACT_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BAK_IM_FASCICLE_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BANK_ACCOUNT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BCK_COP_HEAD----------------
+ pg_relation_size 
+------------------
+         33259520
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         33259520
+(1 row)
+
+---------------BCK_COP_LIST----------------
+ pg_relation_size 
+------------------
+         83361792
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         83361792
+(1 row)
+
+---------------BCK_COP_LIST_TEMP----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BCK_COP_PARA_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BCK_COP_PARA_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BCK_EXECUTOR----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BCK_HANDOVER----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BCK_HANDOVER_TYPE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BCK_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BCK_SEQ----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BCK_STOCK_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BCK_STOCK_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BCK_WORKFLOW----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BTI_DATA_CONTA_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BTI_DATA_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BTI_DATA_TS_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_AUDIT_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_AUDIT_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_DCR_BILL_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_DCR_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_DCR_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_DEDUCT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_DEDUCT_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_EXAM_CERT_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_EXAM_GOOD_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_EXAM_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_EXAM_PASSCERT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_FORM_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_FORM_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_GB_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_MANIFEST_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_MANIFEST_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_SEQ----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_VAR----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------BWS_WORKFLOW----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CCTS_ERROR_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CCTS_ONLINE_RESULT----------------
+ pg_relation_size 
+------------------
+       1302102016
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+       1302102016
+(1 row)
+
+---------------CCTS_ONLINE_RESULT_BAK----------------
+ pg_relation_size 
+------------------
+       2345107456
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+       2345107456
+(1 row)
+
+---------------CCTS_PERFORMANCE----------------
+ pg_relation_size 
+------------------
+        534904832
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        534904832
+(1 row)
+
+---------------CCTS_RSK_RESULT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CCTS_RSK_RESULT_BAK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CDL_CERTIFICATE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CDL_CHK----------------
+ pg_relation_size 
+------------------
+           950272
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+           950272
+(1 row)
+
+---------------CDL_COMMODITY----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CDL_COMP_COMM_MODIFY_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CDL_COMP_COMM_OP_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CDL_COMPANY----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CDL_CONTAINER----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CDL_DEL_CERTIFICATE_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CDL_DEL_CONTAINER_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CDL_DEL_HEAD_LOG----------------
+ pg_relation_size 
+------------------
+            32768
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+            32768
+(1 row)
+
+---------------CDL_DEL_LIST_LOG----------------
+ pg_relation_size 
+------------------
+           229376
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+           229376
+(1 row)
+
+---------------CDL_EDI_MESS----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CDL_EMS_DEDUCT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CDL_EMS_DEDUCT_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CDL_ENTRY_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CDL_ENTRY_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CDL_HEAD----------------
+ pg_relation_size 
+------------------
+          8192000
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          8192000
+(1 row)
+
+---------------CDL_LICENSE_DEDUCT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CDL_LIST----------------
+ pg_relation_size 
+------------------
+         32735232
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         32735232
+(1 row)
+
+---------------CDL_LOCK_COMMODITY----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CDL_MODI_LOG----------------
+ pg_relation_size 
+------------------
+           163840
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+           163840
+(1 row)
+
+---------------CDL_OP_LOG----------------
+ pg_relation_size 
+------------------
+           229376
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+           229376
+(1 row)
+
+---------------CDL_OVERDUE_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CDL_STATUS_DETAIL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CDL_WORKFLOW----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CHK_COP_RATIO----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CHK_COUNTER----------------
+ pg_relation_size 
+------------------
+        116523008
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        116523008
+(1 row)
+
+---------------CHK_RATE_LIMIT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CHKHS_MNLPROC----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CIC_CODE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CIC_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CIC_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CIC_MAXID----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CIC_SEND_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CLAIM----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CLC_CHKRATE_LIMIT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CLC_GPR_RATIO----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CLC_GPR_RATIO_BAK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CNS_COUNTER_TABLE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CO_CLASS_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------COMPANY_REL----------------
+ pg_relation_size 
+------------------
+          9306112
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          9306112
+(1 row)
+
+---------------CONSUME----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CONSUME_DB----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CONSUME_GOODS----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CONTA----------------
+ pg_relation_size 
+------------------
+         39518208
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         39518208
+(1 row)
+
+---------------CONTA_MONITOR----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CONTRACT_HEAD----------------
+ pg_relation_size 
+------------------
+        222363648
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        222363648
+(1 row)
+
+---------------CONTRACT_WORKFLOW----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CONVEYANCE----------------
+ pg_relation_size 
+------------------
+           163840
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+           163840
+(1 row)
+
+---------------CONVEYANCE_SEGMENT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------COP_CONSUME----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------COP_SPEC_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------COPLOG_DELETE_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------COPLOG_MODIFY_REL----------------
+ pg_relation_size 
+------------------
+          4882432
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          4882432
+(1 row)
+
+---------------CORP_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CORP_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CORP_TABLE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CORP_TYPE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------COUNTER_TABLE----------------
+ pg_relation_size 
+------------------
+         57180160
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         57180160
+(1 row)
+
+---------------CREDIT_INFO----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CTS_CHKRATE_LIMIT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CTS_CHKRATE_LIMIT_BAK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CTS_PERIOD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CUS_GOOD_CONSUME----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CUSTOMS_DEFAULT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------CUSTOMS_ESEAL_CONFIG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DCG_BAK_LIST----------------
+ pg_relation_size 
+------------------
+          1310720
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          1310720
+(1 row)
+
+---------------DCG_BILL_HEAD----------------
+ pg_relation_size 
+------------------
+         42827776
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         42827776
+(1 row)
+
+---------------DCG_BILL_LIST----------------
+ pg_relation_size 
+------------------
+         65863680
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         65863680
+(1 row)
+
+---------------DCG_COPR_INFO----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DCG_DEDUCT----------------
+ pg_relation_size 
+------------------
+         56918016
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         56918016
+(1 row)
+
+---------------DCG_DEDUCT_LOG----------------
+ pg_relation_size 
+------------------
+         13008896
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         13008896
+(1 row)
+
+---------------DCG_HEAD----------------
+ pg_relation_size 
+------------------
+         76578816
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         76578816
+(1 row)
+
+---------------DCG_LIST----------------
+ pg_relation_size 
+------------------
+         96600064
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         96600064
+(1 row)
+
+---------------DCG_SEQ----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DCG_WORKFLOW----------------
+ pg_relation_size 
+------------------
+          5963776
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          5963776
+(1 row)
+
+---------------DECL_CO_ENTRY_COUNT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DECL_CO_ENTRY_COUNT_TEMP----------------
+ pg_relation_size 
+------------------
+           622592
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+           622592
+(1 row)
+
+---------------DECLAR_COUNTER_REL----------------
+ pg_relation_size 
+------------------
+            32768
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+            32768
+(1 row)
+
+---------------DECLAR_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DECLARER_REL----------------
+ pg_relation_size 
+------------------
+       1115455488
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+       1115455488
+(1 row)
+
+---------------DECLOG_FULL_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DECLOG_MOD_REL----------------
+ pg_relation_size 
+------------------
+            65536
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+            65536
+(1 row)
+
+---------------DECLOG_MODIFY_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DECLOG_SCORE_HEAD----------------
+ pg_relation_size 
+------------------
+         38273024
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         38273024
+(1 row)
+
+---------------DECLOG_SCORE_LIST----------------
+ pg_relation_size 
+------------------
+         36831232
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         36831232
+(1 row)
+
+---------------DEL_EGS_ARC_AGENT_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DEL_EGS_ARC_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DEL_EGS_ARC_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DEL_EGS_ARC_MERCHANT_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DEL_EGS_CLEAR_CERT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DEL_EGS_CLEAR_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DEL_EGS_CLEAR_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DEL_EGS_DECLARE_CERT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DEL_EGS_DECLARE_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DEL_EGS_DECLARE_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DEL_MOD_APPLY----------------
+ pg_relation_size 
+------------------
+         26476544
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         26476544
+(1 row)
+
+---------------DISTRIBUTIVE_BILL_DECLARE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DISTRIBUTIVE_DECLARE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DISTRIBUTIVE_TRANSIT_WAY----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DST_COUNTER_TABLE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DST_DEDUCT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DST_EXG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DST_EXG_ORI_ENTRY----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DST_HEAD----------------
+ pg_relation_size 
+------------------
+          1933312
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          1933312
+(1 row)
+
+---------------DST_IMG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DST_IMG_ORI_ENTRY----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DTT_COP_PARAM----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------DUTY_CHECK_LOG----------------
+ pg_relation_size 
+------------------
+        251068416
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        251068416
+(1 row)
+
+---------------DUTYFORM_HEAD----------------
+ pg_relation_size 
+------------------
+        568426496
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        568426496
+(1 row)
+
+---------------DUTYFORM_LIST----------------
+ pg_relation_size 
+------------------
+       2691727360
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+       2691727360
+(1 row)
+
+---------------ECO_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------ECO_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------ECO_PARTS----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------ECO_WORKFLOW----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_ADMIT_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_ADMIT_HS----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_ADMIT_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_ARC_AGENT_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_ARC_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_ARC_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_ARC_MERCHANT_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_CHECK_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_CLEAR_CERT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_CLEAR_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_CLEAR_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_DECLARE_CERT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_DECLARE_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_DECLARE_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_DEDUCT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_LEND_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_LEND_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_PATROL_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_PATROL_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_SEQ----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EGS_WORKFLOW----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_ACCOUNT----------------
+ pg_relation_size 
+------------------
+          5537792
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          5537792
+(1 row)
+
+---------------EMS_APPR_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_APPR_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_CLAIM----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_CLR_LIST----------------
+ pg_relation_size 
+------------------
+        112590848
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        112590848
+(1 row)
+
+---------------EMS_CLR_TMP----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_COMPLEX----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_COMPLEX2----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_CONSUME----------------
+ pg_relation_size 
+------------------
+        445317120
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        445317120
+(1 row)
+
+---------------EMS_CONSUME_CLR----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_CONSUME_CLR_D----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_DCR_CONSUME----------------
+ pg_relation_size 
+------------------
+           196608
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+           196608
+(1 row)
+
+---------------EMS_DCR_ENT----------------
+ pg_relation_size 
+------------------
+          9797632
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          9797632
+(1 row)
+
+---------------EMS_DCR_HEAD----------------
+ pg_relation_size 
+------------------
+          2260992
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          2260992
+(1 row)
+
+---------------EMS_DCR_LIST----------------
+ pg_relation_size 
+------------------
+         59244544
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         59244544
+(1 row)
+
+---------------EMS_DCR_RUB_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_DEDUCT----------------
+ pg_relation_size 
+------------------
+       4926275584
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+       4926275584
+(1 row)
+
+---------------EMS_DEDUCT_CLR----------------
+ pg_relation_size 
+------------------
+        528908288
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        528908288
+(1 row)
+
+---------------EMS_DEDUCT_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_ENP----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_ENP_JOU----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_HEAD----------------
+ pg_relation_size 
+------------------
+        496599040
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        496599040
+(1 row)
+
+---------------EMS_LIST----------------
+ pg_relation_size 
+------------------
+       4090134528
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+       4090134528
+(1 row)
+
+---------------EMS_MESSAGE_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_PRESS----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_PRESS_CLEAR----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_SEQ----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_TMP_CLR----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_VAR----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_VERIFY----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_VERIFY_DETAIL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EMS_WORKFLOW----------------
+ pg_relation_size 
+------------------
+         26214400
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         26214400
+(1 row)
+
+---------------ENTRY_AUTOREL_ERR_LIST----------------
+ pg_relation_size 
+------------------
+         21495808
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         21495808
+(1 row)
+
+---------------ENTRY_AUTOREL_ERR_LOG----------------
+ pg_relation_size 
+------------------
+          1802240
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          1802240
+(1 row)
+
+---------------ENTRY_CENTRY_SELECT----------------
+ pg_relation_size 
+------------------
+       2926870528
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+       2926870528
+(1 row)
+
+---------------ENTRY_CENTRY_SELECT_DEL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------ENTRY_CERTIFICATE----------------
+ pg_relation_size 
+------------------
+        168361984
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        168361984
+(1 row)
+
+---------------ENTRY_CERTIFICATE_LOG----------------
+ pg_relation_size 
+------------------
+         36995072
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         36995072
+(1 row)
+
+---------------ENTRY_CONTAINER----------------
+ pg_relation_size 
+------------------
+        532480000
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        532480000
+(1 row)
+
+---------------ENTRY_CONTAINER_LOG----------------
+ pg_relation_size 
+------------------
+         75399168
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         75399168
+(1 row)
+
+---------------ENTRY_DEL_HEAD_LOG----------------
+ pg_relation_size 
+------------------
+        174456832
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        174456832
+(1 row)
+
+---------------ENTRY_DEL_LIST_LOG----------------
+ pg_relation_size 
+------------------
+        451805184
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        451805184
+(1 row)
+
+---------------ENTRY_EVALUATION----------------
+ pg_relation_size 
+------------------
+         35094528
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         35094528
+(1 row)
+
+---------------ENTRY_GPM_RTX----------------
+ pg_relation_size 
+------------------
+        953942016
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        953942016
+(1 row)
+
+---------------ENTRY_GPM_RTX_PRINTLOG----------------
+ pg_relation_size 
+------------------
+        557252608
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        557252608
+(1 row)
+
+---------------ENTRY_GPM_RTX_SENDLOG----------------
+ pg_relation_size 
+------------------
+        810680320
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        810680320
+(1 row)
+
+---------------ENTRY_HEAD----------------
+ pg_relation_size 
+------------------
+         46596096
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         46596096
+(1 row)
+
+---------------ENTRY_LIST----------------
+ pg_relation_size 
+------------------
+         23724032
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         23724032
+(1 row)
+
+---------------ENTRY_MODI_LOG----------------
+ pg_relation_size 
+------------------
+        195723264
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        195723264
+(1 row)
+
+---------------ENTRY_OP_LOG----------------
+ pg_relation_size 
+------------------
+        140247040
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        140247040
+(1 row)
+
+---------------ENTRY_PROC----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------ENTRY_PROC_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------ENTRY_QUERY----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------ENTRY_WORKFLOW----------------
+ pg_relation_size 
+------------------
+       6580207616
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+       6580207616
+(1 row)
+
+---------------EPA_CHEM_CERT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EPA_CHK----------------
+ pg_relation_size 
+------------------
+          6160384
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          6160384
+(1 row)
+
+---------------EPA_SCARP_CERT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------ERR_LOG----------------
+ pg_relation_size 
+------------------
+        715456512
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        715456512
+(1 row)
+
+---------------EX_APPL_CLOSE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_ARRIVAL_CONTA----------------
+ pg_relation_size 
+------------------
+       3895623680
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+       3895623680
+(1 row)
+
+---------------EX_ARRIVAL_ERR_CHK----------------
+ pg_relation_size 
+------------------
+            32768
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+            32768
+(1 row)
+
+---------------EX_ARRIVAL_SHIP----------------
+ pg_relation_size 
+------------------
+          2654208
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          2654208
+(1 row)
+
+---------------EX_CDL_MNL_DEDUCT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_CONTA_ENTRY_CHK----------------
+ pg_relation_size 
+------------------
+        506429440
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        506429440
+(1 row)
+
+---------------EX_CONTRACT_CLEAR----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_CONTRACT_DEDUC----------------
+ pg_relation_size 
+------------------
+         49283072
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         49283072
+(1 row)
+
+---------------EX_CONTRACT_LIST----------------
+ pg_relation_size 
+------------------
+         85884928
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         85884928
+(1 row)
+
+---------------EX_COP_RATE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_DECL_ALARM_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_DECL_ALARM_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_DECL_CUR_HEAD----------------
+ pg_relation_size 
+------------------
+        336035840
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        336035840
+(1 row)
+
+---------------EX_DECL_CUR_LIST----------------
+ pg_relation_size 
+------------------
+        948371456
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        948371456
+(1 row)
+
+---------------EX_DECL_HIS_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_DECL_HIS_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_ELE_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_ELE_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_EXAM_JOU----------------
+ pg_relation_size 
+------------------
+         79626240
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         79626240
+(1 row)
+
+---------------EX_EXAM_MANA_HEAD----------------
+ pg_relation_size 
+------------------
+         12025856
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         12025856
+(1 row)
+
+---------------EX_EXAM_MANA_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_FASCICLE_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_LIC_CODE_TS----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_TRAN_JOU----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_TRANS_ALARM_CONTA_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_TRANS_ALARM_GOODS_CONTA_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_TRANS_ALARM_LIST_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_TRANS_CONTA_REL----------------
+ pg_relation_size 
+------------------
+        269025280
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        269025280
+(1 row)
+
+---------------EX_TRANS_GOODS_CONTA_REL----------------
+ pg_relation_size 
+------------------
+         36831232
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         36831232
+(1 row)
+
+---------------EX_TRANS_HIS_CONTA_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_TRANS_HIS_GOODS_CONTA_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_TRANS_HIS_LIST_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_TRANS_LIST_REL----------------
+ pg_relation_size 
+------------------
+        397967360
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        397967360
+(1 row)
+
+---------------EX_TRN_ARRIVAL_CONTA----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_TRN_CONTA_ENTRY_ARV----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EX_TRN_CONTA_ENTRY_CHK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EXA_APPL_CLOSE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EXAM_CONTA_END_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EXAM_CONTA_HEAD----------------
+ pg_relation_size 
+------------------
+          3604480
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          3604480
+(1 row)
+
+---------------EXAM_CONTA_LIST----------------
+ pg_relation_size 
+------------------
+          1736704
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          1736704
+(1 row)
+
+---------------EXC_ELE----------------
+ pg_relation_size 
+------------------
+       2907766784
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+       2907766784
+(1 row)
+
+---------------EXC_EX_CHK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EXC_EXAM----------------
+ pg_relation_size 
+------------------
+        814481408
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        814481408
+(1 row)
+
+---------------EXP_MFT_CHK_RESULT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------EXTERNAL_JOU----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------FASCICLE_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------FCB_CHK----------------
+ pg_relation_size 
+------------------
+          1671168
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          1671168
+(1 row)
+
+---------------FCB_CONTA----------------
+ pg_relation_size 
+------------------
+           491520
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+           491520
+(1 row)
+
+---------------FCB_CONTA_MODI----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------FCB_HEAD----------------
+ pg_relation_size 
+------------------
+          4390912
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          4390912
+(1 row)
+
+---------------FCB_HEAD_MODI----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------FCB_LIST----------------
+ pg_relation_size 
+------------------
+          1212416
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          1212416
+(1 row)
+
+---------------FCB_LIST_MODI----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------FCB_RSK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------FCB_WORKFLOW----------------
+ pg_relation_size 
+------------------
+          3014656
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          3014656
+(1 row)
+
+---------------FEE_INVOICE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------FORFEIT_FORM----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------FORM_CHK----------------
+ pg_relation_size 
+------------------
+       7066091520
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+       7066091520
+(1 row)
+
+---------------GUARANTEE_DEL_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------GUARANTEE_LIST----------------
+ pg_relation_size 
+------------------
+           491520
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+           491520
+(1 row)
+
+---------------GUARANTEE_R----------------
+ pg_relation_size 
+------------------
+         17367040
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         17367040
+(1 row)
+
+---------------H2000_SMS_SEND----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------H2000_SMS_SENDLOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------HIS_TRN_COP_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------HIS_TRN_DR_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------HIS_TRN_ESEAL_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------HIS_TRN_VE_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_APPL_CLOSE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_CDL_MNL_DEDUCT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_CONTRACT_CLEAR----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_CONTRACT_DEDUC----------------
+ pg_relation_size 
+------------------
+         14647296
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         14647296
+(1 row)
+
+---------------IM_CONTRACT_LIST----------------
+ pg_relation_size 
+------------------
+         19136512
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         19136512
+(1 row)
+
+---------------IM_COP_RATE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_DECL_ALARM_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_DECL_ALARM_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_DECL_CUR_HEAD----------------
+ pg_relation_size 
+------------------
+        311361536
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        311361536
+(1 row)
+
+---------------IM_DECL_CUR_LIST----------------
+ pg_relation_size 
+------------------
+        393248768
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        393248768
+(1 row)
+
+---------------IM_DECL_HIS_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_DECL_HIS_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_ELE_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_ELE_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_EXAM_JOU----------------
+ pg_relation_size 
+------------------
+          2260992
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          2260992
+(1 row)
+
+---------------IM_EXAM_MANA_HEAD----------------
+ pg_relation_size 
+------------------
+            65536
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+            65536
+(1 row)
+
+---------------IM_EXAM_MANA_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_FASCICLE_LIST----------------
+ pg_relation_size 
+------------------
+            32768
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+            32768
+(1 row)
+
+---------------IM_LIC_CODE_TS----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_TRAN_JOU----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_TRANS_ALARM_CONTA_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_TRANS_ALARM_GOODS_CONTA_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_TRANS_ALARM_LIST_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_TRANS_CONTA_REL----------------
+ pg_relation_size 
+------------------
+        234979328
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        234979328
+(1 row)
+
+---------------IM_TRANS_GOODS_CONTA_REL----------------
+ pg_relation_size 
+------------------
+         28311552
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         28311552
+(1 row)
+
+---------------IM_TRANS_HIS_CONTA_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_TRANS_HIS_GOODS_CONTA_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_TRANS_HIS_LIST_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------IM_TRANS_LIST_REL----------------
+ pg_relation_size 
+------------------
+        207683584
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        207683584
+(1 row)
+
+---------------IMA_APPL_CLOSE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------INCOME_INFO----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------INVESTER_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------INVLOG_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------JOB_PARAMETER----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------LSP_CHK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------LSP_HEAD----------------
+ pg_relation_size 
+------------------
+       2038202368
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+       2038202368
+(1 row)
+
+---------------LSP_LIST----------------
+ pg_relation_size 
+------------------
+       1266057216
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+       1266057216
+(1 row)
+
+---------------MAIL_FILE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MANA_REL----------------
+ pg_relation_size 
+------------------
+           262144
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+           262144
+(1 row)
+
+---------------MANIFEST_CHK----------------
+ pg_relation_size 
+------------------
+       3054567424
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+       3054567424
+(1 row)
+
+---------------MANIFEST_CHK_LOG----------------
+ pg_relation_size 
+------------------
+         87228416
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         87228416
+(1 row)
+
+---------------MANIFEST_CONTA----------------
+ pg_relation_size 
+------------------
+       1064599552
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+       1064599552
+(1 row)
+
+---------------MANIFEST_EXCH_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MANIFEST_EXCH_LOG_BAK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MANIFEST_HEAD----------------
+ pg_relation_size 
+------------------
+        229736448
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        229736448
+(1 row)
+
+---------------MANIFEST_HEAD_XMS_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MANIFEST_LIST----------------
+ pg_relation_size 
+------------------
+       2744516608
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+       2744516608
+(1 row)
+
+---------------MANIFEST_LIST_CONTA----------------
+ pg_relation_size 
+------------------
+       1232732160
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+       1232732160
+(1 row)
+
+---------------MANIFEST_LIST_LOG----------------
+ pg_relation_size 
+------------------
+           524288
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+           524288
+(1 row)
+
+---------------MANIFEST_LIST_RSKINFO_LOG----------------
+ pg_relation_size 
+------------------
+            98304
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+            98304
+(1 row)
+
+---------------MNL_PARA----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNL_PRESS----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNL_RECEIVE_RECEIPT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNL_SEQ----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNLBAK_ACCOUNT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNLBAK_APPL_CLOSE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNLBAK_CLAIM----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNLBAK_CONSUME----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNLBAK_CONTRACT_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNLBAK_CONTRACT_WORKFLOW----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNLBAK_EX_CONTRACT_CLEAR----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNLBAK_EX_CONTRACT_DEDUC----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNLBAK_EX_CONTRACT_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNLBAK_EX_FASCICLE_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNLBAK_FASCICLE_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNLBAK_FEE_INVOICE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNLBAK_IM_CONTRACT_CLEAR----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNLBAK_IM_CONTRACT_DEDUC----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNLBAK_IM_CONTRACT_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNLBAK_IM_FASCICLE_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNLBAK_PRESS_CLEAR----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNLBAK_SERVICE_FEE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MNLBAK_SERVICE_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MOD_PROJECT_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MOD_PROJECT_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MOD_RED_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------MOD_RED_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------NONENTRY_CHK_RESULT----------------
+ pg_relation_size 
+------------------
+           950272
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+           950272
+(1 row)
+
+---------------NORSK_COMPANY----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------NORSK_COMPANY_BAK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------NORSK_CONDITION----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------NORSK_CONDITION_BAK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------NORSK_TRADE_MODE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------NORSK_TRADE_MODE_BAK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------OCC_ELE_HEAD----------------
+ pg_relation_size 
+------------------
+            98304
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+            98304
+(1 row)
+
+---------------OCC_ELE_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------OCC_EXAM----------------
+ pg_relation_size 
+------------------
+            98304
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+            98304
+(1 row)
+
+---------------OCC_RECEIPT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------OTHER_STF_RECORD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PAPERLESS_SELFSAVE_CERT----------------
+ pg_relation_size 
+------------------
+         26214400
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         26214400
+(1 row)
+
+---------------PAYOUT_REMIT_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PAYOUT_REMIT_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PES_CANCEL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PES_NOTE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PES_WORKFLOW----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PORT_BIND_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_APPL_CLOSE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_APPL_CLOSE_CONSUME----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_CDL_COMMODITY----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_CDL_COMPANY----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_COMPANY_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_CONSUME----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_CONTRACT_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_DECL_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_EX_APPL_CLOSE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_EX_CONTRACT_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_EX_FASCICLE_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_EXA_APPL_CLOSE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_FASCICLE_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_IM_APPL_CLOSE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_IM_CONTRACT_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_IM_FASCICLE_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_IMA_APPL_CLOSE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_INVESTER_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_MANA_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_PROJECT_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_PROJECT_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_RED_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_RED_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRE_REL_ALC_WORK----------------
+ pg_relation_size 
+------------------
+         88604672
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         88604672
+(1 row)
+
+---------------PRESS_CLEAR----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRICE_LIBRARY----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRICE_LIBRARY_ENTRY----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRICE_LIBRARY_MAN----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PRICE_LIBRARY_RISK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PROJECT_HEAD----------------
+ pg_relation_size 
+------------------
+          1507328
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          1507328
+(1 row)
+
+---------------PROJECT_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PROJECT_MAX_NO----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------PROJECT_MAX_NO_2007----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RAM_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RAM_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RAM_PRINT_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RAM_RG_COP_OWNER----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RAM_RG_COP_PROJECT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RAM_RG_COPINFO----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RAM_RG_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RAM_RN_INFO----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RAM_RY_COMMUNICATION----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RAM_STATUS----------------
+ pg_relation_size 
+------------------
+         10485760
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         10485760
+(1 row)
+
+---------------RAM_STATUS_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RAM_STATUS_MODI_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RCP_INCOME_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RCP_INCOME_HEAD_BAK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RCP_INCOME_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RCP_INCOME_LIST_BAK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RCP_PAYMENT_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RCP_PAYMENT_HEAD_BAK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RCP_PAYMENT_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RCP_PAYMENT_LIST_BAK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RCP_RECORD_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RCP_RECORD_HEAD_BAK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RCP_RECORD_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RCP_RECORD_LIST_BAK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RCP_WORKFLOW----------------
+ pg_relation_size 
+------------------
+          1081344
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          1081344
+(1 row)
+
+---------------RED_ENTRY_HEAD----------------
+ pg_relation_size 
+------------------
+         20381696
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         20381696
+(1 row)
+
+---------------RED_ENTRY_LIST----------------
+ pg_relation_size 
+------------------
+         22249472
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         22249472
+(1 row)
+
+---------------RED_FEE_INVOICE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RED_HEAD----------------
+ pg_relation_size 
+------------------
+         44957696
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         44957696
+(1 row)
+
+---------------RED_LIST----------------
+ pg_relation_size 
+------------------
+         31916032
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         31916032
+(1 row)
+
+---------------RED_MAX_NO----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RED_MAX_NO_2007----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RED_RECEIVE_RECEIPT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RED_SERVICE_FEE----------------
+ pg_relation_size 
+------------------
+           131072
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+           131072
+(1 row)
+
+---------------REL_ALC_WORK----------------
+ pg_relation_size 
+------------------
+        173703168
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        173703168
+(1 row)
+
+---------------RETURN_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RISK_CONTROL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RSK_ASSAY_APPLICATION----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RSK_CASE_FEEDBACK_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RSK_CASE_FEEDBACK_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RSK_CASE_FEEDBACK_LIST_CERT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RSK_CASE_TRANSFER_G_NO----------------
+ pg_relation_size 
+------------------
+           688128
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+           688128
+(1 row)
+
+---------------RSK_CASE_TRANSFER_HEAD----------------
+ pg_relation_size 
+------------------
+            65536
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+            65536
+(1 row)
+
+---------------RSK_CASE_TRANSFER_LIST----------------
+ pg_relation_size 
+------------------
+           229376
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+           229376
+(1 row)
+
+---------------RSK_CODE_TS----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RSK_CODE_TS_BAK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RSK_CONDITION----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RSK_CONDITION_BAK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RSK_CONTA_CAPACITY----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RSK_CONTA_CAPACITY_BAK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RSK_EXAM_HEAD_REL----------------
+ pg_relation_size 
+------------------
+        682688512
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        682688512
+(1 row)
+
+---------------RSK_EXAM_LIST_CONTAINER----------------
+ pg_relation_size 
+------------------
+         67174400
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         67174400
+(1 row)
+
+---------------RSK_EXAM_LIST_REL----------------
+ pg_relation_size 
+------------------
+        625737728
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        625737728
+(1 row)
+
+---------------RSK_EXAM_OP_LOG----------------
+ pg_relation_size 
+------------------
+         14254080
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         14254080
+(1 row)
+
+---------------RSK_FAKE_CODE_TS----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RSK_FAKE_CODE_TS_BAK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RSK_FIT_LOG_REL----------------
+ pg_relation_size 
+------------------
+        323747840
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        323747840
+(1 row)
+
+---------------RSK_FIT_RESULT_LOG----------------
+ pg_relation_size 
+------------------
+          8454144
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          8454144
+(1 row)
+
+---------------RSK_INSTR_ATTR_REL----------------
+ pg_relation_size 
+------------------
+        399638528
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        399638528
+(1 row)
+
+---------------RSK_INSTR_PROC_REL----------------
+ pg_relation_size 
+------------------
+         52232192
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         52232192
+(1 row)
+
+---------------RSK_OP_LOG----------------
+ pg_relation_size 
+------------------
+        655556608
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        655556608
+(1 row)
+
+---------------RSK_RECHECK_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RSK_REPLICATION_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RSK_RESULT_REL----------------
+ pg_relation_size 
+------------------
+        169017344
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        169017344
+(1 row)
+
+---------------RSK_TRADE_CO----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RSK_TRADE_CO_BAK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RSK_UNLOCK_OP_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RSK_VS_EXAM----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------RSK_WORKFLOW----------------
+ pg_relation_size 
+------------------
+        108527616
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        108527616
+(1 row)
+
+---------------SERVICE_FEE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------SERVICE_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------SHIP_TONNAGE----------------
+ pg_relation_size 
+------------------
+          1540096
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          1540096
+(1 row)
+
+---------------SPECIAL_ENTRY----------------
+ pg_relation_size 
+------------------
+           327680
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+           327680
+(1 row)
+
+---------------STATUS_DETAIL----------------
+ pg_relation_size 
+------------------
+       3969024000
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+       3969024000
+(1 row)
+
+---------------STATUS_DETAIL----------------
+ pg_relation_size 
+------------------
+       3969024000
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+       3969024000
+(1 row)
+
+---------------STF_RECORD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------STL_DATA_CONTA_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------STL_DATA_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------STL_DATA_TS_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------STL_REQUEST_CHK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TAR_DEL_LOG----------------
+ pg_relation_size 
+------------------
+           196608
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+           196608
+(1 row)
+
+---------------TCS_COUNTER----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TCS_DETAIL_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TCS_DETAIL_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TCS_ERROR_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TCS_SEND_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TCS_STATISTIC_REPORT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TEMP_DB----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TEMP_DEL_EMS_CONSUME----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TEMP_DEL_EMS_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TEMP_PAGE_RANGE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TEP_COMPANY----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TEP_DEBIT_REC_REQUEST----------------
+ pg_relation_size 
+------------------
+          1015808
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          1015808
+(1 row)
+
+---------------TEP_DEBIT_REC_RESPONSE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TEP_EPLAT_RESPONSE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TEP_ERR_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TEP_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TEP_PAY_LOG----------------
+ pg_relation_size 
+------------------
+        135593984
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+        135593984
+(1 row)
+
+---------------TEP_PAY_REC_REQUEST----------------
+ pg_relation_size 
+------------------
+          2621440
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          2621440
+(1 row)
+
+---------------TEP_PAY_REC_RESPONSE----------------
+ pg_relation_size 
+------------------
+          2621440
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          2621440
+(1 row)
+
+---------------TEP_REC_LOG----------------
+ pg_relation_size 
+------------------
+          3604480
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          3604480
+(1 row)
+
+---------------TEP_SEQ----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TEP_STATUS_QUERY----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TEP_VOUCHER_REC_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TEP_VOUCHER_REC_LIST_DETAIL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TEP_VOUCHER_REC_PAGE_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TMP_EMS_CONSUME----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TMP_EMS_DCR_ENT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TMP_EMS_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TMP_EMS_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TRADE_ERR----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TRADE_GPM_RTX----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TRANSFER_FEE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TRANSFER_FEE_LOG----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TRN_ALC_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TRN_CHECK----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TRN_CHK_GOODS----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TRN_COP_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TRN_DELAY_FORM----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TRN_DR_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TRN_ESEAL_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TRN_EXAM_MAX_SEQ----------------
+ pg_relation_size 
+------------------
+         21299200
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+         21299200
+(1 row)
+
+---------------TRN_I_E_PORT----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TRN_PARAMETER----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TRN_POP_COP_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TRN_POP_HEAD----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TRN_POP_LIST----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TRN_PRE_MAX_SEQ----------------
+ pg_relation_size 
+------------------
+          6815744
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          6815744
+(1 row)
+
+---------------TRN_SHIP----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------TRN_VE_REL----------------
+ pg_relation_size 
+------------------
+          3145728
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+          3145728
+(1 row)
+
+---------------TRN_VEHICLE----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+---------------YD_DECLARE_REL----------------
+ pg_relation_size 
+------------------
+                0
+(1 row)
+
+VACUUM
+ pg_relation_size 
+------------------
+                0
+(1 row)
+

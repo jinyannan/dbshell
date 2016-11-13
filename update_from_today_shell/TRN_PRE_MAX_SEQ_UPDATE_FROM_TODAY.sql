@@ -1,0 +1,6 @@
+\echo -----------------------TRN_PRE_MAX_SEQ------------------------
+select now();
+\timing
+delete from TRN_PRE_MAX_SEQ using TRN_PRE_MAX_SEQ_GPTMP_TODAY where TRN_PRE_MAX_SEQ.TYPE=TRN_PRE_MAX_SEQ_GPTMP_TODAY.TYPE AND TRN_PRE_MAX_SEQ.YEARAREA=TRN_PRE_MAX_SEQ_GPTMP_TODAY.YEARAREA ;
+insert into TRN_PRE_MAX_SEQ (TYPE,YEARAREA,MAX_SEQ) select TYPE,YEARAREA,MAX_SEQ from TRN_PRE_MAX_SEQ_GPTMP_TODAY  where CMD_TYPE='I';
+\timing

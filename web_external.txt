@@ -1,0 +1,262 @@
+很多使用GP的用户都希望GP提供类似ORACLE 
+DBLINK的功能，实现跨数据库的数据查询。其实虽然GP没有直接提供该功能，但是我们可以通过WEB EXTERNAL 
+TABLE实现类似功能，在GP内部进行跨数据库查询。其实现步骤比较简单，下面以ORACLE为例，通过GREENPLUM的外部表直接查询ORACLE中的数据。
+    1.首先要在MASTER上安装ORACLE客户端
+    2.修改参数gp_external_enable_exec = on
+    3.定义一个访问ORACLE数据的SHELL脚本 vi sales.sh
+
+echo "----------$(data)--结束拷贝entry_proc-------------"
+    
+    chmod 777 sales.sh
+   
+    4 定义web external table调用sales.sh
+   
+     CREATE EXTERNAL WEB TABLE ora_sales
+        (PROD_ID numeric,
+        CUST_ID numeric  ,
+        TIME_ID DATE  ,
+        CHANNEL_ID numeric  ,
+        PROMO_ID numeric  ,
+        QUANTITY_SOLD numeric(10,2) ,
+        AMOUNT_SOLD numeric(10,2) )
+        EXECUTE '/home/oracle/sales.sh'
+        ON MASTER
+        FORMAT 'CSV' ;
+     
+     5 在greenplum中发布SQL，访问oracle中的数据
+      sales_history=# select * from ora_sales;
+prod_id | cust_id |       time_id       | channel_id | promo_id | quantity_sold | amount_sold
+---------+---------+---------------------+------------+----------+---------------+-------------
+      13 |     987 | 1998-01-10 00:00:00 |          3 |      999 |             1 |     1232.16
+      13 |    1660 | 1998-01-10 00:00:00 |          3 |      999 |             1 |     1232.16
+      13 |    1762 | 1998-01-10 00:00:00 |          3 |      999 |             1 |     1232.16
+      13 |    1843 | 1998-01-10 00:00:00 |          3 |      999 |             1 |     1232.16
+      13 |    1948 | 1998-01-10 00:00:00 |          3 |      999 |             1 |     1232.16
+      13 |    2273 | 1998-01-10 00:00:00 |          3 |      999 |             1 |     1232.16
+      13 |    2380 | 1998-01-10 00:00:00 |          3 |      999 |             1 |     1232.16
+      13 |    2683 | 1998-01-10 00:00:00 |          3 |      999 |             1 |     1232.16
+      13 |    2865 | 1998-01-10 00:00:00 |          3 |      999 |             1 |     1232.16
+(9 rows)
+     
+     通过灵活定义shell脚本，还可以通过GP的外部表实现更多更强大的功能
+
+
+GREENPLUM介绍之数据库管理（九）- 使用GPLOAD实现无落地文件的高速加载
+    类似于ORACLE 
+SQL*LOADER，gpload是EMC在greenplum中提供的用来进行数据装载的工具。我们既可以在服务端访问它，也可以把它拷贝到远程的ETL服务器，进行远程数据加载。要使用这个工具有几个前提条件必须满足。使用gpload的服务器必须安装Python 
+2.6.2或者以上版本，pygresql工具和pyyaml工具（数据库服务端已经安装了 
+python和需要的python库文件），必须装gpfdist程序，并把它设置到环境变量PATH中（可以从数据库服务器端的安装目录的子目录bin 
+中拷贝该工具），确保使用gpload工具的ETL服务器与greenplum所有服务器的联通性，以及机器名解析正确。
+    
+gpload也是通过它的控制文件指定装载的细节信息。所以编写控制文件是用好gpload的关键所在。gpload的控制文件采用YAML1.1文档格式编写，因此它必须得是有效的YAML格式。具体格式如下
+---
+VERSION: 1.0.0.1            --指定控制文件schema的版本
+DATABASE: db_name           --指定连接数据库的名字，如果没有指定,由环境变量$PGDATABASE，或者通过gpload参数-d指定
+USER: db_username           
+--指定连接目标数据库的用户名，如果不使用超级管理员，服务参数gp_external_grant_privileges必须设置成on。
+HOST: master_hostname       --指定master主机名，也可以通过gpload的-h选项，或者环境变量$PGHOST指定
+PORT: master_port           --指定master的连接端口号，默认是5432,或者通过gpload命令的-p选项或者环境变量$PGPORT指定。
+GPLOAD:                     --必须指定，表示装载设置部分在它下面必须定义INPUT:和OUTPUT:两个部分。
+INPUT:                      --必须指定，这部分指定装载数据的格式和位置
+- SOURCE:                   --必须指定，定义source文件的位置，每个输入部分可以定义多个source部分
+LOCAL_HOSTNAME:             
+--指定gpload运行的主机名称和ip地址，如果有多块网卡，可以同时使用它们，提高装载速度。默认只使用首选主机名和IP。
+- hostname_or_ip
+PORT: http_port             --指定gpfdist使用的端口，也可以选择端口范围，由系统选择，如果同时指定，port设置优先级高。
+| PORT_RANGE: [start_port_range, end_port_range]
+FILE:                       
+--指定装载数据文件的位置，目录或者命名管道。如果文件使用gpzip或者bzip2进行了压缩，它可以自动解压。可以使用通配符*和C语言风格的关系匹配模式指定多个文件。
+- /path/to/input_file
+- COLUMNS:                    
+--指定数据源的数据格式，如果没有指定这部分，source表的列顺序，数量，以及数据类型必须与目标表一致。
+- field_name: data_type
+- FORMAT: text | csv          --指定文件格式是text还是csv
+- DELIMITER: 'delimiter_character'  --指定文本数据域（列）之间的分割符，默认是|
+- ESCAPE: 'escape_character' | 'OFF'  --text定义转义字符，text格式默认是\，在text格式中可以选择off关掉转义字符（web 
+log处理时比较有用）
+- NULL_AS: 'null_string'       --指定描述空值的字符串，text格式默认是\N，csv格式不使用转义符号的空值。
+- FORCE_NOT_NULL: true | false 
+--csv格式，强制所有字符默认都用”“括起，因此不能有空值，如果两个分割符之间没有值，被当做0长度字符串，认为值已经丢失。
+- QUOTE: 'csv_quote_character'  --csv指定转义字符，默认是"
+- HEADER: true | false          --是否跳过数据文件第一行，当做表头
+- ENCODING: database_encoding   --指定数据源的字符集
+- ERROR_LIMIT: integer          
+--指定由于不符合格式数据记录的上限，如果超过该上限，gpload停止装载，否则正确记录可以被装载，错误记录抛出写入错误表。但它仅支持数据格式错误，不支持违背约束的问题
+- ERROR_TABLE: schema.table_name --指定不符合格式要求记录的错误表。如果指定的表不存在系统自动创建。
+
+OUTPUT:
+- TABLE: schema.table_name       --指定装载的目标表
+- MODE: insert | update | merge  --指定操作模式，默认是insert。merge操作不支持使用随机分布策略的表。
+- MATCH_COLUMNS:                 --为update操作和merge操作指定匹配条件。
+     - target_column_name            
+- UPDATE_COLUMNS:                 --为update操作和merge操作指定更新的列
+     - target_column_name
+- UPDATE_CONDITION: 'boolean_condition'  
+--指定where条件，目标表中只有满足条件的记录才能更改，（merge情况下，只有满足条件的记录才能insert)
+- MAPPING:                        --指定source列和目标列的映射关系。
+target_column_name: source_column_name | 'expression'
+PRELOAD:                          --指定load之前的操作
+- TRUNCATE: true | false          --如果设置成true,装载之前先删除目标表中所有记录，再装载
+- REUSE_TABLES: true | false     --设置成true，不会删除外部表对象会这中间表对象。从而提升性能。
+SQL:
+- BEFORE: "sql_command"         --装载操作开始前执行的SQL，比如写日志表
+- AFTER: "sql_command"          --装载操作之后执行的SQL。
+
+       
+使用gpload，一方面我们可以实现GREENPLUM中不能直接实现的merge操作，另外通过结合命名管道，我们可以实现无落地文件的并行快速加载。从而帮助我们提高海量数据加载效率，也避免了使用传统落地文件方式加载的过大存储开销，以及超大文件落地过程导致的加载性能瓶颈。下面举一个通过命名管道和gpload结合sqluldr2(用于oracle数据的快速卸载，该软件可以从http://www.anysql.net下载)实现从oracle到greenplum无落地文件快速加载的例子。
+       
+具体场景如下，要把oracle中sh下的sales表中的数据，加载到greenplum数据库sales_history的sales表中。首先定义gpload的控制文件,vi 
+gpload.ctl
+---
+VERSION: 1.0.0.1
+DATABASE: sales_history
+USER: sh
+HOST: mdw
+PORT: 5432
+GPLOAD:
+   INPUT:
+    - SOURCE:
+         LOCAL_HOSTNAME:
+           - mdw
+         PORT: 8082
+         FILE:
+           - /tmp/mypipe
+    - FORMAT: csv
+    - DELIMITER: ','
+    - QUOTE: '"'
+    - HEADER: true
+    - ERROR_LIMIT: 25
+    - ERROR_TABLE: err_sales_ext
+   OUTPUT:
+    - TABLE: sales_history.sales
+    - MODE: INSERT
+
+
+然后，定义环境变量，指定连接目标数据库的密码，比如
+export PGPASSWORD=sh
+
+接下来编写一个shell脚本，创建命名管道，并把oracle数据通过sqluldr2写入命名管道，并调用gpload进行装载。vi load_data.sh
+
+#!/bin/bash
+mknod /tmp/mypipe p
+sqluldr2 user=sh/sh query=sh.sales field=0x7c file=/tmp/mypipe charset=utf8 text=CSV safe=yes &
+gpload -f gpload.ctl -V -l gpload.log
+rm -rf /tmp/mypipe
+
+修改权限
+chmod 777 load_data.sh
+
+2011-04-26 17:05:02|DEBUG|getting config for version
+2011-04-26 17:05:02|DEBUG|trying version
+2011-04-26 17:05:02|DEBUG|found version
+2011-04-26 17:05:02|INFO|gpload session started 2011-04-26 17:05:02
+2011-04-26 17:05:02|DEBUG|config {u'database': u'sales_history', u'host': u'mdw', u'version': u'1.0.0.1', u'user': u'sh', 
+u'gpload': {u'input': [{u'source': {u'local_hostname': [u'mdw'], u'port': 8082, u'file': [u'/tmp/mypipe']}}, {u'format': 
+u'csv'}, {u'delimiter': u','}, {u'quote': u'"'}, {u'header': True}, {u'error_limit': 25}, {u'error_table': 
+u'err_sales_ext'}], u'output': [{u'table': u'sales_history.sales'}, {u'mode': u'INSERT'}]}, u'port': 5432}
+2011-04-26 17:05:02|DEBUG|getting config for gploadutput
+2011-04-26 17:05:02|DEBUG|trying gpload
+2011-04-26 17:05:02|DEBUG|found gpload
+2011-04-26 17:05:02|DEBUG|trying output
+2011-04-26 17:05:02|DEBUG|found output
+2011-04-26 17:05:02|DEBUG|getting config for gploadutput:table
+2011-04-26 17:05:02|DEBUG|trying gpload
+2011-04-26 17:05:02|DEBUG|found gpload
+2011-04-26 17:05:02|DEBUG|trying output
+2011-04-26 17:05:02|DEBUG|found output
+2011-04-26 17:05:02|DEBUG|trying table
+2011-04-26 17:05:02|DEBUG|found table
+2011-04-26 17:05:02|DEBUG|getting config for host
+2011-04-26 17:05:02|DEBUG|trying host
+2011-04-26 17:05:02|DEBUG|found host
+2011-04-26 17:05:02|DEBUG|getting config for port
+2011-04-26 17:05:02|DEBUG|trying port
+2011-04-26 17:05:02|DEBUG|found port
+2011-04-26 17:05:02|DEBUG|getting config for user
+2011-04-26 17:05:02|DEBUG|trying user
+2011-04-26 17:05:02|DEBUG|found user
+2011-04-26 17:05:02|DEBUG|getting config for database
+2011-04-26 17:05:02|DEBUG|trying database
+2011-04-26 17:05:02|DEBUG|found database
+2011-04-26 17:05:02|DEBUG|getting config for password
+2011-04-26 17:05:02|DEBUG|trying password
+2011-04-26 17:05:02|DEBUG|connection string: user=sh host=mdw port=5432 database=sales_history
+2011-04-26 17:05:02|DEBUG|Successfully connected to database
+2011-04-26 17:05:02|DEBUG|found input column: [u'"prod_id"', u'numeric', None, False]
+2011-04-26 17:05:02|DEBUG|found input column: [u'"cust_id"', u'numeric', None, False]
+2011-04-26 17:05:02|DEBUG|found input column: [u'"time_id"', u'timestamp without time zone', None, False]
+2011-04-26 17:05:02|DEBUG|found input column: [u'"channel_id"', u'numeric', None, False]
+2011-04-26 17:05:02|DEBUG|found input column: [u'"promo_id"', u'numeric', None, False]
+2011-04-26 17:05:02|DEBUG|found input column: [u'"quantity_sold"', u'numeric(10,2)', None, False]
+2011-04-26 17:05:02|DEBUG|found input column: [u'"amount_sold"', u'numeric(10,2)', None, False]
+2011-04-26 17:05:02|DEBUG|getting config for gpload:input:columns
+2011-04-26 17:05:02|DEBUG|trying gpload
+2011-04-26 17:05:02|DEBUG|found gpload
+2011-04-26 17:05:02|DEBUG|trying input
+2011-04-26 17:05:02|DEBUG|found input
+2011-04-26 17:05:02|DEBUG|trying columns
+2011-04-26 17:05:02|DEBUG|from columns are:
+2011-04-26 17:05:02|DEBUG|"prod_id": numeric
+2011-04-26 17:05:02|DEBUG|"cust_id": numeric
+2011-04-26 17:05:02|DEBUG|"time_id": timestamp without time zone
+2011-04-26 17:05:02|DEBUG|"channel_id": numeric
+2011-04-26 17:05:02|DEBUG|"promo_id": numeric
+2011-04-26 17:05:02|DEBUG|"quantity_sold": numeric(10,2)
+2011-04-26 17:05:02|DEBUG|"amount_sold": numeric(10,2)
+2011-04-26 17:05:02|DEBUG|getting config for gploadutput:mapping
+2011-04-26 17:05:02|DEBUG|trying gpload
+2011-04-26 17:05:02|DEBUG|found gpload
+2011-04-26 17:05:02|DEBUG|trying output
+2011-04-26 17:05:02|DEBUG|found output
+2011-04-26 17:05:02|DEBUG|trying mapping
+2011-04-26 17:05:02|DEBUG|"prod_id": numeric = "prod_id"
+2011-04-26 17:05:02|DEBUG|"cust_id": numeric = "cust_id"
+2011-04-26 17:05:02|DEBUG|"time_id": timestamp without time zone = "time_id"
+2011-04-26 17:05:02|DEBUG|"channel_id": numeric = "channel_id"
+2011-04-26 17:05:02|DEBUG|"promo_id": numeric = "promo_id"
+2011-04-26 17:05:02|DEBUG|"quantity_sold": numeric(10,2) = "quantity_sold"
+2011-04-26 17:05:02|DEBUG|"amount_sold": numeric(10,2) = "amount_sold"
+2011-04-26 17:05:02|DEBUG|getting config for gpload:input
+2011-04-26 17:05:02|DEBUG|trying gpload
+2011-04-26 17:05:02|DEBUG|found gpload
+2011-04-26 17:05:02|DEBUG|trying input
+2011-04-26 17:05:02|DEBUG|found input
+2011-04-26 17:05:02|DEBUG|getting config for gpload:input:source(1)
+2011-04-26 17:05:02|DEBUG|trying gpload
+2011-04-26 17:05:02|DEBUG|found gpload
+2011-04-26 17:05:02|DEBUG|trying input
+2011-04-26 17:05:02|DEBUG|found input
+2011-04-26 17:05:02|DEBUG|trying source(1)
+2011-04-26 17:05:02|DEBUG|found source
+2011-04-26 17:05:02|DEBUG|getting config for gpload:input:source(1):local_hostname
+2011-04-26 17:05:02|DEBUG|trying gpload
+2011-04-26 17:05:02|DEBUG|found gpload
+2011-04-26 17:05:02|DEBUG|trying input
+2011-04-26 17:05:02|DEBUG|found input
+2011-04-26 17:05:02|DEBUG|trying source(1)
+2011-04-26 17:05:02|DEBUG|found source
+2011-04-26 17:05:02|DEBUG|trying local_hostname
+2011-04-26 17:05:02|DEBUG|found local_hostname
+2011-04-26 17:05:02|DEBUG|getting config for gpload:input:source(1)ort
+2011-04-26 17:05:02|DEBUG|trying gpload
+2011-04-26 17:05:02|DEBUG|found gpload
+2011-04-26 17:05:02|DEBUG|trying input
+2011-04-26 17:05:02|DEBUG|found input
+2011-04-26 17:05:02|DEBUG|trying source(1)
+............................
+
+gpload 的-V选项是debug模式，如果有问题，可以通过日志定位问题。
+
+最后确认结果
+gpadmin@mdw:~> psql -d sales_history -U sh -h mdw
+psql (8.2.15)
+Type "help" for help.
+
+sales_history=> select count(*) from sales;
+count
+--------
+918843
+(1 row)
+
+gpload是一个非常灵活的工具，为应用的集成提供了便利。
+

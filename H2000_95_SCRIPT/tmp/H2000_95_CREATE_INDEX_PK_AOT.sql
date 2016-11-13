@@ -1,0 +1,44 @@
+
+\echo "PK_ENTRY_HEAD on ENTRY_HEAD (ENTRY_ID, DECL_PORT)"
+drop index PK_ENTRY_HEAD ;
+create index PK_ENTRY_HEAD on ENTRY_HEAD (ENTRY_ID) ;
+
+\echo "PK_ENTRY_LIST on ENTRY_LIST (ENTRY_ID, G_NO)"
+create index PK_ENTRY_LIST on ENTRY_LIST (ENTRY_ID, G_NO) ;
+
+\echo "PK_ENTRY_WORKFLOW on ENTRY_WORKFLOW (ENTRY_ID, STEP_ID, CREATE_DATE)"
+create index PK_ENTRY_WORKFLOW on ENTRY_WORKFLOW (ENTRY_ID, STEP_ID, CREATE_DATE) ;
+
+select now();
+\echo "create index IX_ENTRYHEAD_CONTRNO on ENTRY_HEAD (CONTR_NO);"
+drop index IX_ENTRYHEAD_CONTRNO;
+create index IX_ENTRYHEAD_CONTRNO on ENTRY_HEAD (CONTR_NO);
+select now();
+\echo "create index IX_ENTRYHEAD_DDATE on ENTRY_HEAD (D_DATE);"
+drop index IX_ENTRYHEAD_DDATE;
+create index IX_ENTRYHEAD_DDATE on ENTRY_HEAD (D_DATE);
+select now();
+\echo "create index IX_ENTRYHEAD_DECLPORT on ENTRY_HEAD (DECL_PORT);"
+drop index IX_ENTRYHEAD_DECLPORT ;
+create index IX_ENTRYHEAD_DECLPORT on ENTRY_HEAD (DECL_PORT);
+select now();
+\echo "create index IX_ENTRYHEAD_IEPORT on ENTRY_HEAD (I_E_PORT);"
+drop index IX_ENTRYHEAD_IEPORT ;
+create index IX_ENTRYHEAD_IEPORT on ENTRY_HEAD (I_E_PORT);
+select now();
+\echo "create index IX_ENTRYHEAD_MANUALNO on ENTRY_HEAD (MANUAL_NO);"
+drop index IX_ENTRYHEAD_MANUALNO ;
+create index IX_ENTRYHEAD_MANUALNO on ENTRY_HEAD (MANUAL_NO);
+select now();
+\echo "create index IX_ENTRYHEAD_RELATIVEID on ENTRY_HEAD (RELATIVE_ID);"
+drop index IX_ENTRYHEAD_RELATIVEID ;
+create index IX_ENTRYHEAD_RELATIVEID on ENTRY_HEAD (RELATIVE_ID);
+select now();
+\echo "create index IX_ENTRYHEAD_TRADECO on ENTRY_HEAD (TRADE_CO);"
+drop index IX_ENTRYHEAD_TRADECO ;
+create index IX_ENTRYHEAD_TRADECO on ENTRY_HEAD (TRADE_CO);
+
+
+select now();
+\echo "create index IX_ENTRY_WORKFLOW on ENTRY_WORKFLOW (CREATE_DATE, STEP_ID);"
+create index IX_ENTRY_WORKFLOW on ENTRY_WORKFLOW (CREATE_DATE, STEP_ID);

@@ -1,0 +1,12 @@
+\echo ------------------DEL_EGS_ARC_LIST----------------
+select now();
+\timing
+insert into DEL_EGS_ARC_LIST_GPTMP (CMD_TYPE,EGS_NO, G_NO) select CMD_TYPE,EGS_NO, G_NO from DEL_EGS_ARC_LIST_INC_EXT;
+
+delete from DEL_EGS_ARC_LIST using DEL_EGS_ARC_LIST_GPTMP where DEL_EGS_ARC_LIST_GPTMP.EGS_NO=DEL_EGS_ARC_LIST.EGS_NO AND DEL_EGS_ARC_LIST_GPTMP.G_NO=DEL_EGS_ARC_LIST.G_NO ;
+
+insert into DEL_EGS_ARC_LIST(EGS_NO,G_NO,CODE_TS,G_NAME) select EGS_NO,G_NO,CODE_TS,G_NAME from DEL_EGS_ARC_LIST_INC_EXT where CMD_TYPE='I';
+
+delete from DEL_EGS_ARC_LIST_GPTMP;
+
+\timing

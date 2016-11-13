@@ -1,0 +1,12 @@
+\echo ------------------EGS_ADMIT_LIST----------------
+select now();
+\timing
+insert into EGS_ADMIT_LIST_GPTMP (CMD_TYPE,ADM_NO, G_NO) select CMD_TYPE,ADM_NO, G_NO from EGS_ADMIT_LIST_INC_EXT;
+
+delete from EGS_ADMIT_LIST using EGS_ADMIT_LIST_GPTMP where EGS_ADMIT_LIST_GPTMP.ADM_NO=EGS_ADMIT_LIST.ADM_NO AND EGS_ADMIT_LIST_GPTMP.G_NO=EGS_ADMIT_LIST.G_NO ;
+
+insert into EGS_ADMIT_LIST(ADM_NO,G_NO,CODE_TS,G_NAME) select ADM_NO,G_NO,CODE_TS,G_NAME from EGS_ADMIT_LIST_INC_EXT where CMD_TYPE='I';
+
+delete from EGS_ADMIT_LIST_GPTMP;
+
+\timing

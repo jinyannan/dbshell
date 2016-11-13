@@ -1,0 +1,6 @@
+\echo -----------------------ERR_LOG------------------------
+select now();
+\timing
+delete from ERR_LOG using ERR_LOG_GPTMP_TODAY where ERR_LOG.ENTRY_ID=ERR_LOG_GPTMP_TODAY.ENTRY_ID AND ERR_LOG.CREATE_DATE=ERR_LOG_GPTMP_TODAY.CREATE_DATE ;
+insert into ERR_LOG (ENTRY_ID,CREATE_DATE,SOURCE,DESCRIPTION) select ENTRY_ID,CREATE_DATE,SOURCE,DESCRIPTION from ERR_LOG_GPTMP_TODAY  where CMD_TYPE='I';
+\timing

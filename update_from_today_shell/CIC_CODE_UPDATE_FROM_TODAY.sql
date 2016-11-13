@@ -1,0 +1,6 @@
+\echo -----------------------CIC_CODE------------------------
+select now();
+\timing
+delete from CIC_CODE using CIC_CODE_GPTMP_TODAY where CIC_CODE.FIRST_NO=CIC_CODE_GPTMP_TODAY.FIRST_NO ;
+insert into CIC_CODE (FIRST_NO,LAST_NO,CUS_CODE,LOCAL_FLAG,INPUT_ER,INPUT_DATE,PRINT_DATE) select FIRST_NO,LAST_NO,CUS_CODE,LOCAL_FLAG,INPUT_ER,INPUT_DATE,PRINT_DATE from CIC_CODE_GPTMP_TODAY  where CMD_TYPE='I';
+\timing

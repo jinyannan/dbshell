@@ -1,0 +1,70 @@
+"PK_ENTRY_HEAD on ENTRY_HEAD (ENTRY_ID, DECL_PORT)"
+psql:H2000_95_CREATE_INDEX_PK_AOT.sql:3: ERROR:  index "pk_entry_head" does not exist
+CREATE INDEX
+"PK_ENTRY_LIST on ENTRY_LIST (ENTRY_ID, G_NO)"
+psql:H2000_95_CREATE_INDEX_PK_AOT.sql:7: ERROR:  relation "pk_entry_list" already exists
+"PK_ENTRY_WORKFLOW on ENTRY_WORKFLOW (ENTRY_ID, STEP_ID, CREATE_DATE)"
+psql:H2000_95_CREATE_INDEX_PK_AOT.sql:10: ERROR:  relation "pk_entry_workflow" already exists
+              now              
+-------------------------------
+ 2011-10-21 15:56:23.146468+08
+(1 row)
+
+"create index IX_ENTRYHEAD_CONTRNO on ENTRY_HEAD (CONTR_NO);"
+DROP INDEX
+CREATE INDEX
+              now              
+-------------------------------
+ 2011-10-21 15:57:49.618794+08
+(1 row)
+
+"create index IX_ENTRYHEAD_DDATE on ENTRY_HEAD (D_DATE);"
+DROP INDEX
+CREATE INDEX
+              now              
+-------------------------------
+ 2011-10-21 15:59:09.309954+08
+(1 row)
+
+"create index IX_ENTRYHEAD_DECLPORT on ENTRY_HEAD (DECL_PORT);"
+DROP INDEX
+CREATE INDEX
+              now              
+-------------------------------
+ 2011-10-21 16:00:40.870482+08
+(1 row)
+
+"create index IX_ENTRYHEAD_IEPORT on ENTRY_HEAD (I_E_PORT);"
+DROP INDEX
+CREATE INDEX
+              now              
+-------------------------------
+ 2011-10-21 16:01:54.498387+08
+(1 row)
+
+"create index IX_ENTRYHEAD_MANUALNO on ENTRY_HEAD (MANUAL_NO);"
+DROP INDEX
+CREATE INDEX
+              now              
+-------------------------------
+ 2011-10-21 16:03:18.830799+08
+(1 row)
+
+"create index IX_ENTRYHEAD_RELATIVEID on ENTRY_HEAD (RELATIVE_ID);"
+DROP INDEX
+CREATE INDEX
+              now              
+-------------------------------
+ 2011-10-21 16:04:10.474726+08
+(1 row)
+
+"create index IX_ENTRYHEAD_TRADECO on ENTRY_HEAD (TRADE_CO);"
+DROP INDEX
+CREATE INDEX
+              now              
+-------------------------------
+ 2011-10-21 16:07:07.144027+08
+(1 row)
+
+"create index IX_ENTRY_WORKFLOW on ENTRY_WORKFLOW (CREATE_DATE, STEP_ID);"
+psql:H2000_95_CREATE_INDEX_PK_AOT.sql:44: ERROR:  relation "ix_entry_workflow" already exists

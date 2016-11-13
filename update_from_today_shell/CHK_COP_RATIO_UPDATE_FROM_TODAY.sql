@@ -1,0 +1,6 @@
+\echo -----------------------CHK_COP_RATIO------------------------
+select now();
+\timing
+delete from CHK_COP_RATIO using CHK_COP_RATIO_GPTMP_TODAY where CHK_COP_RATIO.CORP_CODE=CHK_COP_RATIO_GPTMP_TODAY.CORP_CODE ;
+insert into CHK_COP_RATIO (CORP_CODE,CORP_NAME,CUSTOMS_CODE,RATIO_NUM) select CORP_CODE,CORP_NAME,CUSTOMS_CODE,RATIO_NUM from CHK_COP_RATIO_GPTMP_TODAY  where CMD_TYPE='I';
+\timing

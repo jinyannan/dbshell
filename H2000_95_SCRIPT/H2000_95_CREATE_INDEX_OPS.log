@@ -1,0 +1,2806 @@
+Timing is on.
+             now              
+------------------------------
+ 2011-10-21 18:45:57.16692+08
+(1 row)
+
+Time: 1.464 ms
+"create index IDX_AGREEMENTGOODSLIST_D_DATE_ops on AGREEMENT_GOODS_LIST(D_DATE,AGREEMENT_ID varchar_pattern_ops,CODE_TS varchar_pattern_ops,QTY_1);"
+psql:./H2000_95_SCRIPT/H2000_95_CREATE_INDEX_OPS.sql:4: ERROR:  relation "idx_agreementgoodslist_d_date_ops" already exists
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 18:46:43.675693+08
+(1 row)
+
+"create index IX_AMSLISTHEAD_LOGFLAG_ops on AMSLIST_HEAD(LOG_FLAG varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 18:47:22.130036+08
+(1 row)
+
+Time: 0.933 ms
+"create index IDX_APPLY_HEAD_CONTACT_NO_ops on APPLY_HEAD(CONTACT_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 39860.023 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 18:48:01.991131+08
+(1 row)
+
+"create index IDX_APPLY_HEAD_RECV_ops on APPLY_HEAD(RECV_PORT varchar_pattern_ops,EXAM_TIME);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 18:48:27.480591+08
+(1 row)
+
+Time: 0.815 ms
+"create index IDX_APPLY_HEAD_SEND_ops on APPLY_HEAD(SEND_PORT varchar_pattern_ops,EXAM_TIME);"
+CREATE INDEX
+Time: 41451.028 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 18:49:08.932539+08
+(1 row)
+
+"create index IDX_APPLY_HEAD_TRANS_PRE_NO_ops on APPLY_HEAD(TRANS_PRE_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 18:49:42.323858+08
+(1 row)
+
+Time: 0.848 ms
+"create index IDX_APPLY_LIST_CONTACT_NO_ops on APPLY_LIST(CONTACT_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 23811.247 ms
+Timing is off.
+Timing is on.
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 18:50:06.136059+08
+(1 row)
+
+"create index IX_BAK_HEAD_PRE_NO_ops on BAK_CONTRACT_HEAD(PRE_MANUAL_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 18:50:40.513653+08
+(1 row)
+
+Time: 0.827 ms
+"create index IX_BAKDCGBILLH_DCGNO_ops on BAK_DCG_BILL_HEAD(DCG_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 28931.554 ms
+Timing is off.
+             now              
+------------------------------
+ 2011-10-21 18:51:09.44612+08
+(1 row)
+
+"create index IX_BAKDCGDEDUCT_DCGNO_ops on BAK_DCG_DEDUCT(DCG_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 18:51:48.989478+08
+(1 row)
+
+Time: 0.896 ms
+"create index IX_BAKDCGDEDUCTLOG_DCGNO_ops on BAK_DCG_DEDUCT_LOG(DCG_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 28852.389 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 18:52:17.842851+08
+(1 row)
+
+"create index IDX_BAKEMSCONSUME_ETLMARK_ops on BAK_EMS_CONSUME(ETL_MARK varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 18:54:02.951978+08
+(1 row)
+
+Time: 0.925 ms
+"create index IX_BCK_COP_HEAD_INDEX1_ops on BCK_COP_HEAD(TRADE_CODE varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 28611.547 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 18:54:31.564636+08
+(1 row)
+
+"create index IX_BCK_HANDOVER_INDEX1_ops on BCK_HANDOVER(HANDOVER_NO varchar_pattern_ops,CREATE_DATE,HANDOVER_TYPE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 18:55:06.053068+08
+(1 row)
+
+Time: 0.833 ms
+"create index IX_BCK_HEAD_INDEX1_ops on BCK_HEAD(APPLY_CUSTOMS_CODE varchar_pattern_ops,EXE_MARK varchar_pattern_ops,EXE_MARK_DATE,APPLY_POS varchar_pattern_ops,BCK_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 34945.714 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 18:55:40.999717+08
+(1 row)
+
+"create index IX_BCK_STOCK_HEAD_INDEX1_ops on BCK_STOCK_HEAD(TRADE_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 18:56:32.403974+08
+(1 row)
+
+Time: 0.966 ms
+"create index IX_BCK_WORKFLOW_INDEX1_ops on BCK_WORKFLOW(BCK_NO varchar_pattern_ops,OPER_ER varchar_pattern_ops);"
+CREATE INDEX
+Time: 51548.472 ms
+Timing is off.
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 18:57:23.953548+08
+(1 row)
+
+Time: 0.852 ms
+"create index IX_BWSDEDUCT_BWSGNO_ops on BWS_DEDUCT(BWS_NO varchar_pattern_ops,BWS_G_NO);"
+CREATE INDEX
+Time: 54113.591 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 18:58:18.068056+08
+(1 row)
+
+"create index IX_BWSDEDUCT_BWSNO_ops on BWS_DEDUCT(BWS_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 18:58:59.863914+08
+(1 row)
+
+Time: 0.843 ms
+"create index IX_BWSDEDUCT_NO_TYPE_ops on BWS_DEDUCT(BWS_NO varchar_pattern_ops,BWS_G_TYPE varchar_pattern_ops);"
+CREATE INDEX
+Time: 30529.762 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 18:59:30.394643+08
+(1 row)
+
+"create index IX_BWSEXAMCERTLST_CERTNOTP_ops on BWS_EXAM_CERT_LIST(CERT_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:00:06.156745+08
+(1 row)
+
+Time: 0.794 ms
+"create index IX_BWSEXAMGDLST_CERTNO_ops on BWS_EXAM_GOOD_LIST(CERT_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 45509.597 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:00:51.667262+08
+(1 row)
+
+"create index IX_BWSHEAD_CTCODE_ops on BWS_HEAD(MASTER_CUSTOMS varchar_pattern_ops,TRADE_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:01:30.044982+08
+(1 row)
+
+"create index IDX_CTS_ERR_ENTRY_ID_ops on CCTS_ERROR_LOG(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:02:18.547293+08
+(1 row)
+
+Time: 0.833 ms
+"create index IDX_COR_ENTRY_ID_ops on CCTS_ONLINE_RESULT(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 28774.093 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:02:47.322316+08
+(1 row)
+
+"create index IDX_COR_BAK_ENTRY_ID_ops on CCTS_ONLINE_RESULT_BAK(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+Timing is off.
+             now              
+------------------------------
+ 2011-10-21 19:04:37.39489+08
+(1 row)
+
+"create index IDX_CTS_ENTRY_ID_ops on CCTS_PERFORMANCE(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:05:30.226202+08
+(1 row)
+
+Time: 0.836 ms
+"create index IX_CDLCHK_BILL_NO_ops on CDL_CHK(BILL_NO varchar_pattern_ops,VOYAGE_NO varchar_pattern_ops,SHIP_ID varchar_pattern_ops,I_E_PORT varchar_pattern_ops);"
+CREATE INDEX
+Time: 17334.381 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:05:47.561529+08
+(1 row)
+
+"create index IX_CDLCOMMODITY_TRADECO_ops on CDL_COMMODITY(TRADE_CO varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:06:28.767285+08
+(1 row)
+
+Time: 0.844 ms
+"create index IX_PRE_RECORDS_NO_ops on CDL_COMMODITY(PRE_RECORDS_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 18704.211 ms
+Timing is off.
+Timing is on.
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:06:47.472468+08
+(1 row)
+
+"create index IX_CDLOPLOG_OP_ops on CDL_OP_LOG(OP_TYPE varchar_pattern_ops,OP_TIME);"
+CREATE INDEX
+Timing is on.
+             now              
+------------------------------
+ 2011-10-21 19:07:19.97595+08
+(1 row)
+
+Time: 0.897 ms
+"create index IX_CDLWORKFLOW_CREATEDATE_ops on CDL_WORKFLOW(CREATE_DATE,STEP_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 25413.782 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:07:45.390724+08
+(1 row)
+
+"create index IDX_CIC_HEAD_ENTRY_NO_ops on CIC_HEAD(ENTRY_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:08:32.991351+08
+(1 row)
+
+Time: 0.888 ms
+"create index IDX_CIC_LIST_CAR_COVER_NO_ops on CIC_LIST(CAR_COVER_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 28357.175 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:09:01.349525+08
+(1 row)
+
+"create index IDX_CIC_SEND_REL_CIC_NO_ops on CIC_SEND_REL(CIC_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:09:40.302542+08
+(1 row)
+
+Time: 0.840 ms
+"create index IDX_COMPANY_REL_COP_IO_CODE_ops on COMPANY_REL(COP_IO_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 57493.224 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:10:37.796685+08
+(1 row)
+
+"create index IDX_CUSTOMS_CODE_ops on COMPANY_REL(CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:11:17.310015+08
+(1 row)
+
+Time: 0.861 ms
+"create index IDX_FULL_NAME_ops on COMPANY_REL(FULL_NAME varchar_pattern_ops);"
+CREATE INDEX
+Time: 24459.202 ms
+Timing is off.
+             now              
+------------------------------
+ 2011-10-21 19:11:41.77017+08
+(1 row)
+
+"create index IDX_GB_CODE_ops on COMPANY_REL(COP_GB_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:12:11.615866+08
+(1 row)
+
+Time: 0.945 ms
+"create index IDX_REG_CO_ops on COMPANY_REL(REG_CO varchar_pattern_ops);"
+CREATE INDEX
+Time: 39268.209 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:12:50.885109+08
+(1 row)
+
+"create index IX_CONTRACTHEAD_APPRDATE_ops on CONTRACT_HEAD(APPR_DATE,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:13:35.398359+08
+(1 row)
+
+Time: 0.809 ms
+"create index IX_CONTRACTHEAD_CLEARAPPLDATE_ops on CONTRACT_HEAD(CLEAR_APPL_DATE,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 30946.727 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:14:06.345988+08
+(1 row)
+
+"create index IX_CONTRACTHEAD_CLEARDATE_ops on CONTRACT_HEAD(CLEAR_DATE,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:14:19.490393+08
+(1 row)
+
+Time: 0.887 ms
+"create index IX_CONTRACTHEAD_CLOSEDATE_ops on CONTRACT_HEAD(CLOSE_DATE,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 38971.680 ms
+Timing is off.
+             now              
+------------------------------
+ 2011-10-21 19:14:58.46305+08
+(1 row)
+
+"create index IX_CONTRACTHEAD_CUSTOMSCODE_ops on CONTRACT_HEAD(CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:15:22.096736+08
+(1 row)
+
+Time: 1.031 ms
+"create index IX_CONTRACTHEAD_EDATE_ops on CONTRACT_HEAD(E_DATE,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 27817.139 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:15:49.914992+08
+(1 row)
+
+"create index IX_CONTRACTHEAD_OWNERCODE_ops on CONTRACT_HEAD(OWNER_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:16:22.509182+08
+(1 row)
+
+Time: 0.823 ms
+"create index IX_CONTRACTHEAD_PRENO_ops on CONTRACT_HEAD(PRE_MANUAL_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 25918.937 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:16:48.429036+08
+(1 row)
+
+"create index IX_CONTRACTHEAD_TRADECO_ops on CONTRACT_HEAD(TRADE_CO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:17:31.018797+08
+(1 row)
+
+Time: 0.882 ms
+"create index IX_CODE_TS_COP_ops on COP_CONSUME(EX_CODE_TS varchar_pattern_ops,IM_CODE_TS varchar_pattern_ops,CUS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 18347.222 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:17:49.366979+08
+(1 row)
+
+"create index IDX_CHKRATE_LIMIT_CUSTOMS_CODE_ops on CTS_CHKRATE_LIMIT(CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:18:10.635969+08
+(1 row)
+
+Time: 1.008 ms
+"create index IX_CODE_TS_ops on CUS_GOOD_CONSUME(EX_CODE_TS varchar_pattern_ops,IM_CODE_TS varchar_pattern_ops,CUS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 33005.725 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:18:43.642799+08
+(1 row)
+
+"create index IX_DCGBILLH_DCGNO_ops on DCG_BILL_HEAD(DCG_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:19:01.231342+08
+(1 row)
+
+Time: 0.833 ms
+"create index IX_DCGDEDUCT_EMSNO_ops on DCG_DEDUCT(EMS_NO varchar_pattern_ops,EMS_G_NO);"
+CREATE INDEX
+Time: 34441.863 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:19:35.674129+08
+(1 row)
+
+"create index IX_DCGDEDUCT_NOTYPE_ops on DCG_DEDUCT(DCG_NO varchar_pattern_ops,G_TYPE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+             now              
+------------------------------
+ 2011-10-21 19:20:04.73068+08
+(1 row)
+
+Time: 0.897 ms
+"create index IX_DCGDEDUCTLOG_DCGNO_ops on DCG_DEDUCT_LOG(DCG_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 27037.236 ms
+Timing is off.
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:20:31.768921+08
+(1 row)
+
+Time: 1.022 ms
+"create index IX_DCGHEAD_EXCUMCODE_ops on DCG_HEAD(EX_CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 27999.633 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:20:59.769702+08
+(1 row)
+
+"create index IX_DCGHEAD_EXEMSNO_ops on DCG_HEAD(EX_EMS_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:21:33.430392+08
+(1 row)
+
+Time: 0.849 ms
+"create index IX_DCGHEAD_IMCUMCODE_ops on DCG_HEAD(IM_CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 24370.685 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:21:57.802019+08
+(1 row)
+
+"create index IX_DCGHEAD_EMSNO_ops on DCG_LIST(EMS_NO varchar_pattern_ops,EMS_G_NO);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:22:45.935001+08
+(1 row)
+
+Time: 0.885 ms
+"create index IX_DCGHEAD_EXGNO_ops on DCG_LIST(DCG_NO varchar_pattern_ops,EX_G_NO);"
+CREATE INDEX
+Time: 36430.313 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:23:22.366715+08
+(1 row)
+
+"create index DECL_ID_CODE_INDEX_ops on DECLAR_REL(DECL_ID_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:24:01.436989+08
+(1 row)
+
+Time: 1.002 ms
+"create index DECL_TRADE_INDEX_ops on DECLAR_REL(TRADE_CO varchar_pattern_ops);"
+CREATE INDEX
+Time: 22104.923 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:24:23.542999+08
+(1 row)
+
+"create index DECL_TYPE_INDEX_ops on DECLAR_REL(CUSTOMS_CODE varchar_pattern_ops,DECL_TYPE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:24:51.776691+08
+(1 row)
+
+Time: 0.807 ms
+"create index DECL_ZG_CODE_INDEX_ops on DECLAR_REL(DECL_ZG_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 42217.809 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:25:33.995407+08
+(1 row)
+
+"create index DECL_CTRL_IDX_ops on DECLARER_REL(CUSTOMS_CODE varchar_pattern_ops,CTRL_MARK varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:26:29.729452+08
+(1 row)
+
+Time: 0.848 ms
+"create index DECL_ID_CODE_IDX_ops on DECLARER_REL(DECL_ID_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 37997.981 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:27:07.728383+08
+(1 row)
+
+"create index DECL_SCORE_IDX_ops on DECLARER_REL(CUSTOMS_CODE varchar_pattern_ops,SCORE);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:27:36.192053+08
+(1 row)
+
+Time: 0.837 ms
+"create index DECL_TRADE_IDX_ops on DECLARER_REL(TRADE_CO varchar_pattern_ops);"
+CREATE INDEX
+Time: 39353.052 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:28:15.546031+08
+(1 row)
+
+"create index DECL_ZG_CODE_IDX_ops on DECLARER_REL(CUSTOMS_CODE varchar_pattern_ops,DECL_ZG_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:28:47.880709+08
+(1 row)
+
+Time: 0.804 ms
+"create index DECLOG_DECLCO_F_INDEX_ops on DECLOG_FULL_REL(DECL_CO varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 31059.516 ms
+Timing is off.
+             now              
+------------------------------
+ 2011-10-21 19:29:18.94118+08
+(1 row)
+
+"create index DCLMLOG_CUSTMOD_IDX_ops on DECLOG_MOD_REL(CUSTOMS_CODE varchar_pattern_ops,LOG_MODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:30:04.413868+08
+(1 row)
+
+Time: 0.927 ms
+"create index DECLOG_DECLCO_M_INDEX_ops on DECLOG_MODIFY_REL(LOG_DECL_CO varchar_pattern_ops,LOG_DECL_CUST varchar_pattern_ops);"
+CREATE INDEX
+Time: 45587.310 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:30:50.002205+08
+(1 row)
+
+"create index DCLSLOG_CUSTOMS_IDX_ops on DECLOG_SCORE_HEAD(CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:31:31.693688+08
+(1 row)
+
+Time: 0.812 ms
+"create index DCLSLOG_ERRTYPE_IDX_ops on DECLOG_SCORE_LIST(ERROR_TYPE varchar_pattern_ops);"
+CREATE INDEX
+Time: 51873.471 ms
+Timing is off.
+             now              
+------------------------------
+ 2011-10-21 19:32:23.56812+08
+(1 row)
+
+"create index DCLSLOG_SEQNO_IDX_ops on DECLOG_SCORE_LIST(SEQ_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:32:49.551335+08
+(1 row)
+
+"create index IX_DEDUCT_ENTRYID_ops on DST_DEDUCT(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:33:41.414906+08
+(1 row)
+
+"create index IX_EXG_CODETS_ops on DST_EXG(CODE_TS varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:34:18.288214+08
+(1 row)
+
+Time: 0.833 ms
+"create index IX_EXG_RELNO_ops on DST_EXG(REL_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 47413.636 ms
+Timing is off.
+Timing is on.
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:35:05.702783+08
+(1 row)
+
+"create index IX_EXGENTRY_RELNO_ops on DST_EXG_ORI_ENTRY(REL_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:35:36.384198+08
+(1 row)
+
+Time: 0.865 ms
+"create index IX_DSTHEAD_CUSCODE_ops on DST_HEAD(MASTER_CUSTOMS varchar_pattern_ops);"
+CREATE INDEX
+Time: 26190.584 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:36:02.575739+08
+(1 row)
+
+"create index IX_DSTHEAD_EMSNO_ops on DST_HEAD(EMS_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:36:47.004935+08
+(1 row)
+
+"create index IX_IMG_CODETS_ops on DST_IMG(CODE_TS varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:37:42.758076+08
+(1 row)
+
+Time: 0.859 ms
+"create index IX_IMG_RELNO_ops on DST_IMG(REL_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 23503.978 ms
+Timing is off.
+Timing is on.
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:38:06.263014+08
+(1 row)
+
+"create index IX_IMGENTRY_RELNO_ops on DST_IMG_ORI_ENTRY(REL_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+             now              
+------------------------------
+ 2011-10-21 19:38:29.05602+08
+(1 row)
+
+Time: 0.845 ms
+"create index IX_DUTYCHECKLOG_EPORTID_ops on DUTY_CHECK_LOG(EPORT_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 64246.290 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:39:33.303246+08
+(1 row)
+
+"create index IX_DUTYCHECKLOG_GUAID_ops on DUTY_CHECK_LOG(GUA_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:40:15.260434+08
+(1 row)
+
+Time: 0.827 ms
+"create index IX_DUTYFORMLIST_BOOK_NO_ops on DUTYFORM_LIST(BOOK_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 111012.592 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:42:06.273953+08
+(1 row)
+
+"create index IX_DUTYFORMLIST_DUTYFORNO_ops on DUTYFORM_LIST(DUTYFOR_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+Timing is off.
+Timing is on.
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:43:06.450793+08
+(1 row)
+
+"create index IX_EGSADMITHEAD_PREADMNO_ops on EGS_ADMIT_HEAD(PRE_ADM_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:43:38.397598+08
+(1 row)
+
+"create index IX_EGSARCHEAD_MASTERCUSTOMS_ops on EGS_ARC_HEAD(MASTER_CUSTOMS varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:44:12.085358+08
+(1 row)
+
+Time: 0.851 ms
+"create index IX_EGSARCHEAD_PREEGSNO_ops on EGS_ARC_HEAD(PRE_EGS_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 30499.633 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:44:42.585953+08
+(1 row)
+
+"create index IX_EGSARCHEAD_REGCUSTOMS_ops on EGS_ARC_HEAD(REG_CUSTOMS varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:45:08.475273+08
+(1 row)
+
+"create index IX_EGSDECLAREHEAD_EGSNO_ops on EGS_DECLARE_HEAD(EGS_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:45:50.414079+08
+(1 row)
+
+Time: 0.839 ms
+"create index IX_EGSDECLAREHEAD_MASTERCUSTOM_ops on EGS_DECLARE_HEAD(MASTER_CUSTOMS varchar_pattern_ops,EXE_MARK varchar_pattern_ops);"
+CREATE INDEX
+Time: 34403.095 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:46:24.818108+08
+(1 row)
+
+"create index IX_EGSDECLAREHEAD_PREDECLNO_ops on EGS_DECLARE_HEAD(PRE_DECL_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:46:54.775852+08
+(1 row)
+
+Time: 0.958 ms
+"create index IX_EGSDECLARELIST_FIRSTDECL_ops on EGS_DECLARE_LIST(FIRST_DECL_NO varchar_pattern_ops,FIRST_G_NO);"
+CREATE INDEX
+Time: 31811.274 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:47:26.588178+08
+(1 row)
+
+"create index IX_EGSDEDUCT_CLR_ops on EGS_DEDUCT(CLR_NO varchar_pattern_ops,CLR_G_NO);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:48:15.014529+08
+(1 row)
+
+Time: 0.856 ms
+"create index IX_EGSLENDHEAD_EGSNO_ops on EGS_LEND_HEAD(EGS_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 25701.871 ms
+Timing is off.
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:48:40.717326+08
+(1 row)
+
+Time: 0.883 ms
+"create index IX_EGSLENDHEAD_MASTERCUSTOMS_ops on EGS_LEND_HEAD(MASTER_CUSTOMS varchar_pattern_ops,EXE_MARK varchar_pattern_ops);"
+CREATE INDEX
+Time: 38179.539 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:49:18.897841+08
+(1 row)
+
+"create index IX_EGSLENDHEAD_PRELENDNO_ops on EGS_LEND_HEAD(PRE_LEND_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:49:57.899298+08
+(1 row)
+
+Time: 0.872 ms
+"create index IDX_EMS_CONSUME_EMSNO_ops on EMS_CONSUME(EMS_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 141447.303 ms
+Timing is off.
+             now              
+------------------------------
+ 2011-10-21 19:52:19.34764+08
+(1 row)
+
+"create index IX_EMSCONSUME_MODIFY_MARK_ops on EMS_CONSUME(EMS_NO varchar_pattern_ops,MODIFY_MARK varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:54:53.736135+08
+(1 row)
+
+"create index IX_EMSDEDUCT_EMSNO_ops on EMS_DEDUCT(EMS_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+             now              
+------------------------------
+ 2011-10-21 19:57:56.82345+08
+(1 row)
+
+Time: 0.831 ms
+"create index IX_EMSDEDUCTLOG_EMSGNO_ops on EMS_DEDUCT_LOG(EMS_NO varchar_pattern_ops,NOTE varchar_pattern_ops);"
+CREATE INDEX
+Time: 46212.689 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:58:43.037068+08
+(1 row)
+
+"create index IX_EMSHEAD_COPNO_ops on EMS_HEAD(COP_EMS_NO varchar_pattern_ops,TRADE_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:58:59.569093+08
+(1 row)
+
+Time: 0.888 ms
+"create index IX_EMSHEAD_CUSTOMSCODE_ops on EMS_HEAD(MASTER_CUSTOMS varchar_pattern_ops);"
+CREATE INDEX
+Time: 4109.011 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:59:03.679082+08
+(1 row)
+
+"create index IX_EMSHEAD_ETL_MARK_ops on EMS_HEAD(ETL_MARK varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:59:09.492441+08
+(1 row)
+
+Time: 0.833 ms
+"create index IX_EMSHEAD_LASTEMSNO_ops on EMS_HEAD(LAST_EMS_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 16784.827 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 19:59:26.278207+08
+(1 row)
+
+"create index IX_EMSHEAD_PRENO_ops on EMS_HEAD(PRE_EMS_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 19:59:45.076691+08
+(1 row)
+
+Time: 0.915 ms
+"create index IX_EMSLIST_ETL_MARK_ops on EMS_LIST(ETL_MARK varchar_pattern_ops);"
+CREATE INDEX
+Time: 24239.300 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 20:00:09.316873+08
+(1 row)
+
+"create index IX_ENTRY_EVALUATION_ASSID_ops on ENTRY_EVALUATION(ASS_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 20:00:27.462298+08
+(1 row)
+
+Time: 0.878 ms
+"create index IX_ENTRYHEAD_CONTRNO_ops on ENTRY_HEAD(CONTR_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 112421.648 ms
+Timing is off.
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 20:02:19.884927+08
+(1 row)
+
+Time: 0.991 ms
+"create index IX_ENTRYHEAD_IEPORT_ops on ENTRY_HEAD(I_E_PORT varchar_pattern_ops);"
+CREATE INDEX
+Time: 92242.317 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 20:03:52.128343+08
+(1 row)
+
+"create index IX_ENTRYHEAD_MANUALNO_ops on ENTRY_HEAD(MANUAL_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 20:05:15.742013+08
+(1 row)
+
+Time: 0.932 ms
+"create index IX_ENTRYHEAD_RELATIVEID_ops on ENTRY_HEAD(RELATIVE_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 51825.009 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 20:06:07.568045+08
+(1 row)
+
+"create index IX_ENTRYHEAD_TRADECO_ops on ENTRY_HEAD(TRADE_CO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 20:08:18.852108+08
+(1 row)
+
+"create index IX_ENTRYPROC_DECLPORT_ops on ENTRY_PROC(DECL_PORT varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+Timing is off.
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 20:10:03.039893+08
+(1 row)
+
+Time: 0.939 ms
+"create index IX_ENTRY_WORKFLOW_ops on ENTRY_WORKFLOW(CREATE_DATE,STEP_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 3522036.341 ms
+Timing is off.
+             now             
+-----------------------------
+ 2011-10-21 21:08:45.0773+08
+(1 row)
+
+"create index IX_EPA_CHK_CERT_NO_ops on EPA_CHK(CERTIFICATE_NO varchar_pattern_ops,CERT_TYPE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:08:45.946352+08
+(1 row)
+
+Time: 0.855 ms
+"create index IDX_ARV_SHIP_ops on EX_ARRIVAL_CONTA(REC_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 34868.159 ms
+Timing is off.
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:09:20.815468+08
+(1 row)
+
+Time: 0.831 ms
+"create index IDX_EX_ARRIVAL_CONTA_BILL_NO_ops on EX_ARRIVAL_CONTA(BILL_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 29271.137 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:09:50.087532+08
+(1 row)
+
+"create index IDX_EX_ARRIVAL_CONTA_ENTRY_ID_ops on EX_ARRIVAL_CONTA(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:10:21.070155+08
+(1 row)
+
+Time: 0.856 ms
+"create index IDX_EX_ARRIVAL_SHIP_REC_NO_ops on EX_ARRIVAL_SHIP(REC_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 249.948 ms
+Timing is off.
+             now              
+------------------------------
+ 2011-10-21 21:10:21.32105+08
+(1 row)
+
+"create index IX_EXCDLMNLDEDUCT_ENTRYID_ops on EX_CDL_MNL_DEDUCT(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:10:21.418045+08
+(1 row)
+
+Time: 0.763 ms
+"create index IDX_CONTA_ENTRY_ops on EX_CONTA_ENTRY_CHK(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 24373.977 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:10:45.792876+08
+(1 row)
+
+"create index IX_EXCONTRACTDEDUC_ENTRYID_ops on EX_CONTRACT_DEDUC(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:11:07.750396+08
+(1 row)
+
+Time: 0.844 ms
+"create index IX_EXCONTRACTDEDUC_MANUALNO_ops on EX_CONTRACT_DEDUC(MANUAL_NO varchar_pattern_ops,CONTR_ITEM);"
+CREATE INDEX
+Time: 21340.986 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:11:29.092319+08
+(1 row)
+
+"create index IDX_EX_DECL_ALARM_HEAD_RECV_ops on EX_DECL_ALARM_HEAD(RECV_PORT varchar_pattern_ops,EXAM_TIME);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:11:29.139451+08
+(1 row)
+
+Time: 0.813 ms
+"create index IDX_EX_DECL_ALARM_HEAD_SEND_ops on EX_DECL_ALARM_HEAD(SEND_PORT varchar_pattern_ops,EXAM_TIME);"
+CREATE INDEX
+Time: 39.134 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:11:29.179478+08
+(1 row)
+
+"create index IDX_EX_DECL_ALARM_HEAD_TURN_NO_ops on EX_DECL_ALARM_HEAD(TURN_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:11:29.221588+08
+(1 row)
+
+Time: 0.815 ms
+"create index IDX_EX_DECL_ALARM_LIST_TURN_NO_ops on EX_DECL_ALARM_LIST(TURN_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 31.199 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:11:29.253752+08
+(1 row)
+
+"create index IDX_EX_DECL_CUR_HEAD_BAT_NO_ops on EX_DECL_CUR_HEAD(BATCH_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:11:40.648755+08
+(1 row)
+
+Time: 0.802 ms
+"create index IDX_EX_DECL_CUR_HEAD_RECV_ops on EX_DECL_CUR_HEAD(RECV_PORT varchar_pattern_ops,EXAM_TIME);"
+CREATE INDEX
+Time: 7550.655 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:11:48.200328+08
+(1 row)
+
+"create index IDX_EX_DECL_CUR_HEAD_SEND_ops on EX_DECL_CUR_HEAD(SEND_PORT varchar_pattern_ops,EXAM_TIME);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:11:56.355108+08
+(1 row)
+
+Time: 0.832 ms
+"create index IDX_EX_DECL_CUR_HEAD_TURN_NO_ops on EX_DECL_CUR_HEAD(TURN_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 7372.691 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:12:03.728725+08
+(1 row)
+
+"create index IDX_EX_DECL_CUR_LIST_TURN_NO_ops on EX_DECL_CUR_LIST(TURN_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:12:21.233682+08
+(1 row)
+
+Time: 0.860 ms
+"create index IDX_EX_DECL_HIS_HEAD_RECV_ops on EX_DECL_HIS_HEAD(RECV_PORT varchar_pattern_ops,EXAM_TIME);"
+CREATE INDEX
+Time: 100.510 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:12:21.335101+08
+(1 row)
+
+"create index IDX_EX_DECL_HIS_HEAD_SEND_ops on EX_DECL_HIS_HEAD(SEND_PORT varchar_pattern_ops,EXAM_TIME);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:12:21.365094+08
+(1 row)
+
+Time: 0.737 ms
+"create index IDX_EX_DECL_HIS_HEAD_TURN_NO_ops on EX_DECL_HIS_HEAD(TURN_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 42.058 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:12:21.407963+08
+(1 row)
+
+"create index IDX_EX_DECL_HIS_LIST_TURN_NO_ops on EX_DECL_HIS_LIST(TURN_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+Timing is off.
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:12:21.452478+08
+(1 row)
+
+Time: 0.855 ms
+"create index IX_EXEXAMJOU_LICENSENO_ops on EX_EXAM_JOU(LICENSE_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 2371.765 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:12:23.825175+08
+(1 row)
+
+"create index IX_EXFASCICLELIST_MANUALNO_ops on EX_FASCICLE_LIST(MANUAL_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:12:24.348245+08
+(1 row)
+
+Time: 0.810 ms
+"create index IDX_EX_ALARM_CONTA_REL_CONTA_N_ops on EX_TRANS_ALARM_CONTA_REL(CONTA_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 64.170 ms
+Timing is off.
+             now              
+------------------------------
+ 2011-10-21 21:12:24.41331+08
+(1 row)
+
+"create index IDX_EX_ALARM_LIST_REL_ENTRY_NO_ops on EX_TRANS_ALARM_LIST_REL(ENTRY_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:12:24.442456+08
+(1 row)
+
+Time: 0.828 ms
+"create index IDX_EX_CONTA_REL_CONTA_NO_ops on EX_TRANS_CONTA_REL(CONTA_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 14664.726 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:12:39.108098+08
+(1 row)
+
+"create index IDX_EX_CONTA_REL_TRANS_NAME_ops on EX_TRANS_CONTA_REL(TRANS_NAME varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:12:51.431925+08
+(1 row)
+
+Time: 0.877 ms
+"create index IDX_EX_HIS_CONTA_REL_CONTA_NO_ops on EX_TRANS_HIS_CONTA_REL(CONTA_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 63.676 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:12:51.496602+08
+(1 row)
+
+"create index IDX_EX_HIS_LIST_REL_ENTRY_NO_ops on EX_TRANS_HIS_LIST_REL(ENTRY_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:12:51.523992+08
+(1 row)
+
+Time: 0.932 ms
+"create index IDX_EX_LIST_REL_ENTRY_NO_ops on EX_TRANS_LIST_REL(ENTRY_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 15367.405 ms
+Timing is off.
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:13:06.892422+08
+(1 row)
+
+Time: 0.847 ms
+"create index IX_EX_TRN_ARV_CONTA_ENTRY_ID_ops on EX_TRN_ARRIVAL_CONTA(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 66.048 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:13:06.959397+08
+(1 row)
+
+"create index IX_EX_TRN_CONTA_ENTRY_ARV_M_ops on EX_TRN_CONTA_ENTRY_ARV(TRAF_NAME varchar_pattern_ops,VOYAGE_NO varchar_pattern_ops,BILL_NO varchar_pattern_ops,TRAF_MODE varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops,CONTA_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:13:06.982864+08
+(1 row)
+
+Time: 0.897 ms
+"create index IX_EX_TRN_CONTA_ENTRY_ARV_N_ops on EX_TRN_CONTA_ENTRY_ARV(BILL_NO varchar_pattern_ops,TRAF_MODE varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops,CONTA_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 24.267 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:13:07.008117+08
+(1 row)
+
+"create index IX_EX_TRN_CONTA_ENTRY_ARV_S_ops on EX_TRN_CONTA_ENTRY_ARV(TRAF_NAME varchar_pattern_ops,TRAF_MODE varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops,CONTA_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:13:07.025032+08
+(1 row)
+
+Time: 0.854 ms
+"create index IDX_EXAM_CONTA_HEAD_ENTRY_ID_ops on EXAM_CONTA_HEAD(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 229.863 ms
+Timing is off.
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:13:07.255846+08
+(1 row)
+
+Time: 5.855 ms
+"create index IX_EXC_ELE_ops on EXC_ELE(PORT_CODE varchar_pattern_ops,RECV_DATE);"
+CREATE INDEX
+Time: 54157.261 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:14:01.419061+08
+(1 row)
+
+"create index IX_EXC_TRADECO_ops on EXC_ELE(TRADE_CO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:14:53.963909+08
+(1 row)
+
+Time: 0.902 ms
+"create index IX_EXC_EXAM_ops on EXC_EXAM(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 55524.887 ms
+Timing is off.
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:15:49.489795+08
+(1 row)
+
+Time: 0.861 ms
+"create index IX_FASCICLEHEAD_MANUALNO_ops on FASCICLE_HEAD(MANUAL_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 239.290 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:15:49.730024+08
+(1 row)
+
+"create index IX_FCB_CHK_FORM_ID_ops on FCB_CHK(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+Timing is off.
+Timing is on.
+Timing is off.
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:15:49.843543+08
+(1 row)
+
+Time: 0.844 ms
+"create index IX_FCB_MAIN_CUS_ops on FCB_HEAD(MAIN_CUS varchar_pattern_ops);"
+CREATE INDEX
+Time: 169.351 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:15:50.013776+08
+(1 row)
+
+"create index IX_FCB_PORT_CUS_ops on FCB_HEAD(PORT_CUS varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:15:50.063853+08
+(1 row)
+
+Time: 0.815 ms
+"create index IX_FCB_PRE_NO_ops on FCB_HEAD(PRE_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 59.238 ms
+Timing is off.
+Timing is on.
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:15:50.123999+08
+(1 row)
+
+"create index IX_FCBWORKFLOW_CREATEDATE_ops on FCB_WORKFLOW(CREATE_DATE,STEP_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:15:50.365917+08
+(1 row)
+
+Time: 0.922 ms
+"create index IX_FORM_CHK_BILLNO_ops on FORM_CHK(BILL_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 83259.696 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:17:13.626663+08
+(1 row)
+
+"create index IX_FORM_CHK_GEN_DATE_ops on FORM_CHK(GEN_DATE,I_E_FLAG varchar_pattern_ops,I_E_PORT varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:17:47.521768+08
+(1 row)
+
+Time: 0.807 ms
+"create index IX_FORM_CHK_SHIPID_ops on FORM_CHK(SHIP_ID varchar_pattern_ops,VOYAGE_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 48770.872 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:18:36.293604+08
+(1 row)
+
+"create index IX_FORM_CHK_TRANSNO_ops on FORM_CHK(TRANS_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:18:57.884618+08
+(1 row)
+
+Time: 0.809 ms
+"create index IX_GUARANTEER_DECLPORT_ops on GUARANTEE_R(DECL_PORT varchar_pattern_ops);"
+CREATE INDEX
+Time: 1000.915 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:18:58.886397+08
+(1 row)
+
+"create index IX_GUARANTEER_ENTRYID_ops on GUARANTEE_R(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:18:59.224438+08
+(1 row)
+
+"create index IX_GUARANTEER_TRADECO_ops on GUARANTEE_R(TRADE_CO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:18:59.509945+08
+(1 row)
+
+Time: 0.856 ms
+"create index IX_IMCDLMNLDEDUCT_ENTRYID_ops on IM_CDL_MNL_DEDUCT(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 198.898 ms
+Timing is off.
+             now              
+------------------------------
+ 2011-10-21 21:18:59.70978+08
+(1 row)
+
+"create index IX_IMCONTRACTDEDUC_ENTRYID_ops on IM_CONTRACT_DEDUC(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:19:21.549555+08
+(1 row)
+
+Time: 0.832 ms
+"create index IX_IMCONTRACTDEDUC_MANUALNO_ops on IM_CONTRACT_DEDUC(MANUAL_NO varchar_pattern_ops,CONTR_ITEM);"
+CREATE INDEX
+Time: 20722.108 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:19:42.272613+08
+(1 row)
+
+"create index IDX_IM_DECL_ALARM_HEAD_RECV_ops on IM_DECL_ALARM_HEAD(RECV_PORT varchar_pattern_ops,EXAM_TIME);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:19:42.331086+08
+(1 row)
+
+Time: 0.755 ms
+"create index IDX_IM_DECL_ALARM_HEAD_SEND_ops on IM_DECL_ALARM_HEAD(SEND_PORT varchar_pattern_ops,EXAM_TIME);"
+CREATE INDEX
+Time: 49.224 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:19:42.381141+08
+(1 row)
+
+"create index IDX_IM_DECL_ALARM_HEAD_TURN_NO_ops on IM_DECL_ALARM_HEAD(TURN_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:19:42.405259+08
+(1 row)
+
+Time: 0.881 ms
+"create index IDX_IM_DECL_ALARM_LIST_TURN_NO_ops on IM_DECL_ALARM_LIST(TURN_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 29.734 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:19:42.435951+08
+(1 row)
+
+"create index IDX_IM_DECL_CUR_HEAD_CONT_NO_ops on IM_DECL_CUR_HEAD(CONTACT_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:19:47.402288+08
+(1 row)
+
+Time: 0.829 ms
+"create index IDX_IM_DECL_CUR_HEAD_RECV_ops on IM_DECL_CUR_HEAD(RECV_PORT varchar_pattern_ops,EXAM_TIME);"
+CREATE INDEX
+Time: 2407.160 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:19:49.810367+08
+(1 row)
+
+"create index IDX_IM_DECL_CUR_HEAD_SEND_ops on IM_DECL_CUR_HEAD(SEND_PORT varchar_pattern_ops,EXAM_TIME);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:19:52.114543+08
+(1 row)
+
+Time: 0.823 ms
+"create index IDX_IM_DECL_CUR_HEAD_TURN_NO_ops on IM_DECL_CUR_HEAD(TURN_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 2705.709 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:19:54.821158+08
+(1 row)
+
+"create index IDX_IM_DECL_CUR_LIST_TURN_NO_ops on IM_DECL_CUR_LIST(TURN_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:20:05.781044+08
+(1 row)
+
+Time: 0.911 ms
+"create index IDX_IM_DECL_HIS_HEAD_RECV_ops on IM_DECL_HIS_HEAD(RECV_PORT varchar_pattern_ops,EXAM_TIME);"
+CREATE INDEX
+Time: 83.347 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:20:05.865386+08
+(1 row)
+
+"create index IDX_IM_DECL_HIS_HEAD_SEND_ops on IM_DECL_HIS_HEAD(SEND_PORT varchar_pattern_ops,EXAM_TIME);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:20:05.901228+08
+(1 row)
+
+Time: 0.865 ms
+"create index IDX_IM_DECL_HIS_HEAD_TURN_NO_ops on IM_DECL_HIS_HEAD(TURN_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 23.768 ms
+Timing is off.
+             now              
+------------------------------
+ 2011-10-21 21:20:05.92594+08
+(1 row)
+
+"create index IDX_IM_DECL_HIS_LIST_TURN_NO_ops on IM_DECL_HIS_LIST(TURN_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+Timing is off.
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:20:05.973974+08
+(1 row)
+
+Time: 0.982 ms
+"create index IX_IMEXAMJOU_LICENSENO_ops on IM_EXAM_JOU(LICENSE_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 245.964 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:20:06.220998+08
+(1 row)
+
+"create index IX_IMFASCICLELIST_MANUALNO_ops on IM_FASCICLE_LIST(MANUAL_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:20:06.705353+08
+(1 row)
+
+Time: 0.815 ms
+"create index IDX_IM_ALARM_CONTA_REL_CONTA_N_ops on IM_TRANS_ALARM_CONTA_REL(CONTA_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 43.608 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:20:06.749867+08
+(1 row)
+
+"create index IDX_IM_ALARM_LIST_REL_ENTRY_NO_ops on IM_TRANS_ALARM_LIST_REL(ENTRY_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+             now              
+------------------------------
+ 2011-10-21 21:20:06.77533+08
+(1 row)
+
+Time: 0.825 ms
+"create index IDX_IM_CONTA_REL_CONTA_NO_ops on IM_TRANS_CONTA_REL(CONTA_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 5178.819 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:20:11.955069+08
+(1 row)
+
+"create index IDX_IM_CONTA_REL_TRANS_NAME_ops on IM_TRANS_CONTA_REL(TRANS_NAME varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:20:15.031943+08
+(1 row)
+
+Time: 0.837 ms
+"create index IDX_IM_HIS_CONTA_REL_CONTA_NO_ops on IM_TRANS_HIS_CONTA_REL(CONTA_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 31.866 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:20:15.064726+08
+(1 row)
+
+"create index IDX_IM_HIS_LIST_REL_ENTRY_NO_ops on IM_TRANS_HIS_LIST_REL(ENTRY_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:20:15.092368+08
+(1 row)
+
+Time: 0.805 ms
+"create index IDX_IM_LIST_REL_ENTRY_NO_ops on IM_TRANS_LIST_REL(ENTRY_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 5694.034 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:20:20.787295+08
+(1 row)
+
+"create index IX_LSP_CHK_ENTRY_ID_ops on LSP_CHK(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:20:21.926273+08
+(1 row)
+
+Time: 0.827 ms
+"create index IDX_LSPHEAD_ENTRYID_ops on LSP_HEAD(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 20145.000 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:20:42.072197+08
+(1 row)
+
+"create index IX_MANIFEST_CHK_FORM_ID_ops on MANIFEST_CHK(FORM_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:23:55.878788+08
+(1 row)
+
+Time: 0.890 ms
+"create index IX_MANIFEST_EXCH_LOG_BILL_NO_ops on MANIFEST_EXCH_LOG(BILL_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 1807.305 ms
+Timing is off.
+             now              
+------------------------------
+ 2011-10-21 21:23:57.68701+08
+(1 row)
+
+"create index IX_MANIFEST_HEAD_NAME_ops on MANIFEST_HEAD(I_E_FLAG varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops,TRAF_MODE varchar_pattern_ops,VOYAGE_NO varchar_pattern_ops,SHIP_NAME_EN varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+             now              
+------------------------------
+ 2011-10-21 21:25:10.51085+08
+(1 row)
+
+Time: 0.938 ms
+"create index IX_MANIFESTLIST_TRANSNO_ops on MANIFEST_LIST(TRANS_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 169767.050 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:28:00.278932+08
+(1 row)
+
+"create index IX_MANIFEST_LIST_BILLORI_ops on MANIFEST_LIST(BILL_NO_ORI varchar_pattern_ops,VOYAGE_NO varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:31:21.725242+08
+(1 row)
+
+Time: 0.885 ms
+"create index IX_MANIFEST_LIST_I_E_DATE_ops on MANIFEST_LIST(I_E_DATE,CUSTOMS_CODE varchar_pattern_ops,TRAF_MODE varchar_pattern_ops,I_E_FLAG varchar_pattern_ops);"
+CREATE INDEX
+Time: 147926.819 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:33:49.653048+08
+(1 row)
+
+"create index IX_MANIFEST_LIST_VOYAGE_NO_ops on MANIFEST_LIST(VOYAGE_NO varchar_pattern_ops,SHIP_ID varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops,I_E_DATE);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:11.568349+08
+(1 row)
+
+Time: 0.846 ms
+"create index IDX_MANIFEST_LIST_RSKINFO_LOG__ops on MANIFEST_LIST_RSKINFO_LOG(RSK_DATE,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 270.094 ms
+Timing is off.
+             now              
+------------------------------
+ 2011-10-21 21:37:11.83938+08
+(1 row)
+
+"create index IX_EXFASCICLELIST_MANUALNO1_ops on MNLBAK_EX_FASCICLE_LIST(MANUAL_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:12.053882+08
+(1 row)
+
+Time: 0.933 ms
+"create index IX_FASCICLEHEAD_MANUALNO1_ops on MNLBAK_FASCICLE_HEAD(MANUAL_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 113.518 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:12.168344+08
+(1 row)
+
+"create index IX_IMFASCICLELIST_MANUALNO1_ops on MNLBAK_IM_FASCICLE_LIST(MANUAL_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:12.346353+08
+(1 row)
+
+Time: 0.819 ms
+"create index IDX_CTS_TRADE_COMPANY_ops on NORSK_COMPANY(TRADE_CO varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 138.128 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:12.485395+08
+(1 row)
+
+"create index IDX_CTS_TRADE_COMPANY_BAK_ops on NORSK_COMPANY_BAK(TRADE_CO varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:12.556318+08
+(1 row)
+
+Time: 0.846 ms
+"create index IDX_CTS_CUSTOMS_CODE_ops on NORSK_CONDITION(CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 77.792 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:12.635035+08
+(1 row)
+
+"create index IDX_CTS_CUSTOMS_CODE_BAK_ops on NORSK_CONDITION_BAK(CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:12.730429+08
+(1 row)
+
+Time: 0.811 ms
+"create index IDX_CTS_TRADE_CUSTOMS_ops on NORSK_TRADE_MODE(TRADE_MODE varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 98.169 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:12.829529+08
+(1 row)
+
+"create index IDX_CTS_TRADE_CUSTOMS_BAK_ops on NORSK_TRADE_MODE_BAK(TRADE_MODE varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:12.883731+08
+(1 row)
+
+Time: 0.780 ms
+"create index IX_ENTRYID_GNO_ops on OCC_EXAM(ENTRY_ID varchar_pattern_ops,G_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 196.066 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:13.080706+08
+(1 row)
+
+"create index IDX_STF_OTHER_MANUAL_NO_ops on OTHER_STF_RECORD(MANUAL_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:13.118854+08
+(1 row)
+
+Time: 0.852 ms
+"create index IDX_STF_OTHER_STF_ID_ops on OTHER_STF_RECORD(STF_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 25.194 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:13.144975+08
+(1 row)
+
+"create index IDX_PAPERLESS_SELF_RELTIME_ops on PAPERLESS_SELFSAVE_CERT(REL_TIME,DECL_PORT varchar_pattern_ops,I_E_FLAG varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:13.464367+08
+(1 row)
+
+Time: 0.879 ms
+"create index IX_PAYOUT_ENTRY_ID_ops on PAYOUT_REMIT_LIST(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 93.082 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:13.558406+08
+(1 row)
+
+"create index IX_PESCANCEL_NOTENO_ops on PES_CANCEL(NOTE_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:13.651704+08
+(1 row)
+
+Time: 0.788 ms
+"create index IDX_TRN_BIND_PRE_NO_ops on PORT_BIND_REL(PRE_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 90.981 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:13.743653+08
+(1 row)
+
+"create index IX_PRECDLCOMMODITY_RECORDSDATE_ops on PRE_CDL_COMMODITY(RECORDS_DATE,PROC_FLAG varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:13.798456+08
+(1 row)
+
+Time: 0.818 ms
+"create index IX_PRECDLCOMMODITY_TRADECO_ops on PRE_CDL_COMMODITY(TRADE_CO varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 45.368 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:13.844723+08
+(1 row)
+
+"create index IX_RECORDS_NO_ops on PRE_CDL_COMMODITY(RECORDS_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:13.886157+08
+(1 row)
+
+Time: 0.846 ms
+"create index IX_CDLCOMPANYLOG_RECORDSDATE_ops on PRE_CDL_COMPANY(RECORDS_DATE,PROC_FLAG varchar_pattern_ops);"
+CREATE INDEX
+Time: 132.330 ms
+Timing is off.
+             now              
+------------------------------
+ 2011-10-21 21:37:14.01942+08
+(1 row)
+
+"create index DECL_ID_CODE_P_INDEX_ops on PRE_DECL_REL(DECL_ID_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:14.185841+08
+(1 row)
+
+Time: 0.845 ms
+"create index DECL_TRADE_P_INDEX_ops on PRE_DECL_REL(TRADE_CO varchar_pattern_ops);"
+CREATE INDEX
+Time: 40.555 ms
+Timing is off.
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:14.227322+08
+(1 row)
+
+Time: 0.885 ms
+"create index IX_PRICELIBRARY_CODETS_ops on PRICE_LIBRARY(CODE_TS varchar_pattern_ops);"
+CREATE INDEX
+Time: 940.727 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:15.169007+08
+(1 row)
+
+"create index IX_PRICE_LIBRARY_ops on PRICE_LIBRARY(I_E_FLAG varchar_pattern_ops,REC_TYPE varchar_pattern_ops,CREATE_DATE,CODE_TS varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:15.696007+08
+(1 row)
+
+"create index IX_PRICELIBRARYENTRY_CODETS_ops on PRICE_LIBRARY_ENTRY(CODE_TS varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:15.775084+08
+(1 row)
+
+"create index IX_PRICELIBRARYMAN_CODETS_ops on PRICE_LIBRARY_MAN(CODE_TS varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:15.803042+08
+(1 row)
+
+"create index IX_PRICELIBRARYRISK_CODETS_ops on PRICE_LIBRARY_RISK(CODE_TS varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:15.896635+08
+(1 row)
+
+Time: 0.864 ms
+"create index IX_PROJECTHEAD_CUSTEXE_ops on PROJECT_HEAD(MASTER_CUSTOMS varchar_pattern_ops,EXE_MARK varchar_pattern_ops);"
+CREATE INDEX
+Time: 303.467 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:16.200986+08
+(1 row)
+
+"create index IX_PROJECTHEAD_PREPROJECTID_ops on PROJECT_HEAD(PRE_PROJECT_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:16.270923+08
+(1 row)
+
+Time: 0.920 ms
+"create index IX_RAMHEAD_CODENAME_ops on RAM_HEAD(OWNER_CODE varchar_pattern_ops,OWNER_NAME varchar_pattern_ops);"
+CREATE INDEX
+Time: 370.067 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:16.641992+08
+(1 row)
+
+"create index IX_RAMHEAD_CUSTEXE_ops on RAM_HEAD(MASTER_CUSTOMS varchar_pattern_ops,RAM_TYPE varchar_pattern_ops,EXE_MARK varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:16.699711+08
+(1 row)
+
+Time: 0.792 ms
+"create index IX_RAMHEAD_PRERAMID_ops on RAM_HEAD(PRE_RAM_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 54.379 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:16.755016+08
+(1 row)
+
+"create index IX_RAMLIST_CUTID_ops on RAM_LIST(CUT_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:16.969192+08
+(1 row)
+
+Time: 0.863 ms
+"create index IX_RGCOPINFO_COP_ops on RAM_RG_COPINFO(COP_CODE varchar_pattern_ops,COP_NAME varchar_pattern_ops);"
+CREATE INDEX
+Time: 102.080 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:17.072215+08
+(1 row)
+
+"create index IX_RGHEAD_CUSTEXE_ops on RAM_RG_HEAD(MASTER_CUSTOMS varchar_pattern_ops,EXE_MARK varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:17.127042+08
+(1 row)
+
+Time: 0.818 ms
+"create index IX_RGHEAD_PRERAMID_ops on RAM_RG_HEAD(PRE_RAM_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 33.755 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:17.161693+08
+(1 row)
+
+"create index IX_RNHEAD_CODENAME_ops on RAM_RN_INFO(COP_CODE varchar_pattern_ops,COP_NAME varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:17.264338+08
+(1 row)
+
+Time: 0.858 ms
+"create index IX_RNHEAD_CUSTEXE_ops on RAM_RN_INFO(MASTER_CUSTOMS varchar_pattern_ops,EXE_MARK varchar_pattern_ops);"
+CREATE INDEX
+Time: 27.736 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:17.293005+08
+(1 row)
+
+"create index IX_RNHEAD_PRERAMID_ops on RAM_RN_INFO(PRE_RAM_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:17.360552+08
+(1 row)
+
+Time: 0.813 ms
+"create index IX_RYCOMMUNICATION_RECCUSTOMS_ops on RAM_RY_COMMUNICATION(REC_CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 38.013 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:17.399448+08
+(1 row)
+
+"create index IX_RAMSTATUS_OWNER_ops on RAM_STATUS(OWNER_CODE varchar_pattern_ops,OWNER_NAME varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:19.279124+08
+(1 row)
+
+Time: 0.828 ms
+"create index IX_REDENTRYHEAD_MANUALNO_ops on RED_ENTRY_HEAD(MANUAL_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 2510.810 ms
+Timing is off.
+             now              
+------------------------------
+ 2011-10-21 21:37:21.79087+08
+(1 row)
+
+"create index IX_REDHEAD_CUSTEXE_ops on RED_HEAD(MASTER_CUSTOMS varchar_pattern_ops,EXE_MARK varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:24.259711+08
+(1 row)
+
+Time: 0.785 ms
+"create index IX_REDHEAD_PRECUTID_ops on RED_HEAD(PRE_CUT_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 964.704 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:25.225349+08
+(1 row)
+
+"create index IX_REDHEAD_PROJECTID_ops on RED_HEAD(PROJECT_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:25.904973+08
+(1 row)
+
+Time: 0.996 ms
+"create index IX_REL_ALC_WORK_STEP_ID_ops on REL_ALC_WORK(STEP_ID varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops,VOYAGE_NO varchar_pattern_ops,TRAF_NAME varchar_pattern_ops);"
+CREATE INDEX
+Time: 492.272 ms
+Timing is off.
+             now              
+------------------------------
+ 2011-10-21 21:37:26.39833+08
+(1 row)
+
+"create index IDX_ENTRY_ID_FEEDBACK_LIST_ops on RSK_CASE_FEEDBACK_LIST(ENTRY_ID varchar_pattern_ops,CASE_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:26.532929+08
+(1 row)
+
+Time: 0.851 ms
+"create index IDX_ENTRY_ID_LIST_CERT_ops on RSK_CASE_FEEDBACK_LIST_CERT(ENTRY_ID varchar_pattern_ops,CASE_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 135.464 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:26.669328+08
+(1 row)
+
+"create index IDX_ENTRY_ID_G_NO_ops on RSK_CASE_TRANSFER_G_NO(ENTRY_ID varchar_pattern_ops,CASE_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:26.833249+08
+(1 row)
+
+Time: 0.822 ms
+"create index IDX_ENTRY_ID_TRANSFER_LIST_ops on RSK_CASE_TRANSFER_LIST(ENTRY_ID varchar_pattern_ops,CASE_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 185.083 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:27.019236+08
+(1 row)
+
+"create index IDX_CTS_CODE_CUSTOMS_ops on RSK_CODE_TS(CODE_TS varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:27.100364+08
+(1 row)
+
+Time: 0.823 ms
+"create index IDX_CTS_CODE_CUSTOMS_BAK_ops on RSK_CODE_TS_BAK(CODE_TS varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 60.855 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:27.162117+08
+(1 row)
+
+"create index IDX_CTS_CORP_CUSTOMS_ops on RSK_CONDITION(TRADE_CO varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:27.217259+08
+(1 row)
+
+Time: 0.848 ms
+"create index IDX_CTS_CORP_CUSTOMS_BAK_ops on RSK_CONDITION_BAK(TRADE_CO varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 77.324 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:27.295532+08
+(1 row)
+
+"create index IDX_CTS_CONTA_CUSTOMS_ops on RSK_CONTA_CAPACITY(CONTA_MODEL varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:27.330382+08
+(1 row)
+
+Time: 0.835 ms
+"create index IDX_CTS_CONTA_CUSTOMS_BAK_ops on RSK_CONTA_CAPACITY_BAK(CONTA_MODEL varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 37.183 ms
+Timing is off.
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:27.368529+08
+(1 row)
+
+Time: 0.859 ms
+"create index IDX_RSK_EXAM_HEAD_FORMID_RSKNO_ops on RSK_EXAM_HEAD_REL(FORM_ID varchar_pattern_ops,RSK_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 7336.446 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:34.705893+08
+(1 row)
+
+"create index IDX_RSK_EXAM_HEAD_FORM_ID_ops on RSK_EXAM_HEAD_REL(FORM_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+             now              
+------------------------------
+ 2011-10-21 21:37:36.93233+08
+(1 row)
+
+Time: 0.867 ms
+"create index IDX_RSK_EXAM_HEAD_RSKNO_ops on RSK_EXAM_HEAD_REL(RSK_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 2069.134 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:39.002416+08
+(1 row)
+
+"create index IX_RSKEXAMOPLOG_FORM_ID_ops on RSK_EXAM_OP_LOG(FORM_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:39.710123+08
+(1 row)
+
+Time: 0.849 ms
+"create index IDX_CTS_CODE_TS_ops on RSK_FAKE_CODE_TS(CODE_TS varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 100.788 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:37:39.811841+08
+(1 row)
+
+"create index IDX_CTS_CODE_TS_BAK_ops on RSK_FAKE_CODE_TS_BAK(CODE_TS varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:37:39.863869+08
+(1 row)
+
+Time: 0.894 ms
+"create index IDX_RSK_FIT_LOG_FORM_ID_ops on RSK_FIT_LOG_REL(FORM_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 28443.105 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:38:08.307958+08
+(1 row)
+
+"create index IDX_RSK_INSTR_ATTR_CUS_STAT_ops on RSK_INSTR_ATTR_REL(RSK_CUSTOMS varchar_pattern_ops,RSK_INSTR_STAT varchar_pattern_ops);"
+psql:./H2000_95_SCRIPT/H2000_95_CREATE_INDEX_OPS.sql:1126: ERROR:  operator class "varchar_pattern_ops" does not accept data type character
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:38:08.309817+08
+(1 row)
+
+Time: 0.382 ms
+"create index IDX_RSK_INSTR_ATTR_OPID_ops on RSK_INSTR_ATTR_REL(IN_OP_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 4160.934 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:38:12.471227+08
+(1 row)
+
+"create index IDX_RSK_RESULT_EXAM_REC_ID_ops on RSK_RESULT_REL(EXAM_REC_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:38:21.181293+08
+(1 row)
+
+Time: 0.816 ms
+"create index IDX_RSK_RESULT_FORM_ID_ops on RSK_RESULT_REL(FORM_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 24971.745 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:38:46.153951+08
+(1 row)
+
+"create index IDX_CTS_TRADE_CO_ops on RSK_TRADE_CO(TRADE_CO varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+             now              
+------------------------------
+ 2011-10-21 21:38:46.22226+08
+(1 row)
+
+Time: 0.821 ms
+"create index IDX_CTS_TRADE_CO_BAK_ops on RSK_TRADE_CO_BAK(TRADE_CO varchar_pattern_ops,CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 43.793 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:38:46.266959+08
+(1 row)
+
+"create index IDX_RSK_WORKFLOW_CUSTOMSCODE_ops on RSK_WORKFLOW(INPUT_DATE,CHK_CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:38:48.398642+08
+(1 row)
+
+Time: 0.859 ms
+"create index IX_SHIP_TONNAGE_DUTYFORM_ops on SHIP_TONNAGE(DUTYFORM_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 209.435 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:38:48.609019+08
+(1 row)
+
+"create index IDX_STF_RECORD_MANUAL_NO_ops on STF_RECORD(MANUAL_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:38:48.644143+08
+(1 row)
+
+Time: 0.808 ms
+"create index IDX_STF_RECORD_STF_ID_ops on STF_RECORD(STF_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 17.430 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:38:48.662455+08
+(1 row)
+
+"create index IDX_STLDATAHEAD_DESTINATIONCUS_ops on STL_DATA_HEAD(DESTINATION_CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:38:48.733044+08
+(1 row)
+
+Time: 0.925 ms
+"create index IDX_STLDATAHEAD_ENTRYID_ops on STL_DATA_HEAD(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 37.936 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:38:48.771978+08
+(1 row)
+
+"create index IDX_STLREQUESTCHK_ENTRYID_ops on STL_REQUEST_CHK(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:38:48.799021+08
+(1 row)
+
+Time: 0.899 ms
+"create index IX_TCSDETAILHEAD_MSGID_ops on TCS_DETAIL_HEAD(MSG_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 34.954 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:38:48.834957+08
+(1 row)
+
+"create index IX_TCSDETAILHEAD_RECEIVE_ops on TCS_DETAIL_HEAD(RECEIVE_DATE varchar_pattern_ops,ACCOUNT_ORG_CODE varchar_pattern_ops);"
+psql:./H2000_95_SCRIPT/H2000_95_CREATE_INDEX_OPS.sql:1182: ERROR:  operator class "varchar_pattern_ops" does not accept data type timestamp without time zone
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:38:48.836553+08
+(1 row)
+
+Time: 0.417 ms
+"create index IX_TCSERRORLOG_BIZIDCREATETIME_ops on TCS_ERROR_LOG(BIZ_ID varchar_pattern_ops,CREATE_TIME);"
+CREATE INDEX
+Time: 147.131 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:38:48.984138+08
+(1 row)
+
+"create index IX_TCSSENDLOG_ENTRYID_ops on TCS_SEND_LOG(ENTRY_ID varchar_pattern_ops,TAX_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:38:49.084361+08
+(1 row)
+
+Time: 0.850 ms
+"create index IX_TCSSENDLOG_SENDDATE_ops on TCS_SEND_LOG(SEND_DATE,ACCOUNT_ORG_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 30.453 ms
+Timing is off.
+             now              
+------------------------------
+ 2011-10-21 21:38:49.11574+08
+(1 row)
+
+"create index IX_TEPCOMPANY_TRADECODE_ops on TEP_COMPANY(TRADE_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:38:49.186064+08
+(1 row)
+
+Time: 0.802 ms
+"create index IX_TEPPAYLOG_ENTRYID_TAXID_ops on TEP_PAY_LOG(ENTRY_ID varchar_pattern_ops,TAX_ID varchar_pattern_ops);"
+CREATE INDEX
+Time: 560.290 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:38:49.747242+08
+(1 row)
+
+"create index IX_TEPPAYLOG_GUAID_ops on TEP_PAY_LOG(GUA_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:38:49.793136+08
+(1 row)
+
+Time: 0.829 ms
+"create index IX_TEPPAYLOG_PRINT_ops on TEP_PAY_LOG(CUSTOMS_CODE varchar_pattern_ops,TAX_TYPE varchar_pattern_ops,PAYER_BANK_CODE varchar_pattern_ops,REC_DATE,BATCH_PRINT_DATE);"
+CREATE INDEX
+Time: 100.298 ms
+Timing is off.
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:38:49.894354+08
+(1 row)
+
+Time: 0.830 ms
+"create index IX_TEPRECLOG_RECDATE_RESULTNO_ops on TEP_REC_LOG(REC_DATE,RESULT_NO varchar_pattern_ops);"
+psql:./H2000_95_SCRIPT/H2000_95_CREATE_INDEX_OPS.sql:1215: ERROR:  operator class "varchar_pattern_ops" does not accept data type character
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:38:49.896275+08
+(1 row)
+
+"create index IX_CUSTOMSCODE_ops on TEP_VOUCHER_REC_LIST(CUSTOMS_CODE varchar_pattern_ops);"
+psql:./H2000_95_SCRIPT/H2000_95_CREATE_INDEX_OPS.sql:1219: ERROR:  operator class "varchar_pattern_ops" does not accept data type character
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:38:49.897359+08
+(1 row)
+
+Time: 0.389 ms
+"create index IX_PAYEEBANKACCOUNT_ops on TEP_VOUCHER_REC_LIST_DETAIL(PAYEE_BANK_ACCOUNT varchar_pattern_ops);"
+CREATE INDEX
+Time: 76.461 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:38:49.974286+08
+(1 row)
+
+"create index IX_PAYEEBRANCHCODE_ops on TEP_VOUCHER_REC_LIST_DETAIL(PAYEE_BRANCH_CODE varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:38:49.999004+08
+(1 row)
+
+Time: 0.936 ms
+"create index IDX_TRN_COP_REL_ops on TRN_COP_REL(CO_CUSTOMS_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 59.512 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:38:50.059673+08
+(1 row)
+
+"create index IDX_TRN_COP_REL_PORT_ops on TRN_COP_REL(MAIN_PORT varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:38:50.080622+08
+(1 row)
+
+Time: 0.823 ms
+"create index IDX_TRN_DR_VEL_IDNO_ops on TRN_DR_REL(DR_IDCARD_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 114.756 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:38:50.196264+08
+(1 row)
+
+"create index IDX_ESEAL_CO_REG_NO_ops on TRN_ESEAL_REL(CO_REG_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:38:50.315285+08
+(1 row)
+
+Time: 0.840 ms
+"create index IDX_ESEAL_CUSTOMS_CODE_ops on TRN_ESEAL_REL(CUSTOMS_CODE varchar_pattern_ops);"
+CREATE INDEX
+Time: 22.075 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:38:50.338276+08
+(1 row)
+
+"create index IDX_ESEAL_REL_CUSTOMS_ops on TRN_ESEAL_REL(VE_CUSTOMS_NO varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:38:50.356735+08
+(1 row)
+
+"create index IDX_TOP_ENTRY_ID_ops on TRN_POP_LIST(ENTRY_ID varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:38:50.424689+08
+(1 row)
+
+Time: 0.777 ms
+"create index IDX_TRN_VE_MOTOR_NO_ops on TRN_VE_REL(VE_MOTOR_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 145.468 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:38:50.571014+08
+(1 row)
+
+"create index IDX_TRN_VE_REL_ops on TRN_VE_REL(VE_NAME varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:38:50.653142+08
+(1 row)
+
+Time: 0.804 ms
+"create index IDX_TRN_VE_REL_EC_ops on TRN_VE_REL(CAR_EC_NO varchar_pattern_ops);"
+CREATE INDEX
+Time: 37.647 ms
+Timing is off.
+              now              
+-------------------------------
+ 2011-10-21 21:38:50.691686+08
+(1 row)
+
+"create index IDX_TRN_VE_REL_PORT_ops on TRN_VE_REL(MAIN_PORT varchar_pattern_ops);"
+CREATE INDEX
+Timing is on.
+              now              
+-------------------------------
+ 2011-10-21 21:38:50.739291+08
+(1 row)
+
+Time: 0.855 ms
+"create index TRADE_CO_INDEX_ops on YD_DECLARE_REL(TRADE_CO varchar_pattern_ops);"
+CREATE INDEX
+Time: 216.310 ms

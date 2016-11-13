@@ -1,0 +1,2996 @@
+\echo ---------------ACCOUNT----------------
+select pg_relation_size('ACCOUNT');
+VACUUM ACCOUNT;
+select pg_relation_size('ACCOUNT');
+
+\echo ---------------AGREEMENT_GOODS_LIST----------------
+select pg_relation_size('AGREEMENT_GOODS_LIST');
+VACUUM AGREEMENT_GOODS_LIST;
+select pg_relation_size('AGREEMENT_GOODS_LIST');
+
+\echo ---------------AMS_MODI_LOG----------------
+select pg_relation_size('AMS_MODI_LOG');
+VACUUM AMS_MODI_LOG;
+select pg_relation_size('AMS_MODI_LOG');
+
+\echo ---------------AMSLIST_BODY----------------
+select pg_relation_size('AMSLIST_BODY');
+VACUUM AMSLIST_BODY;
+select pg_relation_size('AMSLIST_BODY');
+
+\echo ---------------AMSLIST_HEAD----------------
+select pg_relation_size('AMSLIST_HEAD');
+VACUUM AMSLIST_HEAD;
+select pg_relation_size('AMSLIST_HEAD');
+
+\echo ---------------APPL_CLOSE----------------
+select pg_relation_size('APPL_CLOSE');
+VACUUM APPL_CLOSE;
+select pg_relation_size('APPL_CLOSE');
+
+\echo ---------------APPL_CLOSE_CONSUME----------------
+select pg_relation_size('APPL_CLOSE_CONSUME');
+VACUUM APPL_CLOSE_CONSUME;
+select pg_relation_size('APPL_CLOSE_CONSUME');
+
+\echo ---------------APPLY_HEAD----------------
+select pg_relation_size('APPLY_HEAD');
+VACUUM APPLY_HEAD;
+select pg_relation_size('APPLY_HEAD');
+
+\echo ---------------APPLY_LIST----------------
+select pg_relation_size('APPLY_LIST');
+VACUUM APPLY_LIST;
+select pg_relation_size('APPLY_LIST');
+
+\echo ---------------ARRIVAL_INFO_HEAD----------------
+select pg_relation_size('ARRIVAL_INFO_HEAD');
+VACUUM ARRIVAL_INFO_HEAD;
+select pg_relation_size('ARRIVAL_INFO_HEAD');
+
+\echo ---------------ARRIVAL_INFO_LIST----------------
+select pg_relation_size('ARRIVAL_INFO_LIST');
+VACUUM ARRIVAL_INFO_LIST;
+select pg_relation_size('ARRIVAL_INFO_LIST');
+
+\echo ---------------BAK_BWS_EXAM_CERT_LIST----------------
+select pg_relation_size('BAK_BWS_EXAM_CERT_LIST');
+VACUUM BAK_BWS_EXAM_CERT_LIST;
+select pg_relation_size('BAK_BWS_EXAM_CERT_LIST');
+
+\echo ---------------BAK_BWS_EXAM_GOOD_LIST----------------
+select pg_relation_size('BAK_BWS_EXAM_GOOD_LIST');
+VACUUM BAK_BWS_EXAM_GOOD_LIST;
+select pg_relation_size('BAK_BWS_EXAM_GOOD_LIST');
+
+\echo ---------------BAK_BWS_EXAM_HEAD----------------
+select pg_relation_size('BAK_BWS_EXAM_HEAD');
+VACUUM BAK_BWS_EXAM_HEAD;
+select pg_relation_size('BAK_BWS_EXAM_HEAD');
+
+\echo ---------------BAK_CONSUME----------------
+select pg_relation_size('BAK_CONSUME');
+VACUUM BAK_CONSUME;
+select pg_relation_size('BAK_CONSUME');
+
+\echo ---------------BAK_CONTRACT_HEAD----------------
+select pg_relation_size('BAK_CONTRACT_HEAD');
+VACUUM BAK_CONTRACT_HEAD;
+select pg_relation_size('BAK_CONTRACT_HEAD');
+
+\echo ---------------BAK_DCG_BILL_HEAD----------------
+select pg_relation_size('BAK_DCG_BILL_HEAD');
+VACUUM BAK_DCG_BILL_HEAD;
+select pg_relation_size('BAK_DCG_BILL_HEAD');
+
+\echo ---------------BAK_DCG_BILL_LIST----------------
+select pg_relation_size('BAK_DCG_BILL_LIST');
+VACUUM BAK_DCG_BILL_LIST;
+select pg_relation_size('BAK_DCG_BILL_LIST');
+
+\echo ---------------BAK_DCG_DEDUCT----------------
+select pg_relation_size('BAK_DCG_DEDUCT');
+VACUUM BAK_DCG_DEDUCT;
+select pg_relation_size('BAK_DCG_DEDUCT');
+
+\echo ---------------BAK_DCG_DEDUCT_LOG----------------
+select pg_relation_size('BAK_DCG_DEDUCT_LOG');
+VACUUM BAK_DCG_DEDUCT_LOG;
+select pg_relation_size('BAK_DCG_DEDUCT_LOG');
+
+\echo ---------------BAK_DCG_HEAD----------------
+select pg_relation_size('BAK_DCG_HEAD');
+VACUUM BAK_DCG_HEAD;
+select pg_relation_size('BAK_DCG_HEAD');
+
+\echo ---------------BAK_DCG_LIST----------------
+select pg_relation_size('BAK_DCG_LIST');
+VACUUM BAK_DCG_LIST;
+select pg_relation_size('BAK_DCG_LIST');
+
+\echo ---------------BAK_EMS_APPR_HEAD----------------
+select pg_relation_size('BAK_EMS_APPR_HEAD');
+VACUUM BAK_EMS_APPR_HEAD;
+select pg_relation_size('BAK_EMS_APPR_HEAD');
+
+\echo ---------------BAK_EMS_APPR_LIST----------------
+select pg_relation_size('BAK_EMS_APPR_LIST');
+VACUUM BAK_EMS_APPR_LIST;
+select pg_relation_size('BAK_EMS_APPR_LIST');
+
+\echo ---------------BAK_EMS_CONSUME----------------
+select pg_relation_size('BAK_EMS_CONSUME');
+VACUUM BAK_EMS_CONSUME;
+select pg_relation_size('BAK_EMS_CONSUME');
+
+\echo ---------------BAK_EMS_DEDUCT_CLR----------------
+select pg_relation_size('BAK_EMS_DEDUCT_CLR');
+VACUUM BAK_EMS_DEDUCT_CLR;
+select pg_relation_size('BAK_EMS_DEDUCT_CLR');
+
+\echo ---------------BAK_EMS_HEAD----------------
+select pg_relation_size('BAK_EMS_HEAD');
+VACUUM BAK_EMS_HEAD;
+select pg_relation_size('BAK_EMS_HEAD');
+
+\echo ---------------BAK_EMS_LIST----------------
+select pg_relation_size('BAK_EMS_LIST');
+VACUUM BAK_EMS_LIST;
+select pg_relation_size('BAK_EMS_LIST');
+
+\echo ---------------BAK_EX_CONTRACT_LIST----------------
+select pg_relation_size('BAK_EX_CONTRACT_LIST');
+VACUUM BAK_EX_CONTRACT_LIST;
+select pg_relation_size('BAK_EX_CONTRACT_LIST');
+
+\echo ---------------BAK_EX_FASCICLE_LIST----------------
+select pg_relation_size('BAK_EX_FASCICLE_LIST');
+VACUUM BAK_EX_FASCICLE_LIST;
+select pg_relation_size('BAK_EX_FASCICLE_LIST');
+
+\echo ---------------BAK_FASCICLE_HEAD----------------
+select pg_relation_size('BAK_FASCICLE_HEAD');
+VACUUM BAK_FASCICLE_HEAD;
+select pg_relation_size('BAK_FASCICLE_HEAD');
+
+\echo ---------------BAK_IM_CONTRACT_LIST----------------
+select pg_relation_size('BAK_IM_CONTRACT_LIST');
+VACUUM BAK_IM_CONTRACT_LIST;
+select pg_relation_size('BAK_IM_CONTRACT_LIST');
+
+\echo ---------------BAK_IM_FASCICLE_LIST----------------
+select pg_relation_size('BAK_IM_FASCICLE_LIST');
+VACUUM BAK_IM_FASCICLE_LIST;
+select pg_relation_size('BAK_IM_FASCICLE_LIST');
+
+\echo ---------------BANK_ACCOUNT----------------
+select pg_relation_size('BANK_ACCOUNT');
+VACUUM BANK_ACCOUNT;
+select pg_relation_size('BANK_ACCOUNT');
+
+\echo ---------------BCK_COP_HEAD----------------
+select pg_relation_size('BCK_COP_HEAD');
+VACUUM BCK_COP_HEAD;
+select pg_relation_size('BCK_COP_HEAD');
+
+\echo ---------------BCK_COP_LIST----------------
+select pg_relation_size('BCK_COP_LIST');
+VACUUM BCK_COP_LIST;
+select pg_relation_size('BCK_COP_LIST');
+
+\echo ---------------BCK_COP_LIST_TEMP----------------
+select pg_relation_size('BCK_COP_LIST_TEMP');
+VACUUM BCK_COP_LIST_TEMP;
+select pg_relation_size('BCK_COP_LIST_TEMP');
+
+\echo ---------------BCK_COP_PARA_HEAD----------------
+select pg_relation_size('BCK_COP_PARA_HEAD');
+VACUUM BCK_COP_PARA_HEAD;
+select pg_relation_size('BCK_COP_PARA_HEAD');
+
+\echo ---------------BCK_COP_PARA_LIST----------------
+select pg_relation_size('BCK_COP_PARA_LIST');
+VACUUM BCK_COP_PARA_LIST;
+select pg_relation_size('BCK_COP_PARA_LIST');
+
+\echo ---------------BCK_EXECUTOR----------------
+select pg_relation_size('BCK_EXECUTOR');
+VACUUM BCK_EXECUTOR;
+select pg_relation_size('BCK_EXECUTOR');
+
+\echo ---------------BCK_HANDOVER----------------
+select pg_relation_size('BCK_HANDOVER');
+VACUUM BCK_HANDOVER;
+select pg_relation_size('BCK_HANDOVER');
+
+\echo ---------------BCK_HANDOVER_TYPE----------------
+select pg_relation_size('BCK_HANDOVER_TYPE');
+VACUUM BCK_HANDOVER_TYPE;
+select pg_relation_size('BCK_HANDOVER_TYPE');
+
+\echo ---------------BCK_HEAD----------------
+select pg_relation_size('BCK_HEAD');
+VACUUM BCK_HEAD;
+select pg_relation_size('BCK_HEAD');
+
+\echo ---------------BCK_SEQ----------------
+select pg_relation_size('BCK_SEQ');
+VACUUM BCK_SEQ;
+select pg_relation_size('BCK_SEQ');
+
+\echo ---------------BCK_STOCK_HEAD----------------
+select pg_relation_size('BCK_STOCK_HEAD');
+VACUUM BCK_STOCK_HEAD;
+select pg_relation_size('BCK_STOCK_HEAD');
+
+\echo ---------------BCK_STOCK_LIST----------------
+select pg_relation_size('BCK_STOCK_LIST');
+VACUUM BCK_STOCK_LIST;
+select pg_relation_size('BCK_STOCK_LIST');
+
+\echo ---------------BCK_WORKFLOW----------------
+select pg_relation_size('BCK_WORKFLOW');
+VACUUM BCK_WORKFLOW;
+select pg_relation_size('BCK_WORKFLOW');
+
+\echo ---------------BTI_DATA_CONTA_LIST----------------
+select pg_relation_size('BTI_DATA_CONTA_LIST');
+VACUUM BTI_DATA_CONTA_LIST;
+select pg_relation_size('BTI_DATA_CONTA_LIST');
+
+\echo ---------------BTI_DATA_HEAD----------------
+select pg_relation_size('BTI_DATA_HEAD');
+VACUUM BTI_DATA_HEAD;
+select pg_relation_size('BTI_DATA_HEAD');
+
+\echo ---------------BTI_DATA_TS_LIST----------------
+select pg_relation_size('BTI_DATA_TS_LIST');
+VACUUM BTI_DATA_TS_LIST;
+select pg_relation_size('BTI_DATA_TS_LIST');
+
+\echo ---------------BWS_AUDIT_HEAD----------------
+select pg_relation_size('BWS_AUDIT_HEAD');
+VACUUM BWS_AUDIT_HEAD;
+select pg_relation_size('BWS_AUDIT_HEAD');
+
+\echo ---------------BWS_AUDIT_LIST----------------
+select pg_relation_size('BWS_AUDIT_LIST');
+VACUUM BWS_AUDIT_LIST;
+select pg_relation_size('BWS_AUDIT_LIST');
+
+\echo ---------------BWS_DCR_BILL_LIST----------------
+select pg_relation_size('BWS_DCR_BILL_LIST');
+VACUUM BWS_DCR_BILL_LIST;
+select pg_relation_size('BWS_DCR_BILL_LIST');
+
+\echo ---------------BWS_DCR_HEAD----------------
+select pg_relation_size('BWS_DCR_HEAD');
+VACUUM BWS_DCR_HEAD;
+select pg_relation_size('BWS_DCR_HEAD');
+
+\echo ---------------BWS_DCR_LIST----------------
+select pg_relation_size('BWS_DCR_LIST');
+VACUUM BWS_DCR_LIST;
+select pg_relation_size('BWS_DCR_LIST');
+
+\echo ---------------BWS_DEDUCT----------------
+select pg_relation_size('BWS_DEDUCT');
+VACUUM BWS_DEDUCT;
+select pg_relation_size('BWS_DEDUCT');
+
+\echo ---------------BWS_DEDUCT_LOG----------------
+select pg_relation_size('BWS_DEDUCT_LOG');
+VACUUM BWS_DEDUCT_LOG;
+select pg_relation_size('BWS_DEDUCT_LOG');
+
+\echo ---------------BWS_EXAM_CERT_LIST----------------
+select pg_relation_size('BWS_EXAM_CERT_LIST');
+VACUUM BWS_EXAM_CERT_LIST;
+select pg_relation_size('BWS_EXAM_CERT_LIST');
+
+\echo ---------------BWS_EXAM_GOOD_LIST----------------
+select pg_relation_size('BWS_EXAM_GOOD_LIST');
+VACUUM BWS_EXAM_GOOD_LIST;
+select pg_relation_size('BWS_EXAM_GOOD_LIST');
+
+\echo ---------------BWS_EXAM_HEAD----------------
+select pg_relation_size('BWS_EXAM_HEAD');
+VACUUM BWS_EXAM_HEAD;
+select pg_relation_size('BWS_EXAM_HEAD');
+
+\echo ---------------BWS_EXAM_PASSCERT----------------
+select pg_relation_size('BWS_EXAM_PASSCERT');
+VACUUM BWS_EXAM_PASSCERT;
+select pg_relation_size('BWS_EXAM_PASSCERT');
+
+\echo ---------------BWS_FORM_HEAD----------------
+select pg_relation_size('BWS_FORM_HEAD');
+VACUUM BWS_FORM_HEAD;
+select pg_relation_size('BWS_FORM_HEAD');
+
+\echo ---------------BWS_FORM_LIST----------------
+select pg_relation_size('BWS_FORM_LIST');
+VACUUM BWS_FORM_LIST;
+select pg_relation_size('BWS_FORM_LIST');
+
+\echo ---------------BWS_GB_LIST----------------
+select pg_relation_size('BWS_GB_LIST');
+VACUUM BWS_GB_LIST;
+select pg_relation_size('BWS_GB_LIST');
+
+\echo ---------------BWS_HEAD----------------
+select pg_relation_size('BWS_HEAD');
+VACUUM BWS_HEAD;
+select pg_relation_size('BWS_HEAD');
+
+\echo ---------------BWS_LIST----------------
+select pg_relation_size('BWS_LIST');
+VACUUM BWS_LIST;
+select pg_relation_size('BWS_LIST');
+
+\echo ---------------BWS_MANIFEST_HEAD----------------
+select pg_relation_size('BWS_MANIFEST_HEAD');
+VACUUM BWS_MANIFEST_HEAD;
+select pg_relation_size('BWS_MANIFEST_HEAD');
+
+\echo ---------------BWS_MANIFEST_LIST----------------
+select pg_relation_size('BWS_MANIFEST_LIST');
+VACUUM BWS_MANIFEST_LIST;
+select pg_relation_size('BWS_MANIFEST_LIST');
+
+\echo ---------------BWS_SEQ----------------
+select pg_relation_size('BWS_SEQ');
+VACUUM BWS_SEQ;
+select pg_relation_size('BWS_SEQ');
+
+\echo ---------------BWS_VAR----------------
+select pg_relation_size('BWS_VAR');
+VACUUM BWS_VAR;
+select pg_relation_size('BWS_VAR');
+
+\echo ---------------BWS_WORKFLOW----------------
+select pg_relation_size('BWS_WORKFLOW');
+VACUUM BWS_WORKFLOW;
+select pg_relation_size('BWS_WORKFLOW');
+
+\echo ---------------CCTS_ERROR_LOG----------------
+select pg_relation_size('CCTS_ERROR_LOG');
+VACUUM CCTS_ERROR_LOG;
+select pg_relation_size('CCTS_ERROR_LOG');
+
+\echo ---------------CCTS_ONLINE_RESULT----------------
+select pg_relation_size('CCTS_ONLINE_RESULT');
+VACUUM CCTS_ONLINE_RESULT;
+select pg_relation_size('CCTS_ONLINE_RESULT');
+
+\echo ---------------CCTS_ONLINE_RESULT_BAK----------------
+select pg_relation_size('CCTS_ONLINE_RESULT_BAK');
+VACUUM CCTS_ONLINE_RESULT_BAK;
+select pg_relation_size('CCTS_ONLINE_RESULT_BAK');
+
+\echo ---------------CCTS_PERFORMANCE----------------
+select pg_relation_size('CCTS_PERFORMANCE');
+VACUUM CCTS_PERFORMANCE;
+select pg_relation_size('CCTS_PERFORMANCE');
+
+\echo ---------------CCTS_RSK_RESULT----------------
+select pg_relation_size('CCTS_RSK_RESULT');
+VACUUM CCTS_RSK_RESULT;
+select pg_relation_size('CCTS_RSK_RESULT');
+
+\echo ---------------CCTS_RSK_RESULT_BAK----------------
+select pg_relation_size('CCTS_RSK_RESULT_BAK');
+VACUUM CCTS_RSK_RESULT_BAK;
+select pg_relation_size('CCTS_RSK_RESULT_BAK');
+
+\echo ---------------CDL_CERTIFICATE----------------
+select pg_relation_size('CDL_CERTIFICATE');
+VACUUM CDL_CERTIFICATE;
+select pg_relation_size('CDL_CERTIFICATE');
+
+\echo ---------------CDL_CHK----------------
+select pg_relation_size('CDL_CHK');
+VACUUM CDL_CHK;
+select pg_relation_size('CDL_CHK');
+
+\echo ---------------CDL_COMMODITY----------------
+select pg_relation_size('CDL_COMMODITY');
+VACUUM CDL_COMMODITY;
+select pg_relation_size('CDL_COMMODITY');
+
+\echo ---------------CDL_COMP_COMM_MODIFY_LOG----------------
+select pg_relation_size('CDL_COMP_COMM_MODIFY_LOG');
+VACUUM CDL_COMP_COMM_MODIFY_LOG;
+select pg_relation_size('CDL_COMP_COMM_MODIFY_LOG');
+
+\echo ---------------CDL_COMP_COMM_OP_LOG----------------
+select pg_relation_size('CDL_COMP_COMM_OP_LOG');
+VACUUM CDL_COMP_COMM_OP_LOG;
+select pg_relation_size('CDL_COMP_COMM_OP_LOG');
+
+\echo ---------------CDL_COMPANY----------------
+select pg_relation_size('CDL_COMPANY');
+VACUUM CDL_COMPANY;
+select pg_relation_size('CDL_COMPANY');
+
+\echo ---------------CDL_CONTAINER----------------
+select pg_relation_size('CDL_CONTAINER');
+VACUUM CDL_CONTAINER;
+select pg_relation_size('CDL_CONTAINER');
+
+\echo ---------------CDL_DEL_CERTIFICATE_LOG----------------
+select pg_relation_size('CDL_DEL_CERTIFICATE_LOG');
+VACUUM CDL_DEL_CERTIFICATE_LOG;
+select pg_relation_size('CDL_DEL_CERTIFICATE_LOG');
+
+\echo ---------------CDL_DEL_CONTAINER_LOG----------------
+select pg_relation_size('CDL_DEL_CONTAINER_LOG');
+VACUUM CDL_DEL_CONTAINER_LOG;
+select pg_relation_size('CDL_DEL_CONTAINER_LOG');
+
+\echo ---------------CDL_DEL_HEAD_LOG----------------
+select pg_relation_size('CDL_DEL_HEAD_LOG');
+VACUUM CDL_DEL_HEAD_LOG;
+select pg_relation_size('CDL_DEL_HEAD_LOG');
+
+\echo ---------------CDL_DEL_LIST_LOG----------------
+select pg_relation_size('CDL_DEL_LIST_LOG');
+VACUUM CDL_DEL_LIST_LOG;
+select pg_relation_size('CDL_DEL_LIST_LOG');
+
+\echo ---------------CDL_EDI_MESS----------------
+select pg_relation_size('CDL_EDI_MESS');
+VACUUM CDL_EDI_MESS;
+select pg_relation_size('CDL_EDI_MESS');
+
+\echo ---------------CDL_EMS_DEDUCT----------------
+select pg_relation_size('CDL_EMS_DEDUCT');
+VACUUM CDL_EMS_DEDUCT;
+select pg_relation_size('CDL_EMS_DEDUCT');
+
+\echo ---------------CDL_EMS_DEDUCT_LOG----------------
+select pg_relation_size('CDL_EMS_DEDUCT_LOG');
+VACUUM CDL_EMS_DEDUCT_LOG;
+select pg_relation_size('CDL_EMS_DEDUCT_LOG');
+
+\echo ---------------CDL_ENTRY_HEAD----------------
+select pg_relation_size('CDL_ENTRY_HEAD');
+VACUUM CDL_ENTRY_HEAD;
+select pg_relation_size('CDL_ENTRY_HEAD');
+
+\echo ---------------CDL_ENTRY_LIST----------------
+select pg_relation_size('CDL_ENTRY_LIST');
+VACUUM CDL_ENTRY_LIST;
+select pg_relation_size('CDL_ENTRY_LIST');
+
+\echo ---------------CDL_HEAD----------------
+select pg_relation_size('CDL_HEAD');
+VACUUM CDL_HEAD;
+select pg_relation_size('CDL_HEAD');
+
+\echo ---------------CDL_LICENSE_DEDUCT----------------
+select pg_relation_size('CDL_LICENSE_DEDUCT');
+VACUUM CDL_LICENSE_DEDUCT;
+select pg_relation_size('CDL_LICENSE_DEDUCT');
+
+\echo ---------------CDL_LIST----------------
+select pg_relation_size('CDL_LIST');
+VACUUM CDL_LIST;
+select pg_relation_size('CDL_LIST');
+
+\echo ---------------CDL_LOCK_COMMODITY----------------
+select pg_relation_size('CDL_LOCK_COMMODITY');
+VACUUM CDL_LOCK_COMMODITY;
+select pg_relation_size('CDL_LOCK_COMMODITY');
+
+\echo ---------------CDL_MODI_LOG----------------
+select pg_relation_size('CDL_MODI_LOG');
+VACUUM CDL_MODI_LOG;
+select pg_relation_size('CDL_MODI_LOG');
+
+\echo ---------------CDL_OP_LOG----------------
+select pg_relation_size('CDL_OP_LOG');
+VACUUM CDL_OP_LOG;
+select pg_relation_size('CDL_OP_LOG');
+
+\echo ---------------CDL_OVERDUE_LIST----------------
+select pg_relation_size('CDL_OVERDUE_LIST');
+VACUUM CDL_OVERDUE_LIST;
+select pg_relation_size('CDL_OVERDUE_LIST');
+
+\echo ---------------CDL_STATUS_DETAIL----------------
+select pg_relation_size('CDL_STATUS_DETAIL');
+VACUUM CDL_STATUS_DETAIL;
+select pg_relation_size('CDL_STATUS_DETAIL');
+
+\echo ---------------CDL_WORKFLOW----------------
+select pg_relation_size('CDL_WORKFLOW');
+VACUUM CDL_WORKFLOW;
+select pg_relation_size('CDL_WORKFLOW');
+
+\echo ---------------CHK_COP_RATIO----------------
+select pg_relation_size('CHK_COP_RATIO');
+VACUUM CHK_COP_RATIO;
+select pg_relation_size('CHK_COP_RATIO');
+
+\echo ---------------CHK_COUNTER----------------
+select pg_relation_size('CHK_COUNTER');
+VACUUM CHK_COUNTER;
+select pg_relation_size('CHK_COUNTER');
+
+\echo ---------------CHK_RATE_LIMIT----------------
+select pg_relation_size('CHK_RATE_LIMIT');
+VACUUM CHK_RATE_LIMIT;
+select pg_relation_size('CHK_RATE_LIMIT');
+
+\echo ---------------CHKHS_MNLPROC----------------
+select pg_relation_size('CHKHS_MNLPROC');
+VACUUM CHKHS_MNLPROC;
+select pg_relation_size('CHKHS_MNLPROC');
+
+\echo ---------------CIC_CODE----------------
+select pg_relation_size('CIC_CODE');
+VACUUM CIC_CODE;
+select pg_relation_size('CIC_CODE');
+
+\echo ---------------CIC_HEAD----------------
+select pg_relation_size('CIC_HEAD');
+VACUUM CIC_HEAD;
+select pg_relation_size('CIC_HEAD');
+
+\echo ---------------CIC_LIST----------------
+select pg_relation_size('CIC_LIST');
+VACUUM CIC_LIST;
+select pg_relation_size('CIC_LIST');
+
+\echo ---------------CIC_MAXID----------------
+select pg_relation_size('CIC_MAXID');
+VACUUM CIC_MAXID;
+select pg_relation_size('CIC_MAXID');
+
+\echo ---------------CIC_SEND_REL----------------
+select pg_relation_size('CIC_SEND_REL');
+VACUUM CIC_SEND_REL;
+select pg_relation_size('CIC_SEND_REL');
+
+\echo ---------------CLAIM----------------
+select pg_relation_size('CLAIM');
+VACUUM CLAIM;
+select pg_relation_size('CLAIM');
+
+\echo ---------------CLC_CHKRATE_LIMIT----------------
+select pg_relation_size('CLC_CHKRATE_LIMIT');
+VACUUM CLC_CHKRATE_LIMIT;
+select pg_relation_size('CLC_CHKRATE_LIMIT');
+
+\echo ---------------CLC_GPR_RATIO----------------
+select pg_relation_size('CLC_GPR_RATIO');
+VACUUM CLC_GPR_RATIO;
+select pg_relation_size('CLC_GPR_RATIO');
+
+\echo ---------------CLC_GPR_RATIO_BAK----------------
+select pg_relation_size('CLC_GPR_RATIO_BAK');
+VACUUM CLC_GPR_RATIO_BAK;
+select pg_relation_size('CLC_GPR_RATIO_BAK');
+
+\echo ---------------CNS_COUNTER_TABLE----------------
+select pg_relation_size('CNS_COUNTER_TABLE');
+VACUUM CNS_COUNTER_TABLE;
+select pg_relation_size('CNS_COUNTER_TABLE');
+
+\echo ---------------CO_CLASS_REL----------------
+select pg_relation_size('CO_CLASS_REL');
+VACUUM CO_CLASS_REL;
+select pg_relation_size('CO_CLASS_REL');
+
+\echo ---------------COMPANY_REL----------------
+select pg_relation_size('COMPANY_REL');
+VACUUM COMPANY_REL;
+select pg_relation_size('COMPANY_REL');
+
+\echo ---------------CONSUME----------------
+select pg_relation_size('CONSUME');
+VACUUM CONSUME;
+select pg_relation_size('CONSUME');
+
+\echo ---------------CONSUME_DB----------------
+select pg_relation_size('CONSUME_DB');
+VACUUM CONSUME_DB;
+select pg_relation_size('CONSUME_DB');
+
+\echo ---------------CONSUME_GOODS----------------
+select pg_relation_size('CONSUME_GOODS');
+VACUUM CONSUME_GOODS;
+select pg_relation_size('CONSUME_GOODS');
+
+\echo ---------------CONTA----------------
+select pg_relation_size('CONTA');
+VACUUM CONTA;
+select pg_relation_size('CONTA');
+
+\echo ---------------CONTA_MONITOR----------------
+select pg_relation_size('CONTA_MONITOR');
+VACUUM CONTA_MONITOR;
+select pg_relation_size('CONTA_MONITOR');
+
+\echo ---------------CONTRACT_HEAD----------------
+select pg_relation_size('CONTRACT_HEAD');
+VACUUM CONTRACT_HEAD;
+select pg_relation_size('CONTRACT_HEAD');
+
+\echo ---------------CONTRACT_WORKFLOW----------------
+select pg_relation_size('CONTRACT_WORKFLOW');
+VACUUM CONTRACT_WORKFLOW;
+select pg_relation_size('CONTRACT_WORKFLOW');
+
+\echo ---------------CONVEYANCE----------------
+select pg_relation_size('CONVEYANCE');
+VACUUM CONVEYANCE;
+select pg_relation_size('CONVEYANCE');
+
+\echo ---------------CONVEYANCE_SEGMENT----------------
+select pg_relation_size('CONVEYANCE_SEGMENT');
+VACUUM CONVEYANCE_SEGMENT;
+select pg_relation_size('CONVEYANCE_SEGMENT');
+
+\echo ---------------COP_CONSUME----------------
+select pg_relation_size('COP_CONSUME');
+VACUUM COP_CONSUME;
+select pg_relation_size('COP_CONSUME');
+
+\echo ---------------COP_SPEC_REL----------------
+select pg_relation_size('COP_SPEC_REL');
+VACUUM COP_SPEC_REL;
+select pg_relation_size('COP_SPEC_REL');
+
+\echo ---------------COPLOG_DELETE_REL----------------
+select pg_relation_size('COPLOG_DELETE_REL');
+VACUUM COPLOG_DELETE_REL;
+select pg_relation_size('COPLOG_DELETE_REL');
+
+\echo ---------------COPLOG_MODIFY_REL----------------
+select pg_relation_size('COPLOG_MODIFY_REL');
+VACUUM COPLOG_MODIFY_REL;
+select pg_relation_size('COPLOG_MODIFY_REL');
+
+\echo ---------------CORP_HEAD----------------
+select pg_relation_size('CORP_HEAD');
+VACUUM CORP_HEAD;
+select pg_relation_size('CORP_HEAD');
+
+\echo ---------------CORP_LIST----------------
+select pg_relation_size('CORP_LIST');
+VACUUM CORP_LIST;
+select pg_relation_size('CORP_LIST');
+
+\echo ---------------CORP_TABLE----------------
+select pg_relation_size('CORP_TABLE');
+VACUUM CORP_TABLE;
+select pg_relation_size('CORP_TABLE');
+
+\echo ---------------CORP_TYPE----------------
+select pg_relation_size('CORP_TYPE');
+VACUUM CORP_TYPE;
+select pg_relation_size('CORP_TYPE');
+
+\echo ---------------COUNTER_TABLE----------------
+select pg_relation_size('COUNTER_TABLE');
+VACUUM COUNTER_TABLE;
+select pg_relation_size('COUNTER_TABLE');
+
+\echo ---------------CREDIT_INFO----------------
+select pg_relation_size('CREDIT_INFO');
+VACUUM CREDIT_INFO;
+select pg_relation_size('CREDIT_INFO');
+
+\echo ---------------CTS_CHKRATE_LIMIT----------------
+select pg_relation_size('CTS_CHKRATE_LIMIT');
+VACUUM CTS_CHKRATE_LIMIT;
+select pg_relation_size('CTS_CHKRATE_LIMIT');
+
+\echo ---------------CTS_CHKRATE_LIMIT_BAK----------------
+select pg_relation_size('CTS_CHKRATE_LIMIT_BAK');
+VACUUM CTS_CHKRATE_LIMIT_BAK;
+select pg_relation_size('CTS_CHKRATE_LIMIT_BAK');
+
+\echo ---------------CTS_PERIOD----------------
+select pg_relation_size('CTS_PERIOD');
+VACUUM CTS_PERIOD;
+select pg_relation_size('CTS_PERIOD');
+
+\echo ---------------CUS_GOOD_CONSUME----------------
+select pg_relation_size('CUS_GOOD_CONSUME');
+VACUUM CUS_GOOD_CONSUME;
+select pg_relation_size('CUS_GOOD_CONSUME');
+
+\echo ---------------CUSTOMS_DEFAULT----------------
+select pg_relation_size('CUSTOMS_DEFAULT');
+VACUUM CUSTOMS_DEFAULT;
+select pg_relation_size('CUSTOMS_DEFAULT');
+
+\echo ---------------CUSTOMS_ESEAL_CONFIG----------------
+select pg_relation_size('CUSTOMS_ESEAL_CONFIG');
+VACUUM CUSTOMS_ESEAL_CONFIG;
+select pg_relation_size('CUSTOMS_ESEAL_CONFIG');
+
+\echo ---------------DCG_BAK_LIST----------------
+select pg_relation_size('DCG_BAK_LIST');
+VACUUM DCG_BAK_LIST;
+select pg_relation_size('DCG_BAK_LIST');
+
+\echo ---------------DCG_BILL_HEAD----------------
+select pg_relation_size('DCG_BILL_HEAD');
+VACUUM DCG_BILL_HEAD;
+select pg_relation_size('DCG_BILL_HEAD');
+
+\echo ---------------DCG_BILL_LIST----------------
+select pg_relation_size('DCG_BILL_LIST');
+VACUUM DCG_BILL_LIST;
+select pg_relation_size('DCG_BILL_LIST');
+
+\echo ---------------DCG_COPR_INFO----------------
+select pg_relation_size('DCG_COPR_INFO');
+VACUUM DCG_COPR_INFO;
+select pg_relation_size('DCG_COPR_INFO');
+
+\echo ---------------DCG_DEDUCT----------------
+select pg_relation_size('DCG_DEDUCT');
+VACUUM DCG_DEDUCT;
+select pg_relation_size('DCG_DEDUCT');
+
+\echo ---------------DCG_DEDUCT_LOG----------------
+select pg_relation_size('DCG_DEDUCT_LOG');
+VACUUM DCG_DEDUCT_LOG;
+select pg_relation_size('DCG_DEDUCT_LOG');
+
+\echo ---------------DCG_HEAD----------------
+select pg_relation_size('DCG_HEAD');
+VACUUM DCG_HEAD;
+select pg_relation_size('DCG_HEAD');
+
+\echo ---------------DCG_LIST----------------
+select pg_relation_size('DCG_LIST');
+VACUUM DCG_LIST;
+select pg_relation_size('DCG_LIST');
+
+\echo ---------------DCG_SEQ----------------
+select pg_relation_size('DCG_SEQ');
+VACUUM DCG_SEQ;
+select pg_relation_size('DCG_SEQ');
+
+\echo ---------------DCG_WORKFLOW----------------
+select pg_relation_size('DCG_WORKFLOW');
+VACUUM DCG_WORKFLOW;
+select pg_relation_size('DCG_WORKFLOW');
+
+\echo ---------------DECL_CO_ENTRY_COUNT----------------
+select pg_relation_size('DECL_CO_ENTRY_COUNT');
+VACUUM DECL_CO_ENTRY_COUNT;
+select pg_relation_size('DECL_CO_ENTRY_COUNT');
+
+\echo ---------------DECL_CO_ENTRY_COUNT_TEMP----------------
+select pg_relation_size('DECL_CO_ENTRY_COUNT_TEMP');
+VACUUM DECL_CO_ENTRY_COUNT_TEMP;
+select pg_relation_size('DECL_CO_ENTRY_COUNT_TEMP');
+
+\echo ---------------DECLAR_COUNTER_REL----------------
+select pg_relation_size('DECLAR_COUNTER_REL');
+VACUUM DECLAR_COUNTER_REL;
+select pg_relation_size('DECLAR_COUNTER_REL');
+
+\echo ---------------DECLAR_REL----------------
+select pg_relation_size('DECLAR_REL');
+VACUUM DECLAR_REL;
+select pg_relation_size('DECLAR_REL');
+
+\echo ---------------DECLARER_REL----------------
+select pg_relation_size('DECLARER_REL');
+VACUUM DECLARER_REL;
+select pg_relation_size('DECLARER_REL');
+
+\echo ---------------DECLOG_FULL_REL----------------
+select pg_relation_size('DECLOG_FULL_REL');
+VACUUM DECLOG_FULL_REL;
+select pg_relation_size('DECLOG_FULL_REL');
+
+\echo ---------------DECLOG_MOD_REL----------------
+select pg_relation_size('DECLOG_MOD_REL');
+VACUUM DECLOG_MOD_REL;
+select pg_relation_size('DECLOG_MOD_REL');
+
+\echo ---------------DECLOG_MODIFY_REL----------------
+select pg_relation_size('DECLOG_MODIFY_REL');
+VACUUM DECLOG_MODIFY_REL;
+select pg_relation_size('DECLOG_MODIFY_REL');
+
+\echo ---------------DECLOG_SCORE_HEAD----------------
+select pg_relation_size('DECLOG_SCORE_HEAD');
+VACUUM DECLOG_SCORE_HEAD;
+select pg_relation_size('DECLOG_SCORE_HEAD');
+
+\echo ---------------DECLOG_SCORE_LIST----------------
+select pg_relation_size('DECLOG_SCORE_LIST');
+VACUUM DECLOG_SCORE_LIST;
+select pg_relation_size('DECLOG_SCORE_LIST');
+
+\echo ---------------DEL_EGS_ARC_AGENT_LIST----------------
+select pg_relation_size('DEL_EGS_ARC_AGENT_LIST');
+VACUUM DEL_EGS_ARC_AGENT_LIST;
+select pg_relation_size('DEL_EGS_ARC_AGENT_LIST');
+
+\echo ---------------DEL_EGS_ARC_HEAD----------------
+select pg_relation_size('DEL_EGS_ARC_HEAD');
+VACUUM DEL_EGS_ARC_HEAD;
+select pg_relation_size('DEL_EGS_ARC_HEAD');
+
+\echo ---------------DEL_EGS_ARC_LIST----------------
+select pg_relation_size('DEL_EGS_ARC_LIST');
+VACUUM DEL_EGS_ARC_LIST;
+select pg_relation_size('DEL_EGS_ARC_LIST');
+
+\echo ---------------DEL_EGS_ARC_MERCHANT_LIST----------------
+select pg_relation_size('DEL_EGS_ARC_MERCHANT_LIST');
+VACUUM DEL_EGS_ARC_MERCHANT_LIST;
+select pg_relation_size('DEL_EGS_ARC_MERCHANT_LIST');
+
+\echo ---------------DEL_EGS_CLEAR_CERT----------------
+select pg_relation_size('DEL_EGS_CLEAR_CERT');
+VACUUM DEL_EGS_CLEAR_CERT;
+select pg_relation_size('DEL_EGS_CLEAR_CERT');
+
+\echo ---------------DEL_EGS_CLEAR_HEAD----------------
+select pg_relation_size('DEL_EGS_CLEAR_HEAD');
+VACUUM DEL_EGS_CLEAR_HEAD;
+select pg_relation_size('DEL_EGS_CLEAR_HEAD');
+
+\echo ---------------DEL_EGS_CLEAR_LIST----------------
+select pg_relation_size('DEL_EGS_CLEAR_LIST');
+VACUUM DEL_EGS_CLEAR_LIST;
+select pg_relation_size('DEL_EGS_CLEAR_LIST');
+
+\echo ---------------DEL_EGS_DECLARE_CERT----------------
+select pg_relation_size('DEL_EGS_DECLARE_CERT');
+VACUUM DEL_EGS_DECLARE_CERT;
+select pg_relation_size('DEL_EGS_DECLARE_CERT');
+
+\echo ---------------DEL_EGS_DECLARE_HEAD----------------
+select pg_relation_size('DEL_EGS_DECLARE_HEAD');
+VACUUM DEL_EGS_DECLARE_HEAD;
+select pg_relation_size('DEL_EGS_DECLARE_HEAD');
+
+\echo ---------------DEL_EGS_DECLARE_LIST----------------
+select pg_relation_size('DEL_EGS_DECLARE_LIST');
+VACUUM DEL_EGS_DECLARE_LIST;
+select pg_relation_size('DEL_EGS_DECLARE_LIST');
+
+\echo ---------------DEL_MOD_APPLY----------------
+select pg_relation_size('DEL_MOD_APPLY');
+VACUUM DEL_MOD_APPLY;
+select pg_relation_size('DEL_MOD_APPLY');
+
+\echo ---------------DISTRIBUTIVE_BILL_DECLARE----------------
+select pg_relation_size('DISTRIBUTIVE_BILL_DECLARE');
+VACUUM DISTRIBUTIVE_BILL_DECLARE;
+select pg_relation_size('DISTRIBUTIVE_BILL_DECLARE');
+
+\echo ---------------DISTRIBUTIVE_DECLARE----------------
+select pg_relation_size('DISTRIBUTIVE_DECLARE');
+VACUUM DISTRIBUTIVE_DECLARE;
+select pg_relation_size('DISTRIBUTIVE_DECLARE');
+
+\echo ---------------DISTRIBUTIVE_TRANSIT_WAY----------------
+select pg_relation_size('DISTRIBUTIVE_TRANSIT_WAY');
+VACUUM DISTRIBUTIVE_TRANSIT_WAY;
+select pg_relation_size('DISTRIBUTIVE_TRANSIT_WAY');
+
+\echo ---------------DST_COUNTER_TABLE----------------
+select pg_relation_size('DST_COUNTER_TABLE');
+VACUUM DST_COUNTER_TABLE;
+select pg_relation_size('DST_COUNTER_TABLE');
+
+\echo ---------------DST_DEDUCT----------------
+select pg_relation_size('DST_DEDUCT');
+VACUUM DST_DEDUCT;
+select pg_relation_size('DST_DEDUCT');
+
+\echo ---------------DST_EXG----------------
+select pg_relation_size('DST_EXG');
+VACUUM DST_EXG;
+select pg_relation_size('DST_EXG');
+
+\echo ---------------DST_EXG_ORI_ENTRY----------------
+select pg_relation_size('DST_EXG_ORI_ENTRY');
+VACUUM DST_EXG_ORI_ENTRY;
+select pg_relation_size('DST_EXG_ORI_ENTRY');
+
+\echo ---------------DST_HEAD----------------
+select pg_relation_size('DST_HEAD');
+VACUUM DST_HEAD;
+select pg_relation_size('DST_HEAD');
+
+\echo ---------------DST_IMG----------------
+select pg_relation_size('DST_IMG');
+VACUUM DST_IMG;
+select pg_relation_size('DST_IMG');
+
+\echo ---------------DST_IMG_ORI_ENTRY----------------
+select pg_relation_size('DST_IMG_ORI_ENTRY');
+VACUUM DST_IMG_ORI_ENTRY;
+select pg_relation_size('DST_IMG_ORI_ENTRY');
+
+\echo ---------------DTT_COP_PARAM----------------
+select pg_relation_size('DTT_COP_PARAM');
+VACUUM DTT_COP_PARAM;
+select pg_relation_size('DTT_COP_PARAM');
+
+\echo ---------------DUTY_CHECK_LOG----------------
+select pg_relation_size('DUTY_CHECK_LOG');
+VACUUM DUTY_CHECK_LOG;
+select pg_relation_size('DUTY_CHECK_LOG');
+
+\echo ---------------DUTYFORM_HEAD----------------
+select pg_relation_size('DUTYFORM_HEAD');
+VACUUM DUTYFORM_HEAD;
+select pg_relation_size('DUTYFORM_HEAD');
+
+\echo ---------------DUTYFORM_LIST----------------
+select pg_relation_size('DUTYFORM_LIST');
+VACUUM DUTYFORM_LIST;
+select pg_relation_size('DUTYFORM_LIST');
+
+\echo ---------------ECO_HEAD----------------
+select pg_relation_size('ECO_HEAD');
+VACUUM ECO_HEAD;
+select pg_relation_size('ECO_HEAD');
+
+\echo ---------------ECO_LIST----------------
+select pg_relation_size('ECO_LIST');
+VACUUM ECO_LIST;
+select pg_relation_size('ECO_LIST');
+
+\echo ---------------ECO_PARTS----------------
+select pg_relation_size('ECO_PARTS');
+VACUUM ECO_PARTS;
+select pg_relation_size('ECO_PARTS');
+
+\echo ---------------ECO_WORKFLOW----------------
+select pg_relation_size('ECO_WORKFLOW');
+VACUUM ECO_WORKFLOW;
+select pg_relation_size('ECO_WORKFLOW');
+
+\echo ---------------EGS_ADMIT_HEAD----------------
+select pg_relation_size('EGS_ADMIT_HEAD');
+VACUUM EGS_ADMIT_HEAD;
+select pg_relation_size('EGS_ADMIT_HEAD');
+
+\echo ---------------EGS_ADMIT_HS----------------
+select pg_relation_size('EGS_ADMIT_HS');
+VACUUM EGS_ADMIT_HS;
+select pg_relation_size('EGS_ADMIT_HS');
+
+\echo ---------------EGS_ADMIT_LIST----------------
+select pg_relation_size('EGS_ADMIT_LIST');
+VACUUM EGS_ADMIT_LIST;
+select pg_relation_size('EGS_ADMIT_LIST');
+
+\echo ---------------EGS_ARC_AGENT_LIST----------------
+select pg_relation_size('EGS_ARC_AGENT_LIST');
+VACUUM EGS_ARC_AGENT_LIST;
+select pg_relation_size('EGS_ARC_AGENT_LIST');
+
+\echo ---------------EGS_ARC_HEAD----------------
+select pg_relation_size('EGS_ARC_HEAD');
+VACUUM EGS_ARC_HEAD;
+select pg_relation_size('EGS_ARC_HEAD');
+
+\echo ---------------EGS_ARC_LIST----------------
+select pg_relation_size('EGS_ARC_LIST');
+VACUUM EGS_ARC_LIST;
+select pg_relation_size('EGS_ARC_LIST');
+
+\echo ---------------EGS_ARC_MERCHANT_LIST----------------
+select pg_relation_size('EGS_ARC_MERCHANT_LIST');
+VACUUM EGS_ARC_MERCHANT_LIST;
+select pg_relation_size('EGS_ARC_MERCHANT_LIST');
+
+\echo ---------------EGS_CHECK_LOG----------------
+select pg_relation_size('EGS_CHECK_LOG');
+VACUUM EGS_CHECK_LOG;
+select pg_relation_size('EGS_CHECK_LOG');
+
+\echo ---------------EGS_CLEAR_CERT----------------
+select pg_relation_size('EGS_CLEAR_CERT');
+VACUUM EGS_CLEAR_CERT;
+select pg_relation_size('EGS_CLEAR_CERT');
+
+\echo ---------------EGS_CLEAR_HEAD----------------
+select pg_relation_size('EGS_CLEAR_HEAD');
+VACUUM EGS_CLEAR_HEAD;
+select pg_relation_size('EGS_CLEAR_HEAD');
+
+\echo ---------------EGS_CLEAR_LIST----------------
+select pg_relation_size('EGS_CLEAR_LIST');
+VACUUM EGS_CLEAR_LIST;
+select pg_relation_size('EGS_CLEAR_LIST');
+
+\echo ---------------EGS_DECLARE_CERT----------------
+select pg_relation_size('EGS_DECLARE_CERT');
+VACUUM EGS_DECLARE_CERT;
+select pg_relation_size('EGS_DECLARE_CERT');
+
+\echo ---------------EGS_DECLARE_HEAD----------------
+select pg_relation_size('EGS_DECLARE_HEAD');
+VACUUM EGS_DECLARE_HEAD;
+select pg_relation_size('EGS_DECLARE_HEAD');
+
+\echo ---------------EGS_DECLARE_LIST----------------
+select pg_relation_size('EGS_DECLARE_LIST');
+VACUUM EGS_DECLARE_LIST;
+select pg_relation_size('EGS_DECLARE_LIST');
+
+\echo ---------------EGS_DEDUCT----------------
+select pg_relation_size('EGS_DEDUCT');
+VACUUM EGS_DEDUCT;
+select pg_relation_size('EGS_DEDUCT');
+
+\echo ---------------EGS_LEND_HEAD----------------
+select pg_relation_size('EGS_LEND_HEAD');
+VACUUM EGS_LEND_HEAD;
+select pg_relation_size('EGS_LEND_HEAD');
+
+\echo ---------------EGS_LEND_LIST----------------
+select pg_relation_size('EGS_LEND_LIST');
+VACUUM EGS_LEND_LIST;
+select pg_relation_size('EGS_LEND_LIST');
+
+\echo ---------------EGS_PATROL_HEAD----------------
+select pg_relation_size('EGS_PATROL_HEAD');
+VACUUM EGS_PATROL_HEAD;
+select pg_relation_size('EGS_PATROL_HEAD');
+
+\echo ---------------EGS_PATROL_LIST----------------
+select pg_relation_size('EGS_PATROL_LIST');
+VACUUM EGS_PATROL_LIST;
+select pg_relation_size('EGS_PATROL_LIST');
+
+\echo ---------------EGS_SEQ----------------
+select pg_relation_size('EGS_SEQ');
+VACUUM EGS_SEQ;
+select pg_relation_size('EGS_SEQ');
+
+\echo ---------------EGS_WORKFLOW----------------
+select pg_relation_size('EGS_WORKFLOW');
+VACUUM EGS_WORKFLOW;
+select pg_relation_size('EGS_WORKFLOW');
+
+\echo ---------------EMS_ACCOUNT----------------
+select pg_relation_size('EMS_ACCOUNT');
+VACUUM EMS_ACCOUNT;
+select pg_relation_size('EMS_ACCOUNT');
+
+\echo ---------------EMS_APPR_HEAD----------------
+select pg_relation_size('EMS_APPR_HEAD');
+VACUUM EMS_APPR_HEAD;
+select pg_relation_size('EMS_APPR_HEAD');
+
+\echo ---------------EMS_APPR_LIST----------------
+select pg_relation_size('EMS_APPR_LIST');
+VACUUM EMS_APPR_LIST;
+select pg_relation_size('EMS_APPR_LIST');
+
+\echo ---------------EMS_CLAIM----------------
+select pg_relation_size('EMS_CLAIM');
+VACUUM EMS_CLAIM;
+select pg_relation_size('EMS_CLAIM');
+
+\echo ---------------EMS_CLR_LIST----------------
+select pg_relation_size('EMS_CLR_LIST');
+VACUUM EMS_CLR_LIST;
+select pg_relation_size('EMS_CLR_LIST');
+
+\echo ---------------EMS_CLR_TMP----------------
+select pg_relation_size('EMS_CLR_TMP');
+VACUUM EMS_CLR_TMP;
+select pg_relation_size('EMS_CLR_TMP');
+
+\echo ---------------EMS_COMPLEX----------------
+select pg_relation_size('EMS_COMPLEX');
+VACUUM EMS_COMPLEX;
+select pg_relation_size('EMS_COMPLEX');
+
+\echo ---------------EMS_COMPLEX2----------------
+select pg_relation_size('EMS_COMPLEX2');
+VACUUM EMS_COMPLEX2;
+select pg_relation_size('EMS_COMPLEX2');
+
+\echo ---------------EMS_CONSUME----------------
+select pg_relation_size('EMS_CONSUME');
+VACUUM EMS_CONSUME;
+select pg_relation_size('EMS_CONSUME');
+
+\echo ---------------EMS_CONSUME_CLR----------------
+select pg_relation_size('EMS_CONSUME_CLR');
+VACUUM EMS_CONSUME_CLR;
+select pg_relation_size('EMS_CONSUME_CLR');
+
+\echo ---------------EMS_CONSUME_CLR_D----------------
+select pg_relation_size('EMS_CONSUME_CLR_D');
+VACUUM EMS_CONSUME_CLR_D;
+select pg_relation_size('EMS_CONSUME_CLR_D');
+
+\echo ---------------EMS_DCR_CONSUME----------------
+select pg_relation_size('EMS_DCR_CONSUME');
+VACUUM EMS_DCR_CONSUME;
+select pg_relation_size('EMS_DCR_CONSUME');
+
+\echo ---------------EMS_DCR_ENT----------------
+select pg_relation_size('EMS_DCR_ENT');
+VACUUM EMS_DCR_ENT;
+select pg_relation_size('EMS_DCR_ENT');
+
+\echo ---------------EMS_DCR_HEAD----------------
+select pg_relation_size('EMS_DCR_HEAD');
+VACUUM EMS_DCR_HEAD;
+select pg_relation_size('EMS_DCR_HEAD');
+
+\echo ---------------EMS_DCR_LIST----------------
+select pg_relation_size('EMS_DCR_LIST');
+VACUUM EMS_DCR_LIST;
+select pg_relation_size('EMS_DCR_LIST');
+
+\echo ---------------EMS_DCR_RUB_LIST----------------
+select pg_relation_size('EMS_DCR_RUB_LIST');
+VACUUM EMS_DCR_RUB_LIST;
+select pg_relation_size('EMS_DCR_RUB_LIST');
+
+\echo ---------------EMS_DEDUCT----------------
+select pg_relation_size('EMS_DEDUCT');
+VACUUM EMS_DEDUCT;
+select pg_relation_size('EMS_DEDUCT');
+
+\echo ---------------EMS_DEDUCT_CLR----------------
+select pg_relation_size('EMS_DEDUCT_CLR');
+VACUUM EMS_DEDUCT_CLR;
+select pg_relation_size('EMS_DEDUCT_CLR');
+
+\echo ---------------EMS_DEDUCT_LOG----------------
+select pg_relation_size('EMS_DEDUCT_LOG');
+VACUUM EMS_DEDUCT_LOG;
+select pg_relation_size('EMS_DEDUCT_LOG');
+
+\echo ---------------EMS_ENP----------------
+select pg_relation_size('EMS_ENP');
+VACUUM EMS_ENP;
+select pg_relation_size('EMS_ENP');
+
+\echo ---------------EMS_ENP_JOU----------------
+select pg_relation_size('EMS_ENP_JOU');
+VACUUM EMS_ENP_JOU;
+select pg_relation_size('EMS_ENP_JOU');
+
+\echo ---------------EMS_HEAD----------------
+select pg_relation_size('EMS_HEAD');
+VACUUM EMS_HEAD;
+select pg_relation_size('EMS_HEAD');
+
+\echo ---------------EMS_LIST----------------
+select pg_relation_size('EMS_LIST');
+VACUUM EMS_LIST;
+select pg_relation_size('EMS_LIST');
+
+\echo ---------------EMS_MESSAGE_LOG----------------
+select pg_relation_size('EMS_MESSAGE_LOG');
+VACUUM EMS_MESSAGE_LOG;
+select pg_relation_size('EMS_MESSAGE_LOG');
+
+\echo ---------------EMS_PRESS----------------
+select pg_relation_size('EMS_PRESS');
+VACUUM EMS_PRESS;
+select pg_relation_size('EMS_PRESS');
+
+\echo ---------------EMS_PRESS_CLEAR----------------
+select pg_relation_size('EMS_PRESS_CLEAR');
+VACUUM EMS_PRESS_CLEAR;
+select pg_relation_size('EMS_PRESS_CLEAR');
+
+\echo ---------------EMS_SEQ----------------
+select pg_relation_size('EMS_SEQ');
+VACUUM EMS_SEQ;
+select pg_relation_size('EMS_SEQ');
+
+\echo ---------------EMS_TMP_CLR----------------
+select pg_relation_size('EMS_TMP_CLR');
+VACUUM EMS_TMP_CLR;
+select pg_relation_size('EMS_TMP_CLR');
+
+\echo ---------------EMS_VAR----------------
+select pg_relation_size('EMS_VAR');
+VACUUM EMS_VAR;
+select pg_relation_size('EMS_VAR');
+
+\echo ---------------EMS_VERIFY----------------
+select pg_relation_size('EMS_VERIFY');
+VACUUM EMS_VERIFY;
+select pg_relation_size('EMS_VERIFY');
+
+\echo ---------------EMS_VERIFY_DETAIL----------------
+select pg_relation_size('EMS_VERIFY_DETAIL');
+VACUUM EMS_VERIFY_DETAIL;
+select pg_relation_size('EMS_VERIFY_DETAIL');
+
+\echo ---------------EMS_WORKFLOW----------------
+select pg_relation_size('EMS_WORKFLOW');
+VACUUM EMS_WORKFLOW;
+select pg_relation_size('EMS_WORKFLOW');
+
+\echo ---------------ENTRY_AUTOREL_ERR_LIST----------------
+select pg_relation_size('ENTRY_AUTOREL_ERR_LIST');
+VACUUM ENTRY_AUTOREL_ERR_LIST;
+select pg_relation_size('ENTRY_AUTOREL_ERR_LIST');
+
+\echo ---------------ENTRY_AUTOREL_ERR_LOG----------------
+select pg_relation_size('ENTRY_AUTOREL_ERR_LOG');
+VACUUM ENTRY_AUTOREL_ERR_LOG;
+select pg_relation_size('ENTRY_AUTOREL_ERR_LOG');
+
+\echo ---------------ENTRY_CENTRY_SELECT----------------
+select pg_relation_size('ENTRY_CENTRY_SELECT');
+VACUUM ENTRY_CENTRY_SELECT;
+select pg_relation_size('ENTRY_CENTRY_SELECT');
+
+\echo ---------------ENTRY_CENTRY_SELECT_DEL----------------
+select pg_relation_size('ENTRY_CENTRY_SELECT_DEL');
+VACUUM ENTRY_CENTRY_SELECT_DEL;
+select pg_relation_size('ENTRY_CENTRY_SELECT_DEL');
+
+\echo ---------------ENTRY_CERTIFICATE----------------
+select pg_relation_size('ENTRY_CERTIFICATE');
+VACUUM ENTRY_CERTIFICATE;
+select pg_relation_size('ENTRY_CERTIFICATE');
+
+\echo ---------------ENTRY_CERTIFICATE_LOG----------------
+select pg_relation_size('ENTRY_CERTIFICATE_LOG');
+VACUUM ENTRY_CERTIFICATE_LOG;
+select pg_relation_size('ENTRY_CERTIFICATE_LOG');
+
+\echo ---------------ENTRY_CONTAINER----------------
+select pg_relation_size('ENTRY_CONTAINER');
+VACUUM ENTRY_CONTAINER;
+select pg_relation_size('ENTRY_CONTAINER');
+
+\echo ---------------ENTRY_CONTAINER_LOG----------------
+select pg_relation_size('ENTRY_CONTAINER_LOG');
+VACUUM ENTRY_CONTAINER_LOG;
+select pg_relation_size('ENTRY_CONTAINER_LOG');
+
+\echo ---------------ENTRY_DEL_HEAD_LOG----------------
+select pg_relation_size('ENTRY_DEL_HEAD_LOG');
+VACUUM ENTRY_DEL_HEAD_LOG;
+select pg_relation_size('ENTRY_DEL_HEAD_LOG');
+
+\echo ---------------ENTRY_DEL_LIST_LOG----------------
+select pg_relation_size('ENTRY_DEL_LIST_LOG');
+VACUUM ENTRY_DEL_LIST_LOG;
+select pg_relation_size('ENTRY_DEL_LIST_LOG');
+
+\echo ---------------ENTRY_EVALUATION----------------
+select pg_relation_size('ENTRY_EVALUATION');
+VACUUM ENTRY_EVALUATION;
+select pg_relation_size('ENTRY_EVALUATION');
+
+\echo ---------------ENTRY_GPM_RTX----------------
+select pg_relation_size('ENTRY_GPM_RTX');
+VACUUM ENTRY_GPM_RTX;
+select pg_relation_size('ENTRY_GPM_RTX');
+
+\echo ---------------ENTRY_GPM_RTX_PRINTLOG----------------
+select pg_relation_size('ENTRY_GPM_RTX_PRINTLOG');
+VACUUM ENTRY_GPM_RTX_PRINTLOG;
+select pg_relation_size('ENTRY_GPM_RTX_PRINTLOG');
+
+\echo ---------------ENTRY_GPM_RTX_SENDLOG----------------
+select pg_relation_size('ENTRY_GPM_RTX_SENDLOG');
+VACUUM ENTRY_GPM_RTX_SENDLOG;
+select pg_relation_size('ENTRY_GPM_RTX_SENDLOG');
+
+\echo ---------------ENTRY_HEAD----------------
+select pg_relation_size('ENTRY_HEAD');
+VACUUM ENTRY_HEAD;
+select pg_relation_size('ENTRY_HEAD');
+
+\echo ---------------ENTRY_LIST----------------
+select pg_relation_size('ENTRY_LIST');
+VACUUM ENTRY_LIST;
+select pg_relation_size('ENTRY_LIST');
+
+\echo ---------------ENTRY_MODI_LOG----------------
+select pg_relation_size('ENTRY_MODI_LOG');
+VACUUM ENTRY_MODI_LOG;
+select pg_relation_size('ENTRY_MODI_LOG');
+
+\echo ---------------ENTRY_OP_LOG----------------
+select pg_relation_size('ENTRY_OP_LOG');
+VACUUM ENTRY_OP_LOG;
+select pg_relation_size('ENTRY_OP_LOG');
+
+\echo ---------------ENTRY_PROC----------------
+select pg_relation_size('ENTRY_PROC');
+VACUUM ENTRY_PROC;
+select pg_relation_size('ENTRY_PROC');
+
+\echo ---------------ENTRY_PROC_LOG----------------
+select pg_relation_size('ENTRY_PROC_LOG');
+VACUUM ENTRY_PROC_LOG;
+select pg_relation_size('ENTRY_PROC_LOG');
+
+\echo ---------------ENTRY_QUERY----------------
+select pg_relation_size('ENTRY_QUERY');
+VACUUM ENTRY_QUERY;
+select pg_relation_size('ENTRY_QUERY');
+
+\echo ---------------ENTRY_WORKFLOW----------------
+select pg_relation_size('ENTRY_WORKFLOW');
+VACUUM ENTRY_WORKFLOW;
+select pg_relation_size('ENTRY_WORKFLOW');
+
+\echo ---------------EPA_CHEM_CERT----------------
+select pg_relation_size('EPA_CHEM_CERT');
+VACUUM EPA_CHEM_CERT;
+select pg_relation_size('EPA_CHEM_CERT');
+
+\echo ---------------EPA_CHK----------------
+select pg_relation_size('EPA_CHK');
+VACUUM EPA_CHK;
+select pg_relation_size('EPA_CHK');
+
+\echo ---------------EPA_SCARP_CERT----------------
+select pg_relation_size('EPA_SCARP_CERT');
+VACUUM EPA_SCARP_CERT;
+select pg_relation_size('EPA_SCARP_CERT');
+
+\echo ---------------ERR_LOG----------------
+select pg_relation_size('ERR_LOG');
+VACUUM ERR_LOG;
+select pg_relation_size('ERR_LOG');
+
+\echo ---------------EX_APPL_CLOSE----------------
+select pg_relation_size('EX_APPL_CLOSE');
+VACUUM EX_APPL_CLOSE;
+select pg_relation_size('EX_APPL_CLOSE');
+
+\echo ---------------EX_ARRIVAL_CONTA----------------
+select pg_relation_size('EX_ARRIVAL_CONTA');
+VACUUM EX_ARRIVAL_CONTA;
+select pg_relation_size('EX_ARRIVAL_CONTA');
+
+\echo ---------------EX_ARRIVAL_ERR_CHK----------------
+select pg_relation_size('EX_ARRIVAL_ERR_CHK');
+VACUUM EX_ARRIVAL_ERR_CHK;
+select pg_relation_size('EX_ARRIVAL_ERR_CHK');
+
+\echo ---------------EX_ARRIVAL_SHIP----------------
+select pg_relation_size('EX_ARRIVAL_SHIP');
+VACUUM EX_ARRIVAL_SHIP;
+select pg_relation_size('EX_ARRIVAL_SHIP');
+
+\echo ---------------EX_CDL_MNL_DEDUCT----------------
+select pg_relation_size('EX_CDL_MNL_DEDUCT');
+VACUUM EX_CDL_MNL_DEDUCT;
+select pg_relation_size('EX_CDL_MNL_DEDUCT');
+
+\echo ---------------EX_CONTA_ENTRY_CHK----------------
+select pg_relation_size('EX_CONTA_ENTRY_CHK');
+VACUUM EX_CONTA_ENTRY_CHK;
+select pg_relation_size('EX_CONTA_ENTRY_CHK');
+
+\echo ---------------EX_CONTRACT_CLEAR----------------
+select pg_relation_size('EX_CONTRACT_CLEAR');
+VACUUM EX_CONTRACT_CLEAR;
+select pg_relation_size('EX_CONTRACT_CLEAR');
+
+\echo ---------------EX_CONTRACT_DEDUC----------------
+select pg_relation_size('EX_CONTRACT_DEDUC');
+VACUUM EX_CONTRACT_DEDUC;
+select pg_relation_size('EX_CONTRACT_DEDUC');
+
+\echo ---------------EX_CONTRACT_LIST----------------
+select pg_relation_size('EX_CONTRACT_LIST');
+VACUUM EX_CONTRACT_LIST;
+select pg_relation_size('EX_CONTRACT_LIST');
+
+\echo ---------------EX_COP_RATE----------------
+select pg_relation_size('EX_COP_RATE');
+VACUUM EX_COP_RATE;
+select pg_relation_size('EX_COP_RATE');
+
+\echo ---------------EX_DECL_ALARM_HEAD----------------
+select pg_relation_size('EX_DECL_ALARM_HEAD');
+VACUUM EX_DECL_ALARM_HEAD;
+select pg_relation_size('EX_DECL_ALARM_HEAD');
+
+\echo ---------------EX_DECL_ALARM_LIST----------------
+select pg_relation_size('EX_DECL_ALARM_LIST');
+VACUUM EX_DECL_ALARM_LIST;
+select pg_relation_size('EX_DECL_ALARM_LIST');
+
+\echo ---------------EX_DECL_CUR_HEAD----------------
+select pg_relation_size('EX_DECL_CUR_HEAD');
+VACUUM EX_DECL_CUR_HEAD;
+select pg_relation_size('EX_DECL_CUR_HEAD');
+
+\echo ---------------EX_DECL_CUR_LIST----------------
+select pg_relation_size('EX_DECL_CUR_LIST');
+VACUUM EX_DECL_CUR_LIST;
+select pg_relation_size('EX_DECL_CUR_LIST');
+
+\echo ---------------EX_DECL_HIS_HEAD----------------
+select pg_relation_size('EX_DECL_HIS_HEAD');
+VACUUM EX_DECL_HIS_HEAD;
+select pg_relation_size('EX_DECL_HIS_HEAD');
+
+\echo ---------------EX_DECL_HIS_LIST----------------
+select pg_relation_size('EX_DECL_HIS_LIST');
+VACUUM EX_DECL_HIS_LIST;
+select pg_relation_size('EX_DECL_HIS_LIST');
+
+\echo ---------------EX_ELE_HEAD----------------
+select pg_relation_size('EX_ELE_HEAD');
+VACUUM EX_ELE_HEAD;
+select pg_relation_size('EX_ELE_HEAD');
+
+\echo ---------------EX_ELE_LIST----------------
+select pg_relation_size('EX_ELE_LIST');
+VACUUM EX_ELE_LIST;
+select pg_relation_size('EX_ELE_LIST');
+
+\echo ---------------EX_EXAM_JOU----------------
+select pg_relation_size('EX_EXAM_JOU');
+VACUUM EX_EXAM_JOU;
+select pg_relation_size('EX_EXAM_JOU');
+
+\echo ---------------EX_EXAM_MANA_HEAD----------------
+select pg_relation_size('EX_EXAM_MANA_HEAD');
+VACUUM EX_EXAM_MANA_HEAD;
+select pg_relation_size('EX_EXAM_MANA_HEAD');
+
+\echo ---------------EX_EXAM_MANA_LIST----------------
+select pg_relation_size('EX_EXAM_MANA_LIST');
+VACUUM EX_EXAM_MANA_LIST;
+select pg_relation_size('EX_EXAM_MANA_LIST');
+
+\echo ---------------EX_FASCICLE_LIST----------------
+select pg_relation_size('EX_FASCICLE_LIST');
+VACUUM EX_FASCICLE_LIST;
+select pg_relation_size('EX_FASCICLE_LIST');
+
+\echo ---------------EX_LIC_CODE_TS----------------
+select pg_relation_size('EX_LIC_CODE_TS');
+VACUUM EX_LIC_CODE_TS;
+select pg_relation_size('EX_LIC_CODE_TS');
+
+\echo ---------------EX_TRAN_JOU----------------
+select pg_relation_size('EX_TRAN_JOU');
+VACUUM EX_TRAN_JOU;
+select pg_relation_size('EX_TRAN_JOU');
+
+\echo ---------------EX_TRANS_ALARM_CONTA_REL----------------
+select pg_relation_size('EX_TRANS_ALARM_CONTA_REL');
+VACUUM EX_TRANS_ALARM_CONTA_REL;
+select pg_relation_size('EX_TRANS_ALARM_CONTA_REL');
+
+\echo ---------------EX_TRANS_ALARM_GOODS_CONTA_REL----------------
+select pg_relation_size('EX_TRANS_ALARM_GOODS_CONTA_REL');
+VACUUM EX_TRANS_ALARM_GOODS_CONTA_REL;
+select pg_relation_size('EX_TRANS_ALARM_GOODS_CONTA_REL');
+
+\echo ---------------EX_TRANS_ALARM_LIST_REL----------------
+select pg_relation_size('EX_TRANS_ALARM_LIST_REL');
+VACUUM EX_TRANS_ALARM_LIST_REL;
+select pg_relation_size('EX_TRANS_ALARM_LIST_REL');
+
+\echo ---------------EX_TRANS_CONTA_REL----------------
+select pg_relation_size('EX_TRANS_CONTA_REL');
+VACUUM EX_TRANS_CONTA_REL;
+select pg_relation_size('EX_TRANS_CONTA_REL');
+
+\echo ---------------EX_TRANS_GOODS_CONTA_REL----------------
+select pg_relation_size('EX_TRANS_GOODS_CONTA_REL');
+VACUUM EX_TRANS_GOODS_CONTA_REL;
+select pg_relation_size('EX_TRANS_GOODS_CONTA_REL');
+
+\echo ---------------EX_TRANS_HIS_CONTA_REL----------------
+select pg_relation_size('EX_TRANS_HIS_CONTA_REL');
+VACUUM EX_TRANS_HIS_CONTA_REL;
+select pg_relation_size('EX_TRANS_HIS_CONTA_REL');
+
+\echo ---------------EX_TRANS_HIS_GOODS_CONTA_REL----------------
+select pg_relation_size('EX_TRANS_HIS_GOODS_CONTA_REL');
+VACUUM EX_TRANS_HIS_GOODS_CONTA_REL;
+select pg_relation_size('EX_TRANS_HIS_GOODS_CONTA_REL');
+
+\echo ---------------EX_TRANS_HIS_LIST_REL----------------
+select pg_relation_size('EX_TRANS_HIS_LIST_REL');
+VACUUM EX_TRANS_HIS_LIST_REL;
+select pg_relation_size('EX_TRANS_HIS_LIST_REL');
+
+\echo ---------------EX_TRANS_LIST_REL----------------
+select pg_relation_size('EX_TRANS_LIST_REL');
+VACUUM EX_TRANS_LIST_REL;
+select pg_relation_size('EX_TRANS_LIST_REL');
+
+\echo ---------------EX_TRN_ARRIVAL_CONTA----------------
+select pg_relation_size('EX_TRN_ARRIVAL_CONTA');
+VACUUM EX_TRN_ARRIVAL_CONTA;
+select pg_relation_size('EX_TRN_ARRIVAL_CONTA');
+
+\echo ---------------EX_TRN_CONTA_ENTRY_ARV----------------
+select pg_relation_size('EX_TRN_CONTA_ENTRY_ARV');
+VACUUM EX_TRN_CONTA_ENTRY_ARV;
+select pg_relation_size('EX_TRN_CONTA_ENTRY_ARV');
+
+\echo ---------------EX_TRN_CONTA_ENTRY_CHK----------------
+select pg_relation_size('EX_TRN_CONTA_ENTRY_CHK');
+VACUUM EX_TRN_CONTA_ENTRY_CHK;
+select pg_relation_size('EX_TRN_CONTA_ENTRY_CHK');
+
+\echo ---------------EXA_APPL_CLOSE----------------
+select pg_relation_size('EXA_APPL_CLOSE');
+VACUUM EXA_APPL_CLOSE;
+select pg_relation_size('EXA_APPL_CLOSE');
+
+\echo ---------------EXAM_CONTA_END_LOG----------------
+select pg_relation_size('EXAM_CONTA_END_LOG');
+VACUUM EXAM_CONTA_END_LOG;
+select pg_relation_size('EXAM_CONTA_END_LOG');
+
+\echo ---------------EXAM_CONTA_HEAD----------------
+select pg_relation_size('EXAM_CONTA_HEAD');
+VACUUM EXAM_CONTA_HEAD;
+select pg_relation_size('EXAM_CONTA_HEAD');
+
+\echo ---------------EXAM_CONTA_LIST----------------
+select pg_relation_size('EXAM_CONTA_LIST');
+VACUUM EXAM_CONTA_LIST;
+select pg_relation_size('EXAM_CONTA_LIST');
+
+\echo ---------------EXC_ELE----------------
+select pg_relation_size('EXC_ELE');
+VACUUM EXC_ELE;
+select pg_relation_size('EXC_ELE');
+
+\echo ---------------EXC_EX_CHK----------------
+select pg_relation_size('EXC_EX_CHK');
+VACUUM EXC_EX_CHK;
+select pg_relation_size('EXC_EX_CHK');
+
+\echo ---------------EXC_EXAM----------------
+select pg_relation_size('EXC_EXAM');
+VACUUM EXC_EXAM;
+select pg_relation_size('EXC_EXAM');
+
+\echo ---------------EXP_MFT_CHK_RESULT----------------
+select pg_relation_size('EXP_MFT_CHK_RESULT');
+VACUUM EXP_MFT_CHK_RESULT;
+select pg_relation_size('EXP_MFT_CHK_RESULT');
+
+\echo ---------------EXTERNAL_JOU----------------
+select pg_relation_size('EXTERNAL_JOU');
+VACUUM EXTERNAL_JOU;
+select pg_relation_size('EXTERNAL_JOU');
+
+\echo ---------------FASCICLE_HEAD----------------
+select pg_relation_size('FASCICLE_HEAD');
+VACUUM FASCICLE_HEAD;
+select pg_relation_size('FASCICLE_HEAD');
+
+\echo ---------------FCB_CHK----------------
+select pg_relation_size('FCB_CHK');
+VACUUM FCB_CHK;
+select pg_relation_size('FCB_CHK');
+
+\echo ---------------FCB_CONTA----------------
+select pg_relation_size('FCB_CONTA');
+VACUUM FCB_CONTA;
+select pg_relation_size('FCB_CONTA');
+
+\echo ---------------FCB_CONTA_MODI----------------
+select pg_relation_size('FCB_CONTA_MODI');
+VACUUM FCB_CONTA_MODI;
+select pg_relation_size('FCB_CONTA_MODI');
+
+\echo ---------------FCB_HEAD----------------
+select pg_relation_size('FCB_HEAD');
+VACUUM FCB_HEAD;
+select pg_relation_size('FCB_HEAD');
+
+\echo ---------------FCB_HEAD_MODI----------------
+select pg_relation_size('FCB_HEAD_MODI');
+VACUUM FCB_HEAD_MODI;
+select pg_relation_size('FCB_HEAD_MODI');
+
+\echo ---------------FCB_LIST----------------
+select pg_relation_size('FCB_LIST');
+VACUUM FCB_LIST;
+select pg_relation_size('FCB_LIST');
+
+\echo ---------------FCB_LIST_MODI----------------
+select pg_relation_size('FCB_LIST_MODI');
+VACUUM FCB_LIST_MODI;
+select pg_relation_size('FCB_LIST_MODI');
+
+\echo ---------------FCB_RSK----------------
+select pg_relation_size('FCB_RSK');
+VACUUM FCB_RSK;
+select pg_relation_size('FCB_RSK');
+
+\echo ---------------FCB_WORKFLOW----------------
+select pg_relation_size('FCB_WORKFLOW');
+VACUUM FCB_WORKFLOW;
+select pg_relation_size('FCB_WORKFLOW');
+
+\echo ---------------FEE_INVOICE----------------
+select pg_relation_size('FEE_INVOICE');
+VACUUM FEE_INVOICE;
+select pg_relation_size('FEE_INVOICE');
+
+\echo ---------------FORFEIT_FORM----------------
+select pg_relation_size('FORFEIT_FORM');
+VACUUM FORFEIT_FORM;
+select pg_relation_size('FORFEIT_FORM');
+
+\echo ---------------FORM_CHK----------------
+select pg_relation_size('FORM_CHK');
+VACUUM FORM_CHK;
+select pg_relation_size('FORM_CHK');
+
+\echo ---------------GUARANTEE_DEL_LOG----------------
+select pg_relation_size('GUARANTEE_DEL_LOG');
+VACUUM GUARANTEE_DEL_LOG;
+select pg_relation_size('GUARANTEE_DEL_LOG');
+
+\echo ---------------GUARANTEE_LIST----------------
+select pg_relation_size('GUARANTEE_LIST');
+VACUUM GUARANTEE_LIST;
+select pg_relation_size('GUARANTEE_LIST');
+
+\echo ---------------GUARANTEE_R----------------
+select pg_relation_size('GUARANTEE_R');
+VACUUM GUARANTEE_R;
+select pg_relation_size('GUARANTEE_R');
+
+\echo ---------------H2000_SMS_SEND----------------
+select pg_relation_size('H2000_SMS_SEND');
+VACUUM H2000_SMS_SEND;
+select pg_relation_size('H2000_SMS_SEND');
+
+\echo ---------------H2000_SMS_SENDLOG----------------
+select pg_relation_size('H2000_SMS_SENDLOG');
+VACUUM H2000_SMS_SENDLOG;
+select pg_relation_size('H2000_SMS_SENDLOG');
+
+\echo ---------------HIS_TRN_COP_REL----------------
+select pg_relation_size('HIS_TRN_COP_REL');
+VACUUM HIS_TRN_COP_REL;
+select pg_relation_size('HIS_TRN_COP_REL');
+
+\echo ---------------HIS_TRN_DR_REL----------------
+select pg_relation_size('HIS_TRN_DR_REL');
+VACUUM HIS_TRN_DR_REL;
+select pg_relation_size('HIS_TRN_DR_REL');
+
+\echo ---------------HIS_TRN_ESEAL_REL----------------
+select pg_relation_size('HIS_TRN_ESEAL_REL');
+VACUUM HIS_TRN_ESEAL_REL;
+select pg_relation_size('HIS_TRN_ESEAL_REL');
+
+\echo ---------------HIS_TRN_VE_REL----------------
+select pg_relation_size('HIS_TRN_VE_REL');
+VACUUM HIS_TRN_VE_REL;
+select pg_relation_size('HIS_TRN_VE_REL');
+
+\echo ---------------IM_APPL_CLOSE----------------
+select pg_relation_size('IM_APPL_CLOSE');
+VACUUM IM_APPL_CLOSE;
+select pg_relation_size('IM_APPL_CLOSE');
+
+\echo ---------------IM_CDL_MNL_DEDUCT----------------
+select pg_relation_size('IM_CDL_MNL_DEDUCT');
+VACUUM IM_CDL_MNL_DEDUCT;
+select pg_relation_size('IM_CDL_MNL_DEDUCT');
+
+\echo ---------------IM_CONTRACT_CLEAR----------------
+select pg_relation_size('IM_CONTRACT_CLEAR');
+VACUUM IM_CONTRACT_CLEAR;
+select pg_relation_size('IM_CONTRACT_CLEAR');
+
+\echo ---------------IM_CONTRACT_DEDUC----------------
+select pg_relation_size('IM_CONTRACT_DEDUC');
+VACUUM IM_CONTRACT_DEDUC;
+select pg_relation_size('IM_CONTRACT_DEDUC');
+
+\echo ---------------IM_CONTRACT_LIST----------------
+select pg_relation_size('IM_CONTRACT_LIST');
+VACUUM IM_CONTRACT_LIST;
+select pg_relation_size('IM_CONTRACT_LIST');
+
+\echo ---------------IM_COP_RATE----------------
+select pg_relation_size('IM_COP_RATE');
+VACUUM IM_COP_RATE;
+select pg_relation_size('IM_COP_RATE');
+
+\echo ---------------IM_DECL_ALARM_HEAD----------------
+select pg_relation_size('IM_DECL_ALARM_HEAD');
+VACUUM IM_DECL_ALARM_HEAD;
+select pg_relation_size('IM_DECL_ALARM_HEAD');
+
+\echo ---------------IM_DECL_ALARM_LIST----------------
+select pg_relation_size('IM_DECL_ALARM_LIST');
+VACUUM IM_DECL_ALARM_LIST;
+select pg_relation_size('IM_DECL_ALARM_LIST');
+
+\echo ---------------IM_DECL_CUR_HEAD----------------
+select pg_relation_size('IM_DECL_CUR_HEAD');
+VACUUM IM_DECL_CUR_HEAD;
+select pg_relation_size('IM_DECL_CUR_HEAD');
+
+\echo ---------------IM_DECL_CUR_LIST----------------
+select pg_relation_size('IM_DECL_CUR_LIST');
+VACUUM IM_DECL_CUR_LIST;
+select pg_relation_size('IM_DECL_CUR_LIST');
+
+\echo ---------------IM_DECL_HIS_HEAD----------------
+select pg_relation_size('IM_DECL_HIS_HEAD');
+VACUUM IM_DECL_HIS_HEAD;
+select pg_relation_size('IM_DECL_HIS_HEAD');
+
+\echo ---------------IM_DECL_HIS_LIST----------------
+select pg_relation_size('IM_DECL_HIS_LIST');
+VACUUM IM_DECL_HIS_LIST;
+select pg_relation_size('IM_DECL_HIS_LIST');
+
+\echo ---------------IM_ELE_HEAD----------------
+select pg_relation_size('IM_ELE_HEAD');
+VACUUM IM_ELE_HEAD;
+select pg_relation_size('IM_ELE_HEAD');
+
+\echo ---------------IM_ELE_LIST----------------
+select pg_relation_size('IM_ELE_LIST');
+VACUUM IM_ELE_LIST;
+select pg_relation_size('IM_ELE_LIST');
+
+\echo ---------------IM_EXAM_JOU----------------
+select pg_relation_size('IM_EXAM_JOU');
+VACUUM IM_EXAM_JOU;
+select pg_relation_size('IM_EXAM_JOU');
+
+\echo ---------------IM_EXAM_MANA_HEAD----------------
+select pg_relation_size('IM_EXAM_MANA_HEAD');
+VACUUM IM_EXAM_MANA_HEAD;
+select pg_relation_size('IM_EXAM_MANA_HEAD');
+
+\echo ---------------IM_EXAM_MANA_LIST----------------
+select pg_relation_size('IM_EXAM_MANA_LIST');
+VACUUM IM_EXAM_MANA_LIST;
+select pg_relation_size('IM_EXAM_MANA_LIST');
+
+\echo ---------------IM_FASCICLE_LIST----------------
+select pg_relation_size('IM_FASCICLE_LIST');
+VACUUM IM_FASCICLE_LIST;
+select pg_relation_size('IM_FASCICLE_LIST');
+
+\echo ---------------IM_LIC_CODE_TS----------------
+select pg_relation_size('IM_LIC_CODE_TS');
+VACUUM IM_LIC_CODE_TS;
+select pg_relation_size('IM_LIC_CODE_TS');
+
+\echo ---------------IM_TRAN_JOU----------------
+select pg_relation_size('IM_TRAN_JOU');
+VACUUM IM_TRAN_JOU;
+select pg_relation_size('IM_TRAN_JOU');
+
+\echo ---------------IM_TRANS_ALARM_CONTA_REL----------------
+select pg_relation_size('IM_TRANS_ALARM_CONTA_REL');
+VACUUM IM_TRANS_ALARM_CONTA_REL;
+select pg_relation_size('IM_TRANS_ALARM_CONTA_REL');
+
+\echo ---------------IM_TRANS_ALARM_GOODS_CONTA_REL----------------
+select pg_relation_size('IM_TRANS_ALARM_GOODS_CONTA_REL');
+VACUUM IM_TRANS_ALARM_GOODS_CONTA_REL;
+select pg_relation_size('IM_TRANS_ALARM_GOODS_CONTA_REL');
+
+\echo ---------------IM_TRANS_ALARM_LIST_REL----------------
+select pg_relation_size('IM_TRANS_ALARM_LIST_REL');
+VACUUM IM_TRANS_ALARM_LIST_REL;
+select pg_relation_size('IM_TRANS_ALARM_LIST_REL');
+
+\echo ---------------IM_TRANS_CONTA_REL----------------
+select pg_relation_size('IM_TRANS_CONTA_REL');
+VACUUM IM_TRANS_CONTA_REL;
+select pg_relation_size('IM_TRANS_CONTA_REL');
+
+\echo ---------------IM_TRANS_GOODS_CONTA_REL----------------
+select pg_relation_size('IM_TRANS_GOODS_CONTA_REL');
+VACUUM IM_TRANS_GOODS_CONTA_REL;
+select pg_relation_size('IM_TRANS_GOODS_CONTA_REL');
+
+\echo ---------------IM_TRANS_HIS_CONTA_REL----------------
+select pg_relation_size('IM_TRANS_HIS_CONTA_REL');
+VACUUM IM_TRANS_HIS_CONTA_REL;
+select pg_relation_size('IM_TRANS_HIS_CONTA_REL');
+
+\echo ---------------IM_TRANS_HIS_GOODS_CONTA_REL----------------
+select pg_relation_size('IM_TRANS_HIS_GOODS_CONTA_REL');
+VACUUM IM_TRANS_HIS_GOODS_CONTA_REL;
+select pg_relation_size('IM_TRANS_HIS_GOODS_CONTA_REL');
+
+\echo ---------------IM_TRANS_HIS_LIST_REL----------------
+select pg_relation_size('IM_TRANS_HIS_LIST_REL');
+VACUUM IM_TRANS_HIS_LIST_REL;
+select pg_relation_size('IM_TRANS_HIS_LIST_REL');
+
+\echo ---------------IM_TRANS_LIST_REL----------------
+select pg_relation_size('IM_TRANS_LIST_REL');
+VACUUM IM_TRANS_LIST_REL;
+select pg_relation_size('IM_TRANS_LIST_REL');
+
+\echo ---------------IMA_APPL_CLOSE----------------
+select pg_relation_size('IMA_APPL_CLOSE');
+VACUUM IMA_APPL_CLOSE;
+select pg_relation_size('IMA_APPL_CLOSE');
+
+\echo ---------------INCOME_INFO----------------
+select pg_relation_size('INCOME_INFO');
+VACUUM INCOME_INFO;
+select pg_relation_size('INCOME_INFO');
+
+\echo ---------------INVESTER_REL----------------
+select pg_relation_size('INVESTER_REL');
+VACUUM INVESTER_REL;
+select pg_relation_size('INVESTER_REL');
+
+\echo ---------------INVLOG_REL----------------
+select pg_relation_size('INVLOG_REL');
+VACUUM INVLOG_REL;
+select pg_relation_size('INVLOG_REL');
+
+\echo ---------------JOB_PARAMETER----------------
+select pg_relation_size('JOB_PARAMETER');
+VACUUM JOB_PARAMETER;
+select pg_relation_size('JOB_PARAMETER');
+
+\echo ---------------LSP_CHK----------------
+select pg_relation_size('LSP_CHK');
+VACUUM LSP_CHK;
+select pg_relation_size('LSP_CHK');
+
+\echo ---------------LSP_HEAD----------------
+select pg_relation_size('LSP_HEAD');
+VACUUM LSP_HEAD;
+select pg_relation_size('LSP_HEAD');
+
+\echo ---------------LSP_LIST----------------
+select pg_relation_size('LSP_LIST');
+VACUUM LSP_LIST;
+select pg_relation_size('LSP_LIST');
+
+\echo ---------------MAIL_FILE----------------
+select pg_relation_size('MAIL_FILE');
+VACUUM MAIL_FILE;
+select pg_relation_size('MAIL_FILE');
+
+\echo ---------------MANA_REL----------------
+select pg_relation_size('MANA_REL');
+VACUUM MANA_REL;
+select pg_relation_size('MANA_REL');
+
+\echo ---------------MANIFEST_CHK----------------
+select pg_relation_size('MANIFEST_CHK');
+VACUUM MANIFEST_CHK;
+select pg_relation_size('MANIFEST_CHK');
+
+\echo ---------------MANIFEST_CHK_LOG----------------
+select pg_relation_size('MANIFEST_CHK_LOG');
+VACUUM MANIFEST_CHK_LOG;
+select pg_relation_size('MANIFEST_CHK_LOG');
+
+\echo ---------------MANIFEST_CONTA----------------
+select pg_relation_size('MANIFEST_CONTA');
+VACUUM MANIFEST_CONTA;
+select pg_relation_size('MANIFEST_CONTA');
+
+\echo ---------------MANIFEST_EXCH_LOG----------------
+select pg_relation_size('MANIFEST_EXCH_LOG');
+VACUUM MANIFEST_EXCH_LOG;
+select pg_relation_size('MANIFEST_EXCH_LOG');
+
+\echo ---------------MANIFEST_EXCH_LOG_BAK----------------
+select pg_relation_size('MANIFEST_EXCH_LOG_BAK');
+VACUUM MANIFEST_EXCH_LOG_BAK;
+select pg_relation_size('MANIFEST_EXCH_LOG_BAK');
+
+\echo ---------------MANIFEST_HEAD----------------
+select pg_relation_size('MANIFEST_HEAD');
+VACUUM MANIFEST_HEAD;
+select pg_relation_size('MANIFEST_HEAD');
+
+\echo ---------------MANIFEST_HEAD_XMS_LOG----------------
+select pg_relation_size('MANIFEST_HEAD_XMS_LOG');
+VACUUM MANIFEST_HEAD_XMS_LOG;
+select pg_relation_size('MANIFEST_HEAD_XMS_LOG');
+
+\echo ---------------MANIFEST_LIST----------------
+select pg_relation_size('MANIFEST_LIST');
+VACUUM MANIFEST_LIST;
+select pg_relation_size('MANIFEST_LIST');
+
+\echo ---------------MANIFEST_LIST_CONTA----------------
+select pg_relation_size('MANIFEST_LIST_CONTA');
+VACUUM MANIFEST_LIST_CONTA;
+select pg_relation_size('MANIFEST_LIST_CONTA');
+
+\echo ---------------MANIFEST_LIST_LOG----------------
+select pg_relation_size('MANIFEST_LIST_LOG');
+VACUUM MANIFEST_LIST_LOG;
+select pg_relation_size('MANIFEST_LIST_LOG');
+
+\echo ---------------MANIFEST_LIST_RSKINFO_LOG----------------
+select pg_relation_size('MANIFEST_LIST_RSKINFO_LOG');
+VACUUM MANIFEST_LIST_RSKINFO_LOG;
+select pg_relation_size('MANIFEST_LIST_RSKINFO_LOG');
+
+\echo ---------------MNL_PARA----------------
+select pg_relation_size('MNL_PARA');
+VACUUM MNL_PARA;
+select pg_relation_size('MNL_PARA');
+
+\echo ---------------MNL_PRESS----------------
+select pg_relation_size('MNL_PRESS');
+VACUUM MNL_PRESS;
+select pg_relation_size('MNL_PRESS');
+
+\echo ---------------MNL_RECEIVE_RECEIPT----------------
+select pg_relation_size('MNL_RECEIVE_RECEIPT');
+VACUUM MNL_RECEIVE_RECEIPT;
+select pg_relation_size('MNL_RECEIVE_RECEIPT');
+
+\echo ---------------MNL_SEQ----------------
+select pg_relation_size('MNL_SEQ');
+VACUUM MNL_SEQ;
+select pg_relation_size('MNL_SEQ');
+
+\echo ---------------MNLBAK_ACCOUNT----------------
+select pg_relation_size('MNLBAK_ACCOUNT');
+VACUUM MNLBAK_ACCOUNT;
+select pg_relation_size('MNLBAK_ACCOUNT');
+
+\echo ---------------MNLBAK_APPL_CLOSE----------------
+select pg_relation_size('MNLBAK_APPL_CLOSE');
+VACUUM MNLBAK_APPL_CLOSE;
+select pg_relation_size('MNLBAK_APPL_CLOSE');
+
+\echo ---------------MNLBAK_CLAIM----------------
+select pg_relation_size('MNLBAK_CLAIM');
+VACUUM MNLBAK_CLAIM;
+select pg_relation_size('MNLBAK_CLAIM');
+
+\echo ---------------MNLBAK_CONSUME----------------
+select pg_relation_size('MNLBAK_CONSUME');
+VACUUM MNLBAK_CONSUME;
+select pg_relation_size('MNLBAK_CONSUME');
+
+\echo ---------------MNLBAK_CONTRACT_HEAD----------------
+select pg_relation_size('MNLBAK_CONTRACT_HEAD');
+VACUUM MNLBAK_CONTRACT_HEAD;
+select pg_relation_size('MNLBAK_CONTRACT_HEAD');
+
+\echo ---------------MNLBAK_CONTRACT_WORKFLOW----------------
+select pg_relation_size('MNLBAK_CONTRACT_WORKFLOW');
+VACUUM MNLBAK_CONTRACT_WORKFLOW;
+select pg_relation_size('MNLBAK_CONTRACT_WORKFLOW');
+
+\echo ---------------MNLBAK_EX_CONTRACT_CLEAR----------------
+select pg_relation_size('MNLBAK_EX_CONTRACT_CLEAR');
+VACUUM MNLBAK_EX_CONTRACT_CLEAR;
+select pg_relation_size('MNLBAK_EX_CONTRACT_CLEAR');
+
+\echo ---------------MNLBAK_EX_CONTRACT_DEDUC----------------
+select pg_relation_size('MNLBAK_EX_CONTRACT_DEDUC');
+VACUUM MNLBAK_EX_CONTRACT_DEDUC;
+select pg_relation_size('MNLBAK_EX_CONTRACT_DEDUC');
+
+\echo ---------------MNLBAK_EX_CONTRACT_LIST----------------
+select pg_relation_size('MNLBAK_EX_CONTRACT_LIST');
+VACUUM MNLBAK_EX_CONTRACT_LIST;
+select pg_relation_size('MNLBAK_EX_CONTRACT_LIST');
+
+\echo ---------------MNLBAK_EX_FASCICLE_LIST----------------
+select pg_relation_size('MNLBAK_EX_FASCICLE_LIST');
+VACUUM MNLBAK_EX_FASCICLE_LIST;
+select pg_relation_size('MNLBAK_EX_FASCICLE_LIST');
+
+\echo ---------------MNLBAK_FASCICLE_HEAD----------------
+select pg_relation_size('MNLBAK_FASCICLE_HEAD');
+VACUUM MNLBAK_FASCICLE_HEAD;
+select pg_relation_size('MNLBAK_FASCICLE_HEAD');
+
+\echo ---------------MNLBAK_FEE_INVOICE----------------
+select pg_relation_size('MNLBAK_FEE_INVOICE');
+VACUUM MNLBAK_FEE_INVOICE;
+select pg_relation_size('MNLBAK_FEE_INVOICE');
+
+\echo ---------------MNLBAK_IM_CONTRACT_CLEAR----------------
+select pg_relation_size('MNLBAK_IM_CONTRACT_CLEAR');
+VACUUM MNLBAK_IM_CONTRACT_CLEAR;
+select pg_relation_size('MNLBAK_IM_CONTRACT_CLEAR');
+
+\echo ---------------MNLBAK_IM_CONTRACT_DEDUC----------------
+select pg_relation_size('MNLBAK_IM_CONTRACT_DEDUC');
+VACUUM MNLBAK_IM_CONTRACT_DEDUC;
+select pg_relation_size('MNLBAK_IM_CONTRACT_DEDUC');
+
+\echo ---------------MNLBAK_IM_CONTRACT_LIST----------------
+select pg_relation_size('MNLBAK_IM_CONTRACT_LIST');
+VACUUM MNLBAK_IM_CONTRACT_LIST;
+select pg_relation_size('MNLBAK_IM_CONTRACT_LIST');
+
+\echo ---------------MNLBAK_IM_FASCICLE_LIST----------------
+select pg_relation_size('MNLBAK_IM_FASCICLE_LIST');
+VACUUM MNLBAK_IM_FASCICLE_LIST;
+select pg_relation_size('MNLBAK_IM_FASCICLE_LIST');
+
+\echo ---------------MNLBAK_PRESS_CLEAR----------------
+select pg_relation_size('MNLBAK_PRESS_CLEAR');
+VACUUM MNLBAK_PRESS_CLEAR;
+select pg_relation_size('MNLBAK_PRESS_CLEAR');
+
+\echo ---------------MNLBAK_SERVICE_FEE----------------
+select pg_relation_size('MNLBAK_SERVICE_FEE');
+VACUUM MNLBAK_SERVICE_FEE;
+select pg_relation_size('MNLBAK_SERVICE_FEE');
+
+\echo ---------------MNLBAK_SERVICE_LIST----------------
+select pg_relation_size('MNLBAK_SERVICE_LIST');
+VACUUM MNLBAK_SERVICE_LIST;
+select pg_relation_size('MNLBAK_SERVICE_LIST');
+
+\echo ---------------MOD_PROJECT_HEAD----------------
+select pg_relation_size('MOD_PROJECT_HEAD');
+VACUUM MOD_PROJECT_HEAD;
+select pg_relation_size('MOD_PROJECT_HEAD');
+
+\echo ---------------MOD_PROJECT_LIST----------------
+select pg_relation_size('MOD_PROJECT_LIST');
+VACUUM MOD_PROJECT_LIST;
+select pg_relation_size('MOD_PROJECT_LIST');
+
+\echo ---------------MOD_RED_HEAD----------------
+select pg_relation_size('MOD_RED_HEAD');
+VACUUM MOD_RED_HEAD;
+select pg_relation_size('MOD_RED_HEAD');
+
+\echo ---------------MOD_RED_LIST----------------
+select pg_relation_size('MOD_RED_LIST');
+VACUUM MOD_RED_LIST;
+select pg_relation_size('MOD_RED_LIST');
+
+\echo ---------------NONENTRY_CHK_RESULT----------------
+select pg_relation_size('NONENTRY_CHK_RESULT');
+VACUUM NONENTRY_CHK_RESULT;
+select pg_relation_size('NONENTRY_CHK_RESULT');
+
+\echo ---------------NORSK_COMPANY----------------
+select pg_relation_size('NORSK_COMPANY');
+VACUUM NORSK_COMPANY;
+select pg_relation_size('NORSK_COMPANY');
+
+\echo ---------------NORSK_COMPANY_BAK----------------
+select pg_relation_size('NORSK_COMPANY_BAK');
+VACUUM NORSK_COMPANY_BAK;
+select pg_relation_size('NORSK_COMPANY_BAK');
+
+\echo ---------------NORSK_CONDITION----------------
+select pg_relation_size('NORSK_CONDITION');
+VACUUM NORSK_CONDITION;
+select pg_relation_size('NORSK_CONDITION');
+
+\echo ---------------NORSK_CONDITION_BAK----------------
+select pg_relation_size('NORSK_CONDITION_BAK');
+VACUUM NORSK_CONDITION_BAK;
+select pg_relation_size('NORSK_CONDITION_BAK');
+
+\echo ---------------NORSK_TRADE_MODE----------------
+select pg_relation_size('NORSK_TRADE_MODE');
+VACUUM NORSK_TRADE_MODE;
+select pg_relation_size('NORSK_TRADE_MODE');
+
+\echo ---------------NORSK_TRADE_MODE_BAK----------------
+select pg_relation_size('NORSK_TRADE_MODE_BAK');
+VACUUM NORSK_TRADE_MODE_BAK;
+select pg_relation_size('NORSK_TRADE_MODE_BAK');
+
+\echo ---------------OCC_ELE_HEAD----------------
+select pg_relation_size('OCC_ELE_HEAD');
+VACUUM OCC_ELE_HEAD;
+select pg_relation_size('OCC_ELE_HEAD');
+
+\echo ---------------OCC_ELE_LIST----------------
+select pg_relation_size('OCC_ELE_LIST');
+VACUUM OCC_ELE_LIST;
+select pg_relation_size('OCC_ELE_LIST');
+
+\echo ---------------OCC_EXAM----------------
+select pg_relation_size('OCC_EXAM');
+VACUUM OCC_EXAM;
+select pg_relation_size('OCC_EXAM');
+
+\echo ---------------OCC_RECEIPT----------------
+select pg_relation_size('OCC_RECEIPT');
+VACUUM OCC_RECEIPT;
+select pg_relation_size('OCC_RECEIPT');
+
+\echo ---------------OTHER_STF_RECORD----------------
+select pg_relation_size('OTHER_STF_RECORD');
+VACUUM OTHER_STF_RECORD;
+select pg_relation_size('OTHER_STF_RECORD');
+
+\echo ---------------PAPERLESS_SELFSAVE_CERT----------------
+select pg_relation_size('PAPERLESS_SELFSAVE_CERT');
+VACUUM PAPERLESS_SELFSAVE_CERT;
+select pg_relation_size('PAPERLESS_SELFSAVE_CERT');
+
+\echo ---------------PAYOUT_REMIT_HEAD----------------
+select pg_relation_size('PAYOUT_REMIT_HEAD');
+VACUUM PAYOUT_REMIT_HEAD;
+select pg_relation_size('PAYOUT_REMIT_HEAD');
+
+\echo ---------------PAYOUT_REMIT_LIST----------------
+select pg_relation_size('PAYOUT_REMIT_LIST');
+VACUUM PAYOUT_REMIT_LIST;
+select pg_relation_size('PAYOUT_REMIT_LIST');
+
+\echo ---------------PES_CANCEL----------------
+select pg_relation_size('PES_CANCEL');
+VACUUM PES_CANCEL;
+select pg_relation_size('PES_CANCEL');
+
+\echo ---------------PES_NOTE----------------
+select pg_relation_size('PES_NOTE');
+VACUUM PES_NOTE;
+select pg_relation_size('PES_NOTE');
+
+\echo ---------------PES_WORKFLOW----------------
+select pg_relation_size('PES_WORKFLOW');
+VACUUM PES_WORKFLOW;
+select pg_relation_size('PES_WORKFLOW');
+
+\echo ---------------PORT_BIND_REL----------------
+select pg_relation_size('PORT_BIND_REL');
+VACUUM PORT_BIND_REL;
+select pg_relation_size('PORT_BIND_REL');
+
+\echo ---------------PRE_APPL_CLOSE----------------
+select pg_relation_size('PRE_APPL_CLOSE');
+VACUUM PRE_APPL_CLOSE;
+select pg_relation_size('PRE_APPL_CLOSE');
+
+\echo ---------------PRE_APPL_CLOSE_CONSUME----------------
+select pg_relation_size('PRE_APPL_CLOSE_CONSUME');
+VACUUM PRE_APPL_CLOSE_CONSUME;
+select pg_relation_size('PRE_APPL_CLOSE_CONSUME');
+
+\echo ---------------PRE_CDL_COMMODITY----------------
+select pg_relation_size('PRE_CDL_COMMODITY');
+VACUUM PRE_CDL_COMMODITY;
+select pg_relation_size('PRE_CDL_COMMODITY');
+
+\echo ---------------PRE_CDL_COMPANY----------------
+select pg_relation_size('PRE_CDL_COMPANY');
+VACUUM PRE_CDL_COMPANY;
+select pg_relation_size('PRE_CDL_COMPANY');
+
+\echo ---------------PRE_COMPANY_REL----------------
+select pg_relation_size('PRE_COMPANY_REL');
+VACUUM PRE_COMPANY_REL;
+select pg_relation_size('PRE_COMPANY_REL');
+
+\echo ---------------PRE_CONSUME----------------
+select pg_relation_size('PRE_CONSUME');
+VACUUM PRE_CONSUME;
+select pg_relation_size('PRE_CONSUME');
+
+\echo ---------------PRE_CONTRACT_HEAD----------------
+select pg_relation_size('PRE_CONTRACT_HEAD');
+VACUUM PRE_CONTRACT_HEAD;
+select pg_relation_size('PRE_CONTRACT_HEAD');
+
+\echo ---------------PRE_DECL_REL----------------
+select pg_relation_size('PRE_DECL_REL');
+VACUUM PRE_DECL_REL;
+select pg_relation_size('PRE_DECL_REL');
+
+\echo ---------------PRE_EX_APPL_CLOSE----------------
+select pg_relation_size('PRE_EX_APPL_CLOSE');
+VACUUM PRE_EX_APPL_CLOSE;
+select pg_relation_size('PRE_EX_APPL_CLOSE');
+
+\echo ---------------PRE_EX_CONTRACT_LIST----------------
+select pg_relation_size('PRE_EX_CONTRACT_LIST');
+VACUUM PRE_EX_CONTRACT_LIST;
+select pg_relation_size('PRE_EX_CONTRACT_LIST');
+
+\echo ---------------PRE_EX_FASCICLE_LIST----------------
+select pg_relation_size('PRE_EX_FASCICLE_LIST');
+VACUUM PRE_EX_FASCICLE_LIST;
+select pg_relation_size('PRE_EX_FASCICLE_LIST');
+
+\echo ---------------PRE_EXA_APPL_CLOSE----------------
+select pg_relation_size('PRE_EXA_APPL_CLOSE');
+VACUUM PRE_EXA_APPL_CLOSE;
+select pg_relation_size('PRE_EXA_APPL_CLOSE');
+
+\echo ---------------PRE_FASCICLE_HEAD----------------
+select pg_relation_size('PRE_FASCICLE_HEAD');
+VACUUM PRE_FASCICLE_HEAD;
+select pg_relation_size('PRE_FASCICLE_HEAD');
+
+\echo ---------------PRE_IM_APPL_CLOSE----------------
+select pg_relation_size('PRE_IM_APPL_CLOSE');
+VACUUM PRE_IM_APPL_CLOSE;
+select pg_relation_size('PRE_IM_APPL_CLOSE');
+
+\echo ---------------PRE_IM_CONTRACT_LIST----------------
+select pg_relation_size('PRE_IM_CONTRACT_LIST');
+VACUUM PRE_IM_CONTRACT_LIST;
+select pg_relation_size('PRE_IM_CONTRACT_LIST');
+
+\echo ---------------PRE_IM_FASCICLE_LIST----------------
+select pg_relation_size('PRE_IM_FASCICLE_LIST');
+VACUUM PRE_IM_FASCICLE_LIST;
+select pg_relation_size('PRE_IM_FASCICLE_LIST');
+
+\echo ---------------PRE_IMA_APPL_CLOSE----------------
+select pg_relation_size('PRE_IMA_APPL_CLOSE');
+VACUUM PRE_IMA_APPL_CLOSE;
+select pg_relation_size('PRE_IMA_APPL_CLOSE');
+
+\echo ---------------PRE_INVESTER_REL----------------
+select pg_relation_size('PRE_INVESTER_REL');
+VACUUM PRE_INVESTER_REL;
+select pg_relation_size('PRE_INVESTER_REL');
+
+\echo ---------------PRE_MANA_REL----------------
+select pg_relation_size('PRE_MANA_REL');
+VACUUM PRE_MANA_REL;
+select pg_relation_size('PRE_MANA_REL');
+
+\echo ---------------PRE_PROJECT_HEAD----------------
+select pg_relation_size('PRE_PROJECT_HEAD');
+VACUUM PRE_PROJECT_HEAD;
+select pg_relation_size('PRE_PROJECT_HEAD');
+
+\echo ---------------PRE_PROJECT_LIST----------------
+select pg_relation_size('PRE_PROJECT_LIST');
+VACUUM PRE_PROJECT_LIST;
+select pg_relation_size('PRE_PROJECT_LIST');
+
+\echo ---------------PRE_RED_HEAD----------------
+select pg_relation_size('PRE_RED_HEAD');
+VACUUM PRE_RED_HEAD;
+select pg_relation_size('PRE_RED_HEAD');
+
+\echo ---------------PRE_RED_LIST----------------
+select pg_relation_size('PRE_RED_LIST');
+VACUUM PRE_RED_LIST;
+select pg_relation_size('PRE_RED_LIST');
+
+\echo ---------------PRE_REL_ALC_WORK----------------
+select pg_relation_size('PRE_REL_ALC_WORK');
+VACUUM PRE_REL_ALC_WORK;
+select pg_relation_size('PRE_REL_ALC_WORK');
+
+\echo ---------------PRESS_CLEAR----------------
+select pg_relation_size('PRESS_CLEAR');
+VACUUM PRESS_CLEAR;
+select pg_relation_size('PRESS_CLEAR');
+
+\echo ---------------PRICE_LIBRARY----------------
+select pg_relation_size('PRICE_LIBRARY');
+VACUUM PRICE_LIBRARY;
+select pg_relation_size('PRICE_LIBRARY');
+
+\echo ---------------PRICE_LIBRARY_ENTRY----------------
+select pg_relation_size('PRICE_LIBRARY_ENTRY');
+VACUUM PRICE_LIBRARY_ENTRY;
+select pg_relation_size('PRICE_LIBRARY_ENTRY');
+
+\echo ---------------PRICE_LIBRARY_MAN----------------
+select pg_relation_size('PRICE_LIBRARY_MAN');
+VACUUM PRICE_LIBRARY_MAN;
+select pg_relation_size('PRICE_LIBRARY_MAN');
+
+\echo ---------------PRICE_LIBRARY_RISK----------------
+select pg_relation_size('PRICE_LIBRARY_RISK');
+VACUUM PRICE_LIBRARY_RISK;
+select pg_relation_size('PRICE_LIBRARY_RISK');
+
+\echo ---------------PROJECT_HEAD----------------
+select pg_relation_size('PROJECT_HEAD');
+VACUUM PROJECT_HEAD;
+select pg_relation_size('PROJECT_HEAD');
+
+\echo ---------------PROJECT_LIST----------------
+select pg_relation_size('PROJECT_LIST');
+VACUUM PROJECT_LIST;
+select pg_relation_size('PROJECT_LIST');
+
+\echo ---------------PROJECT_MAX_NO----------------
+select pg_relation_size('PROJECT_MAX_NO');
+VACUUM PROJECT_MAX_NO;
+select pg_relation_size('PROJECT_MAX_NO');
+
+\echo ---------------PROJECT_MAX_NO_2007----------------
+select pg_relation_size('PROJECT_MAX_NO_2007');
+VACUUM PROJECT_MAX_NO_2007;
+select pg_relation_size('PROJECT_MAX_NO_2007');
+
+\echo ---------------RAM_HEAD----------------
+select pg_relation_size('RAM_HEAD');
+VACUUM RAM_HEAD;
+select pg_relation_size('RAM_HEAD');
+
+\echo ---------------RAM_LIST----------------
+select pg_relation_size('RAM_LIST');
+VACUUM RAM_LIST;
+select pg_relation_size('RAM_LIST');
+
+\echo ---------------RAM_PRINT_LOG----------------
+select pg_relation_size('RAM_PRINT_LOG');
+VACUUM RAM_PRINT_LOG;
+select pg_relation_size('RAM_PRINT_LOG');
+
+\echo ---------------RAM_RG_COP_OWNER----------------
+select pg_relation_size('RAM_RG_COP_OWNER');
+VACUUM RAM_RG_COP_OWNER;
+select pg_relation_size('RAM_RG_COP_OWNER');
+
+\echo ---------------RAM_RG_COP_PROJECT----------------
+select pg_relation_size('RAM_RG_COP_PROJECT');
+VACUUM RAM_RG_COP_PROJECT;
+select pg_relation_size('RAM_RG_COP_PROJECT');
+
+\echo ---------------RAM_RG_COPINFO----------------
+select pg_relation_size('RAM_RG_COPINFO');
+VACUUM RAM_RG_COPINFO;
+select pg_relation_size('RAM_RG_COPINFO');
+
+\echo ---------------RAM_RG_HEAD----------------
+select pg_relation_size('RAM_RG_HEAD');
+VACUUM RAM_RG_HEAD;
+select pg_relation_size('RAM_RG_HEAD');
+
+\echo ---------------RAM_RN_INFO----------------
+select pg_relation_size('RAM_RN_INFO');
+VACUUM RAM_RN_INFO;
+select pg_relation_size('RAM_RN_INFO');
+
+\echo ---------------RAM_RY_COMMUNICATION----------------
+select pg_relation_size('RAM_RY_COMMUNICATION');
+VACUUM RAM_RY_COMMUNICATION;
+select pg_relation_size('RAM_RY_COMMUNICATION');
+
+\echo ---------------RAM_STATUS----------------
+select pg_relation_size('RAM_STATUS');
+VACUUM RAM_STATUS;
+select pg_relation_size('RAM_STATUS');
+
+\echo ---------------RAM_STATUS_LIST----------------
+select pg_relation_size('RAM_STATUS_LIST');
+VACUUM RAM_STATUS_LIST;
+select pg_relation_size('RAM_STATUS_LIST');
+
+\echo ---------------RAM_STATUS_MODI_LOG----------------
+select pg_relation_size('RAM_STATUS_MODI_LOG');
+VACUUM RAM_STATUS_MODI_LOG;
+select pg_relation_size('RAM_STATUS_MODI_LOG');
+
+\echo ---------------RCP_INCOME_HEAD----------------
+select pg_relation_size('RCP_INCOME_HEAD');
+VACUUM RCP_INCOME_HEAD;
+select pg_relation_size('RCP_INCOME_HEAD');
+
+\echo ---------------RCP_INCOME_HEAD_BAK----------------
+select pg_relation_size('RCP_INCOME_HEAD_BAK');
+VACUUM RCP_INCOME_HEAD_BAK;
+select pg_relation_size('RCP_INCOME_HEAD_BAK');
+
+\echo ---------------RCP_INCOME_LIST----------------
+select pg_relation_size('RCP_INCOME_LIST');
+VACUUM RCP_INCOME_LIST;
+select pg_relation_size('RCP_INCOME_LIST');
+
+\echo ---------------RCP_INCOME_LIST_BAK----------------
+select pg_relation_size('RCP_INCOME_LIST_BAK');
+VACUUM RCP_INCOME_LIST_BAK;
+select pg_relation_size('RCP_INCOME_LIST_BAK');
+
+\echo ---------------RCP_PAYMENT_HEAD----------------
+select pg_relation_size('RCP_PAYMENT_HEAD');
+VACUUM RCP_PAYMENT_HEAD;
+select pg_relation_size('RCP_PAYMENT_HEAD');
+
+\echo ---------------RCP_PAYMENT_HEAD_BAK----------------
+select pg_relation_size('RCP_PAYMENT_HEAD_BAK');
+VACUUM RCP_PAYMENT_HEAD_BAK;
+select pg_relation_size('RCP_PAYMENT_HEAD_BAK');
+
+\echo ---------------RCP_PAYMENT_LIST----------------
+select pg_relation_size('RCP_PAYMENT_LIST');
+VACUUM RCP_PAYMENT_LIST;
+select pg_relation_size('RCP_PAYMENT_LIST');
+
+\echo ---------------RCP_PAYMENT_LIST_BAK----------------
+select pg_relation_size('RCP_PAYMENT_LIST_BAK');
+VACUUM RCP_PAYMENT_LIST_BAK;
+select pg_relation_size('RCP_PAYMENT_LIST_BAK');
+
+\echo ---------------RCP_RECORD_HEAD----------------
+select pg_relation_size('RCP_RECORD_HEAD');
+VACUUM RCP_RECORD_HEAD;
+select pg_relation_size('RCP_RECORD_HEAD');
+
+\echo ---------------RCP_RECORD_HEAD_BAK----------------
+select pg_relation_size('RCP_RECORD_HEAD_BAK');
+VACUUM RCP_RECORD_HEAD_BAK;
+select pg_relation_size('RCP_RECORD_HEAD_BAK');
+
+\echo ---------------RCP_RECORD_LIST----------------
+select pg_relation_size('RCP_RECORD_LIST');
+VACUUM RCP_RECORD_LIST;
+select pg_relation_size('RCP_RECORD_LIST');
+
+\echo ---------------RCP_RECORD_LIST_BAK----------------
+select pg_relation_size('RCP_RECORD_LIST_BAK');
+VACUUM RCP_RECORD_LIST_BAK;
+select pg_relation_size('RCP_RECORD_LIST_BAK');
+
+\echo ---------------RCP_WORKFLOW----------------
+select pg_relation_size('RCP_WORKFLOW');
+VACUUM RCP_WORKFLOW;
+select pg_relation_size('RCP_WORKFLOW');
+
+\echo ---------------RED_ENTRY_HEAD----------------
+select pg_relation_size('RED_ENTRY_HEAD');
+VACUUM RED_ENTRY_HEAD;
+select pg_relation_size('RED_ENTRY_HEAD');
+
+\echo ---------------RED_ENTRY_LIST----------------
+select pg_relation_size('RED_ENTRY_LIST');
+VACUUM RED_ENTRY_LIST;
+select pg_relation_size('RED_ENTRY_LIST');
+
+\echo ---------------RED_FEE_INVOICE----------------
+select pg_relation_size('RED_FEE_INVOICE');
+VACUUM RED_FEE_INVOICE;
+select pg_relation_size('RED_FEE_INVOICE');
+
+\echo ---------------RED_HEAD----------------
+select pg_relation_size('RED_HEAD');
+VACUUM RED_HEAD;
+select pg_relation_size('RED_HEAD');
+
+\echo ---------------RED_LIST----------------
+select pg_relation_size('RED_LIST');
+VACUUM RED_LIST;
+select pg_relation_size('RED_LIST');
+
+\echo ---------------RED_MAX_NO----------------
+select pg_relation_size('RED_MAX_NO');
+VACUUM RED_MAX_NO;
+select pg_relation_size('RED_MAX_NO');
+
+\echo ---------------RED_MAX_NO_2007----------------
+select pg_relation_size('RED_MAX_NO_2007');
+VACUUM RED_MAX_NO_2007;
+select pg_relation_size('RED_MAX_NO_2007');
+
+\echo ---------------RED_RECEIVE_RECEIPT----------------
+select pg_relation_size('RED_RECEIVE_RECEIPT');
+VACUUM RED_RECEIVE_RECEIPT;
+select pg_relation_size('RED_RECEIVE_RECEIPT');
+
+\echo ---------------RED_SERVICE_FEE----------------
+select pg_relation_size('RED_SERVICE_FEE');
+VACUUM RED_SERVICE_FEE;
+select pg_relation_size('RED_SERVICE_FEE');
+
+\echo ---------------REL_ALC_WORK----------------
+select pg_relation_size('REL_ALC_WORK');
+VACUUM REL_ALC_WORK;
+select pg_relation_size('REL_ALC_WORK');
+
+\echo ---------------RETURN_REL----------------
+select pg_relation_size('RETURN_REL');
+VACUUM RETURN_REL;
+select pg_relation_size('RETURN_REL');
+
+\echo ---------------RISK_CONTROL----------------
+select pg_relation_size('RISK_CONTROL');
+VACUUM RISK_CONTROL;
+select pg_relation_size('RISK_CONTROL');
+
+\echo ---------------RSK_ASSAY_APPLICATION----------------
+select pg_relation_size('RSK_ASSAY_APPLICATION');
+VACUUM RSK_ASSAY_APPLICATION;
+select pg_relation_size('RSK_ASSAY_APPLICATION');
+
+\echo ---------------RSK_CASE_FEEDBACK_HEAD----------------
+select pg_relation_size('RSK_CASE_FEEDBACK_HEAD');
+VACUUM RSK_CASE_FEEDBACK_HEAD;
+select pg_relation_size('RSK_CASE_FEEDBACK_HEAD');
+
+\echo ---------------RSK_CASE_FEEDBACK_LIST----------------
+select pg_relation_size('RSK_CASE_FEEDBACK_LIST');
+VACUUM RSK_CASE_FEEDBACK_LIST;
+select pg_relation_size('RSK_CASE_FEEDBACK_LIST');
+
+\echo ---------------RSK_CASE_FEEDBACK_LIST_CERT----------------
+select pg_relation_size('RSK_CASE_FEEDBACK_LIST_CERT');
+VACUUM RSK_CASE_FEEDBACK_LIST_CERT;
+select pg_relation_size('RSK_CASE_FEEDBACK_LIST_CERT');
+
+\echo ---------------RSK_CASE_TRANSFER_G_NO----------------
+select pg_relation_size('RSK_CASE_TRANSFER_G_NO');
+VACUUM RSK_CASE_TRANSFER_G_NO;
+select pg_relation_size('RSK_CASE_TRANSFER_G_NO');
+
+\echo ---------------RSK_CASE_TRANSFER_HEAD----------------
+select pg_relation_size('RSK_CASE_TRANSFER_HEAD');
+VACUUM RSK_CASE_TRANSFER_HEAD;
+select pg_relation_size('RSK_CASE_TRANSFER_HEAD');
+
+\echo ---------------RSK_CASE_TRANSFER_LIST----------------
+select pg_relation_size('RSK_CASE_TRANSFER_LIST');
+VACUUM RSK_CASE_TRANSFER_LIST;
+select pg_relation_size('RSK_CASE_TRANSFER_LIST');
+
+\echo ---------------RSK_CODE_TS----------------
+select pg_relation_size('RSK_CODE_TS');
+VACUUM RSK_CODE_TS;
+select pg_relation_size('RSK_CODE_TS');
+
+\echo ---------------RSK_CODE_TS_BAK----------------
+select pg_relation_size('RSK_CODE_TS_BAK');
+VACUUM RSK_CODE_TS_BAK;
+select pg_relation_size('RSK_CODE_TS_BAK');
+
+\echo ---------------RSK_CONDITION----------------
+select pg_relation_size('RSK_CONDITION');
+VACUUM RSK_CONDITION;
+select pg_relation_size('RSK_CONDITION');
+
+\echo ---------------RSK_CONDITION_BAK----------------
+select pg_relation_size('RSK_CONDITION_BAK');
+VACUUM RSK_CONDITION_BAK;
+select pg_relation_size('RSK_CONDITION_BAK');
+
+\echo ---------------RSK_CONTA_CAPACITY----------------
+select pg_relation_size('RSK_CONTA_CAPACITY');
+VACUUM RSK_CONTA_CAPACITY;
+select pg_relation_size('RSK_CONTA_CAPACITY');
+
+\echo ---------------RSK_CONTA_CAPACITY_BAK----------------
+select pg_relation_size('RSK_CONTA_CAPACITY_BAK');
+VACUUM RSK_CONTA_CAPACITY_BAK;
+select pg_relation_size('RSK_CONTA_CAPACITY_BAK');
+
+\echo ---------------RSK_EXAM_HEAD_REL----------------
+select pg_relation_size('RSK_EXAM_HEAD_REL');
+VACUUM RSK_EXAM_HEAD_REL;
+select pg_relation_size('RSK_EXAM_HEAD_REL');
+
+\echo ---------------RSK_EXAM_LIST_CONTAINER----------------
+select pg_relation_size('RSK_EXAM_LIST_CONTAINER');
+VACUUM RSK_EXAM_LIST_CONTAINER;
+select pg_relation_size('RSK_EXAM_LIST_CONTAINER');
+
+\echo ---------------RSK_EXAM_LIST_REL----------------
+select pg_relation_size('RSK_EXAM_LIST_REL');
+VACUUM RSK_EXAM_LIST_REL;
+select pg_relation_size('RSK_EXAM_LIST_REL');
+
+\echo ---------------RSK_EXAM_OP_LOG----------------
+select pg_relation_size('RSK_EXAM_OP_LOG');
+VACUUM RSK_EXAM_OP_LOG;
+select pg_relation_size('RSK_EXAM_OP_LOG');
+
+\echo ---------------RSK_FAKE_CODE_TS----------------
+select pg_relation_size('RSK_FAKE_CODE_TS');
+VACUUM RSK_FAKE_CODE_TS;
+select pg_relation_size('RSK_FAKE_CODE_TS');
+
+\echo ---------------RSK_FAKE_CODE_TS_BAK----------------
+select pg_relation_size('RSK_FAKE_CODE_TS_BAK');
+VACUUM RSK_FAKE_CODE_TS_BAK;
+select pg_relation_size('RSK_FAKE_CODE_TS_BAK');
+
+\echo ---------------RSK_FIT_LOG_REL----------------
+select pg_relation_size('RSK_FIT_LOG_REL');
+VACUUM RSK_FIT_LOG_REL;
+select pg_relation_size('RSK_FIT_LOG_REL');
+
+\echo ---------------RSK_FIT_RESULT_LOG----------------
+select pg_relation_size('RSK_FIT_RESULT_LOG');
+VACUUM RSK_FIT_RESULT_LOG;
+select pg_relation_size('RSK_FIT_RESULT_LOG');
+
+\echo ---------------RSK_INSTR_ATTR_REL----------------
+select pg_relation_size('RSK_INSTR_ATTR_REL');
+VACUUM RSK_INSTR_ATTR_REL;
+select pg_relation_size('RSK_INSTR_ATTR_REL');
+
+\echo ---------------RSK_INSTR_PROC_REL----------------
+select pg_relation_size('RSK_INSTR_PROC_REL');
+VACUUM RSK_INSTR_PROC_REL;
+select pg_relation_size('RSK_INSTR_PROC_REL');
+
+\echo ---------------RSK_OP_LOG----------------
+select pg_relation_size('RSK_OP_LOG');
+VACUUM RSK_OP_LOG;
+select pg_relation_size('RSK_OP_LOG');
+
+\echo ---------------RSK_RECHECK_REL----------------
+select pg_relation_size('RSK_RECHECK_REL');
+VACUUM RSK_RECHECK_REL;
+select pg_relation_size('RSK_RECHECK_REL');
+
+\echo ---------------RSK_REPLICATION_LOG----------------
+select pg_relation_size('RSK_REPLICATION_LOG');
+VACUUM RSK_REPLICATION_LOG;
+select pg_relation_size('RSK_REPLICATION_LOG');
+
+\echo ---------------RSK_RESULT_REL----------------
+select pg_relation_size('RSK_RESULT_REL');
+VACUUM RSK_RESULT_REL;
+select pg_relation_size('RSK_RESULT_REL');
+
+\echo ---------------RSK_TRADE_CO----------------
+select pg_relation_size('RSK_TRADE_CO');
+VACUUM RSK_TRADE_CO;
+select pg_relation_size('RSK_TRADE_CO');
+
+\echo ---------------RSK_TRADE_CO_BAK----------------
+select pg_relation_size('RSK_TRADE_CO_BAK');
+VACUUM RSK_TRADE_CO_BAK;
+select pg_relation_size('RSK_TRADE_CO_BAK');
+
+\echo ---------------RSK_UNLOCK_OP_LOG----------------
+select pg_relation_size('RSK_UNLOCK_OP_LOG');
+VACUUM RSK_UNLOCK_OP_LOG;
+select pg_relation_size('RSK_UNLOCK_OP_LOG');
+
+\echo ---------------RSK_VS_EXAM----------------
+select pg_relation_size('RSK_VS_EXAM');
+VACUUM RSK_VS_EXAM;
+select pg_relation_size('RSK_VS_EXAM');
+
+\echo ---------------RSK_WORKFLOW----------------
+select pg_relation_size('RSK_WORKFLOW');
+VACUUM RSK_WORKFLOW;
+select pg_relation_size('RSK_WORKFLOW');
+
+\echo ---------------SERVICE_FEE----------------
+select pg_relation_size('SERVICE_FEE');
+VACUUM SERVICE_FEE;
+select pg_relation_size('SERVICE_FEE');
+
+\echo ---------------SERVICE_LIST----------------
+select pg_relation_size('SERVICE_LIST');
+VACUUM SERVICE_LIST;
+select pg_relation_size('SERVICE_LIST');
+
+\echo ---------------SHIP_TONNAGE----------------
+select pg_relation_size('SHIP_TONNAGE');
+VACUUM SHIP_TONNAGE;
+select pg_relation_size('SHIP_TONNAGE');
+
+\echo ---------------SPECIAL_ENTRY----------------
+select pg_relation_size('SPECIAL_ENTRY');
+VACUUM SPECIAL_ENTRY;
+select pg_relation_size('SPECIAL_ENTRY');
+
+\echo ---------------STATUS_DETAIL----------------
+select pg_relation_size('STATUS_DETAIL');
+VACUUM STATUS_DETAIL;
+select pg_relation_size('STATUS_DETAIL');
+
+\echo ---------------STATUS_DETAIL----------------
+select pg_relation_size('STATUS_DETAIL');
+VACUUM STATUS_DETAIL;
+select pg_relation_size('STATUS_DETAIL');
+
+\echo ---------------STF_RECORD----------------
+select pg_relation_size('STF_RECORD');
+VACUUM STF_RECORD;
+select pg_relation_size('STF_RECORD');
+
+\echo ---------------STL_DATA_CONTA_LIST----------------
+select pg_relation_size('STL_DATA_CONTA_LIST');
+VACUUM STL_DATA_CONTA_LIST;
+select pg_relation_size('STL_DATA_CONTA_LIST');
+
+\echo ---------------STL_DATA_HEAD----------------
+select pg_relation_size('STL_DATA_HEAD');
+VACUUM STL_DATA_HEAD;
+select pg_relation_size('STL_DATA_HEAD');
+
+\echo ---------------STL_DATA_TS_LIST----------------
+select pg_relation_size('STL_DATA_TS_LIST');
+VACUUM STL_DATA_TS_LIST;
+select pg_relation_size('STL_DATA_TS_LIST');
+
+\echo ---------------STL_REQUEST_CHK----------------
+select pg_relation_size('STL_REQUEST_CHK');
+VACUUM STL_REQUEST_CHK;
+select pg_relation_size('STL_REQUEST_CHK');
+
+\echo ---------------TAR_DEL_LOG----------------
+select pg_relation_size('TAR_DEL_LOG');
+VACUUM TAR_DEL_LOG;
+select pg_relation_size('TAR_DEL_LOG');
+
+\echo ---------------TCS_COUNTER----------------
+select pg_relation_size('TCS_COUNTER');
+VACUUM TCS_COUNTER;
+select pg_relation_size('TCS_COUNTER');
+
+\echo ---------------TCS_DETAIL_HEAD----------------
+select pg_relation_size('TCS_DETAIL_HEAD');
+VACUUM TCS_DETAIL_HEAD;
+select pg_relation_size('TCS_DETAIL_HEAD');
+
+\echo ---------------TCS_DETAIL_LIST----------------
+select pg_relation_size('TCS_DETAIL_LIST');
+VACUUM TCS_DETAIL_LIST;
+select pg_relation_size('TCS_DETAIL_LIST');
+
+\echo ---------------TCS_ERROR_LOG----------------
+select pg_relation_size('TCS_ERROR_LOG');
+VACUUM TCS_ERROR_LOG;
+select pg_relation_size('TCS_ERROR_LOG');
+
+\echo ---------------TCS_SEND_LOG----------------
+select pg_relation_size('TCS_SEND_LOG');
+VACUUM TCS_SEND_LOG;
+select pg_relation_size('TCS_SEND_LOG');
+
+\echo ---------------TCS_STATISTIC_REPORT----------------
+select pg_relation_size('TCS_STATISTIC_REPORT');
+VACUUM TCS_STATISTIC_REPORT;
+select pg_relation_size('TCS_STATISTIC_REPORT');
+
+\echo ---------------TEMP_DB----------------
+select pg_relation_size('TEMP_DB');
+VACUUM TEMP_DB;
+select pg_relation_size('TEMP_DB');
+
+\echo ---------------TEMP_DEL_EMS_CONSUME----------------
+select pg_relation_size('TEMP_DEL_EMS_CONSUME');
+VACUUM TEMP_DEL_EMS_CONSUME;
+select pg_relation_size('TEMP_DEL_EMS_CONSUME');
+
+\echo ---------------TEMP_DEL_EMS_HEAD----------------
+select pg_relation_size('TEMP_DEL_EMS_HEAD');
+VACUUM TEMP_DEL_EMS_HEAD;
+select pg_relation_size('TEMP_DEL_EMS_HEAD');
+
+\echo ---------------TEMP_PAGE_RANGE----------------
+select pg_relation_size('TEMP_PAGE_RANGE');
+VACUUM TEMP_PAGE_RANGE;
+select pg_relation_size('TEMP_PAGE_RANGE');
+
+\echo ---------------TEP_COMPANY----------------
+select pg_relation_size('TEP_COMPANY');
+VACUUM TEP_COMPANY;
+select pg_relation_size('TEP_COMPANY');
+
+\echo ---------------TEP_DEBIT_REC_REQUEST----------------
+select pg_relation_size('TEP_DEBIT_REC_REQUEST');
+VACUUM TEP_DEBIT_REC_REQUEST;
+select pg_relation_size('TEP_DEBIT_REC_REQUEST');
+
+\echo ---------------TEP_DEBIT_REC_RESPONSE----------------
+select pg_relation_size('TEP_DEBIT_REC_RESPONSE');
+VACUUM TEP_DEBIT_REC_RESPONSE;
+select pg_relation_size('TEP_DEBIT_REC_RESPONSE');
+
+\echo ---------------TEP_EPLAT_RESPONSE----------------
+select pg_relation_size('TEP_EPLAT_RESPONSE');
+VACUUM TEP_EPLAT_RESPONSE;
+select pg_relation_size('TEP_EPLAT_RESPONSE');
+
+\echo ---------------TEP_ERR_LOG----------------
+select pg_relation_size('TEP_ERR_LOG');
+VACUUM TEP_ERR_LOG;
+select pg_relation_size('TEP_ERR_LOG');
+
+\echo ---------------TEP_LOG----------------
+select pg_relation_size('TEP_LOG');
+VACUUM TEP_LOG;
+select pg_relation_size('TEP_LOG');
+
+\echo ---------------TEP_PAY_LOG----------------
+select pg_relation_size('TEP_PAY_LOG');
+VACUUM TEP_PAY_LOG;
+select pg_relation_size('TEP_PAY_LOG');
+
+\echo ---------------TEP_PAY_REC_REQUEST----------------
+select pg_relation_size('TEP_PAY_REC_REQUEST');
+VACUUM TEP_PAY_REC_REQUEST;
+select pg_relation_size('TEP_PAY_REC_REQUEST');
+
+\echo ---------------TEP_PAY_REC_RESPONSE----------------
+select pg_relation_size('TEP_PAY_REC_RESPONSE');
+VACUUM TEP_PAY_REC_RESPONSE;
+select pg_relation_size('TEP_PAY_REC_RESPONSE');
+
+\echo ---------------TEP_REC_LOG----------------
+select pg_relation_size('TEP_REC_LOG');
+VACUUM TEP_REC_LOG;
+select pg_relation_size('TEP_REC_LOG');
+
+\echo ---------------TEP_SEQ----------------
+select pg_relation_size('TEP_SEQ');
+VACUUM TEP_SEQ;
+select pg_relation_size('TEP_SEQ');
+
+\echo ---------------TEP_STATUS_QUERY----------------
+select pg_relation_size('TEP_STATUS_QUERY');
+VACUUM TEP_STATUS_QUERY;
+select pg_relation_size('TEP_STATUS_QUERY');
+
+\echo ---------------TEP_VOUCHER_REC_LIST----------------
+select pg_relation_size('TEP_VOUCHER_REC_LIST');
+VACUUM TEP_VOUCHER_REC_LIST;
+select pg_relation_size('TEP_VOUCHER_REC_LIST');
+
+\echo ---------------TEP_VOUCHER_REC_LIST_DETAIL----------------
+select pg_relation_size('TEP_VOUCHER_REC_LIST_DETAIL');
+VACUUM TEP_VOUCHER_REC_LIST_DETAIL;
+select pg_relation_size('TEP_VOUCHER_REC_LIST_DETAIL');
+
+\echo ---------------TEP_VOUCHER_REC_PAGE_LIST----------------
+select pg_relation_size('TEP_VOUCHER_REC_PAGE_LIST');
+VACUUM TEP_VOUCHER_REC_PAGE_LIST;
+select pg_relation_size('TEP_VOUCHER_REC_PAGE_LIST');
+
+\echo ---------------TMP_EMS_CONSUME----------------
+select pg_relation_size('TMP_EMS_CONSUME');
+VACUUM TMP_EMS_CONSUME;
+select pg_relation_size('TMP_EMS_CONSUME');
+
+\echo ---------------TMP_EMS_DCR_ENT----------------
+select pg_relation_size('TMP_EMS_DCR_ENT');
+VACUUM TMP_EMS_DCR_ENT;
+select pg_relation_size('TMP_EMS_DCR_ENT');
+
+\echo ---------------TMP_EMS_HEAD----------------
+select pg_relation_size('TMP_EMS_HEAD');
+VACUUM TMP_EMS_HEAD;
+select pg_relation_size('TMP_EMS_HEAD');
+
+\echo ---------------TMP_EMS_LIST----------------
+select pg_relation_size('TMP_EMS_LIST');
+VACUUM TMP_EMS_LIST;
+select pg_relation_size('TMP_EMS_LIST');
+
+\echo ---------------TRADE_ERR----------------
+select pg_relation_size('TRADE_ERR');
+VACUUM TRADE_ERR;
+select pg_relation_size('TRADE_ERR');
+
+\echo ---------------TRADE_GPM_RTX----------------
+select pg_relation_size('TRADE_GPM_RTX');
+VACUUM TRADE_GPM_RTX;
+select pg_relation_size('TRADE_GPM_RTX');
+
+\echo ---------------TRANSFER_FEE----------------
+select pg_relation_size('TRANSFER_FEE');
+VACUUM TRANSFER_FEE;
+select pg_relation_size('TRANSFER_FEE');
+
+\echo ---------------TRANSFER_FEE_LOG----------------
+select pg_relation_size('TRANSFER_FEE_LOG');
+VACUUM TRANSFER_FEE_LOG;
+select pg_relation_size('TRANSFER_FEE_LOG');
+
+\echo ---------------TRN_ALC_REL----------------
+select pg_relation_size('TRN_ALC_REL');
+VACUUM TRN_ALC_REL;
+select pg_relation_size('TRN_ALC_REL');
+
+\echo ---------------TRN_CHECK----------------
+select pg_relation_size('TRN_CHECK');
+VACUUM TRN_CHECK;
+select pg_relation_size('TRN_CHECK');
+
+\echo ---------------TRN_CHK_GOODS----------------
+select pg_relation_size('TRN_CHK_GOODS');
+VACUUM TRN_CHK_GOODS;
+select pg_relation_size('TRN_CHK_GOODS');
+
+\echo ---------------TRN_COP_REL----------------
+select pg_relation_size('TRN_COP_REL');
+VACUUM TRN_COP_REL;
+select pg_relation_size('TRN_COP_REL');
+
+\echo ---------------TRN_DELAY_FORM----------------
+select pg_relation_size('TRN_DELAY_FORM');
+VACUUM TRN_DELAY_FORM;
+select pg_relation_size('TRN_DELAY_FORM');
+
+\echo ---------------TRN_DR_REL----------------
+select pg_relation_size('TRN_DR_REL');
+VACUUM TRN_DR_REL;
+select pg_relation_size('TRN_DR_REL');
+
+\echo ---------------TRN_ESEAL_REL----------------
+select pg_relation_size('TRN_ESEAL_REL');
+VACUUM TRN_ESEAL_REL;
+select pg_relation_size('TRN_ESEAL_REL');
+
+\echo ---------------TRN_EXAM_MAX_SEQ----------------
+select pg_relation_size('TRN_EXAM_MAX_SEQ');
+VACUUM TRN_EXAM_MAX_SEQ;
+select pg_relation_size('TRN_EXAM_MAX_SEQ');
+
+\echo ---------------TRN_I_E_PORT----------------
+select pg_relation_size('TRN_I_E_PORT');
+VACUUM TRN_I_E_PORT;
+select pg_relation_size('TRN_I_E_PORT');
+
+\echo ---------------TRN_PARAMETER----------------
+select pg_relation_size('TRN_PARAMETER');
+VACUUM TRN_PARAMETER;
+select pg_relation_size('TRN_PARAMETER');
+
+\echo ---------------TRN_POP_COP_REL----------------
+select pg_relation_size('TRN_POP_COP_REL');
+VACUUM TRN_POP_COP_REL;
+select pg_relation_size('TRN_POP_COP_REL');
+
+\echo ---------------TRN_POP_HEAD----------------
+select pg_relation_size('TRN_POP_HEAD');
+VACUUM TRN_POP_HEAD;
+select pg_relation_size('TRN_POP_HEAD');
+
+\echo ---------------TRN_POP_LIST----------------
+select pg_relation_size('TRN_POP_LIST');
+VACUUM TRN_POP_LIST;
+select pg_relation_size('TRN_POP_LIST');
+
+\echo ---------------TRN_PRE_MAX_SEQ----------------
+select pg_relation_size('TRN_PRE_MAX_SEQ');
+VACUUM TRN_PRE_MAX_SEQ;
+select pg_relation_size('TRN_PRE_MAX_SEQ');
+
+\echo ---------------TRN_SHIP----------------
+select pg_relation_size('TRN_SHIP');
+VACUUM TRN_SHIP;
+select pg_relation_size('TRN_SHIP');
+
+\echo ---------------TRN_VE_REL----------------
+select pg_relation_size('TRN_VE_REL');
+VACUUM TRN_VE_REL;
+select pg_relation_size('TRN_VE_REL');
+
+\echo ---------------TRN_VEHICLE----------------
+select pg_relation_size('TRN_VEHICLE');
+VACUUM TRN_VEHICLE;
+select pg_relation_size('TRN_VEHICLE');
+
+\echo ---------------YD_DECLARE_REL----------------
+select pg_relation_size('YD_DECLARE_REL');
+VACUUM YD_DECLARE_REL;
+select pg_relation_size('YD_DECLARE_REL');
+
+

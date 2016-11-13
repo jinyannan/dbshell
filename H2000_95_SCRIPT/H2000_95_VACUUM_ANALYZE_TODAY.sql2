@@ -1,0 +1,2996 @@
+\echo ---------------ACCOUNT----------------
+select pg_relation_size('ACCOUNT_GPTMP_TODAY');
+VACUUM ANALYZE ACCOUNT_GPTMP_TODAY;
+select pg_relation_size('ACCOUNT_GPTMP_TODAY');
+
+\echo ---------------AGREEMENT_GOODS_LIST----------------
+select pg_relation_size('AGREEMENT_GOODS_LIST_GPTMP_TODAY');
+VACUUM ANALYZE AGREEMENT_GOODS_LIST_GPTMP_TODAY;
+select pg_relation_size('AGREEMENT_GOODS_LIST_GPTMP_TODAY');
+
+\echo ---------------AMS_MODI_LOG----------------
+select pg_relation_size('AMS_MODI_LOG_GPTMP_TODAY');
+VACUUM ANALYZE AMS_MODI_LOG_GPTMP_TODAY;
+select pg_relation_size('AMS_MODI_LOG_GPTMP_TODAY');
+
+\echo ---------------AMSLIST_BODY----------------
+select pg_relation_size('AMSLIST_BODY_GPTMP_TODAY');
+VACUUM ANALYZE AMSLIST_BODY_GPTMP_TODAY;
+select pg_relation_size('AMSLIST_BODY_GPTMP_TODAY');
+
+\echo ---------------AMSLIST_HEAD----------------
+select pg_relation_size('AMSLIST_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE AMSLIST_HEAD_GPTMP_TODAY;
+select pg_relation_size('AMSLIST_HEAD_GPTMP_TODAY');
+
+\echo ---------------APPL_CLOSE----------------
+select pg_relation_size('APPL_CLOSE_GPTMP_TODAY');
+VACUUM ANALYZE APPL_CLOSE_GPTMP_TODAY;
+select pg_relation_size('APPL_CLOSE_GPTMP_TODAY');
+
+\echo ---------------APPL_CLOSE_CONSUME----------------
+select pg_relation_size('APPL_CLOSE_CONSUME_GPTMP_TODAY');
+VACUUM ANALYZE APPL_CLOSE_CONSUME_GPTMP_TODAY;
+select pg_relation_size('APPL_CLOSE_CONSUME_GPTMP_TODAY');
+
+\echo ---------------APPLY_HEAD----------------
+select pg_relation_size('APPLY_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE APPLY_HEAD_GPTMP_TODAY;
+select pg_relation_size('APPLY_HEAD_GPTMP_TODAY');
+
+\echo ---------------APPLY_LIST----------------
+select pg_relation_size('APPLY_LIST_GPTMP_TODAY');
+VACUUM ANALYZE APPLY_LIST_GPTMP_TODAY;
+select pg_relation_size('APPLY_LIST_GPTMP_TODAY');
+
+\echo ---------------ARRIVAL_INFO_HEAD----------------
+select pg_relation_size('ARRIVAL_INFO_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE ARRIVAL_INFO_HEAD_GPTMP_TODAY;
+select pg_relation_size('ARRIVAL_INFO_HEAD_GPTMP_TODAY');
+
+\echo ---------------ARRIVAL_INFO_LIST----------------
+select pg_relation_size('ARRIVAL_INFO_LIST_GPTMP_TODAY');
+VACUUM ANALYZE ARRIVAL_INFO_LIST_GPTMP_TODAY;
+select pg_relation_size('ARRIVAL_INFO_LIST_GPTMP_TODAY');
+
+\echo ---------------BAK_BWS_EXAM_CERT_LIST----------------
+select pg_relation_size('BAK_BWS_EXAM_CERT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BAK_BWS_EXAM_CERT_LIST_GPTMP_TODAY;
+select pg_relation_size('BAK_BWS_EXAM_CERT_LIST_GPTMP_TODAY');
+
+\echo ---------------BAK_BWS_EXAM_GOOD_LIST----------------
+select pg_relation_size('BAK_BWS_EXAM_GOOD_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BAK_BWS_EXAM_GOOD_LIST_GPTMP_TODAY;
+select pg_relation_size('BAK_BWS_EXAM_GOOD_LIST_GPTMP_TODAY');
+
+\echo ---------------BAK_BWS_EXAM_HEAD----------------
+select pg_relation_size('BAK_BWS_EXAM_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE BAK_BWS_EXAM_HEAD_GPTMP_TODAY;
+select pg_relation_size('BAK_BWS_EXAM_HEAD_GPTMP_TODAY');
+
+\echo ---------------BAK_CONSUME----------------
+select pg_relation_size('BAK_CONSUME_GPTMP_TODAY');
+VACUUM ANALYZE BAK_CONSUME_GPTMP_TODAY;
+select pg_relation_size('BAK_CONSUME_GPTMP_TODAY');
+
+\echo ---------------BAK_CONTRACT_HEAD----------------
+select pg_relation_size('BAK_CONTRACT_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE BAK_CONTRACT_HEAD_GPTMP_TODAY;
+select pg_relation_size('BAK_CONTRACT_HEAD_GPTMP_TODAY');
+
+\echo ---------------BAK_DCG_BILL_HEAD----------------
+select pg_relation_size('BAK_DCG_BILL_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE BAK_DCG_BILL_HEAD_GPTMP_TODAY;
+select pg_relation_size('BAK_DCG_BILL_HEAD_GPTMP_TODAY');
+
+\echo ---------------BAK_DCG_BILL_LIST----------------
+select pg_relation_size('BAK_DCG_BILL_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BAK_DCG_BILL_LIST_GPTMP_TODAY;
+select pg_relation_size('BAK_DCG_BILL_LIST_GPTMP_TODAY');
+
+\echo ---------------BAK_DCG_DEDUCT----------------
+select pg_relation_size('BAK_DCG_DEDUCT_GPTMP_TODAY');
+VACUUM ANALYZE BAK_DCG_DEDUCT_GPTMP_TODAY;
+select pg_relation_size('BAK_DCG_DEDUCT_GPTMP_TODAY');
+
+\echo ---------------BAK_DCG_DEDUCT_LOG----------------
+select pg_relation_size('BAK_DCG_DEDUCT_LOG_GPTMP_TODAY');
+VACUUM ANALYZE BAK_DCG_DEDUCT_LOG_GPTMP_TODAY;
+select pg_relation_size('BAK_DCG_DEDUCT_LOG_GPTMP_TODAY');
+
+\echo ---------------BAK_DCG_HEAD----------------
+select pg_relation_size('BAK_DCG_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE BAK_DCG_HEAD_GPTMP_TODAY;
+select pg_relation_size('BAK_DCG_HEAD_GPTMP_TODAY');
+
+\echo ---------------BAK_DCG_LIST----------------
+select pg_relation_size('BAK_DCG_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BAK_DCG_LIST_GPTMP_TODAY;
+select pg_relation_size('BAK_DCG_LIST_GPTMP_TODAY');
+
+\echo ---------------BAK_EMS_APPR_HEAD----------------
+select pg_relation_size('BAK_EMS_APPR_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE BAK_EMS_APPR_HEAD_GPTMP_TODAY;
+select pg_relation_size('BAK_EMS_APPR_HEAD_GPTMP_TODAY');
+
+\echo ---------------BAK_EMS_APPR_LIST----------------
+select pg_relation_size('BAK_EMS_APPR_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BAK_EMS_APPR_LIST_GPTMP_TODAY;
+select pg_relation_size('BAK_EMS_APPR_LIST_GPTMP_TODAY');
+
+\echo ---------------BAK_EMS_CONSUME----------------
+select pg_relation_size('BAK_EMS_CONSUME_GPTMP_TODAY');
+VACUUM ANALYZE BAK_EMS_CONSUME_GPTMP_TODAY;
+select pg_relation_size('BAK_EMS_CONSUME_GPTMP_TODAY');
+
+\echo ---------------BAK_EMS_DEDUCT_CLR----------------
+select pg_relation_size('BAK_EMS_DEDUCT_CLR_GPTMP_TODAY');
+VACUUM ANALYZE BAK_EMS_DEDUCT_CLR_GPTMP_TODAY;
+select pg_relation_size('BAK_EMS_DEDUCT_CLR_GPTMP_TODAY');
+
+\echo ---------------BAK_EMS_HEAD----------------
+select pg_relation_size('BAK_EMS_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE BAK_EMS_HEAD_GPTMP_TODAY;
+select pg_relation_size('BAK_EMS_HEAD_GPTMP_TODAY');
+
+\echo ---------------BAK_EMS_LIST----------------
+select pg_relation_size('BAK_EMS_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BAK_EMS_LIST_GPTMP_TODAY;
+select pg_relation_size('BAK_EMS_LIST_GPTMP_TODAY');
+
+\echo ---------------BAK_EX_CONTRACT_LIST----------------
+select pg_relation_size('BAK_EX_CONTRACT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BAK_EX_CONTRACT_LIST_GPTMP_TODAY;
+select pg_relation_size('BAK_EX_CONTRACT_LIST_GPTMP_TODAY');
+
+\echo ---------------BAK_EX_FASCICLE_LIST----------------
+select pg_relation_size('BAK_EX_FASCICLE_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BAK_EX_FASCICLE_LIST_GPTMP_TODAY;
+select pg_relation_size('BAK_EX_FASCICLE_LIST_GPTMP_TODAY');
+
+\echo ---------------BAK_FASCICLE_HEAD----------------
+select pg_relation_size('BAK_FASCICLE_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE BAK_FASCICLE_HEAD_GPTMP_TODAY;
+select pg_relation_size('BAK_FASCICLE_HEAD_GPTMP_TODAY');
+
+\echo ---------------BAK_IM_CONTRACT_LIST----------------
+select pg_relation_size('BAK_IM_CONTRACT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BAK_IM_CONTRACT_LIST_GPTMP_TODAY;
+select pg_relation_size('BAK_IM_CONTRACT_LIST_GPTMP_TODAY');
+
+\echo ---------------BAK_IM_FASCICLE_LIST----------------
+select pg_relation_size('BAK_IM_FASCICLE_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BAK_IM_FASCICLE_LIST_GPTMP_TODAY;
+select pg_relation_size('BAK_IM_FASCICLE_LIST_GPTMP_TODAY');
+
+\echo ---------------BANK_ACCOUNT----------------
+select pg_relation_size('BANK_ACCOUNT_GPTMP_TODAY');
+VACUUM ANALYZE BANK_ACCOUNT_GPTMP_TODAY;
+select pg_relation_size('BANK_ACCOUNT_GPTMP_TODAY');
+
+\echo ---------------BCK_COP_HEAD----------------
+select pg_relation_size('BCK_COP_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE BCK_COP_HEAD_GPTMP_TODAY;
+select pg_relation_size('BCK_COP_HEAD_GPTMP_TODAY');
+
+\echo ---------------BCK_COP_LIST----------------
+select pg_relation_size('BCK_COP_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BCK_COP_LIST_GPTMP_TODAY;
+select pg_relation_size('BCK_COP_LIST_GPTMP_TODAY');
+
+\echo ---------------BCK_COP_LIST_TEMP----------------
+select pg_relation_size('BCK_COP_LIST_TEMP_GPTMP_TODAY');
+VACUUM ANALYZE BCK_COP_LIST_TEMP_GPTMP_TODAY;
+select pg_relation_size('BCK_COP_LIST_TEMP_GPTMP_TODAY');
+
+\echo ---------------BCK_COP_PARA_HEAD----------------
+select pg_relation_size('BCK_COP_PARA_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE BCK_COP_PARA_HEAD_GPTMP_TODAY;
+select pg_relation_size('BCK_COP_PARA_HEAD_GPTMP_TODAY');
+
+\echo ---------------BCK_COP_PARA_LIST----------------
+select pg_relation_size('BCK_COP_PARA_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BCK_COP_PARA_LIST_GPTMP_TODAY;
+select pg_relation_size('BCK_COP_PARA_LIST_GPTMP_TODAY');
+
+\echo ---------------BCK_EXECUTOR----------------
+select pg_relation_size('BCK_EXECUTOR_GPTMP_TODAY');
+VACUUM ANALYZE BCK_EXECUTOR_GPTMP_TODAY;
+select pg_relation_size('BCK_EXECUTOR_GPTMP_TODAY');
+
+\echo ---------------BCK_HANDOVER----------------
+select pg_relation_size('BCK_HANDOVER_GPTMP_TODAY');
+VACUUM ANALYZE BCK_HANDOVER_GPTMP_TODAY;
+select pg_relation_size('BCK_HANDOVER_GPTMP_TODAY');
+
+\echo ---------------BCK_HANDOVER_TYPE----------------
+select pg_relation_size('BCK_HANDOVER_TYPE_GPTMP_TODAY');
+VACUUM ANALYZE BCK_HANDOVER_TYPE_GPTMP_TODAY;
+select pg_relation_size('BCK_HANDOVER_TYPE_GPTMP_TODAY');
+
+\echo ---------------BCK_HEAD----------------
+select pg_relation_size('BCK_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE BCK_HEAD_GPTMP_TODAY;
+select pg_relation_size('BCK_HEAD_GPTMP_TODAY');
+
+\echo ---------------BCK_SEQ----------------
+select pg_relation_size('BCK_SEQ_GPTMP_TODAY');
+VACUUM ANALYZE BCK_SEQ_GPTMP_TODAY;
+select pg_relation_size('BCK_SEQ_GPTMP_TODAY');
+
+\echo ---------------BCK_STOCK_HEAD----------------
+select pg_relation_size('BCK_STOCK_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE BCK_STOCK_HEAD_GPTMP_TODAY;
+select pg_relation_size('BCK_STOCK_HEAD_GPTMP_TODAY');
+
+\echo ---------------BCK_STOCK_LIST----------------
+select pg_relation_size('BCK_STOCK_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BCK_STOCK_LIST_GPTMP_TODAY;
+select pg_relation_size('BCK_STOCK_LIST_GPTMP_TODAY');
+
+\echo ---------------BCK_WORKFLOW----------------
+select pg_relation_size('BCK_WORKFLOW_GPTMP_TODAY');
+VACUUM ANALYZE BCK_WORKFLOW_GPTMP_TODAY;
+select pg_relation_size('BCK_WORKFLOW_GPTMP_TODAY');
+
+\echo ---------------BTI_DATA_CONTA_LIST----------------
+select pg_relation_size('BTI_DATA_CONTA_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BTI_DATA_CONTA_LIST_GPTMP_TODAY;
+select pg_relation_size('BTI_DATA_CONTA_LIST_GPTMP_TODAY');
+
+\echo ---------------BTI_DATA_HEAD----------------
+select pg_relation_size('BTI_DATA_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE BTI_DATA_HEAD_GPTMP_TODAY;
+select pg_relation_size('BTI_DATA_HEAD_GPTMP_TODAY');
+
+\echo ---------------BTI_DATA_TS_LIST----------------
+select pg_relation_size('BTI_DATA_TS_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BTI_DATA_TS_LIST_GPTMP_TODAY;
+select pg_relation_size('BTI_DATA_TS_LIST_GPTMP_TODAY');
+
+\echo ---------------BWS_AUDIT_HEAD----------------
+select pg_relation_size('BWS_AUDIT_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE BWS_AUDIT_HEAD_GPTMP_TODAY;
+select pg_relation_size('BWS_AUDIT_HEAD_GPTMP_TODAY');
+
+\echo ---------------BWS_AUDIT_LIST----------------
+select pg_relation_size('BWS_AUDIT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BWS_AUDIT_LIST_GPTMP_TODAY;
+select pg_relation_size('BWS_AUDIT_LIST_GPTMP_TODAY');
+
+\echo ---------------BWS_DCR_BILL_LIST----------------
+select pg_relation_size('BWS_DCR_BILL_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BWS_DCR_BILL_LIST_GPTMP_TODAY;
+select pg_relation_size('BWS_DCR_BILL_LIST_GPTMP_TODAY');
+
+\echo ---------------BWS_DCR_HEAD----------------
+select pg_relation_size('BWS_DCR_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE BWS_DCR_HEAD_GPTMP_TODAY;
+select pg_relation_size('BWS_DCR_HEAD_GPTMP_TODAY');
+
+\echo ---------------BWS_DCR_LIST----------------
+select pg_relation_size('BWS_DCR_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BWS_DCR_LIST_GPTMP_TODAY;
+select pg_relation_size('BWS_DCR_LIST_GPTMP_TODAY');
+
+\echo ---------------BWS_DEDUCT----------------
+select pg_relation_size('BWS_DEDUCT_GPTMP_TODAY');
+VACUUM ANALYZE BWS_DEDUCT_GPTMP_TODAY;
+select pg_relation_size('BWS_DEDUCT_GPTMP_TODAY');
+
+\echo ---------------BWS_DEDUCT_LOG----------------
+select pg_relation_size('BWS_DEDUCT_LOG_GPTMP_TODAY');
+VACUUM ANALYZE BWS_DEDUCT_LOG_GPTMP_TODAY;
+select pg_relation_size('BWS_DEDUCT_LOG_GPTMP_TODAY');
+
+\echo ---------------BWS_EXAM_CERT_LIST----------------
+select pg_relation_size('BWS_EXAM_CERT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BWS_EXAM_CERT_LIST_GPTMP_TODAY;
+select pg_relation_size('BWS_EXAM_CERT_LIST_GPTMP_TODAY');
+
+\echo ---------------BWS_EXAM_GOOD_LIST----------------
+select pg_relation_size('BWS_EXAM_GOOD_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BWS_EXAM_GOOD_LIST_GPTMP_TODAY;
+select pg_relation_size('BWS_EXAM_GOOD_LIST_GPTMP_TODAY');
+
+\echo ---------------BWS_EXAM_HEAD----------------
+select pg_relation_size('BWS_EXAM_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE BWS_EXAM_HEAD_GPTMP_TODAY;
+select pg_relation_size('BWS_EXAM_HEAD_GPTMP_TODAY');
+
+\echo ---------------BWS_EXAM_PASSCERT----------------
+select pg_relation_size('BWS_EXAM_PASSCERT_GPTMP_TODAY');
+VACUUM ANALYZE BWS_EXAM_PASSCERT_GPTMP_TODAY;
+select pg_relation_size('BWS_EXAM_PASSCERT_GPTMP_TODAY');
+
+\echo ---------------BWS_FORM_HEAD----------------
+select pg_relation_size('BWS_FORM_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE BWS_FORM_HEAD_GPTMP_TODAY;
+select pg_relation_size('BWS_FORM_HEAD_GPTMP_TODAY');
+
+\echo ---------------BWS_FORM_LIST----------------
+select pg_relation_size('BWS_FORM_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BWS_FORM_LIST_GPTMP_TODAY;
+select pg_relation_size('BWS_FORM_LIST_GPTMP_TODAY');
+
+\echo ---------------BWS_GB_LIST----------------
+select pg_relation_size('BWS_GB_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BWS_GB_LIST_GPTMP_TODAY;
+select pg_relation_size('BWS_GB_LIST_GPTMP_TODAY');
+
+\echo ---------------BWS_HEAD----------------
+select pg_relation_size('BWS_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE BWS_HEAD_GPTMP_TODAY;
+select pg_relation_size('BWS_HEAD_GPTMP_TODAY');
+
+\echo ---------------BWS_LIST----------------
+select pg_relation_size('BWS_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BWS_LIST_GPTMP_TODAY;
+select pg_relation_size('BWS_LIST_GPTMP_TODAY');
+
+\echo ---------------BWS_MANIFEST_HEAD----------------
+select pg_relation_size('BWS_MANIFEST_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE BWS_MANIFEST_HEAD_GPTMP_TODAY;
+select pg_relation_size('BWS_MANIFEST_HEAD_GPTMP_TODAY');
+
+\echo ---------------BWS_MANIFEST_LIST----------------
+select pg_relation_size('BWS_MANIFEST_LIST_GPTMP_TODAY');
+VACUUM ANALYZE BWS_MANIFEST_LIST_GPTMP_TODAY;
+select pg_relation_size('BWS_MANIFEST_LIST_GPTMP_TODAY');
+
+\echo ---------------BWS_SEQ----------------
+select pg_relation_size('BWS_SEQ_GPTMP_TODAY');
+VACUUM ANALYZE BWS_SEQ_GPTMP_TODAY;
+select pg_relation_size('BWS_SEQ_GPTMP_TODAY');
+
+\echo ---------------BWS_VAR----------------
+select pg_relation_size('BWS_VAR_GPTMP_TODAY');
+VACUUM ANALYZE BWS_VAR_GPTMP_TODAY;
+select pg_relation_size('BWS_VAR_GPTMP_TODAY');
+
+\echo ---------------BWS_WORKFLOW----------------
+select pg_relation_size('BWS_WORKFLOW_GPTMP_TODAY');
+VACUUM ANALYZE BWS_WORKFLOW_GPTMP_TODAY;
+select pg_relation_size('BWS_WORKFLOW_GPTMP_TODAY');
+
+\echo ---------------CCTS_ERROR_LOG----------------
+select pg_relation_size('CCTS_ERROR_LOG_GPTMP_TODAY');
+VACUUM ANALYZE CCTS_ERROR_LOG_GPTMP_TODAY;
+select pg_relation_size('CCTS_ERROR_LOG_GPTMP_TODAY');
+
+\echo ---------------CCTS_ONLINE_RESULT----------------
+select pg_relation_size('CCTS_ONLINE_RESULT_GPTMP_TODAY');
+VACUUM ANALYZE CCTS_ONLINE_RESULT_GPTMP_TODAY;
+select pg_relation_size('CCTS_ONLINE_RESULT_GPTMP_TODAY');
+
+\echo ---------------CCTS_ONLINE_RESULT_BAK----------------
+select pg_relation_size('CCTS_ONLINE_RESULT_BAK_GPTMP_TODAY');
+VACUUM ANALYZE CCTS_ONLINE_RESULT_BAK_GPTMP_TODAY;
+select pg_relation_size('CCTS_ONLINE_RESULT_BAK_GPTMP_TODAY');
+
+\echo ---------------CCTS_PERFORMANCE----------------
+select pg_relation_size('CCTS_PERFORMANCE_GPTMP_TODAY');
+VACUUM ANALYZE CCTS_PERFORMANCE_GPTMP_TODAY;
+select pg_relation_size('CCTS_PERFORMANCE_GPTMP_TODAY');
+
+\echo ---------------CCTS_RSK_RESULT----------------
+select pg_relation_size('CCTS_RSK_RESULT_GPTMP_TODAY');
+VACUUM ANALYZE CCTS_RSK_RESULT_GPTMP_TODAY;
+select pg_relation_size('CCTS_RSK_RESULT_GPTMP_TODAY');
+
+\echo ---------------CCTS_RSK_RESULT_BAK----------------
+select pg_relation_size('CCTS_RSK_RESULT_BAK_GPTMP_TODAY');
+VACUUM ANALYZE CCTS_RSK_RESULT_BAK_GPTMP_TODAY;
+select pg_relation_size('CCTS_RSK_RESULT_BAK_GPTMP_TODAY');
+
+\echo ---------------CDL_CERTIFICATE----------------
+select pg_relation_size('CDL_CERTIFICATE_GPTMP_TODAY');
+VACUUM ANALYZE CDL_CERTIFICATE_GPTMP_TODAY;
+select pg_relation_size('CDL_CERTIFICATE_GPTMP_TODAY');
+
+\echo ---------------CDL_CHK----------------
+select pg_relation_size('CDL_CHK_GPTMP_TODAY');
+VACUUM ANALYZE CDL_CHK_GPTMP_TODAY;
+select pg_relation_size('CDL_CHK_GPTMP_TODAY');
+
+\echo ---------------CDL_COMMODITY----------------
+select pg_relation_size('CDL_COMMODITY_GPTMP_TODAY');
+VACUUM ANALYZE CDL_COMMODITY_GPTMP_TODAY;
+select pg_relation_size('CDL_COMMODITY_GPTMP_TODAY');
+
+\echo ---------------CDL_COMP_COMM_MODIFY_LOG----------------
+select pg_relation_size('CDL_COMP_COMM_MODIFY_LOG_GPTMP_TODAY');
+VACUUM ANALYZE CDL_COMP_COMM_MODIFY_LOG_GPTMP_TODAY;
+select pg_relation_size('CDL_COMP_COMM_MODIFY_LOG_GPTMP_TODAY');
+
+\echo ---------------CDL_COMP_COMM_OP_LOG----------------
+select pg_relation_size('CDL_COMP_COMM_OP_LOG_GPTMP_TODAY');
+VACUUM ANALYZE CDL_COMP_COMM_OP_LOG_GPTMP_TODAY;
+select pg_relation_size('CDL_COMP_COMM_OP_LOG_GPTMP_TODAY');
+
+\echo ---------------CDL_COMPANY----------------
+select pg_relation_size('CDL_COMPANY_GPTMP_TODAY');
+VACUUM ANALYZE CDL_COMPANY_GPTMP_TODAY;
+select pg_relation_size('CDL_COMPANY_GPTMP_TODAY');
+
+\echo ---------------CDL_CONTAINER----------------
+select pg_relation_size('CDL_CONTAINER_GPTMP_TODAY');
+VACUUM ANALYZE CDL_CONTAINER_GPTMP_TODAY;
+select pg_relation_size('CDL_CONTAINER_GPTMP_TODAY');
+
+\echo ---------------CDL_DEL_CERTIFICATE_LOG----------------
+select pg_relation_size('CDL_DEL_CERTIFICATE_LOG_GPTMP_TODAY');
+VACUUM ANALYZE CDL_DEL_CERTIFICATE_LOG_GPTMP_TODAY;
+select pg_relation_size('CDL_DEL_CERTIFICATE_LOG_GPTMP_TODAY');
+
+\echo ---------------CDL_DEL_CONTAINER_LOG----------------
+select pg_relation_size('CDL_DEL_CONTAINER_LOG_GPTMP_TODAY');
+VACUUM ANALYZE CDL_DEL_CONTAINER_LOG_GPTMP_TODAY;
+select pg_relation_size('CDL_DEL_CONTAINER_LOG_GPTMP_TODAY');
+
+\echo ---------------CDL_DEL_HEAD_LOG----------------
+select pg_relation_size('CDL_DEL_HEAD_LOG_GPTMP_TODAY');
+VACUUM ANALYZE CDL_DEL_HEAD_LOG_GPTMP_TODAY;
+select pg_relation_size('CDL_DEL_HEAD_LOG_GPTMP_TODAY');
+
+\echo ---------------CDL_DEL_LIST_LOG----------------
+select pg_relation_size('CDL_DEL_LIST_LOG_GPTMP_TODAY');
+VACUUM ANALYZE CDL_DEL_LIST_LOG_GPTMP_TODAY;
+select pg_relation_size('CDL_DEL_LIST_LOG_GPTMP_TODAY');
+
+\echo ---------------CDL_EDI_MESS----------------
+select pg_relation_size('CDL_EDI_MESS_GPTMP_TODAY');
+VACUUM ANALYZE CDL_EDI_MESS_GPTMP_TODAY;
+select pg_relation_size('CDL_EDI_MESS_GPTMP_TODAY');
+
+\echo ---------------CDL_EMS_DEDUCT----------------
+select pg_relation_size('CDL_EMS_DEDUCT_GPTMP_TODAY');
+VACUUM ANALYZE CDL_EMS_DEDUCT_GPTMP_TODAY;
+select pg_relation_size('CDL_EMS_DEDUCT_GPTMP_TODAY');
+
+\echo ---------------CDL_EMS_DEDUCT_LOG----------------
+select pg_relation_size('CDL_EMS_DEDUCT_LOG_GPTMP_TODAY');
+VACUUM ANALYZE CDL_EMS_DEDUCT_LOG_GPTMP_TODAY;
+select pg_relation_size('CDL_EMS_DEDUCT_LOG_GPTMP_TODAY');
+
+\echo ---------------CDL_ENTRY_HEAD----------------
+select pg_relation_size('CDL_ENTRY_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE CDL_ENTRY_HEAD_GPTMP_TODAY;
+select pg_relation_size('CDL_ENTRY_HEAD_GPTMP_TODAY');
+
+\echo ---------------CDL_ENTRY_LIST----------------
+select pg_relation_size('CDL_ENTRY_LIST_GPTMP_TODAY');
+VACUUM ANALYZE CDL_ENTRY_LIST_GPTMP_TODAY;
+select pg_relation_size('CDL_ENTRY_LIST_GPTMP_TODAY');
+
+\echo ---------------CDL_HEAD----------------
+select pg_relation_size('CDL_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE CDL_HEAD_GPTMP_TODAY;
+select pg_relation_size('CDL_HEAD_GPTMP_TODAY');
+
+\echo ---------------CDL_LICENSE_DEDUCT----------------
+select pg_relation_size('CDL_LICENSE_DEDUCT_GPTMP_TODAY');
+VACUUM ANALYZE CDL_LICENSE_DEDUCT_GPTMP_TODAY;
+select pg_relation_size('CDL_LICENSE_DEDUCT_GPTMP_TODAY');
+
+\echo ---------------CDL_LIST----------------
+select pg_relation_size('CDL_LIST_GPTMP_TODAY');
+VACUUM ANALYZE CDL_LIST_GPTMP_TODAY;
+select pg_relation_size('CDL_LIST_GPTMP_TODAY');
+
+\echo ---------------CDL_LOCK_COMMODITY----------------
+select pg_relation_size('CDL_LOCK_COMMODITY_GPTMP_TODAY');
+VACUUM ANALYZE CDL_LOCK_COMMODITY_GPTMP_TODAY;
+select pg_relation_size('CDL_LOCK_COMMODITY_GPTMP_TODAY');
+
+\echo ---------------CDL_MODI_LOG----------------
+select pg_relation_size('CDL_MODI_LOG_GPTMP_TODAY');
+VACUUM ANALYZE CDL_MODI_LOG_GPTMP_TODAY;
+select pg_relation_size('CDL_MODI_LOG_GPTMP_TODAY');
+
+\echo ---------------CDL_OP_LOG----------------
+select pg_relation_size('CDL_OP_LOG_GPTMP_TODAY');
+VACUUM ANALYZE CDL_OP_LOG_GPTMP_TODAY;
+select pg_relation_size('CDL_OP_LOG_GPTMP_TODAY');
+
+\echo ---------------CDL_OVERDUE_LIST----------------
+select pg_relation_size('CDL_OVERDUE_LIST_GPTMP_TODAY');
+VACUUM ANALYZE CDL_OVERDUE_LIST_GPTMP_TODAY;
+select pg_relation_size('CDL_OVERDUE_LIST_GPTMP_TODAY');
+
+\echo ---------------CDL_STATUS_DETAIL----------------
+select pg_relation_size('CDL_STATUS_DETAIL_GPTMP_TODAY');
+VACUUM ANALYZE CDL_STATUS_DETAIL_GPTMP_TODAY;
+select pg_relation_size('CDL_STATUS_DETAIL_GPTMP_TODAY');
+
+\echo ---------------CDL_WORKFLOW----------------
+select pg_relation_size('CDL_WORKFLOW_GPTMP_TODAY');
+VACUUM ANALYZE CDL_WORKFLOW_GPTMP_TODAY;
+select pg_relation_size('CDL_WORKFLOW_GPTMP_TODAY');
+
+\echo ---------------CHK_COP_RATIO----------------
+select pg_relation_size('CHK_COP_RATIO_GPTMP_TODAY');
+VACUUM ANALYZE CHK_COP_RATIO_GPTMP_TODAY;
+select pg_relation_size('CHK_COP_RATIO_GPTMP_TODAY');
+
+\echo ---------------CHK_COUNTER----------------
+select pg_relation_size('CHK_COUNTER_GPTMP_TODAY');
+VACUUM ANALYZE CHK_COUNTER_GPTMP_TODAY;
+select pg_relation_size('CHK_COUNTER_GPTMP_TODAY');
+
+\echo ---------------CHK_RATE_LIMIT----------------
+select pg_relation_size('CHK_RATE_LIMIT_GPTMP_TODAY');
+VACUUM ANALYZE CHK_RATE_LIMIT_GPTMP_TODAY;
+select pg_relation_size('CHK_RATE_LIMIT_GPTMP_TODAY');
+
+\echo ---------------CHKHS_MNLPROC----------------
+select pg_relation_size('CHKHS_MNLPROC_GPTMP_TODAY');
+VACUUM ANALYZE CHKHS_MNLPROC_GPTMP_TODAY;
+select pg_relation_size('CHKHS_MNLPROC_GPTMP_TODAY');
+
+\echo ---------------CIC_CODE----------------
+select pg_relation_size('CIC_CODE_GPTMP_TODAY');
+VACUUM ANALYZE CIC_CODE_GPTMP_TODAY;
+select pg_relation_size('CIC_CODE_GPTMP_TODAY');
+
+\echo ---------------CIC_HEAD----------------
+select pg_relation_size('CIC_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE CIC_HEAD_GPTMP_TODAY;
+select pg_relation_size('CIC_HEAD_GPTMP_TODAY');
+
+\echo ---------------CIC_LIST----------------
+select pg_relation_size('CIC_LIST_GPTMP_TODAY');
+VACUUM ANALYZE CIC_LIST_GPTMP_TODAY;
+select pg_relation_size('CIC_LIST_GPTMP_TODAY');
+
+\echo ---------------CIC_MAXID----------------
+select pg_relation_size('CIC_MAXID_GPTMP_TODAY');
+VACUUM ANALYZE CIC_MAXID_GPTMP_TODAY;
+select pg_relation_size('CIC_MAXID_GPTMP_TODAY');
+
+\echo ---------------CIC_SEND_REL----------------
+select pg_relation_size('CIC_SEND_REL_GPTMP_TODAY');
+VACUUM ANALYZE CIC_SEND_REL_GPTMP_TODAY;
+select pg_relation_size('CIC_SEND_REL_GPTMP_TODAY');
+
+\echo ---------------CLAIM----------------
+select pg_relation_size('CLAIM_GPTMP_TODAY');
+VACUUM ANALYZE CLAIM_GPTMP_TODAY;
+select pg_relation_size('CLAIM_GPTMP_TODAY');
+
+\echo ---------------CLC_CHKRATE_LIMIT----------------
+select pg_relation_size('CLC_CHKRATE_LIMIT_GPTMP_TODAY');
+VACUUM ANALYZE CLC_CHKRATE_LIMIT_GPTMP_TODAY;
+select pg_relation_size('CLC_CHKRATE_LIMIT_GPTMP_TODAY');
+
+\echo ---------------CLC_GPR_RATIO----------------
+select pg_relation_size('CLC_GPR_RATIO_GPTMP_TODAY');
+VACUUM ANALYZE CLC_GPR_RATIO_GPTMP_TODAY;
+select pg_relation_size('CLC_GPR_RATIO_GPTMP_TODAY');
+
+\echo ---------------CLC_GPR_RATIO_BAK----------------
+select pg_relation_size('CLC_GPR_RATIO_BAK_GPTMP_TODAY');
+VACUUM ANALYZE CLC_GPR_RATIO_BAK_GPTMP_TODAY;
+select pg_relation_size('CLC_GPR_RATIO_BAK_GPTMP_TODAY');
+
+\echo ---------------CNS_COUNTER_TABLE----------------
+select pg_relation_size('CNS_COUNTER_TABLE_GPTMP_TODAY');
+VACUUM ANALYZE CNS_COUNTER_TABLE_GPTMP_TODAY;
+select pg_relation_size('CNS_COUNTER_TABLE_GPTMP_TODAY');
+
+\echo ---------------CO_CLASS_REL----------------
+select pg_relation_size('CO_CLASS_REL_GPTMP_TODAY');
+VACUUM ANALYZE CO_CLASS_REL_GPTMP_TODAY;
+select pg_relation_size('CO_CLASS_REL_GPTMP_TODAY');
+
+\echo ---------------COMPANY_REL----------------
+select pg_relation_size('COMPANY_REL_GPTMP_TODAY');
+VACUUM ANALYZE COMPANY_REL_GPTMP_TODAY;
+select pg_relation_size('COMPANY_REL_GPTMP_TODAY');
+
+\echo ---------------CONSUME----------------
+select pg_relation_size('CONSUME_GPTMP_TODAY');
+VACUUM ANALYZE CONSUME_GPTMP_TODAY;
+select pg_relation_size('CONSUME_GPTMP_TODAY');
+
+\echo ---------------CONSUME_DB----------------
+select pg_relation_size('CONSUME_DB_GPTMP_TODAY');
+VACUUM ANALYZE CONSUME_DB_GPTMP_TODAY;
+select pg_relation_size('CONSUME_DB_GPTMP_TODAY');
+
+\echo ---------------CONSUME_GOODS----------------
+select pg_relation_size('CONSUME_GOODS_GPTMP_TODAY');
+VACUUM ANALYZE CONSUME_GOODS_GPTMP_TODAY;
+select pg_relation_size('CONSUME_GOODS_GPTMP_TODAY');
+
+\echo ---------------CONTA----------------
+select pg_relation_size('CONTA_GPTMP_TODAY');
+VACUUM ANALYZE CONTA_GPTMP_TODAY;
+select pg_relation_size('CONTA_GPTMP_TODAY');
+
+\echo ---------------CONTA_MONITOR----------------
+select pg_relation_size('CONTA_MONITOR_GPTMP_TODAY');
+VACUUM ANALYZE CONTA_MONITOR_GPTMP_TODAY;
+select pg_relation_size('CONTA_MONITOR_GPTMP_TODAY');
+
+\echo ---------------CONTRACT_HEAD----------------
+select pg_relation_size('CONTRACT_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE CONTRACT_HEAD_GPTMP_TODAY;
+select pg_relation_size('CONTRACT_HEAD_GPTMP_TODAY');
+
+\echo ---------------CONTRACT_WORKFLOW----------------
+select pg_relation_size('CONTRACT_WORKFLOW_GPTMP_TODAY');
+VACUUM ANALYZE CONTRACT_WORKFLOW_GPTMP_TODAY;
+select pg_relation_size('CONTRACT_WORKFLOW_GPTMP_TODAY');
+
+\echo ---------------CONVEYANCE----------------
+select pg_relation_size('CONVEYANCE_GPTMP_TODAY');
+VACUUM ANALYZE CONVEYANCE_GPTMP_TODAY;
+select pg_relation_size('CONVEYANCE_GPTMP_TODAY');
+
+\echo ---------------CONVEYANCE_SEGMENT----------------
+select pg_relation_size('CONVEYANCE_SEGMENT_GPTMP_TODAY');
+VACUUM ANALYZE CONVEYANCE_SEGMENT_GPTMP_TODAY;
+select pg_relation_size('CONVEYANCE_SEGMENT_GPTMP_TODAY');
+
+\echo ---------------COP_CONSUME----------------
+select pg_relation_size('COP_CONSUME_GPTMP_TODAY');
+VACUUM ANALYZE COP_CONSUME_GPTMP_TODAY;
+select pg_relation_size('COP_CONSUME_GPTMP_TODAY');
+
+\echo ---------------COP_SPEC_REL----------------
+select pg_relation_size('COP_SPEC_REL_GPTMP_TODAY');
+VACUUM ANALYZE COP_SPEC_REL_GPTMP_TODAY;
+select pg_relation_size('COP_SPEC_REL_GPTMP_TODAY');
+
+\echo ---------------COPLOG_DELETE_REL----------------
+select pg_relation_size('COPLOG_DELETE_REL_GPTMP_TODAY');
+VACUUM ANALYZE COPLOG_DELETE_REL_GPTMP_TODAY;
+select pg_relation_size('COPLOG_DELETE_REL_GPTMP_TODAY');
+
+\echo ---------------COPLOG_MODIFY_REL----------------
+select pg_relation_size('COPLOG_MODIFY_REL_GPTMP_TODAY');
+VACUUM ANALYZE COPLOG_MODIFY_REL_GPTMP_TODAY;
+select pg_relation_size('COPLOG_MODIFY_REL_GPTMP_TODAY');
+
+\echo ---------------CORP_HEAD----------------
+select pg_relation_size('CORP_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE CORP_HEAD_GPTMP_TODAY;
+select pg_relation_size('CORP_HEAD_GPTMP_TODAY');
+
+\echo ---------------CORP_LIST----------------
+select pg_relation_size('CORP_LIST_GPTMP_TODAY');
+VACUUM ANALYZE CORP_LIST_GPTMP_TODAY;
+select pg_relation_size('CORP_LIST_GPTMP_TODAY');
+
+\echo ---------------CORP_TABLE----------------
+select pg_relation_size('CORP_TABLE_GPTMP_TODAY');
+VACUUM ANALYZE CORP_TABLE_GPTMP_TODAY;
+select pg_relation_size('CORP_TABLE_GPTMP_TODAY');
+
+\echo ---------------CORP_TYPE----------------
+select pg_relation_size('CORP_TYPE_GPTMP_TODAY');
+VACUUM ANALYZE CORP_TYPE_GPTMP_TODAY;
+select pg_relation_size('CORP_TYPE_GPTMP_TODAY');
+
+\echo ---------------COUNTER_TABLE----------------
+select pg_relation_size('COUNTER_TABLE_GPTMP_TODAY');
+VACUUM ANALYZE COUNTER_TABLE_GPTMP_TODAY;
+select pg_relation_size('COUNTER_TABLE_GPTMP_TODAY');
+
+\echo ---------------CREDIT_INFO----------------
+select pg_relation_size('CREDIT_INFO_GPTMP_TODAY');
+VACUUM ANALYZE CREDIT_INFO_GPTMP_TODAY;
+select pg_relation_size('CREDIT_INFO_GPTMP_TODAY');
+
+\echo ---------------CTS_CHKRATE_LIMIT----------------
+select pg_relation_size('CTS_CHKRATE_LIMIT_GPTMP_TODAY');
+VACUUM ANALYZE CTS_CHKRATE_LIMIT_GPTMP_TODAY;
+select pg_relation_size('CTS_CHKRATE_LIMIT_GPTMP_TODAY');
+
+\echo ---------------CTS_CHKRATE_LIMIT_BAK----------------
+select pg_relation_size('CTS_CHKRATE_LIMIT_BAK_GPTMP_TODAY');
+VACUUM ANALYZE CTS_CHKRATE_LIMIT_BAK_GPTMP_TODAY;
+select pg_relation_size('CTS_CHKRATE_LIMIT_BAK_GPTMP_TODAY');
+
+\echo ---------------CTS_PERIOD----------------
+select pg_relation_size('CTS_PERIOD_GPTMP_TODAY');
+VACUUM ANALYZE CTS_PERIOD_GPTMP_TODAY;
+select pg_relation_size('CTS_PERIOD_GPTMP_TODAY');
+
+\echo ---------------CUS_GOOD_CONSUME----------------
+select pg_relation_size('CUS_GOOD_CONSUME_GPTMP_TODAY');
+VACUUM ANALYZE CUS_GOOD_CONSUME_GPTMP_TODAY;
+select pg_relation_size('CUS_GOOD_CONSUME_GPTMP_TODAY');
+
+\echo ---------------CUSTOMS_DEFAULT----------------
+select pg_relation_size('CUSTOMS_DEFAULT_GPTMP_TODAY');
+VACUUM ANALYZE CUSTOMS_DEFAULT_GPTMP_TODAY;
+select pg_relation_size('CUSTOMS_DEFAULT_GPTMP_TODAY');
+
+\echo ---------------CUSTOMS_ESEAL_CONFIG----------------
+select pg_relation_size('CUSTOMS_ESEAL_CONFIG_GPTMP_TODAY');
+VACUUM ANALYZE CUSTOMS_ESEAL_CONFIG_GPTMP_TODAY;
+select pg_relation_size('CUSTOMS_ESEAL_CONFIG_GPTMP_TODAY');
+
+\echo ---------------DCG_BAK_LIST----------------
+select pg_relation_size('DCG_BAK_LIST_GPTMP_TODAY');
+VACUUM ANALYZE DCG_BAK_LIST_GPTMP_TODAY;
+select pg_relation_size('DCG_BAK_LIST_GPTMP_TODAY');
+
+\echo ---------------DCG_BILL_HEAD----------------
+select pg_relation_size('DCG_BILL_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE DCG_BILL_HEAD_GPTMP_TODAY;
+select pg_relation_size('DCG_BILL_HEAD_GPTMP_TODAY');
+
+\echo ---------------DCG_BILL_LIST----------------
+select pg_relation_size('DCG_BILL_LIST_GPTMP_TODAY');
+VACUUM ANALYZE DCG_BILL_LIST_GPTMP_TODAY;
+select pg_relation_size('DCG_BILL_LIST_GPTMP_TODAY');
+
+\echo ---------------DCG_COPR_INFO----------------
+select pg_relation_size('DCG_COPR_INFO_GPTMP_TODAY');
+VACUUM ANALYZE DCG_COPR_INFO_GPTMP_TODAY;
+select pg_relation_size('DCG_COPR_INFO_GPTMP_TODAY');
+
+\echo ---------------DCG_DEDUCT----------------
+select pg_relation_size('DCG_DEDUCT_GPTMP_TODAY');
+VACUUM ANALYZE DCG_DEDUCT_GPTMP_TODAY;
+select pg_relation_size('DCG_DEDUCT_GPTMP_TODAY');
+
+\echo ---------------DCG_DEDUCT_LOG----------------
+select pg_relation_size('DCG_DEDUCT_LOG_GPTMP_TODAY');
+VACUUM ANALYZE DCG_DEDUCT_LOG_GPTMP_TODAY;
+select pg_relation_size('DCG_DEDUCT_LOG_GPTMP_TODAY');
+
+\echo ---------------DCG_HEAD----------------
+select pg_relation_size('DCG_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE DCG_HEAD_GPTMP_TODAY;
+select pg_relation_size('DCG_HEAD_GPTMP_TODAY');
+
+\echo ---------------DCG_LIST----------------
+select pg_relation_size('DCG_LIST_GPTMP_TODAY');
+VACUUM ANALYZE DCG_LIST_GPTMP_TODAY;
+select pg_relation_size('DCG_LIST_GPTMP_TODAY');
+
+\echo ---------------DCG_SEQ----------------
+select pg_relation_size('DCG_SEQ_GPTMP_TODAY');
+VACUUM ANALYZE DCG_SEQ_GPTMP_TODAY;
+select pg_relation_size('DCG_SEQ_GPTMP_TODAY');
+
+\echo ---------------DCG_WORKFLOW----------------
+select pg_relation_size('DCG_WORKFLOW_GPTMP_TODAY');
+VACUUM ANALYZE DCG_WORKFLOW_GPTMP_TODAY;
+select pg_relation_size('DCG_WORKFLOW_GPTMP_TODAY');
+
+\echo ---------------DECL_CO_ENTRY_COUNT----------------
+select pg_relation_size('DECL_CO_ENTRY_COUNT_GPTMP_TODAY');
+VACUUM ANALYZE DECL_CO_ENTRY_COUNT_GPTMP_TODAY;
+select pg_relation_size('DECL_CO_ENTRY_COUNT_GPTMP_TODAY');
+
+\echo ---------------DECL_CO_ENTRY_COUNT_TEMP----------------
+select pg_relation_size('DECL_CO_ENTRY_COUNT_TEMP_GPTMP_TODAY');
+VACUUM ANALYZE DECL_CO_ENTRY_COUNT_TEMP_GPTMP_TODAY;
+select pg_relation_size('DECL_CO_ENTRY_COUNT_TEMP_GPTMP_TODAY');
+
+\echo ---------------DECLAR_COUNTER_REL----------------
+select pg_relation_size('DECLAR_COUNTER_REL_GPTMP_TODAY');
+VACUUM ANALYZE DECLAR_COUNTER_REL_GPTMP_TODAY;
+select pg_relation_size('DECLAR_COUNTER_REL_GPTMP_TODAY');
+
+\echo ---------------DECLAR_REL----------------
+select pg_relation_size('DECLAR_REL_GPTMP_TODAY');
+VACUUM ANALYZE DECLAR_REL_GPTMP_TODAY;
+select pg_relation_size('DECLAR_REL_GPTMP_TODAY');
+
+\echo ---------------DECLARER_REL----------------
+select pg_relation_size('DECLARER_REL_GPTMP_TODAY');
+VACUUM ANALYZE DECLARER_REL_GPTMP_TODAY;
+select pg_relation_size('DECLARER_REL_GPTMP_TODAY');
+
+\echo ---------------DECLOG_FULL_REL----------------
+select pg_relation_size('DECLOG_FULL_REL_GPTMP_TODAY');
+VACUUM ANALYZE DECLOG_FULL_REL_GPTMP_TODAY;
+select pg_relation_size('DECLOG_FULL_REL_GPTMP_TODAY');
+
+\echo ---------------DECLOG_MOD_REL----------------
+select pg_relation_size('DECLOG_MOD_REL_GPTMP_TODAY');
+VACUUM ANALYZE DECLOG_MOD_REL_GPTMP_TODAY;
+select pg_relation_size('DECLOG_MOD_REL_GPTMP_TODAY');
+
+\echo ---------------DECLOG_MODIFY_REL----------------
+select pg_relation_size('DECLOG_MODIFY_REL_GPTMP_TODAY');
+VACUUM ANALYZE DECLOG_MODIFY_REL_GPTMP_TODAY;
+select pg_relation_size('DECLOG_MODIFY_REL_GPTMP_TODAY');
+
+\echo ---------------DECLOG_SCORE_HEAD----------------
+select pg_relation_size('DECLOG_SCORE_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE DECLOG_SCORE_HEAD_GPTMP_TODAY;
+select pg_relation_size('DECLOG_SCORE_HEAD_GPTMP_TODAY');
+
+\echo ---------------DECLOG_SCORE_LIST----------------
+select pg_relation_size('DECLOG_SCORE_LIST_GPTMP_TODAY');
+VACUUM ANALYZE DECLOG_SCORE_LIST_GPTMP_TODAY;
+select pg_relation_size('DECLOG_SCORE_LIST_GPTMP_TODAY');
+
+\echo ---------------DEL_EGS_ARC_AGENT_LIST----------------
+select pg_relation_size('DEL_EGS_ARC_AGENT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE DEL_EGS_ARC_AGENT_LIST_GPTMP_TODAY;
+select pg_relation_size('DEL_EGS_ARC_AGENT_LIST_GPTMP_TODAY');
+
+\echo ---------------DEL_EGS_ARC_HEAD----------------
+select pg_relation_size('DEL_EGS_ARC_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE DEL_EGS_ARC_HEAD_GPTMP_TODAY;
+select pg_relation_size('DEL_EGS_ARC_HEAD_GPTMP_TODAY');
+
+\echo ---------------DEL_EGS_ARC_LIST----------------
+select pg_relation_size('DEL_EGS_ARC_LIST_GPTMP_TODAY');
+VACUUM ANALYZE DEL_EGS_ARC_LIST_GPTMP_TODAY;
+select pg_relation_size('DEL_EGS_ARC_LIST_GPTMP_TODAY');
+
+\echo ---------------DEL_EGS_ARC_MERCHANT_LIST----------------
+select pg_relation_size('DEL_EGS_ARC_MERCHANT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE DEL_EGS_ARC_MERCHANT_LIST_GPTMP_TODAY;
+select pg_relation_size('DEL_EGS_ARC_MERCHANT_LIST_GPTMP_TODAY');
+
+\echo ---------------DEL_EGS_CLEAR_CERT----------------
+select pg_relation_size('DEL_EGS_CLEAR_CERT_GPTMP_TODAY');
+VACUUM ANALYZE DEL_EGS_CLEAR_CERT_GPTMP_TODAY;
+select pg_relation_size('DEL_EGS_CLEAR_CERT_GPTMP_TODAY');
+
+\echo ---------------DEL_EGS_CLEAR_HEAD----------------
+select pg_relation_size('DEL_EGS_CLEAR_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE DEL_EGS_CLEAR_HEAD_GPTMP_TODAY;
+select pg_relation_size('DEL_EGS_CLEAR_HEAD_GPTMP_TODAY');
+
+\echo ---------------DEL_EGS_CLEAR_LIST----------------
+select pg_relation_size('DEL_EGS_CLEAR_LIST_GPTMP_TODAY');
+VACUUM ANALYZE DEL_EGS_CLEAR_LIST_GPTMP_TODAY;
+select pg_relation_size('DEL_EGS_CLEAR_LIST_GPTMP_TODAY');
+
+\echo ---------------DEL_EGS_DECLARE_CERT----------------
+select pg_relation_size('DEL_EGS_DECLARE_CERT_GPTMP_TODAY');
+VACUUM ANALYZE DEL_EGS_DECLARE_CERT_GPTMP_TODAY;
+select pg_relation_size('DEL_EGS_DECLARE_CERT_GPTMP_TODAY');
+
+\echo ---------------DEL_EGS_DECLARE_HEAD----------------
+select pg_relation_size('DEL_EGS_DECLARE_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE DEL_EGS_DECLARE_HEAD_GPTMP_TODAY;
+select pg_relation_size('DEL_EGS_DECLARE_HEAD_GPTMP_TODAY');
+
+\echo ---------------DEL_EGS_DECLARE_LIST----------------
+select pg_relation_size('DEL_EGS_DECLARE_LIST_GPTMP_TODAY');
+VACUUM ANALYZE DEL_EGS_DECLARE_LIST_GPTMP_TODAY;
+select pg_relation_size('DEL_EGS_DECLARE_LIST_GPTMP_TODAY');
+
+\echo ---------------DEL_MOD_APPLY----------------
+select pg_relation_size('DEL_MOD_APPLY_GPTMP_TODAY');
+VACUUM ANALYZE DEL_MOD_APPLY_GPTMP_TODAY;
+select pg_relation_size('DEL_MOD_APPLY_GPTMP_TODAY');
+
+\echo ---------------DISTRIBUTIVE_BILL_DECLARE----------------
+select pg_relation_size('DISTRIBUTIVE_BILL_DECLARE_GPTMP_TODAY');
+VACUUM ANALYZE DISTRIBUTIVE_BILL_DECLARE_GPTMP_TODAY;
+select pg_relation_size('DISTRIBUTIVE_BILL_DECLARE_GPTMP_TODAY');
+
+\echo ---------------DISTRIBUTIVE_DECLARE----------------
+select pg_relation_size('DISTRIBUTIVE_DECLARE_GPTMP_TODAY');
+VACUUM ANALYZE DISTRIBUTIVE_DECLARE_GPTMP_TODAY;
+select pg_relation_size('DISTRIBUTIVE_DECLARE_GPTMP_TODAY');
+
+\echo ---------------DISTRIBUTIVE_TRANSIT_WAY----------------
+select pg_relation_size('DISTRIBUTIVE_TRANSIT_WAY_GPTMP_TODAY');
+VACUUM ANALYZE DISTRIBUTIVE_TRANSIT_WAY_GPTMP_TODAY;
+select pg_relation_size('DISTRIBUTIVE_TRANSIT_WAY_GPTMP_TODAY');
+
+\echo ---------------DST_COUNTER_TABLE----------------
+select pg_relation_size('DST_COUNTER_TABLE_GPTMP_TODAY');
+VACUUM ANALYZE DST_COUNTER_TABLE_GPTMP_TODAY;
+select pg_relation_size('DST_COUNTER_TABLE_GPTMP_TODAY');
+
+\echo ---------------DST_DEDUCT----------------
+select pg_relation_size('DST_DEDUCT_GPTMP_TODAY');
+VACUUM ANALYZE DST_DEDUCT_GPTMP_TODAY;
+select pg_relation_size('DST_DEDUCT_GPTMP_TODAY');
+
+\echo ---------------DST_EXG----------------
+select pg_relation_size('DST_EXG_GPTMP_TODAY');
+VACUUM ANALYZE DST_EXG_GPTMP_TODAY;
+select pg_relation_size('DST_EXG_GPTMP_TODAY');
+
+\echo ---------------DST_EXG_ORI_ENTRY----------------
+select pg_relation_size('DST_EXG_ORI_ENTRY_GPTMP_TODAY');
+VACUUM ANALYZE DST_EXG_ORI_ENTRY_GPTMP_TODAY;
+select pg_relation_size('DST_EXG_ORI_ENTRY_GPTMP_TODAY');
+
+\echo ---------------DST_HEAD----------------
+select pg_relation_size('DST_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE DST_HEAD_GPTMP_TODAY;
+select pg_relation_size('DST_HEAD_GPTMP_TODAY');
+
+\echo ---------------DST_IMG----------------
+select pg_relation_size('DST_IMG_GPTMP_TODAY');
+VACUUM ANALYZE DST_IMG_GPTMP_TODAY;
+select pg_relation_size('DST_IMG_GPTMP_TODAY');
+
+\echo ---------------DST_IMG_ORI_ENTRY----------------
+select pg_relation_size('DST_IMG_ORI_ENTRY_GPTMP_TODAY');
+VACUUM ANALYZE DST_IMG_ORI_ENTRY_GPTMP_TODAY;
+select pg_relation_size('DST_IMG_ORI_ENTRY_GPTMP_TODAY');
+
+\echo ---------------DTT_COP_PARAM----------------
+select pg_relation_size('DTT_COP_PARAM_GPTMP_TODAY');
+VACUUM ANALYZE DTT_COP_PARAM_GPTMP_TODAY;
+select pg_relation_size('DTT_COP_PARAM_GPTMP_TODAY');
+
+\echo ---------------DUTY_CHECK_LOG----------------
+select pg_relation_size('DUTY_CHECK_LOG_GPTMP_TODAY');
+VACUUM ANALYZE DUTY_CHECK_LOG_GPTMP_TODAY;
+select pg_relation_size('DUTY_CHECK_LOG_GPTMP_TODAY');
+
+\echo ---------------DUTYFORM_HEAD----------------
+select pg_relation_size('DUTYFORM_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE DUTYFORM_HEAD_GPTMP_TODAY;
+select pg_relation_size('DUTYFORM_HEAD_GPTMP_TODAY');
+
+\echo ---------------DUTYFORM_LIST----------------
+select pg_relation_size('DUTYFORM_LIST_GPTMP_TODAY');
+VACUUM ANALYZE DUTYFORM_LIST_GPTMP_TODAY;
+select pg_relation_size('DUTYFORM_LIST_GPTMP_TODAY');
+
+\echo ---------------ECO_HEAD----------------
+select pg_relation_size('ECO_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE ECO_HEAD_GPTMP_TODAY;
+select pg_relation_size('ECO_HEAD_GPTMP_TODAY');
+
+\echo ---------------ECO_LIST----------------
+select pg_relation_size('ECO_LIST_GPTMP_TODAY');
+VACUUM ANALYZE ECO_LIST_GPTMP_TODAY;
+select pg_relation_size('ECO_LIST_GPTMP_TODAY');
+
+\echo ---------------ECO_PARTS----------------
+select pg_relation_size('ECO_PARTS_GPTMP_TODAY');
+VACUUM ANALYZE ECO_PARTS_GPTMP_TODAY;
+select pg_relation_size('ECO_PARTS_GPTMP_TODAY');
+
+\echo ---------------ECO_WORKFLOW----------------
+select pg_relation_size('ECO_WORKFLOW_GPTMP_TODAY');
+VACUUM ANALYZE ECO_WORKFLOW_GPTMP_TODAY;
+select pg_relation_size('ECO_WORKFLOW_GPTMP_TODAY');
+
+\echo ---------------EGS_ADMIT_HEAD----------------
+select pg_relation_size('EGS_ADMIT_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE EGS_ADMIT_HEAD_GPTMP_TODAY;
+select pg_relation_size('EGS_ADMIT_HEAD_GPTMP_TODAY');
+
+\echo ---------------EGS_ADMIT_HS----------------
+select pg_relation_size('EGS_ADMIT_HS_GPTMP_TODAY');
+VACUUM ANALYZE EGS_ADMIT_HS_GPTMP_TODAY;
+select pg_relation_size('EGS_ADMIT_HS_GPTMP_TODAY');
+
+\echo ---------------EGS_ADMIT_LIST----------------
+select pg_relation_size('EGS_ADMIT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EGS_ADMIT_LIST_GPTMP_TODAY;
+select pg_relation_size('EGS_ADMIT_LIST_GPTMP_TODAY');
+
+\echo ---------------EGS_ARC_AGENT_LIST----------------
+select pg_relation_size('EGS_ARC_AGENT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EGS_ARC_AGENT_LIST_GPTMP_TODAY;
+select pg_relation_size('EGS_ARC_AGENT_LIST_GPTMP_TODAY');
+
+\echo ---------------EGS_ARC_HEAD----------------
+select pg_relation_size('EGS_ARC_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE EGS_ARC_HEAD_GPTMP_TODAY;
+select pg_relation_size('EGS_ARC_HEAD_GPTMP_TODAY');
+
+\echo ---------------EGS_ARC_LIST----------------
+select pg_relation_size('EGS_ARC_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EGS_ARC_LIST_GPTMP_TODAY;
+select pg_relation_size('EGS_ARC_LIST_GPTMP_TODAY');
+
+\echo ---------------EGS_ARC_MERCHANT_LIST----------------
+select pg_relation_size('EGS_ARC_MERCHANT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EGS_ARC_MERCHANT_LIST_GPTMP_TODAY;
+select pg_relation_size('EGS_ARC_MERCHANT_LIST_GPTMP_TODAY');
+
+\echo ---------------EGS_CHECK_LOG----------------
+select pg_relation_size('EGS_CHECK_LOG_GPTMP_TODAY');
+VACUUM ANALYZE EGS_CHECK_LOG_GPTMP_TODAY;
+select pg_relation_size('EGS_CHECK_LOG_GPTMP_TODAY');
+
+\echo ---------------EGS_CLEAR_CERT----------------
+select pg_relation_size('EGS_CLEAR_CERT_GPTMP_TODAY');
+VACUUM ANALYZE EGS_CLEAR_CERT_GPTMP_TODAY;
+select pg_relation_size('EGS_CLEAR_CERT_GPTMP_TODAY');
+
+\echo ---------------EGS_CLEAR_HEAD----------------
+select pg_relation_size('EGS_CLEAR_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE EGS_CLEAR_HEAD_GPTMP_TODAY;
+select pg_relation_size('EGS_CLEAR_HEAD_GPTMP_TODAY');
+
+\echo ---------------EGS_CLEAR_LIST----------------
+select pg_relation_size('EGS_CLEAR_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EGS_CLEAR_LIST_GPTMP_TODAY;
+select pg_relation_size('EGS_CLEAR_LIST_GPTMP_TODAY');
+
+\echo ---------------EGS_DECLARE_CERT----------------
+select pg_relation_size('EGS_DECLARE_CERT_GPTMP_TODAY');
+VACUUM ANALYZE EGS_DECLARE_CERT_GPTMP_TODAY;
+select pg_relation_size('EGS_DECLARE_CERT_GPTMP_TODAY');
+
+\echo ---------------EGS_DECLARE_HEAD----------------
+select pg_relation_size('EGS_DECLARE_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE EGS_DECLARE_HEAD_GPTMP_TODAY;
+select pg_relation_size('EGS_DECLARE_HEAD_GPTMP_TODAY');
+
+\echo ---------------EGS_DECLARE_LIST----------------
+select pg_relation_size('EGS_DECLARE_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EGS_DECLARE_LIST_GPTMP_TODAY;
+select pg_relation_size('EGS_DECLARE_LIST_GPTMP_TODAY');
+
+\echo ---------------EGS_DEDUCT----------------
+select pg_relation_size('EGS_DEDUCT_GPTMP_TODAY');
+VACUUM ANALYZE EGS_DEDUCT_GPTMP_TODAY;
+select pg_relation_size('EGS_DEDUCT_GPTMP_TODAY');
+
+\echo ---------------EGS_LEND_HEAD----------------
+select pg_relation_size('EGS_LEND_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE EGS_LEND_HEAD_GPTMP_TODAY;
+select pg_relation_size('EGS_LEND_HEAD_GPTMP_TODAY');
+
+\echo ---------------EGS_LEND_LIST----------------
+select pg_relation_size('EGS_LEND_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EGS_LEND_LIST_GPTMP_TODAY;
+select pg_relation_size('EGS_LEND_LIST_GPTMP_TODAY');
+
+\echo ---------------EGS_PATROL_HEAD----------------
+select pg_relation_size('EGS_PATROL_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE EGS_PATROL_HEAD_GPTMP_TODAY;
+select pg_relation_size('EGS_PATROL_HEAD_GPTMP_TODAY');
+
+\echo ---------------EGS_PATROL_LIST----------------
+select pg_relation_size('EGS_PATROL_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EGS_PATROL_LIST_GPTMP_TODAY;
+select pg_relation_size('EGS_PATROL_LIST_GPTMP_TODAY');
+
+\echo ---------------EGS_SEQ----------------
+select pg_relation_size('EGS_SEQ_GPTMP_TODAY');
+VACUUM ANALYZE EGS_SEQ_GPTMP_TODAY;
+select pg_relation_size('EGS_SEQ_GPTMP_TODAY');
+
+\echo ---------------EGS_WORKFLOW----------------
+select pg_relation_size('EGS_WORKFLOW_GPTMP_TODAY');
+VACUUM ANALYZE EGS_WORKFLOW_GPTMP_TODAY;
+select pg_relation_size('EGS_WORKFLOW_GPTMP_TODAY');
+
+\echo ---------------EMS_ACCOUNT----------------
+select pg_relation_size('EMS_ACCOUNT_GPTMP_TODAY');
+VACUUM ANALYZE EMS_ACCOUNT_GPTMP_TODAY;
+select pg_relation_size('EMS_ACCOUNT_GPTMP_TODAY');
+
+\echo ---------------EMS_APPR_HEAD----------------
+select pg_relation_size('EMS_APPR_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE EMS_APPR_HEAD_GPTMP_TODAY;
+select pg_relation_size('EMS_APPR_HEAD_GPTMP_TODAY');
+
+\echo ---------------EMS_APPR_LIST----------------
+select pg_relation_size('EMS_APPR_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EMS_APPR_LIST_GPTMP_TODAY;
+select pg_relation_size('EMS_APPR_LIST_GPTMP_TODAY');
+
+\echo ---------------EMS_CLAIM----------------
+select pg_relation_size('EMS_CLAIM_GPTMP_TODAY');
+VACUUM ANALYZE EMS_CLAIM_GPTMP_TODAY;
+select pg_relation_size('EMS_CLAIM_GPTMP_TODAY');
+
+\echo ---------------EMS_CLR_LIST----------------
+select pg_relation_size('EMS_CLR_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EMS_CLR_LIST_GPTMP_TODAY;
+select pg_relation_size('EMS_CLR_LIST_GPTMP_TODAY');
+
+\echo ---------------EMS_CLR_TMP----------------
+select pg_relation_size('EMS_CLR_TMP_GPTMP_TODAY');
+VACUUM ANALYZE EMS_CLR_TMP_GPTMP_TODAY;
+select pg_relation_size('EMS_CLR_TMP_GPTMP_TODAY');
+
+\echo ---------------EMS_COMPLEX----------------
+select pg_relation_size('EMS_COMPLEX_GPTMP_TODAY');
+VACUUM ANALYZE EMS_COMPLEX_GPTMP_TODAY;
+select pg_relation_size('EMS_COMPLEX_GPTMP_TODAY');
+
+\echo ---------------EMS_COMPLEX2----------------
+select pg_relation_size('EMS_COMPLEX2_GPTMP_TODAY');
+VACUUM ANALYZE EMS_COMPLEX2_GPTMP_TODAY;
+select pg_relation_size('EMS_COMPLEX2_GPTMP_TODAY');
+
+\echo ---------------EMS_CONSUME----------------
+select pg_relation_size('EMS_CONSUME_GPTMP_TODAY');
+VACUUM ANALYZE EMS_CONSUME_GPTMP_TODAY;
+select pg_relation_size('EMS_CONSUME_GPTMP_TODAY');
+
+\echo ---------------EMS_CONSUME_CLR----------------
+select pg_relation_size('EMS_CONSUME_CLR_GPTMP_TODAY');
+VACUUM ANALYZE EMS_CONSUME_CLR_GPTMP_TODAY;
+select pg_relation_size('EMS_CONSUME_CLR_GPTMP_TODAY');
+
+\echo ---------------EMS_CONSUME_CLR_D----------------
+select pg_relation_size('EMS_CONSUME_CLR_D_GPTMP_TODAY');
+VACUUM ANALYZE EMS_CONSUME_CLR_D_GPTMP_TODAY;
+select pg_relation_size('EMS_CONSUME_CLR_D_GPTMP_TODAY');
+
+\echo ---------------EMS_DCR_CONSUME----------------
+select pg_relation_size('EMS_DCR_CONSUME_GPTMP_TODAY');
+VACUUM ANALYZE EMS_DCR_CONSUME_GPTMP_TODAY;
+select pg_relation_size('EMS_DCR_CONSUME_GPTMP_TODAY');
+
+\echo ---------------EMS_DCR_ENT----------------
+select pg_relation_size('EMS_DCR_ENT_GPTMP_TODAY');
+VACUUM ANALYZE EMS_DCR_ENT_GPTMP_TODAY;
+select pg_relation_size('EMS_DCR_ENT_GPTMP_TODAY');
+
+\echo ---------------EMS_DCR_HEAD----------------
+select pg_relation_size('EMS_DCR_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE EMS_DCR_HEAD_GPTMP_TODAY;
+select pg_relation_size('EMS_DCR_HEAD_GPTMP_TODAY');
+
+\echo ---------------EMS_DCR_LIST----------------
+select pg_relation_size('EMS_DCR_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EMS_DCR_LIST_GPTMP_TODAY;
+select pg_relation_size('EMS_DCR_LIST_GPTMP_TODAY');
+
+\echo ---------------EMS_DCR_RUB_LIST----------------
+select pg_relation_size('EMS_DCR_RUB_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EMS_DCR_RUB_LIST_GPTMP_TODAY;
+select pg_relation_size('EMS_DCR_RUB_LIST_GPTMP_TODAY');
+
+\echo ---------------EMS_DEDUCT----------------
+select pg_relation_size('EMS_DEDUCT_GPTMP_TODAY');
+VACUUM ANALYZE EMS_DEDUCT_GPTMP_TODAY;
+select pg_relation_size('EMS_DEDUCT_GPTMP_TODAY');
+
+\echo ---------------EMS_DEDUCT_CLR----------------
+select pg_relation_size('EMS_DEDUCT_CLR_GPTMP_TODAY');
+VACUUM ANALYZE EMS_DEDUCT_CLR_GPTMP_TODAY;
+select pg_relation_size('EMS_DEDUCT_CLR_GPTMP_TODAY');
+
+\echo ---------------EMS_DEDUCT_LOG----------------
+select pg_relation_size('EMS_DEDUCT_LOG_GPTMP_TODAY');
+VACUUM ANALYZE EMS_DEDUCT_LOG_GPTMP_TODAY;
+select pg_relation_size('EMS_DEDUCT_LOG_GPTMP_TODAY');
+
+\echo ---------------EMS_ENP----------------
+select pg_relation_size('EMS_ENP_GPTMP_TODAY');
+VACUUM ANALYZE EMS_ENP_GPTMP_TODAY;
+select pg_relation_size('EMS_ENP_GPTMP_TODAY');
+
+\echo ---------------EMS_ENP_JOU----------------
+select pg_relation_size('EMS_ENP_JOU_GPTMP_TODAY');
+VACUUM ANALYZE EMS_ENP_JOU_GPTMP_TODAY;
+select pg_relation_size('EMS_ENP_JOU_GPTMP_TODAY');
+
+\echo ---------------EMS_HEAD----------------
+select pg_relation_size('EMS_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE EMS_HEAD_GPTMP_TODAY;
+select pg_relation_size('EMS_HEAD_GPTMP_TODAY');
+
+\echo ---------------EMS_LIST----------------
+select pg_relation_size('EMS_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EMS_LIST_GPTMP_TODAY;
+select pg_relation_size('EMS_LIST_GPTMP_TODAY');
+
+\echo ---------------EMS_MESSAGE_LOG----------------
+select pg_relation_size('EMS_MESSAGE_LOG_GPTMP_TODAY');
+VACUUM ANALYZE EMS_MESSAGE_LOG_GPTMP_TODAY;
+select pg_relation_size('EMS_MESSAGE_LOG_GPTMP_TODAY');
+
+\echo ---------------EMS_PRESS----------------
+select pg_relation_size('EMS_PRESS_GPTMP_TODAY');
+VACUUM ANALYZE EMS_PRESS_GPTMP_TODAY;
+select pg_relation_size('EMS_PRESS_GPTMP_TODAY');
+
+\echo ---------------EMS_PRESS_CLEAR----------------
+select pg_relation_size('EMS_PRESS_CLEAR_GPTMP_TODAY');
+VACUUM ANALYZE EMS_PRESS_CLEAR_GPTMP_TODAY;
+select pg_relation_size('EMS_PRESS_CLEAR_GPTMP_TODAY');
+
+\echo ---------------EMS_SEQ----------------
+select pg_relation_size('EMS_SEQ_GPTMP_TODAY');
+VACUUM ANALYZE EMS_SEQ_GPTMP_TODAY;
+select pg_relation_size('EMS_SEQ_GPTMP_TODAY');
+
+\echo ---------------EMS_TMP_CLR----------------
+select pg_relation_size('EMS_TMP_CLR_GPTMP_TODAY');
+VACUUM ANALYZE EMS_TMP_CLR_GPTMP_TODAY;
+select pg_relation_size('EMS_TMP_CLR_GPTMP_TODAY');
+
+\echo ---------------EMS_VAR----------------
+select pg_relation_size('EMS_VAR_GPTMP_TODAY');
+VACUUM ANALYZE EMS_VAR_GPTMP_TODAY;
+select pg_relation_size('EMS_VAR_GPTMP_TODAY');
+
+\echo ---------------EMS_VERIFY----------------
+select pg_relation_size('EMS_VERIFY_GPTMP_TODAY');
+VACUUM ANALYZE EMS_VERIFY_GPTMP_TODAY;
+select pg_relation_size('EMS_VERIFY_GPTMP_TODAY');
+
+\echo ---------------EMS_VERIFY_DETAIL----------------
+select pg_relation_size('EMS_VERIFY_DETAIL_GPTMP_TODAY');
+VACUUM ANALYZE EMS_VERIFY_DETAIL_GPTMP_TODAY;
+select pg_relation_size('EMS_VERIFY_DETAIL_GPTMP_TODAY');
+
+\echo ---------------EMS_WORKFLOW----------------
+select pg_relation_size('EMS_WORKFLOW_GPTMP_TODAY');
+VACUUM ANALYZE EMS_WORKFLOW_GPTMP_TODAY;
+select pg_relation_size('EMS_WORKFLOW_GPTMP_TODAY');
+
+\echo ---------------ENTRY_AUTOREL_ERR_LIST----------------
+select pg_relation_size('ENTRY_AUTOREL_ERR_LIST_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_AUTOREL_ERR_LIST_GPTMP_TODAY;
+select pg_relation_size('ENTRY_AUTOREL_ERR_LIST_GPTMP_TODAY');
+
+\echo ---------------ENTRY_AUTOREL_ERR_LOG----------------
+select pg_relation_size('ENTRY_AUTOREL_ERR_LOG_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_AUTOREL_ERR_LOG_GPTMP_TODAY;
+select pg_relation_size('ENTRY_AUTOREL_ERR_LOG_GPTMP_TODAY');
+
+\echo ---------------ENTRY_CENTRY_SELECT----------------
+select pg_relation_size('ENTRY_CENTRY_SELECT_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_CENTRY_SELECT_GPTMP_TODAY;
+select pg_relation_size('ENTRY_CENTRY_SELECT_GPTMP_TODAY');
+
+\echo ---------------ENTRY_CENTRY_SELECT_DEL----------------
+select pg_relation_size('ENTRY_CENTRY_SELECT_DEL_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_CENTRY_SELECT_DEL_GPTMP_TODAY;
+select pg_relation_size('ENTRY_CENTRY_SELECT_DEL_GPTMP_TODAY');
+
+\echo ---------------ENTRY_CERTIFICATE----------------
+select pg_relation_size('ENTRY_CERTIFICATE_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_CERTIFICATE_GPTMP_TODAY;
+select pg_relation_size('ENTRY_CERTIFICATE_GPTMP_TODAY');
+
+\echo ---------------ENTRY_CERTIFICATE_LOG----------------
+select pg_relation_size('ENTRY_CERTIFICATE_LOG_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_CERTIFICATE_LOG_GPTMP_TODAY;
+select pg_relation_size('ENTRY_CERTIFICATE_LOG_GPTMP_TODAY');
+
+\echo ---------------ENTRY_CONTAINER----------------
+select pg_relation_size('ENTRY_CONTAINER_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_CONTAINER_GPTMP_TODAY;
+select pg_relation_size('ENTRY_CONTAINER_GPTMP_TODAY');
+
+\echo ---------------ENTRY_CONTAINER_LOG----------------
+select pg_relation_size('ENTRY_CONTAINER_LOG_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_CONTAINER_LOG_GPTMP_TODAY;
+select pg_relation_size('ENTRY_CONTAINER_LOG_GPTMP_TODAY');
+
+\echo ---------------ENTRY_DEL_HEAD_LOG----------------
+select pg_relation_size('ENTRY_DEL_HEAD_LOG_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_DEL_HEAD_LOG_GPTMP_TODAY;
+select pg_relation_size('ENTRY_DEL_HEAD_LOG_GPTMP_TODAY');
+
+\echo ---------------ENTRY_DEL_LIST_LOG----------------
+select pg_relation_size('ENTRY_DEL_LIST_LOG_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_DEL_LIST_LOG_GPTMP_TODAY;
+select pg_relation_size('ENTRY_DEL_LIST_LOG_GPTMP_TODAY');
+
+\echo ---------------ENTRY_EVALUATION----------------
+select pg_relation_size('ENTRY_EVALUATION_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_EVALUATION_GPTMP_TODAY;
+select pg_relation_size('ENTRY_EVALUATION_GPTMP_TODAY');
+
+\echo ---------------ENTRY_GPM_RTX----------------
+select pg_relation_size('ENTRY_GPM_RTX_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_GPM_RTX_GPTMP_TODAY;
+select pg_relation_size('ENTRY_GPM_RTX_GPTMP_TODAY');
+
+\echo ---------------ENTRY_GPM_RTX_PRINTLOG----------------
+select pg_relation_size('ENTRY_GPM_RTX_PRINTLOG_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_GPM_RTX_PRINTLOG_GPTMP_TODAY;
+select pg_relation_size('ENTRY_GPM_RTX_PRINTLOG_GPTMP_TODAY');
+
+\echo ---------------ENTRY_GPM_RTX_SENDLOG----------------
+select pg_relation_size('ENTRY_GPM_RTX_SENDLOG_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_GPM_RTX_SENDLOG_GPTMP_TODAY;
+select pg_relation_size('ENTRY_GPM_RTX_SENDLOG_GPTMP_TODAY');
+
+\echo ---------------ENTRY_HEAD----------------
+select pg_relation_size('ENTRY_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_HEAD_GPTMP_TODAY;
+select pg_relation_size('ENTRY_HEAD_GPTMP_TODAY');
+
+\echo ---------------ENTRY_LIST----------------
+select pg_relation_size('ENTRY_LIST_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_LIST_GPTMP_TODAY;
+select pg_relation_size('ENTRY_LIST_GPTMP_TODAY');
+
+\echo ---------------ENTRY_MODI_LOG----------------
+select pg_relation_size('ENTRY_MODI_LOG_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_MODI_LOG_GPTMP_TODAY;
+select pg_relation_size('ENTRY_MODI_LOG_GPTMP_TODAY');
+
+\echo ---------------ENTRY_OP_LOG----------------
+select pg_relation_size('ENTRY_OP_LOG_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_OP_LOG_GPTMP_TODAY;
+select pg_relation_size('ENTRY_OP_LOG_GPTMP_TODAY');
+
+\echo ---------------ENTRY_PROC----------------
+select pg_relation_size('ENTRY_PROC_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_PROC_GPTMP_TODAY;
+select pg_relation_size('ENTRY_PROC_GPTMP_TODAY');
+
+\echo ---------------ENTRY_PROC_LOG----------------
+select pg_relation_size('ENTRY_PROC_LOG_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_PROC_LOG_GPTMP_TODAY;
+select pg_relation_size('ENTRY_PROC_LOG_GPTMP_TODAY');
+
+\echo ---------------ENTRY_QUERY----------------
+select pg_relation_size('ENTRY_QUERY_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_QUERY_GPTMP_TODAY;
+select pg_relation_size('ENTRY_QUERY_GPTMP_TODAY');
+
+\echo ---------------ENTRY_WORKFLOW----------------
+select pg_relation_size('ENTRY_WORKFLOW_GPTMP_TODAY');
+VACUUM ANALYZE ENTRY_WORKFLOW_GPTMP_TODAY;
+select pg_relation_size('ENTRY_WORKFLOW_GPTMP_TODAY');
+
+\echo ---------------EPA_CHEM_CERT----------------
+select pg_relation_size('EPA_CHEM_CERT_GPTMP_TODAY');
+VACUUM ANALYZE EPA_CHEM_CERT_GPTMP_TODAY;
+select pg_relation_size('EPA_CHEM_CERT_GPTMP_TODAY');
+
+\echo ---------------EPA_CHK----------------
+select pg_relation_size('EPA_CHK_GPTMP_TODAY');
+VACUUM ANALYZE EPA_CHK_GPTMP_TODAY;
+select pg_relation_size('EPA_CHK_GPTMP_TODAY');
+
+\echo ---------------EPA_SCARP_CERT----------------
+select pg_relation_size('EPA_SCARP_CERT_GPTMP_TODAY');
+VACUUM ANALYZE EPA_SCARP_CERT_GPTMP_TODAY;
+select pg_relation_size('EPA_SCARP_CERT_GPTMP_TODAY');
+
+\echo ---------------ERR_LOG----------------
+select pg_relation_size('ERR_LOG_GPTMP_TODAY');
+VACUUM ANALYZE ERR_LOG_GPTMP_TODAY;
+select pg_relation_size('ERR_LOG_GPTMP_TODAY');
+
+\echo ---------------EX_APPL_CLOSE----------------
+select pg_relation_size('EX_APPL_CLOSE_GPTMP_TODAY');
+VACUUM ANALYZE EX_APPL_CLOSE_GPTMP_TODAY;
+select pg_relation_size('EX_APPL_CLOSE_GPTMP_TODAY');
+
+\echo ---------------EX_ARRIVAL_CONTA----------------
+select pg_relation_size('EX_ARRIVAL_CONTA_GPTMP_TODAY');
+VACUUM ANALYZE EX_ARRIVAL_CONTA_GPTMP_TODAY;
+select pg_relation_size('EX_ARRIVAL_CONTA_GPTMP_TODAY');
+
+\echo ---------------EX_ARRIVAL_ERR_CHK----------------
+select pg_relation_size('EX_ARRIVAL_ERR_CHK_GPTMP_TODAY');
+VACUUM ANALYZE EX_ARRIVAL_ERR_CHK_GPTMP_TODAY;
+select pg_relation_size('EX_ARRIVAL_ERR_CHK_GPTMP_TODAY');
+
+\echo ---------------EX_ARRIVAL_SHIP----------------
+select pg_relation_size('EX_ARRIVAL_SHIP_GPTMP_TODAY');
+VACUUM ANALYZE EX_ARRIVAL_SHIP_GPTMP_TODAY;
+select pg_relation_size('EX_ARRIVAL_SHIP_GPTMP_TODAY');
+
+\echo ---------------EX_CDL_MNL_DEDUCT----------------
+select pg_relation_size('EX_CDL_MNL_DEDUCT_GPTMP_TODAY');
+VACUUM ANALYZE EX_CDL_MNL_DEDUCT_GPTMP_TODAY;
+select pg_relation_size('EX_CDL_MNL_DEDUCT_GPTMP_TODAY');
+
+\echo ---------------EX_CONTA_ENTRY_CHK----------------
+select pg_relation_size('EX_CONTA_ENTRY_CHK_GPTMP_TODAY');
+VACUUM ANALYZE EX_CONTA_ENTRY_CHK_GPTMP_TODAY;
+select pg_relation_size('EX_CONTA_ENTRY_CHK_GPTMP_TODAY');
+
+\echo ---------------EX_CONTRACT_CLEAR----------------
+select pg_relation_size('EX_CONTRACT_CLEAR_GPTMP_TODAY');
+VACUUM ANALYZE EX_CONTRACT_CLEAR_GPTMP_TODAY;
+select pg_relation_size('EX_CONTRACT_CLEAR_GPTMP_TODAY');
+
+\echo ---------------EX_CONTRACT_DEDUC----------------
+select pg_relation_size('EX_CONTRACT_DEDUC_GPTMP_TODAY');
+VACUUM ANALYZE EX_CONTRACT_DEDUC_GPTMP_TODAY;
+select pg_relation_size('EX_CONTRACT_DEDUC_GPTMP_TODAY');
+
+\echo ---------------EX_CONTRACT_LIST----------------
+select pg_relation_size('EX_CONTRACT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EX_CONTRACT_LIST_GPTMP_TODAY;
+select pg_relation_size('EX_CONTRACT_LIST_GPTMP_TODAY');
+
+\echo ---------------EX_COP_RATE----------------
+select pg_relation_size('EX_COP_RATE_GPTMP_TODAY');
+VACUUM ANALYZE EX_COP_RATE_GPTMP_TODAY;
+select pg_relation_size('EX_COP_RATE_GPTMP_TODAY');
+
+\echo ---------------EX_DECL_ALARM_HEAD----------------
+select pg_relation_size('EX_DECL_ALARM_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE EX_DECL_ALARM_HEAD_GPTMP_TODAY;
+select pg_relation_size('EX_DECL_ALARM_HEAD_GPTMP_TODAY');
+
+\echo ---------------EX_DECL_ALARM_LIST----------------
+select pg_relation_size('EX_DECL_ALARM_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EX_DECL_ALARM_LIST_GPTMP_TODAY;
+select pg_relation_size('EX_DECL_ALARM_LIST_GPTMP_TODAY');
+
+\echo ---------------EX_DECL_CUR_HEAD----------------
+select pg_relation_size('EX_DECL_CUR_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE EX_DECL_CUR_HEAD_GPTMP_TODAY;
+select pg_relation_size('EX_DECL_CUR_HEAD_GPTMP_TODAY');
+
+\echo ---------------EX_DECL_CUR_LIST----------------
+select pg_relation_size('EX_DECL_CUR_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EX_DECL_CUR_LIST_GPTMP_TODAY;
+select pg_relation_size('EX_DECL_CUR_LIST_GPTMP_TODAY');
+
+\echo ---------------EX_DECL_HIS_HEAD----------------
+select pg_relation_size('EX_DECL_HIS_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE EX_DECL_HIS_HEAD_GPTMP_TODAY;
+select pg_relation_size('EX_DECL_HIS_HEAD_GPTMP_TODAY');
+
+\echo ---------------EX_DECL_HIS_LIST----------------
+select pg_relation_size('EX_DECL_HIS_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EX_DECL_HIS_LIST_GPTMP_TODAY;
+select pg_relation_size('EX_DECL_HIS_LIST_GPTMP_TODAY');
+
+\echo ---------------EX_ELE_HEAD----------------
+select pg_relation_size('EX_ELE_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE EX_ELE_HEAD_GPTMP_TODAY;
+select pg_relation_size('EX_ELE_HEAD_GPTMP_TODAY');
+
+\echo ---------------EX_ELE_LIST----------------
+select pg_relation_size('EX_ELE_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EX_ELE_LIST_GPTMP_TODAY;
+select pg_relation_size('EX_ELE_LIST_GPTMP_TODAY');
+
+\echo ---------------EX_EXAM_JOU----------------
+select pg_relation_size('EX_EXAM_JOU_GPTMP_TODAY');
+VACUUM ANALYZE EX_EXAM_JOU_GPTMP_TODAY;
+select pg_relation_size('EX_EXAM_JOU_GPTMP_TODAY');
+
+\echo ---------------EX_EXAM_MANA_HEAD----------------
+select pg_relation_size('EX_EXAM_MANA_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE EX_EXAM_MANA_HEAD_GPTMP_TODAY;
+select pg_relation_size('EX_EXAM_MANA_HEAD_GPTMP_TODAY');
+
+\echo ---------------EX_EXAM_MANA_LIST----------------
+select pg_relation_size('EX_EXAM_MANA_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EX_EXAM_MANA_LIST_GPTMP_TODAY;
+select pg_relation_size('EX_EXAM_MANA_LIST_GPTMP_TODAY');
+
+\echo ---------------EX_FASCICLE_LIST----------------
+select pg_relation_size('EX_FASCICLE_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EX_FASCICLE_LIST_GPTMP_TODAY;
+select pg_relation_size('EX_FASCICLE_LIST_GPTMP_TODAY');
+
+\echo ---------------EX_LIC_CODE_TS----------------
+select pg_relation_size('EX_LIC_CODE_TS_GPTMP_TODAY');
+VACUUM ANALYZE EX_LIC_CODE_TS_GPTMP_TODAY;
+select pg_relation_size('EX_LIC_CODE_TS_GPTMP_TODAY');
+
+\echo ---------------EX_TRAN_JOU----------------
+select pg_relation_size('EX_TRAN_JOU_GPTMP_TODAY');
+VACUUM ANALYZE EX_TRAN_JOU_GPTMP_TODAY;
+select pg_relation_size('EX_TRAN_JOU_GPTMP_TODAY');
+
+\echo ---------------EX_TRANS_ALARM_CONTA_REL----------------
+select pg_relation_size('EX_TRANS_ALARM_CONTA_REL_GPTMP_TODAY');
+VACUUM ANALYZE EX_TRANS_ALARM_CONTA_REL_GPTMP_TODAY;
+select pg_relation_size('EX_TRANS_ALARM_CONTA_REL_GPTMP_TODAY');
+
+\echo ---------------EX_TRANS_ALARM_GOODS_CONTA_REL----------------
+select pg_relation_size('EX_TRANS_ALARM_GOODS_CONTA_REL_GPTMP_TODAY');
+VACUUM ANALYZE EX_TRANS_ALARM_GOODS_CONTA_REL_GPTMP_TODAY;
+select pg_relation_size('EX_TRANS_ALARM_GOODS_CONTA_REL_GPTMP_TODAY');
+
+\echo ---------------EX_TRANS_ALARM_LIST_REL----------------
+select pg_relation_size('EX_TRANS_ALARM_LIST_REL_GPTMP_TODAY');
+VACUUM ANALYZE EX_TRANS_ALARM_LIST_REL_GPTMP_TODAY;
+select pg_relation_size('EX_TRANS_ALARM_LIST_REL_GPTMP_TODAY');
+
+\echo ---------------EX_TRANS_CONTA_REL----------------
+select pg_relation_size('EX_TRANS_CONTA_REL_GPTMP_TODAY');
+VACUUM ANALYZE EX_TRANS_CONTA_REL_GPTMP_TODAY;
+select pg_relation_size('EX_TRANS_CONTA_REL_GPTMP_TODAY');
+
+\echo ---------------EX_TRANS_GOODS_CONTA_REL----------------
+select pg_relation_size('EX_TRANS_GOODS_CONTA_REL_GPTMP_TODAY');
+VACUUM ANALYZE EX_TRANS_GOODS_CONTA_REL_GPTMP_TODAY;
+select pg_relation_size('EX_TRANS_GOODS_CONTA_REL_GPTMP_TODAY');
+
+\echo ---------------EX_TRANS_HIS_CONTA_REL----------------
+select pg_relation_size('EX_TRANS_HIS_CONTA_REL_GPTMP_TODAY');
+VACUUM ANALYZE EX_TRANS_HIS_CONTA_REL_GPTMP_TODAY;
+select pg_relation_size('EX_TRANS_HIS_CONTA_REL_GPTMP_TODAY');
+
+\echo ---------------EX_TRANS_HIS_GOODS_CONTA_REL----------------
+select pg_relation_size('EX_TRANS_HIS_GOODS_CONTA_REL_GPTMP_TODAY');
+VACUUM ANALYZE EX_TRANS_HIS_GOODS_CONTA_REL_GPTMP_TODAY;
+select pg_relation_size('EX_TRANS_HIS_GOODS_CONTA_REL_GPTMP_TODAY');
+
+\echo ---------------EX_TRANS_HIS_LIST_REL----------------
+select pg_relation_size('EX_TRANS_HIS_LIST_REL_GPTMP_TODAY');
+VACUUM ANALYZE EX_TRANS_HIS_LIST_REL_GPTMP_TODAY;
+select pg_relation_size('EX_TRANS_HIS_LIST_REL_GPTMP_TODAY');
+
+\echo ---------------EX_TRANS_LIST_REL----------------
+select pg_relation_size('EX_TRANS_LIST_REL_GPTMP_TODAY');
+VACUUM ANALYZE EX_TRANS_LIST_REL_GPTMP_TODAY;
+select pg_relation_size('EX_TRANS_LIST_REL_GPTMP_TODAY');
+
+\echo ---------------EX_TRN_ARRIVAL_CONTA----------------
+select pg_relation_size('EX_TRN_ARRIVAL_CONTA_GPTMP_TODAY');
+VACUUM ANALYZE EX_TRN_ARRIVAL_CONTA_GPTMP_TODAY;
+select pg_relation_size('EX_TRN_ARRIVAL_CONTA_GPTMP_TODAY');
+
+\echo ---------------EX_TRN_CONTA_ENTRY_ARV----------------
+select pg_relation_size('EX_TRN_CONTA_ENTRY_ARV_GPTMP_TODAY');
+VACUUM ANALYZE EX_TRN_CONTA_ENTRY_ARV_GPTMP_TODAY;
+select pg_relation_size('EX_TRN_CONTA_ENTRY_ARV_GPTMP_TODAY');
+
+\echo ---------------EX_TRN_CONTA_ENTRY_CHK----------------
+select pg_relation_size('EX_TRN_CONTA_ENTRY_CHK_GPTMP_TODAY');
+VACUUM ANALYZE EX_TRN_CONTA_ENTRY_CHK_GPTMP_TODAY;
+select pg_relation_size('EX_TRN_CONTA_ENTRY_CHK_GPTMP_TODAY');
+
+\echo ---------------EXA_APPL_CLOSE----------------
+select pg_relation_size('EXA_APPL_CLOSE_GPTMP_TODAY');
+VACUUM ANALYZE EXA_APPL_CLOSE_GPTMP_TODAY;
+select pg_relation_size('EXA_APPL_CLOSE_GPTMP_TODAY');
+
+\echo ---------------EXAM_CONTA_END_LOG----------------
+select pg_relation_size('EXAM_CONTA_END_LOG_GPTMP_TODAY');
+VACUUM ANALYZE EXAM_CONTA_END_LOG_GPTMP_TODAY;
+select pg_relation_size('EXAM_CONTA_END_LOG_GPTMP_TODAY');
+
+\echo ---------------EXAM_CONTA_HEAD----------------
+select pg_relation_size('EXAM_CONTA_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE EXAM_CONTA_HEAD_GPTMP_TODAY;
+select pg_relation_size('EXAM_CONTA_HEAD_GPTMP_TODAY');
+
+\echo ---------------EXAM_CONTA_LIST----------------
+select pg_relation_size('EXAM_CONTA_LIST_GPTMP_TODAY');
+VACUUM ANALYZE EXAM_CONTA_LIST_GPTMP_TODAY;
+select pg_relation_size('EXAM_CONTA_LIST_GPTMP_TODAY');
+
+\echo ---------------EXC_ELE----------------
+select pg_relation_size('EXC_ELE_GPTMP_TODAY');
+VACUUM ANALYZE EXC_ELE_GPTMP_TODAY;
+select pg_relation_size('EXC_ELE_GPTMP_TODAY');
+
+\echo ---------------EXC_EX_CHK----------------
+select pg_relation_size('EXC_EX_CHK_GPTMP_TODAY');
+VACUUM ANALYZE EXC_EX_CHK_GPTMP_TODAY;
+select pg_relation_size('EXC_EX_CHK_GPTMP_TODAY');
+
+\echo ---------------EXC_EXAM----------------
+select pg_relation_size('EXC_EXAM_GPTMP_TODAY');
+VACUUM ANALYZE EXC_EXAM_GPTMP_TODAY;
+select pg_relation_size('EXC_EXAM_GPTMP_TODAY');
+
+\echo ---------------EXP_MFT_CHK_RESULT----------------
+select pg_relation_size('EXP_MFT_CHK_RESULT_GPTMP_TODAY');
+VACUUM ANALYZE EXP_MFT_CHK_RESULT_GPTMP_TODAY;
+select pg_relation_size('EXP_MFT_CHK_RESULT_GPTMP_TODAY');
+
+\echo ---------------EXTERNAL_JOU----------------
+select pg_relation_size('EXTERNAL_JOU_GPTMP_TODAY');
+VACUUM ANALYZE EXTERNAL_JOU_GPTMP_TODAY;
+select pg_relation_size('EXTERNAL_JOU_GPTMP_TODAY');
+
+\echo ---------------FASCICLE_HEAD----------------
+select pg_relation_size('FASCICLE_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE FASCICLE_HEAD_GPTMP_TODAY;
+select pg_relation_size('FASCICLE_HEAD_GPTMP_TODAY');
+
+\echo ---------------FCB_CHK----------------
+select pg_relation_size('FCB_CHK_GPTMP_TODAY');
+VACUUM ANALYZE FCB_CHK_GPTMP_TODAY;
+select pg_relation_size('FCB_CHK_GPTMP_TODAY');
+
+\echo ---------------FCB_CONTA----------------
+select pg_relation_size('FCB_CONTA_GPTMP_TODAY');
+VACUUM ANALYZE FCB_CONTA_GPTMP_TODAY;
+select pg_relation_size('FCB_CONTA_GPTMP_TODAY');
+
+\echo ---------------FCB_CONTA_MODI----------------
+select pg_relation_size('FCB_CONTA_MODI_GPTMP_TODAY');
+VACUUM ANALYZE FCB_CONTA_MODI_GPTMP_TODAY;
+select pg_relation_size('FCB_CONTA_MODI_GPTMP_TODAY');
+
+\echo ---------------FCB_HEAD----------------
+select pg_relation_size('FCB_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE FCB_HEAD_GPTMP_TODAY;
+select pg_relation_size('FCB_HEAD_GPTMP_TODAY');
+
+\echo ---------------FCB_HEAD_MODI----------------
+select pg_relation_size('FCB_HEAD_MODI_GPTMP_TODAY');
+VACUUM ANALYZE FCB_HEAD_MODI_GPTMP_TODAY;
+select pg_relation_size('FCB_HEAD_MODI_GPTMP_TODAY');
+
+\echo ---------------FCB_LIST----------------
+select pg_relation_size('FCB_LIST_GPTMP_TODAY');
+VACUUM ANALYZE FCB_LIST_GPTMP_TODAY;
+select pg_relation_size('FCB_LIST_GPTMP_TODAY');
+
+\echo ---------------FCB_LIST_MODI----------------
+select pg_relation_size('FCB_LIST_MODI_GPTMP_TODAY');
+VACUUM ANALYZE FCB_LIST_MODI_GPTMP_TODAY;
+select pg_relation_size('FCB_LIST_MODI_GPTMP_TODAY');
+
+\echo ---------------FCB_RSK----------------
+select pg_relation_size('FCB_RSK_GPTMP_TODAY');
+VACUUM ANALYZE FCB_RSK_GPTMP_TODAY;
+select pg_relation_size('FCB_RSK_GPTMP_TODAY');
+
+\echo ---------------FCB_WORKFLOW----------------
+select pg_relation_size('FCB_WORKFLOW_GPTMP_TODAY');
+VACUUM ANALYZE FCB_WORKFLOW_GPTMP_TODAY;
+select pg_relation_size('FCB_WORKFLOW_GPTMP_TODAY');
+
+\echo ---------------FEE_INVOICE----------------
+select pg_relation_size('FEE_INVOICE_GPTMP_TODAY');
+VACUUM ANALYZE FEE_INVOICE_GPTMP_TODAY;
+select pg_relation_size('FEE_INVOICE_GPTMP_TODAY');
+
+\echo ---------------FORFEIT_FORM----------------
+select pg_relation_size('FORFEIT_FORM_GPTMP_TODAY');
+VACUUM ANALYZE FORFEIT_FORM_GPTMP_TODAY;
+select pg_relation_size('FORFEIT_FORM_GPTMP_TODAY');
+
+\echo ---------------FORM_CHK----------------
+select pg_relation_size('FORM_CHK_GPTMP_TODAY');
+VACUUM ANALYZE FORM_CHK_GPTMP_TODAY;
+select pg_relation_size('FORM_CHK_GPTMP_TODAY');
+
+\echo ---------------GUARANTEE_DEL_LOG----------------
+select pg_relation_size('GUARANTEE_DEL_LOG_GPTMP_TODAY');
+VACUUM ANALYZE GUARANTEE_DEL_LOG_GPTMP_TODAY;
+select pg_relation_size('GUARANTEE_DEL_LOG_GPTMP_TODAY');
+
+\echo ---------------GUARANTEE_LIST----------------
+select pg_relation_size('GUARANTEE_LIST_GPTMP_TODAY');
+VACUUM ANALYZE GUARANTEE_LIST_GPTMP_TODAY;
+select pg_relation_size('GUARANTEE_LIST_GPTMP_TODAY');
+
+\echo ---------------GUARANTEE_R----------------
+select pg_relation_size('GUARANTEE_R_GPTMP_TODAY');
+VACUUM ANALYZE GUARANTEE_R_GPTMP_TODAY;
+select pg_relation_size('GUARANTEE_R_GPTMP_TODAY');
+
+\echo ---------------H2000_SMS_SEND----------------
+select pg_relation_size('H2000_SMS_SEND_GPTMP_TODAY');
+VACUUM ANALYZE H2000_SMS_SEND_GPTMP_TODAY;
+select pg_relation_size('H2000_SMS_SEND_GPTMP_TODAY');
+
+\echo ---------------H2000_SMS_SENDLOG----------------
+select pg_relation_size('H2000_SMS_SENDLOG_GPTMP_TODAY');
+VACUUM ANALYZE H2000_SMS_SENDLOG_GPTMP_TODAY;
+select pg_relation_size('H2000_SMS_SENDLOG_GPTMP_TODAY');
+
+\echo ---------------HIS_TRN_COP_REL----------------
+select pg_relation_size('HIS_TRN_COP_REL_GPTMP_TODAY');
+VACUUM ANALYZE HIS_TRN_COP_REL_GPTMP_TODAY;
+select pg_relation_size('HIS_TRN_COP_REL_GPTMP_TODAY');
+
+\echo ---------------HIS_TRN_DR_REL----------------
+select pg_relation_size('HIS_TRN_DR_REL_GPTMP_TODAY');
+VACUUM ANALYZE HIS_TRN_DR_REL_GPTMP_TODAY;
+select pg_relation_size('HIS_TRN_DR_REL_GPTMP_TODAY');
+
+\echo ---------------HIS_TRN_ESEAL_REL----------------
+select pg_relation_size('HIS_TRN_ESEAL_REL_GPTMP_TODAY');
+VACUUM ANALYZE HIS_TRN_ESEAL_REL_GPTMP_TODAY;
+select pg_relation_size('HIS_TRN_ESEAL_REL_GPTMP_TODAY');
+
+\echo ---------------HIS_TRN_VE_REL----------------
+select pg_relation_size('HIS_TRN_VE_REL_GPTMP_TODAY');
+VACUUM ANALYZE HIS_TRN_VE_REL_GPTMP_TODAY;
+select pg_relation_size('HIS_TRN_VE_REL_GPTMP_TODAY');
+
+\echo ---------------IM_APPL_CLOSE----------------
+select pg_relation_size('IM_APPL_CLOSE_GPTMP_TODAY');
+VACUUM ANALYZE IM_APPL_CLOSE_GPTMP_TODAY;
+select pg_relation_size('IM_APPL_CLOSE_GPTMP_TODAY');
+
+\echo ---------------IM_CDL_MNL_DEDUCT----------------
+select pg_relation_size('IM_CDL_MNL_DEDUCT_GPTMP_TODAY');
+VACUUM ANALYZE IM_CDL_MNL_DEDUCT_GPTMP_TODAY;
+select pg_relation_size('IM_CDL_MNL_DEDUCT_GPTMP_TODAY');
+
+\echo ---------------IM_CONTRACT_CLEAR----------------
+select pg_relation_size('IM_CONTRACT_CLEAR_GPTMP_TODAY');
+VACUUM ANALYZE IM_CONTRACT_CLEAR_GPTMP_TODAY;
+select pg_relation_size('IM_CONTRACT_CLEAR_GPTMP_TODAY');
+
+\echo ---------------IM_CONTRACT_DEDUC----------------
+select pg_relation_size('IM_CONTRACT_DEDUC_GPTMP_TODAY');
+VACUUM ANALYZE IM_CONTRACT_DEDUC_GPTMP_TODAY;
+select pg_relation_size('IM_CONTRACT_DEDUC_GPTMP_TODAY');
+
+\echo ---------------IM_CONTRACT_LIST----------------
+select pg_relation_size('IM_CONTRACT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE IM_CONTRACT_LIST_GPTMP_TODAY;
+select pg_relation_size('IM_CONTRACT_LIST_GPTMP_TODAY');
+
+\echo ---------------IM_COP_RATE----------------
+select pg_relation_size('IM_COP_RATE_GPTMP_TODAY');
+VACUUM ANALYZE IM_COP_RATE_GPTMP_TODAY;
+select pg_relation_size('IM_COP_RATE_GPTMP_TODAY');
+
+\echo ---------------IM_DECL_ALARM_HEAD----------------
+select pg_relation_size('IM_DECL_ALARM_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE IM_DECL_ALARM_HEAD_GPTMP_TODAY;
+select pg_relation_size('IM_DECL_ALARM_HEAD_GPTMP_TODAY');
+
+\echo ---------------IM_DECL_ALARM_LIST----------------
+select pg_relation_size('IM_DECL_ALARM_LIST_GPTMP_TODAY');
+VACUUM ANALYZE IM_DECL_ALARM_LIST_GPTMP_TODAY;
+select pg_relation_size('IM_DECL_ALARM_LIST_GPTMP_TODAY');
+
+\echo ---------------IM_DECL_CUR_HEAD----------------
+select pg_relation_size('IM_DECL_CUR_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE IM_DECL_CUR_HEAD_GPTMP_TODAY;
+select pg_relation_size('IM_DECL_CUR_HEAD_GPTMP_TODAY');
+
+\echo ---------------IM_DECL_CUR_LIST----------------
+select pg_relation_size('IM_DECL_CUR_LIST_GPTMP_TODAY');
+VACUUM ANALYZE IM_DECL_CUR_LIST_GPTMP_TODAY;
+select pg_relation_size('IM_DECL_CUR_LIST_GPTMP_TODAY');
+
+\echo ---------------IM_DECL_HIS_HEAD----------------
+select pg_relation_size('IM_DECL_HIS_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE IM_DECL_HIS_HEAD_GPTMP_TODAY;
+select pg_relation_size('IM_DECL_HIS_HEAD_GPTMP_TODAY');
+
+\echo ---------------IM_DECL_HIS_LIST----------------
+select pg_relation_size('IM_DECL_HIS_LIST_GPTMP_TODAY');
+VACUUM ANALYZE IM_DECL_HIS_LIST_GPTMP_TODAY;
+select pg_relation_size('IM_DECL_HIS_LIST_GPTMP_TODAY');
+
+\echo ---------------IM_ELE_HEAD----------------
+select pg_relation_size('IM_ELE_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE IM_ELE_HEAD_GPTMP_TODAY;
+select pg_relation_size('IM_ELE_HEAD_GPTMP_TODAY');
+
+\echo ---------------IM_ELE_LIST----------------
+select pg_relation_size('IM_ELE_LIST_GPTMP_TODAY');
+VACUUM ANALYZE IM_ELE_LIST_GPTMP_TODAY;
+select pg_relation_size('IM_ELE_LIST_GPTMP_TODAY');
+
+\echo ---------------IM_EXAM_JOU----------------
+select pg_relation_size('IM_EXAM_JOU_GPTMP_TODAY');
+VACUUM ANALYZE IM_EXAM_JOU_GPTMP_TODAY;
+select pg_relation_size('IM_EXAM_JOU_GPTMP_TODAY');
+
+\echo ---------------IM_EXAM_MANA_HEAD----------------
+select pg_relation_size('IM_EXAM_MANA_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE IM_EXAM_MANA_HEAD_GPTMP_TODAY;
+select pg_relation_size('IM_EXAM_MANA_HEAD_GPTMP_TODAY');
+
+\echo ---------------IM_EXAM_MANA_LIST----------------
+select pg_relation_size('IM_EXAM_MANA_LIST_GPTMP_TODAY');
+VACUUM ANALYZE IM_EXAM_MANA_LIST_GPTMP_TODAY;
+select pg_relation_size('IM_EXAM_MANA_LIST_GPTMP_TODAY');
+
+\echo ---------------IM_FASCICLE_LIST----------------
+select pg_relation_size('IM_FASCICLE_LIST_GPTMP_TODAY');
+VACUUM ANALYZE IM_FASCICLE_LIST_GPTMP_TODAY;
+select pg_relation_size('IM_FASCICLE_LIST_GPTMP_TODAY');
+
+\echo ---------------IM_LIC_CODE_TS----------------
+select pg_relation_size('IM_LIC_CODE_TS_GPTMP_TODAY');
+VACUUM ANALYZE IM_LIC_CODE_TS_GPTMP_TODAY;
+select pg_relation_size('IM_LIC_CODE_TS_GPTMP_TODAY');
+
+\echo ---------------IM_TRAN_JOU----------------
+select pg_relation_size('IM_TRAN_JOU_GPTMP_TODAY');
+VACUUM ANALYZE IM_TRAN_JOU_GPTMP_TODAY;
+select pg_relation_size('IM_TRAN_JOU_GPTMP_TODAY');
+
+\echo ---------------IM_TRANS_ALARM_CONTA_REL----------------
+select pg_relation_size('IM_TRANS_ALARM_CONTA_REL_GPTMP_TODAY');
+VACUUM ANALYZE IM_TRANS_ALARM_CONTA_REL_GPTMP_TODAY;
+select pg_relation_size('IM_TRANS_ALARM_CONTA_REL_GPTMP_TODAY');
+
+\echo ---------------IM_TRANS_ALARM_GOODS_CONTA_REL----------------
+select pg_relation_size('IM_TRANS_ALARM_GOODS_CONTA_REL_GPTMP_TODAY');
+VACUUM ANALYZE IM_TRANS_ALARM_GOODS_CONTA_REL_GPTMP_TODAY;
+select pg_relation_size('IM_TRANS_ALARM_GOODS_CONTA_REL_GPTMP_TODAY');
+
+\echo ---------------IM_TRANS_ALARM_LIST_REL----------------
+select pg_relation_size('IM_TRANS_ALARM_LIST_REL_GPTMP_TODAY');
+VACUUM ANALYZE IM_TRANS_ALARM_LIST_REL_GPTMP_TODAY;
+select pg_relation_size('IM_TRANS_ALARM_LIST_REL_GPTMP_TODAY');
+
+\echo ---------------IM_TRANS_CONTA_REL----------------
+select pg_relation_size('IM_TRANS_CONTA_REL_GPTMP_TODAY');
+VACUUM ANALYZE IM_TRANS_CONTA_REL_GPTMP_TODAY;
+select pg_relation_size('IM_TRANS_CONTA_REL_GPTMP_TODAY');
+
+\echo ---------------IM_TRANS_GOODS_CONTA_REL----------------
+select pg_relation_size('IM_TRANS_GOODS_CONTA_REL_GPTMP_TODAY');
+VACUUM ANALYZE IM_TRANS_GOODS_CONTA_REL_GPTMP_TODAY;
+select pg_relation_size('IM_TRANS_GOODS_CONTA_REL_GPTMP_TODAY');
+
+\echo ---------------IM_TRANS_HIS_CONTA_REL----------------
+select pg_relation_size('IM_TRANS_HIS_CONTA_REL_GPTMP_TODAY');
+VACUUM ANALYZE IM_TRANS_HIS_CONTA_REL_GPTMP_TODAY;
+select pg_relation_size('IM_TRANS_HIS_CONTA_REL_GPTMP_TODAY');
+
+\echo ---------------IM_TRANS_HIS_GOODS_CONTA_REL----------------
+select pg_relation_size('IM_TRANS_HIS_GOODS_CONTA_REL_GPTMP_TODAY');
+VACUUM ANALYZE IM_TRANS_HIS_GOODS_CONTA_REL_GPTMP_TODAY;
+select pg_relation_size('IM_TRANS_HIS_GOODS_CONTA_REL_GPTMP_TODAY');
+
+\echo ---------------IM_TRANS_HIS_LIST_REL----------------
+select pg_relation_size('IM_TRANS_HIS_LIST_REL_GPTMP_TODAY');
+VACUUM ANALYZE IM_TRANS_HIS_LIST_REL_GPTMP_TODAY;
+select pg_relation_size('IM_TRANS_HIS_LIST_REL_GPTMP_TODAY');
+
+\echo ---------------IM_TRANS_LIST_REL----------------
+select pg_relation_size('IM_TRANS_LIST_REL_GPTMP_TODAY');
+VACUUM ANALYZE IM_TRANS_LIST_REL_GPTMP_TODAY;
+select pg_relation_size('IM_TRANS_LIST_REL_GPTMP_TODAY');
+
+\echo ---------------IMA_APPL_CLOSE----------------
+select pg_relation_size('IMA_APPL_CLOSE_GPTMP_TODAY');
+VACUUM ANALYZE IMA_APPL_CLOSE_GPTMP_TODAY;
+select pg_relation_size('IMA_APPL_CLOSE_GPTMP_TODAY');
+
+\echo ---------------INCOME_INFO----------------
+select pg_relation_size('INCOME_INFO_GPTMP_TODAY');
+VACUUM ANALYZE INCOME_INFO_GPTMP_TODAY;
+select pg_relation_size('INCOME_INFO_GPTMP_TODAY');
+
+\echo ---------------INVESTER_REL----------------
+select pg_relation_size('INVESTER_REL_GPTMP_TODAY');
+VACUUM ANALYZE INVESTER_REL_GPTMP_TODAY;
+select pg_relation_size('INVESTER_REL_GPTMP_TODAY');
+
+\echo ---------------INVLOG_REL----------------
+select pg_relation_size('INVLOG_REL_GPTMP_TODAY');
+VACUUM ANALYZE INVLOG_REL_GPTMP_TODAY;
+select pg_relation_size('INVLOG_REL_GPTMP_TODAY');
+
+\echo ---------------JOB_PARAMETER----------------
+select pg_relation_size('JOB_PARAMETER_GPTMP_TODAY');
+VACUUM ANALYZE JOB_PARAMETER_GPTMP_TODAY;
+select pg_relation_size('JOB_PARAMETER_GPTMP_TODAY');
+
+\echo ---------------LSP_CHK----------------
+select pg_relation_size('LSP_CHK_GPTMP_TODAY');
+VACUUM ANALYZE LSP_CHK_GPTMP_TODAY;
+select pg_relation_size('LSP_CHK_GPTMP_TODAY');
+
+\echo ---------------LSP_HEAD----------------
+select pg_relation_size('LSP_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE LSP_HEAD_GPTMP_TODAY;
+select pg_relation_size('LSP_HEAD_GPTMP_TODAY');
+
+\echo ---------------LSP_LIST----------------
+select pg_relation_size('LSP_LIST_GPTMP_TODAY');
+VACUUM ANALYZE LSP_LIST_GPTMP_TODAY;
+select pg_relation_size('LSP_LIST_GPTMP_TODAY');
+
+\echo ---------------MAIL_FILE----------------
+select pg_relation_size('MAIL_FILE_GPTMP_TODAY');
+VACUUM ANALYZE MAIL_FILE_GPTMP_TODAY;
+select pg_relation_size('MAIL_FILE_GPTMP_TODAY');
+
+\echo ---------------MANA_REL----------------
+select pg_relation_size('MANA_REL_GPTMP_TODAY');
+VACUUM ANALYZE MANA_REL_GPTMP_TODAY;
+select pg_relation_size('MANA_REL_GPTMP_TODAY');
+
+\echo ---------------MANIFEST_CHK----------------
+select pg_relation_size('MANIFEST_CHK_GPTMP_TODAY');
+VACUUM ANALYZE MANIFEST_CHK_GPTMP_TODAY;
+select pg_relation_size('MANIFEST_CHK_GPTMP_TODAY');
+
+\echo ---------------MANIFEST_CHK_LOG----------------
+select pg_relation_size('MANIFEST_CHK_LOG_GPTMP_TODAY');
+VACUUM ANALYZE MANIFEST_CHK_LOG_GPTMP_TODAY;
+select pg_relation_size('MANIFEST_CHK_LOG_GPTMP_TODAY');
+
+\echo ---------------MANIFEST_CONTA----------------
+select pg_relation_size('MANIFEST_CONTA_GPTMP_TODAY');
+VACUUM ANALYZE MANIFEST_CONTA_GPTMP_TODAY;
+select pg_relation_size('MANIFEST_CONTA_GPTMP_TODAY');
+
+\echo ---------------MANIFEST_EXCH_LOG----------------
+select pg_relation_size('MANIFEST_EXCH_LOG_GPTMP_TODAY');
+VACUUM ANALYZE MANIFEST_EXCH_LOG_GPTMP_TODAY;
+select pg_relation_size('MANIFEST_EXCH_LOG_GPTMP_TODAY');
+
+\echo ---------------MANIFEST_EXCH_LOG_BAK----------------
+select pg_relation_size('MANIFEST_EXCH_LOG_BAK_GPTMP_TODAY');
+VACUUM ANALYZE MANIFEST_EXCH_LOG_BAK_GPTMP_TODAY;
+select pg_relation_size('MANIFEST_EXCH_LOG_BAK_GPTMP_TODAY');
+
+\echo ---------------MANIFEST_HEAD----------------
+select pg_relation_size('MANIFEST_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE MANIFEST_HEAD_GPTMP_TODAY;
+select pg_relation_size('MANIFEST_HEAD_GPTMP_TODAY');
+
+\echo ---------------MANIFEST_HEAD_XMS_LOG----------------
+select pg_relation_size('MANIFEST_HEAD_XMS_LOG_GPTMP_TODAY');
+VACUUM ANALYZE MANIFEST_HEAD_XMS_LOG_GPTMP_TODAY;
+select pg_relation_size('MANIFEST_HEAD_XMS_LOG_GPTMP_TODAY');
+
+\echo ---------------MANIFEST_LIST----------------
+select pg_relation_size('MANIFEST_LIST_GPTMP_TODAY');
+VACUUM ANALYZE MANIFEST_LIST_GPTMP_TODAY;
+select pg_relation_size('MANIFEST_LIST_GPTMP_TODAY');
+
+\echo ---------------MANIFEST_LIST_CONTA----------------
+select pg_relation_size('MANIFEST_LIST_CONTA_GPTMP_TODAY');
+VACUUM ANALYZE MANIFEST_LIST_CONTA_GPTMP_TODAY;
+select pg_relation_size('MANIFEST_LIST_CONTA_GPTMP_TODAY');
+
+\echo ---------------MANIFEST_LIST_LOG----------------
+select pg_relation_size('MANIFEST_LIST_LOG_GPTMP_TODAY');
+VACUUM ANALYZE MANIFEST_LIST_LOG_GPTMP_TODAY;
+select pg_relation_size('MANIFEST_LIST_LOG_GPTMP_TODAY');
+
+\echo ---------------MANIFEST_LIST_RSKINFO_LOG----------------
+select pg_relation_size('MANIFEST_LIST_RSKINFO_LOG_GPTMP_TODAY');
+VACUUM ANALYZE MANIFEST_LIST_RSKINFO_LOG_GPTMP_TODAY;
+select pg_relation_size('MANIFEST_LIST_RSKINFO_LOG_GPTMP_TODAY');
+
+\echo ---------------MNL_PARA----------------
+select pg_relation_size('MNL_PARA_GPTMP_TODAY');
+VACUUM ANALYZE MNL_PARA_GPTMP_TODAY;
+select pg_relation_size('MNL_PARA_GPTMP_TODAY');
+
+\echo ---------------MNL_PRESS----------------
+select pg_relation_size('MNL_PRESS_GPTMP_TODAY');
+VACUUM ANALYZE MNL_PRESS_GPTMP_TODAY;
+select pg_relation_size('MNL_PRESS_GPTMP_TODAY');
+
+\echo ---------------MNL_RECEIVE_RECEIPT----------------
+select pg_relation_size('MNL_RECEIVE_RECEIPT_GPTMP_TODAY');
+VACUUM ANALYZE MNL_RECEIVE_RECEIPT_GPTMP_TODAY;
+select pg_relation_size('MNL_RECEIVE_RECEIPT_GPTMP_TODAY');
+
+\echo ---------------MNL_SEQ----------------
+select pg_relation_size('MNL_SEQ_GPTMP_TODAY');
+VACUUM ANALYZE MNL_SEQ_GPTMP_TODAY;
+select pg_relation_size('MNL_SEQ_GPTMP_TODAY');
+
+\echo ---------------MNLBAK_ACCOUNT----------------
+select pg_relation_size('MNLBAK_ACCOUNT_GPTMP_TODAY');
+VACUUM ANALYZE MNLBAK_ACCOUNT_GPTMP_TODAY;
+select pg_relation_size('MNLBAK_ACCOUNT_GPTMP_TODAY');
+
+\echo ---------------MNLBAK_APPL_CLOSE----------------
+select pg_relation_size('MNLBAK_APPL_CLOSE_GPTMP_TODAY');
+VACUUM ANALYZE MNLBAK_APPL_CLOSE_GPTMP_TODAY;
+select pg_relation_size('MNLBAK_APPL_CLOSE_GPTMP_TODAY');
+
+\echo ---------------MNLBAK_CLAIM----------------
+select pg_relation_size('MNLBAK_CLAIM_GPTMP_TODAY');
+VACUUM ANALYZE MNLBAK_CLAIM_GPTMP_TODAY;
+select pg_relation_size('MNLBAK_CLAIM_GPTMP_TODAY');
+
+\echo ---------------MNLBAK_CONSUME----------------
+select pg_relation_size('MNLBAK_CONSUME_GPTMP_TODAY');
+VACUUM ANALYZE MNLBAK_CONSUME_GPTMP_TODAY;
+select pg_relation_size('MNLBAK_CONSUME_GPTMP_TODAY');
+
+\echo ---------------MNLBAK_CONTRACT_HEAD----------------
+select pg_relation_size('MNLBAK_CONTRACT_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE MNLBAK_CONTRACT_HEAD_GPTMP_TODAY;
+select pg_relation_size('MNLBAK_CONTRACT_HEAD_GPTMP_TODAY');
+
+\echo ---------------MNLBAK_CONTRACT_WORKFLOW----------------
+select pg_relation_size('MNLBAK_CONTRACT_WORKFLOW_GPTMP_TODAY');
+VACUUM ANALYZE MNLBAK_CONTRACT_WORKFLOW_GPTMP_TODAY;
+select pg_relation_size('MNLBAK_CONTRACT_WORKFLOW_GPTMP_TODAY');
+
+\echo ---------------MNLBAK_EX_CONTRACT_CLEAR----------------
+select pg_relation_size('MNLBAK_EX_CONTRACT_CLEAR_GPTMP_TODAY');
+VACUUM ANALYZE MNLBAK_EX_CONTRACT_CLEAR_GPTMP_TODAY;
+select pg_relation_size('MNLBAK_EX_CONTRACT_CLEAR_GPTMP_TODAY');
+
+\echo ---------------MNLBAK_EX_CONTRACT_DEDUC----------------
+select pg_relation_size('MNLBAK_EX_CONTRACT_DEDUC_GPTMP_TODAY');
+VACUUM ANALYZE MNLBAK_EX_CONTRACT_DEDUC_GPTMP_TODAY;
+select pg_relation_size('MNLBAK_EX_CONTRACT_DEDUC_GPTMP_TODAY');
+
+\echo ---------------MNLBAK_EX_CONTRACT_LIST----------------
+select pg_relation_size('MNLBAK_EX_CONTRACT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE MNLBAK_EX_CONTRACT_LIST_GPTMP_TODAY;
+select pg_relation_size('MNLBAK_EX_CONTRACT_LIST_GPTMP_TODAY');
+
+\echo ---------------MNLBAK_EX_FASCICLE_LIST----------------
+select pg_relation_size('MNLBAK_EX_FASCICLE_LIST_GPTMP_TODAY');
+VACUUM ANALYZE MNLBAK_EX_FASCICLE_LIST_GPTMP_TODAY;
+select pg_relation_size('MNLBAK_EX_FASCICLE_LIST_GPTMP_TODAY');
+
+\echo ---------------MNLBAK_FASCICLE_HEAD----------------
+select pg_relation_size('MNLBAK_FASCICLE_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE MNLBAK_FASCICLE_HEAD_GPTMP_TODAY;
+select pg_relation_size('MNLBAK_FASCICLE_HEAD_GPTMP_TODAY');
+
+\echo ---------------MNLBAK_FEE_INVOICE----------------
+select pg_relation_size('MNLBAK_FEE_INVOICE_GPTMP_TODAY');
+VACUUM ANALYZE MNLBAK_FEE_INVOICE_GPTMP_TODAY;
+select pg_relation_size('MNLBAK_FEE_INVOICE_GPTMP_TODAY');
+
+\echo ---------------MNLBAK_IM_CONTRACT_CLEAR----------------
+select pg_relation_size('MNLBAK_IM_CONTRACT_CLEAR_GPTMP_TODAY');
+VACUUM ANALYZE MNLBAK_IM_CONTRACT_CLEAR_GPTMP_TODAY;
+select pg_relation_size('MNLBAK_IM_CONTRACT_CLEAR_GPTMP_TODAY');
+
+\echo ---------------MNLBAK_IM_CONTRACT_DEDUC----------------
+select pg_relation_size('MNLBAK_IM_CONTRACT_DEDUC_GPTMP_TODAY');
+VACUUM ANALYZE MNLBAK_IM_CONTRACT_DEDUC_GPTMP_TODAY;
+select pg_relation_size('MNLBAK_IM_CONTRACT_DEDUC_GPTMP_TODAY');
+
+\echo ---------------MNLBAK_IM_CONTRACT_LIST----------------
+select pg_relation_size('MNLBAK_IM_CONTRACT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE MNLBAK_IM_CONTRACT_LIST_GPTMP_TODAY;
+select pg_relation_size('MNLBAK_IM_CONTRACT_LIST_GPTMP_TODAY');
+
+\echo ---------------MNLBAK_IM_FASCICLE_LIST----------------
+select pg_relation_size('MNLBAK_IM_FASCICLE_LIST_GPTMP_TODAY');
+VACUUM ANALYZE MNLBAK_IM_FASCICLE_LIST_GPTMP_TODAY;
+select pg_relation_size('MNLBAK_IM_FASCICLE_LIST_GPTMP_TODAY');
+
+\echo ---------------MNLBAK_PRESS_CLEAR----------------
+select pg_relation_size('MNLBAK_PRESS_CLEAR_GPTMP_TODAY');
+VACUUM ANALYZE MNLBAK_PRESS_CLEAR_GPTMP_TODAY;
+select pg_relation_size('MNLBAK_PRESS_CLEAR_GPTMP_TODAY');
+
+\echo ---------------MNLBAK_SERVICE_FEE----------------
+select pg_relation_size('MNLBAK_SERVICE_FEE_GPTMP_TODAY');
+VACUUM ANALYZE MNLBAK_SERVICE_FEE_GPTMP_TODAY;
+select pg_relation_size('MNLBAK_SERVICE_FEE_GPTMP_TODAY');
+
+\echo ---------------MNLBAK_SERVICE_LIST----------------
+select pg_relation_size('MNLBAK_SERVICE_LIST_GPTMP_TODAY');
+VACUUM ANALYZE MNLBAK_SERVICE_LIST_GPTMP_TODAY;
+select pg_relation_size('MNLBAK_SERVICE_LIST_GPTMP_TODAY');
+
+\echo ---------------MOD_PROJECT_HEAD----------------
+select pg_relation_size('MOD_PROJECT_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE MOD_PROJECT_HEAD_GPTMP_TODAY;
+select pg_relation_size('MOD_PROJECT_HEAD_GPTMP_TODAY');
+
+\echo ---------------MOD_PROJECT_LIST----------------
+select pg_relation_size('MOD_PROJECT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE MOD_PROJECT_LIST_GPTMP_TODAY;
+select pg_relation_size('MOD_PROJECT_LIST_GPTMP_TODAY');
+
+\echo ---------------MOD_RED_HEAD----------------
+select pg_relation_size('MOD_RED_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE MOD_RED_HEAD_GPTMP_TODAY;
+select pg_relation_size('MOD_RED_HEAD_GPTMP_TODAY');
+
+\echo ---------------MOD_RED_LIST----------------
+select pg_relation_size('MOD_RED_LIST_GPTMP_TODAY');
+VACUUM ANALYZE MOD_RED_LIST_GPTMP_TODAY;
+select pg_relation_size('MOD_RED_LIST_GPTMP_TODAY');
+
+\echo ---------------NONENTRY_CHK_RESULT----------------
+select pg_relation_size('NONENTRY_CHK_RESULT_GPTMP_TODAY');
+VACUUM ANALYZE NONENTRY_CHK_RESULT_GPTMP_TODAY;
+select pg_relation_size('NONENTRY_CHK_RESULT_GPTMP_TODAY');
+
+\echo ---------------NORSK_COMPANY----------------
+select pg_relation_size('NORSK_COMPANY_GPTMP_TODAY');
+VACUUM ANALYZE NORSK_COMPANY_GPTMP_TODAY;
+select pg_relation_size('NORSK_COMPANY_GPTMP_TODAY');
+
+\echo ---------------NORSK_COMPANY_BAK----------------
+select pg_relation_size('NORSK_COMPANY_BAK_GPTMP_TODAY');
+VACUUM ANALYZE NORSK_COMPANY_BAK_GPTMP_TODAY;
+select pg_relation_size('NORSK_COMPANY_BAK_GPTMP_TODAY');
+
+\echo ---------------NORSK_CONDITION----------------
+select pg_relation_size('NORSK_CONDITION_GPTMP_TODAY');
+VACUUM ANALYZE NORSK_CONDITION_GPTMP_TODAY;
+select pg_relation_size('NORSK_CONDITION_GPTMP_TODAY');
+
+\echo ---------------NORSK_CONDITION_BAK----------------
+select pg_relation_size('NORSK_CONDITION_BAK_GPTMP_TODAY');
+VACUUM ANALYZE NORSK_CONDITION_BAK_GPTMP_TODAY;
+select pg_relation_size('NORSK_CONDITION_BAK_GPTMP_TODAY');
+
+\echo ---------------NORSK_TRADE_MODE----------------
+select pg_relation_size('NORSK_TRADE_MODE_GPTMP_TODAY');
+VACUUM ANALYZE NORSK_TRADE_MODE_GPTMP_TODAY;
+select pg_relation_size('NORSK_TRADE_MODE_GPTMP_TODAY');
+
+\echo ---------------NORSK_TRADE_MODE_BAK----------------
+select pg_relation_size('NORSK_TRADE_MODE_BAK_GPTMP_TODAY');
+VACUUM ANALYZE NORSK_TRADE_MODE_BAK_GPTMP_TODAY;
+select pg_relation_size('NORSK_TRADE_MODE_BAK_GPTMP_TODAY');
+
+\echo ---------------OCC_ELE_HEAD----------------
+select pg_relation_size('OCC_ELE_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE OCC_ELE_HEAD_GPTMP_TODAY;
+select pg_relation_size('OCC_ELE_HEAD_GPTMP_TODAY');
+
+\echo ---------------OCC_ELE_LIST----------------
+select pg_relation_size('OCC_ELE_LIST_GPTMP_TODAY');
+VACUUM ANALYZE OCC_ELE_LIST_GPTMP_TODAY;
+select pg_relation_size('OCC_ELE_LIST_GPTMP_TODAY');
+
+\echo ---------------OCC_EXAM----------------
+select pg_relation_size('OCC_EXAM_GPTMP_TODAY');
+VACUUM ANALYZE OCC_EXAM_GPTMP_TODAY;
+select pg_relation_size('OCC_EXAM_GPTMP_TODAY');
+
+\echo ---------------OCC_RECEIPT----------------
+select pg_relation_size('OCC_RECEIPT_GPTMP_TODAY');
+VACUUM ANALYZE OCC_RECEIPT_GPTMP_TODAY;
+select pg_relation_size('OCC_RECEIPT_GPTMP_TODAY');
+
+\echo ---------------OTHER_STF_RECORD----------------
+select pg_relation_size('OTHER_STF_RECORD_GPTMP_TODAY');
+VACUUM ANALYZE OTHER_STF_RECORD_GPTMP_TODAY;
+select pg_relation_size('OTHER_STF_RECORD_GPTMP_TODAY');
+
+\echo ---------------PAPERLESS_SELFSAVE_CERT----------------
+select pg_relation_size('PAPERLESS_SELFSAVE_CERT_GPTMP_TODAY');
+VACUUM ANALYZE PAPERLESS_SELFSAVE_CERT_GPTMP_TODAY;
+select pg_relation_size('PAPERLESS_SELFSAVE_CERT_GPTMP_TODAY');
+
+\echo ---------------PAYOUT_REMIT_HEAD----------------
+select pg_relation_size('PAYOUT_REMIT_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE PAYOUT_REMIT_HEAD_GPTMP_TODAY;
+select pg_relation_size('PAYOUT_REMIT_HEAD_GPTMP_TODAY');
+
+\echo ---------------PAYOUT_REMIT_LIST----------------
+select pg_relation_size('PAYOUT_REMIT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE PAYOUT_REMIT_LIST_GPTMP_TODAY;
+select pg_relation_size('PAYOUT_REMIT_LIST_GPTMP_TODAY');
+
+\echo ---------------PES_CANCEL----------------
+select pg_relation_size('PES_CANCEL_GPTMP_TODAY');
+VACUUM ANALYZE PES_CANCEL_GPTMP_TODAY;
+select pg_relation_size('PES_CANCEL_GPTMP_TODAY');
+
+\echo ---------------PES_NOTE----------------
+select pg_relation_size('PES_NOTE_GPTMP_TODAY');
+VACUUM ANALYZE PES_NOTE_GPTMP_TODAY;
+select pg_relation_size('PES_NOTE_GPTMP_TODAY');
+
+\echo ---------------PES_WORKFLOW----------------
+select pg_relation_size('PES_WORKFLOW_GPTMP_TODAY');
+VACUUM ANALYZE PES_WORKFLOW_GPTMP_TODAY;
+select pg_relation_size('PES_WORKFLOW_GPTMP_TODAY');
+
+\echo ---------------PORT_BIND_REL----------------
+select pg_relation_size('PORT_BIND_REL_GPTMP_TODAY');
+VACUUM ANALYZE PORT_BIND_REL_GPTMP_TODAY;
+select pg_relation_size('PORT_BIND_REL_GPTMP_TODAY');
+
+\echo ---------------PRE_APPL_CLOSE----------------
+select pg_relation_size('PRE_APPL_CLOSE_GPTMP_TODAY');
+VACUUM ANALYZE PRE_APPL_CLOSE_GPTMP_TODAY;
+select pg_relation_size('PRE_APPL_CLOSE_GPTMP_TODAY');
+
+\echo ---------------PRE_APPL_CLOSE_CONSUME----------------
+select pg_relation_size('PRE_APPL_CLOSE_CONSUME_GPTMP_TODAY');
+VACUUM ANALYZE PRE_APPL_CLOSE_CONSUME_GPTMP_TODAY;
+select pg_relation_size('PRE_APPL_CLOSE_CONSUME_GPTMP_TODAY');
+
+\echo ---------------PRE_CDL_COMMODITY----------------
+select pg_relation_size('PRE_CDL_COMMODITY_GPTMP_TODAY');
+VACUUM ANALYZE PRE_CDL_COMMODITY_GPTMP_TODAY;
+select pg_relation_size('PRE_CDL_COMMODITY_GPTMP_TODAY');
+
+\echo ---------------PRE_CDL_COMPANY----------------
+select pg_relation_size('PRE_CDL_COMPANY_GPTMP_TODAY');
+VACUUM ANALYZE PRE_CDL_COMPANY_GPTMP_TODAY;
+select pg_relation_size('PRE_CDL_COMPANY_GPTMP_TODAY');
+
+\echo ---------------PRE_COMPANY_REL----------------
+select pg_relation_size('PRE_COMPANY_REL_GPTMP_TODAY');
+VACUUM ANALYZE PRE_COMPANY_REL_GPTMP_TODAY;
+select pg_relation_size('PRE_COMPANY_REL_GPTMP_TODAY');
+
+\echo ---------------PRE_CONSUME----------------
+select pg_relation_size('PRE_CONSUME_GPTMP_TODAY');
+VACUUM ANALYZE PRE_CONSUME_GPTMP_TODAY;
+select pg_relation_size('PRE_CONSUME_GPTMP_TODAY');
+
+\echo ---------------PRE_CONTRACT_HEAD----------------
+select pg_relation_size('PRE_CONTRACT_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE PRE_CONTRACT_HEAD_GPTMP_TODAY;
+select pg_relation_size('PRE_CONTRACT_HEAD_GPTMP_TODAY');
+
+\echo ---------------PRE_DECL_REL----------------
+select pg_relation_size('PRE_DECL_REL_GPTMP_TODAY');
+VACUUM ANALYZE PRE_DECL_REL_GPTMP_TODAY;
+select pg_relation_size('PRE_DECL_REL_GPTMP_TODAY');
+
+\echo ---------------PRE_EX_APPL_CLOSE----------------
+select pg_relation_size('PRE_EX_APPL_CLOSE_GPTMP_TODAY');
+VACUUM ANALYZE PRE_EX_APPL_CLOSE_GPTMP_TODAY;
+select pg_relation_size('PRE_EX_APPL_CLOSE_GPTMP_TODAY');
+
+\echo ---------------PRE_EX_CONTRACT_LIST----------------
+select pg_relation_size('PRE_EX_CONTRACT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE PRE_EX_CONTRACT_LIST_GPTMP_TODAY;
+select pg_relation_size('PRE_EX_CONTRACT_LIST_GPTMP_TODAY');
+
+\echo ---------------PRE_EX_FASCICLE_LIST----------------
+select pg_relation_size('PRE_EX_FASCICLE_LIST_GPTMP_TODAY');
+VACUUM ANALYZE PRE_EX_FASCICLE_LIST_GPTMP_TODAY;
+select pg_relation_size('PRE_EX_FASCICLE_LIST_GPTMP_TODAY');
+
+\echo ---------------PRE_EXA_APPL_CLOSE----------------
+select pg_relation_size('PRE_EXA_APPL_CLOSE_GPTMP_TODAY');
+VACUUM ANALYZE PRE_EXA_APPL_CLOSE_GPTMP_TODAY;
+select pg_relation_size('PRE_EXA_APPL_CLOSE_GPTMP_TODAY');
+
+\echo ---------------PRE_FASCICLE_HEAD----------------
+select pg_relation_size('PRE_FASCICLE_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE PRE_FASCICLE_HEAD_GPTMP_TODAY;
+select pg_relation_size('PRE_FASCICLE_HEAD_GPTMP_TODAY');
+
+\echo ---------------PRE_IM_APPL_CLOSE----------------
+select pg_relation_size('PRE_IM_APPL_CLOSE_GPTMP_TODAY');
+VACUUM ANALYZE PRE_IM_APPL_CLOSE_GPTMP_TODAY;
+select pg_relation_size('PRE_IM_APPL_CLOSE_GPTMP_TODAY');
+
+\echo ---------------PRE_IM_CONTRACT_LIST----------------
+select pg_relation_size('PRE_IM_CONTRACT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE PRE_IM_CONTRACT_LIST_GPTMP_TODAY;
+select pg_relation_size('PRE_IM_CONTRACT_LIST_GPTMP_TODAY');
+
+\echo ---------------PRE_IM_FASCICLE_LIST----------------
+select pg_relation_size('PRE_IM_FASCICLE_LIST_GPTMP_TODAY');
+VACUUM ANALYZE PRE_IM_FASCICLE_LIST_GPTMP_TODAY;
+select pg_relation_size('PRE_IM_FASCICLE_LIST_GPTMP_TODAY');
+
+\echo ---------------PRE_IMA_APPL_CLOSE----------------
+select pg_relation_size('PRE_IMA_APPL_CLOSE_GPTMP_TODAY');
+VACUUM ANALYZE PRE_IMA_APPL_CLOSE_GPTMP_TODAY;
+select pg_relation_size('PRE_IMA_APPL_CLOSE_GPTMP_TODAY');
+
+\echo ---------------PRE_INVESTER_REL----------------
+select pg_relation_size('PRE_INVESTER_REL_GPTMP_TODAY');
+VACUUM ANALYZE PRE_INVESTER_REL_GPTMP_TODAY;
+select pg_relation_size('PRE_INVESTER_REL_GPTMP_TODAY');
+
+\echo ---------------PRE_MANA_REL----------------
+select pg_relation_size('PRE_MANA_REL_GPTMP_TODAY');
+VACUUM ANALYZE PRE_MANA_REL_GPTMP_TODAY;
+select pg_relation_size('PRE_MANA_REL_GPTMP_TODAY');
+
+\echo ---------------PRE_PROJECT_HEAD----------------
+select pg_relation_size('PRE_PROJECT_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE PRE_PROJECT_HEAD_GPTMP_TODAY;
+select pg_relation_size('PRE_PROJECT_HEAD_GPTMP_TODAY');
+
+\echo ---------------PRE_PROJECT_LIST----------------
+select pg_relation_size('PRE_PROJECT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE PRE_PROJECT_LIST_GPTMP_TODAY;
+select pg_relation_size('PRE_PROJECT_LIST_GPTMP_TODAY');
+
+\echo ---------------PRE_RED_HEAD----------------
+select pg_relation_size('PRE_RED_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE PRE_RED_HEAD_GPTMP_TODAY;
+select pg_relation_size('PRE_RED_HEAD_GPTMP_TODAY');
+
+\echo ---------------PRE_RED_LIST----------------
+select pg_relation_size('PRE_RED_LIST_GPTMP_TODAY');
+VACUUM ANALYZE PRE_RED_LIST_GPTMP_TODAY;
+select pg_relation_size('PRE_RED_LIST_GPTMP_TODAY');
+
+\echo ---------------PRE_REL_ALC_WORK----------------
+select pg_relation_size('PRE_REL_ALC_WORK_GPTMP_TODAY');
+VACUUM ANALYZE PRE_REL_ALC_WORK_GPTMP_TODAY;
+select pg_relation_size('PRE_REL_ALC_WORK_GPTMP_TODAY');
+
+\echo ---------------PRESS_CLEAR----------------
+select pg_relation_size('PRESS_CLEAR_GPTMP_TODAY');
+VACUUM ANALYZE PRESS_CLEAR_GPTMP_TODAY;
+select pg_relation_size('PRESS_CLEAR_GPTMP_TODAY');
+
+\echo ---------------PRICE_LIBRARY----------------
+select pg_relation_size('PRICE_LIBRARY_GPTMP_TODAY');
+VACUUM ANALYZE PRICE_LIBRARY_GPTMP_TODAY;
+select pg_relation_size('PRICE_LIBRARY_GPTMP_TODAY');
+
+\echo ---------------PRICE_LIBRARY_ENTRY----------------
+select pg_relation_size('PRICE_LIBRARY_ENTRY_GPTMP_TODAY');
+VACUUM ANALYZE PRICE_LIBRARY_ENTRY_GPTMP_TODAY;
+select pg_relation_size('PRICE_LIBRARY_ENTRY_GPTMP_TODAY');
+
+\echo ---------------PRICE_LIBRARY_MAN----------------
+select pg_relation_size('PRICE_LIBRARY_MAN_GPTMP_TODAY');
+VACUUM ANALYZE PRICE_LIBRARY_MAN_GPTMP_TODAY;
+select pg_relation_size('PRICE_LIBRARY_MAN_GPTMP_TODAY');
+
+\echo ---------------PRICE_LIBRARY_RISK----------------
+select pg_relation_size('PRICE_LIBRARY_RISK_GPTMP_TODAY');
+VACUUM ANALYZE PRICE_LIBRARY_RISK_GPTMP_TODAY;
+select pg_relation_size('PRICE_LIBRARY_RISK_GPTMP_TODAY');
+
+\echo ---------------PROJECT_HEAD----------------
+select pg_relation_size('PROJECT_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE PROJECT_HEAD_GPTMP_TODAY;
+select pg_relation_size('PROJECT_HEAD_GPTMP_TODAY');
+
+\echo ---------------PROJECT_LIST----------------
+select pg_relation_size('PROJECT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE PROJECT_LIST_GPTMP_TODAY;
+select pg_relation_size('PROJECT_LIST_GPTMP_TODAY');
+
+\echo ---------------PROJECT_MAX_NO----------------
+select pg_relation_size('PROJECT_MAX_NO_GPTMP_TODAY');
+VACUUM ANALYZE PROJECT_MAX_NO_GPTMP_TODAY;
+select pg_relation_size('PROJECT_MAX_NO_GPTMP_TODAY');
+
+\echo ---------------PROJECT_MAX_NO_2007----------------
+select pg_relation_size('PROJECT_MAX_NO_2007_GPTMP_TODAY');
+VACUUM ANALYZE PROJECT_MAX_NO_2007_GPTMP_TODAY;
+select pg_relation_size('PROJECT_MAX_NO_2007_GPTMP_TODAY');
+
+\echo ---------------RAM_HEAD----------------
+select pg_relation_size('RAM_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE RAM_HEAD_GPTMP_TODAY;
+select pg_relation_size('RAM_HEAD_GPTMP_TODAY');
+
+\echo ---------------RAM_LIST----------------
+select pg_relation_size('RAM_LIST_GPTMP_TODAY');
+VACUUM ANALYZE RAM_LIST_GPTMP_TODAY;
+select pg_relation_size('RAM_LIST_GPTMP_TODAY');
+
+\echo ---------------RAM_PRINT_LOG----------------
+select pg_relation_size('RAM_PRINT_LOG_GPTMP_TODAY');
+VACUUM ANALYZE RAM_PRINT_LOG_GPTMP_TODAY;
+select pg_relation_size('RAM_PRINT_LOG_GPTMP_TODAY');
+
+\echo ---------------RAM_RG_COP_OWNER----------------
+select pg_relation_size('RAM_RG_COP_OWNER_GPTMP_TODAY');
+VACUUM ANALYZE RAM_RG_COP_OWNER_GPTMP_TODAY;
+select pg_relation_size('RAM_RG_COP_OWNER_GPTMP_TODAY');
+
+\echo ---------------RAM_RG_COP_PROJECT----------------
+select pg_relation_size('RAM_RG_COP_PROJECT_GPTMP_TODAY');
+VACUUM ANALYZE RAM_RG_COP_PROJECT_GPTMP_TODAY;
+select pg_relation_size('RAM_RG_COP_PROJECT_GPTMP_TODAY');
+
+\echo ---------------RAM_RG_COPINFO----------------
+select pg_relation_size('RAM_RG_COPINFO_GPTMP_TODAY');
+VACUUM ANALYZE RAM_RG_COPINFO_GPTMP_TODAY;
+select pg_relation_size('RAM_RG_COPINFO_GPTMP_TODAY');
+
+\echo ---------------RAM_RG_HEAD----------------
+select pg_relation_size('RAM_RG_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE RAM_RG_HEAD_GPTMP_TODAY;
+select pg_relation_size('RAM_RG_HEAD_GPTMP_TODAY');
+
+\echo ---------------RAM_RN_INFO----------------
+select pg_relation_size('RAM_RN_INFO_GPTMP_TODAY');
+VACUUM ANALYZE RAM_RN_INFO_GPTMP_TODAY;
+select pg_relation_size('RAM_RN_INFO_GPTMP_TODAY');
+
+\echo ---------------RAM_RY_COMMUNICATION----------------
+select pg_relation_size('RAM_RY_COMMUNICATION_GPTMP_TODAY');
+VACUUM ANALYZE RAM_RY_COMMUNICATION_GPTMP_TODAY;
+select pg_relation_size('RAM_RY_COMMUNICATION_GPTMP_TODAY');
+
+\echo ---------------RAM_STATUS----------------
+select pg_relation_size('RAM_STATUS_GPTMP_TODAY');
+VACUUM ANALYZE RAM_STATUS_GPTMP_TODAY;
+select pg_relation_size('RAM_STATUS_GPTMP_TODAY');
+
+\echo ---------------RAM_STATUS_LIST----------------
+select pg_relation_size('RAM_STATUS_LIST_GPTMP_TODAY');
+VACUUM ANALYZE RAM_STATUS_LIST_GPTMP_TODAY;
+select pg_relation_size('RAM_STATUS_LIST_GPTMP_TODAY');
+
+\echo ---------------RAM_STATUS_MODI_LOG----------------
+select pg_relation_size('RAM_STATUS_MODI_LOG_GPTMP_TODAY');
+VACUUM ANALYZE RAM_STATUS_MODI_LOG_GPTMP_TODAY;
+select pg_relation_size('RAM_STATUS_MODI_LOG_GPTMP_TODAY');
+
+\echo ---------------RCP_INCOME_HEAD----------------
+select pg_relation_size('RCP_INCOME_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE RCP_INCOME_HEAD_GPTMP_TODAY;
+select pg_relation_size('RCP_INCOME_HEAD_GPTMP_TODAY');
+
+\echo ---------------RCP_INCOME_HEAD_BAK----------------
+select pg_relation_size('RCP_INCOME_HEAD_BAK_GPTMP_TODAY');
+VACUUM ANALYZE RCP_INCOME_HEAD_BAK_GPTMP_TODAY;
+select pg_relation_size('RCP_INCOME_HEAD_BAK_GPTMP_TODAY');
+
+\echo ---------------RCP_INCOME_LIST----------------
+select pg_relation_size('RCP_INCOME_LIST_GPTMP_TODAY');
+VACUUM ANALYZE RCP_INCOME_LIST_GPTMP_TODAY;
+select pg_relation_size('RCP_INCOME_LIST_GPTMP_TODAY');
+
+\echo ---------------RCP_INCOME_LIST_BAK----------------
+select pg_relation_size('RCP_INCOME_LIST_BAK_GPTMP_TODAY');
+VACUUM ANALYZE RCP_INCOME_LIST_BAK_GPTMP_TODAY;
+select pg_relation_size('RCP_INCOME_LIST_BAK_GPTMP_TODAY');
+
+\echo ---------------RCP_PAYMENT_HEAD----------------
+select pg_relation_size('RCP_PAYMENT_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE RCP_PAYMENT_HEAD_GPTMP_TODAY;
+select pg_relation_size('RCP_PAYMENT_HEAD_GPTMP_TODAY');
+
+\echo ---------------RCP_PAYMENT_HEAD_BAK----------------
+select pg_relation_size('RCP_PAYMENT_HEAD_BAK_GPTMP_TODAY');
+VACUUM ANALYZE RCP_PAYMENT_HEAD_BAK_GPTMP_TODAY;
+select pg_relation_size('RCP_PAYMENT_HEAD_BAK_GPTMP_TODAY');
+
+\echo ---------------RCP_PAYMENT_LIST----------------
+select pg_relation_size('RCP_PAYMENT_LIST_GPTMP_TODAY');
+VACUUM ANALYZE RCP_PAYMENT_LIST_GPTMP_TODAY;
+select pg_relation_size('RCP_PAYMENT_LIST_GPTMP_TODAY');
+
+\echo ---------------RCP_PAYMENT_LIST_BAK----------------
+select pg_relation_size('RCP_PAYMENT_LIST_BAK_GPTMP_TODAY');
+VACUUM ANALYZE RCP_PAYMENT_LIST_BAK_GPTMP_TODAY;
+select pg_relation_size('RCP_PAYMENT_LIST_BAK_GPTMP_TODAY');
+
+\echo ---------------RCP_RECORD_HEAD----------------
+select pg_relation_size('RCP_RECORD_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE RCP_RECORD_HEAD_GPTMP_TODAY;
+select pg_relation_size('RCP_RECORD_HEAD_GPTMP_TODAY');
+
+\echo ---------------RCP_RECORD_HEAD_BAK----------------
+select pg_relation_size('RCP_RECORD_HEAD_BAK_GPTMP_TODAY');
+VACUUM ANALYZE RCP_RECORD_HEAD_BAK_GPTMP_TODAY;
+select pg_relation_size('RCP_RECORD_HEAD_BAK_GPTMP_TODAY');
+
+\echo ---------------RCP_RECORD_LIST----------------
+select pg_relation_size('RCP_RECORD_LIST_GPTMP_TODAY');
+VACUUM ANALYZE RCP_RECORD_LIST_GPTMP_TODAY;
+select pg_relation_size('RCP_RECORD_LIST_GPTMP_TODAY');
+
+\echo ---------------RCP_RECORD_LIST_BAK----------------
+select pg_relation_size('RCP_RECORD_LIST_BAK_GPTMP_TODAY');
+VACUUM ANALYZE RCP_RECORD_LIST_BAK_GPTMP_TODAY;
+select pg_relation_size('RCP_RECORD_LIST_BAK_GPTMP_TODAY');
+
+\echo ---------------RCP_WORKFLOW----------------
+select pg_relation_size('RCP_WORKFLOW_GPTMP_TODAY');
+VACUUM ANALYZE RCP_WORKFLOW_GPTMP_TODAY;
+select pg_relation_size('RCP_WORKFLOW_GPTMP_TODAY');
+
+\echo ---------------RED_ENTRY_HEAD----------------
+select pg_relation_size('RED_ENTRY_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE RED_ENTRY_HEAD_GPTMP_TODAY;
+select pg_relation_size('RED_ENTRY_HEAD_GPTMP_TODAY');
+
+\echo ---------------RED_ENTRY_LIST----------------
+select pg_relation_size('RED_ENTRY_LIST_GPTMP_TODAY');
+VACUUM ANALYZE RED_ENTRY_LIST_GPTMP_TODAY;
+select pg_relation_size('RED_ENTRY_LIST_GPTMP_TODAY');
+
+\echo ---------------RED_FEE_INVOICE----------------
+select pg_relation_size('RED_FEE_INVOICE_GPTMP_TODAY');
+VACUUM ANALYZE RED_FEE_INVOICE_GPTMP_TODAY;
+select pg_relation_size('RED_FEE_INVOICE_GPTMP_TODAY');
+
+\echo ---------------RED_HEAD----------------
+select pg_relation_size('RED_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE RED_HEAD_GPTMP_TODAY;
+select pg_relation_size('RED_HEAD_GPTMP_TODAY');
+
+\echo ---------------RED_LIST----------------
+select pg_relation_size('RED_LIST_GPTMP_TODAY');
+VACUUM ANALYZE RED_LIST_GPTMP_TODAY;
+select pg_relation_size('RED_LIST_GPTMP_TODAY');
+
+\echo ---------------RED_MAX_NO----------------
+select pg_relation_size('RED_MAX_NO_GPTMP_TODAY');
+VACUUM ANALYZE RED_MAX_NO_GPTMP_TODAY;
+select pg_relation_size('RED_MAX_NO_GPTMP_TODAY');
+
+\echo ---------------RED_MAX_NO_2007----------------
+select pg_relation_size('RED_MAX_NO_2007_GPTMP_TODAY');
+VACUUM ANALYZE RED_MAX_NO_2007_GPTMP_TODAY;
+select pg_relation_size('RED_MAX_NO_2007_GPTMP_TODAY');
+
+\echo ---------------RED_RECEIVE_RECEIPT----------------
+select pg_relation_size('RED_RECEIVE_RECEIPT_GPTMP_TODAY');
+VACUUM ANALYZE RED_RECEIVE_RECEIPT_GPTMP_TODAY;
+select pg_relation_size('RED_RECEIVE_RECEIPT_GPTMP_TODAY');
+
+\echo ---------------RED_SERVICE_FEE----------------
+select pg_relation_size('RED_SERVICE_FEE_GPTMP_TODAY');
+VACUUM ANALYZE RED_SERVICE_FEE_GPTMP_TODAY;
+select pg_relation_size('RED_SERVICE_FEE_GPTMP_TODAY');
+
+\echo ---------------REL_ALC_WORK----------------
+select pg_relation_size('REL_ALC_WORK_GPTMP_TODAY');
+VACUUM ANALYZE REL_ALC_WORK_GPTMP_TODAY;
+select pg_relation_size('REL_ALC_WORK_GPTMP_TODAY');
+
+\echo ---------------RETURN_REL----------------
+select pg_relation_size('RETURN_REL_GPTMP_TODAY');
+VACUUM ANALYZE RETURN_REL_GPTMP_TODAY;
+select pg_relation_size('RETURN_REL_GPTMP_TODAY');
+
+\echo ---------------RISK_CONTROL----------------
+select pg_relation_size('RISK_CONTROL_GPTMP_TODAY');
+VACUUM ANALYZE RISK_CONTROL_GPTMP_TODAY;
+select pg_relation_size('RISK_CONTROL_GPTMP_TODAY');
+
+\echo ---------------RSK_ASSAY_APPLICATION----------------
+select pg_relation_size('RSK_ASSAY_APPLICATION_GPTMP_TODAY');
+VACUUM ANALYZE RSK_ASSAY_APPLICATION_GPTMP_TODAY;
+select pg_relation_size('RSK_ASSAY_APPLICATION_GPTMP_TODAY');
+
+\echo ---------------RSK_CASE_FEEDBACK_HEAD----------------
+select pg_relation_size('RSK_CASE_FEEDBACK_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE RSK_CASE_FEEDBACK_HEAD_GPTMP_TODAY;
+select pg_relation_size('RSK_CASE_FEEDBACK_HEAD_GPTMP_TODAY');
+
+\echo ---------------RSK_CASE_FEEDBACK_LIST----------------
+select pg_relation_size('RSK_CASE_FEEDBACK_LIST_GPTMP_TODAY');
+VACUUM ANALYZE RSK_CASE_FEEDBACK_LIST_GPTMP_TODAY;
+select pg_relation_size('RSK_CASE_FEEDBACK_LIST_GPTMP_TODAY');
+
+\echo ---------------RSK_CASE_FEEDBACK_LIST_CERT----------------
+select pg_relation_size('RSK_CASE_FEEDBACK_LIST_CERT_GPTMP_TODAY');
+VACUUM ANALYZE RSK_CASE_FEEDBACK_LIST_CERT_GPTMP_TODAY;
+select pg_relation_size('RSK_CASE_FEEDBACK_LIST_CERT_GPTMP_TODAY');
+
+\echo ---------------RSK_CASE_TRANSFER_G_NO----------------
+select pg_relation_size('RSK_CASE_TRANSFER_G_NO_GPTMP_TODAY');
+VACUUM ANALYZE RSK_CASE_TRANSFER_G_NO_GPTMP_TODAY;
+select pg_relation_size('RSK_CASE_TRANSFER_G_NO_GPTMP_TODAY');
+
+\echo ---------------RSK_CASE_TRANSFER_HEAD----------------
+select pg_relation_size('RSK_CASE_TRANSFER_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE RSK_CASE_TRANSFER_HEAD_GPTMP_TODAY;
+select pg_relation_size('RSK_CASE_TRANSFER_HEAD_GPTMP_TODAY');
+
+\echo ---------------RSK_CASE_TRANSFER_LIST----------------
+select pg_relation_size('RSK_CASE_TRANSFER_LIST_GPTMP_TODAY');
+VACUUM ANALYZE RSK_CASE_TRANSFER_LIST_GPTMP_TODAY;
+select pg_relation_size('RSK_CASE_TRANSFER_LIST_GPTMP_TODAY');
+
+\echo ---------------RSK_CODE_TS----------------
+select pg_relation_size('RSK_CODE_TS_GPTMP_TODAY');
+VACUUM ANALYZE RSK_CODE_TS_GPTMP_TODAY;
+select pg_relation_size('RSK_CODE_TS_GPTMP_TODAY');
+
+\echo ---------------RSK_CODE_TS_BAK----------------
+select pg_relation_size('RSK_CODE_TS_BAK_GPTMP_TODAY');
+VACUUM ANALYZE RSK_CODE_TS_BAK_GPTMP_TODAY;
+select pg_relation_size('RSK_CODE_TS_BAK_GPTMP_TODAY');
+
+\echo ---------------RSK_CONDITION----------------
+select pg_relation_size('RSK_CONDITION_GPTMP_TODAY');
+VACUUM ANALYZE RSK_CONDITION_GPTMP_TODAY;
+select pg_relation_size('RSK_CONDITION_GPTMP_TODAY');
+
+\echo ---------------RSK_CONDITION_BAK----------------
+select pg_relation_size('RSK_CONDITION_BAK_GPTMP_TODAY');
+VACUUM ANALYZE RSK_CONDITION_BAK_GPTMP_TODAY;
+select pg_relation_size('RSK_CONDITION_BAK_GPTMP_TODAY');
+
+\echo ---------------RSK_CONTA_CAPACITY----------------
+select pg_relation_size('RSK_CONTA_CAPACITY_GPTMP_TODAY');
+VACUUM ANALYZE RSK_CONTA_CAPACITY_GPTMP_TODAY;
+select pg_relation_size('RSK_CONTA_CAPACITY_GPTMP_TODAY');
+
+\echo ---------------RSK_CONTA_CAPACITY_BAK----------------
+select pg_relation_size('RSK_CONTA_CAPACITY_BAK_GPTMP_TODAY');
+VACUUM ANALYZE RSK_CONTA_CAPACITY_BAK_GPTMP_TODAY;
+select pg_relation_size('RSK_CONTA_CAPACITY_BAK_GPTMP_TODAY');
+
+\echo ---------------RSK_EXAM_HEAD_REL----------------
+select pg_relation_size('RSK_EXAM_HEAD_REL_GPTMP_TODAY');
+VACUUM ANALYZE RSK_EXAM_HEAD_REL_GPTMP_TODAY;
+select pg_relation_size('RSK_EXAM_HEAD_REL_GPTMP_TODAY');
+
+\echo ---------------RSK_EXAM_LIST_CONTAINER----------------
+select pg_relation_size('RSK_EXAM_LIST_CONTAINER_GPTMP_TODAY');
+VACUUM ANALYZE RSK_EXAM_LIST_CONTAINER_GPTMP_TODAY;
+select pg_relation_size('RSK_EXAM_LIST_CONTAINER_GPTMP_TODAY');
+
+\echo ---------------RSK_EXAM_LIST_REL----------------
+select pg_relation_size('RSK_EXAM_LIST_REL_GPTMP_TODAY');
+VACUUM ANALYZE RSK_EXAM_LIST_REL_GPTMP_TODAY;
+select pg_relation_size('RSK_EXAM_LIST_REL_GPTMP_TODAY');
+
+\echo ---------------RSK_EXAM_OP_LOG----------------
+select pg_relation_size('RSK_EXAM_OP_LOG_GPTMP_TODAY');
+VACUUM ANALYZE RSK_EXAM_OP_LOG_GPTMP_TODAY;
+select pg_relation_size('RSK_EXAM_OP_LOG_GPTMP_TODAY');
+
+\echo ---------------RSK_FAKE_CODE_TS----------------
+select pg_relation_size('RSK_FAKE_CODE_TS_GPTMP_TODAY');
+VACUUM ANALYZE RSK_FAKE_CODE_TS_GPTMP_TODAY;
+select pg_relation_size('RSK_FAKE_CODE_TS_GPTMP_TODAY');
+
+\echo ---------------RSK_FAKE_CODE_TS_BAK----------------
+select pg_relation_size('RSK_FAKE_CODE_TS_BAK_GPTMP_TODAY');
+VACUUM ANALYZE RSK_FAKE_CODE_TS_BAK_GPTMP_TODAY;
+select pg_relation_size('RSK_FAKE_CODE_TS_BAK_GPTMP_TODAY');
+
+\echo ---------------RSK_FIT_LOG_REL----------------
+select pg_relation_size('RSK_FIT_LOG_REL_GPTMP_TODAY');
+VACUUM ANALYZE RSK_FIT_LOG_REL_GPTMP_TODAY;
+select pg_relation_size('RSK_FIT_LOG_REL_GPTMP_TODAY');
+
+\echo ---------------RSK_FIT_RESULT_LOG----------------
+select pg_relation_size('RSK_FIT_RESULT_LOG_GPTMP_TODAY');
+VACUUM ANALYZE RSK_FIT_RESULT_LOG_GPTMP_TODAY;
+select pg_relation_size('RSK_FIT_RESULT_LOG_GPTMP_TODAY');
+
+\echo ---------------RSK_INSTR_ATTR_REL----------------
+select pg_relation_size('RSK_INSTR_ATTR_REL_GPTMP_TODAY');
+VACUUM ANALYZE RSK_INSTR_ATTR_REL_GPTMP_TODAY;
+select pg_relation_size('RSK_INSTR_ATTR_REL_GPTMP_TODAY');
+
+\echo ---------------RSK_INSTR_PROC_REL----------------
+select pg_relation_size('RSK_INSTR_PROC_REL_GPTMP_TODAY');
+VACUUM ANALYZE RSK_INSTR_PROC_REL_GPTMP_TODAY;
+select pg_relation_size('RSK_INSTR_PROC_REL_GPTMP_TODAY');
+
+\echo ---------------RSK_OP_LOG----------------
+select pg_relation_size('RSK_OP_LOG_GPTMP_TODAY');
+VACUUM ANALYZE RSK_OP_LOG_GPTMP_TODAY;
+select pg_relation_size('RSK_OP_LOG_GPTMP_TODAY');
+
+\echo ---------------RSK_RECHECK_REL----------------
+select pg_relation_size('RSK_RECHECK_REL_GPTMP_TODAY');
+VACUUM ANALYZE RSK_RECHECK_REL_GPTMP_TODAY;
+select pg_relation_size('RSK_RECHECK_REL_GPTMP_TODAY');
+
+\echo ---------------RSK_REPLICATION_LOG----------------
+select pg_relation_size('RSK_REPLICATION_LOG_GPTMP_TODAY');
+VACUUM ANALYZE RSK_REPLICATION_LOG_GPTMP_TODAY;
+select pg_relation_size('RSK_REPLICATION_LOG_GPTMP_TODAY');
+
+\echo ---------------RSK_RESULT_REL----------------
+select pg_relation_size('RSK_RESULT_REL_GPTMP_TODAY');
+VACUUM ANALYZE RSK_RESULT_REL_GPTMP_TODAY;
+select pg_relation_size('RSK_RESULT_REL_GPTMP_TODAY');
+
+\echo ---------------RSK_TRADE_CO----------------
+select pg_relation_size('RSK_TRADE_CO_GPTMP_TODAY');
+VACUUM ANALYZE RSK_TRADE_CO_GPTMP_TODAY;
+select pg_relation_size('RSK_TRADE_CO_GPTMP_TODAY');
+
+\echo ---------------RSK_TRADE_CO_BAK----------------
+select pg_relation_size('RSK_TRADE_CO_BAK_GPTMP_TODAY');
+VACUUM ANALYZE RSK_TRADE_CO_BAK_GPTMP_TODAY;
+select pg_relation_size('RSK_TRADE_CO_BAK_GPTMP_TODAY');
+
+\echo ---------------RSK_UNLOCK_OP_LOG----------------
+select pg_relation_size('RSK_UNLOCK_OP_LOG_GPTMP_TODAY');
+VACUUM ANALYZE RSK_UNLOCK_OP_LOG_GPTMP_TODAY;
+select pg_relation_size('RSK_UNLOCK_OP_LOG_GPTMP_TODAY');
+
+\echo ---------------RSK_VS_EXAM----------------
+select pg_relation_size('RSK_VS_EXAM_GPTMP_TODAY');
+VACUUM ANALYZE RSK_VS_EXAM_GPTMP_TODAY;
+select pg_relation_size('RSK_VS_EXAM_GPTMP_TODAY');
+
+\echo ---------------RSK_WORKFLOW----------------
+select pg_relation_size('RSK_WORKFLOW_GPTMP_TODAY');
+VACUUM ANALYZE RSK_WORKFLOW_GPTMP_TODAY;
+select pg_relation_size('RSK_WORKFLOW_GPTMP_TODAY');
+
+\echo ---------------SERVICE_FEE----------------
+select pg_relation_size('SERVICE_FEE_GPTMP_TODAY');
+VACUUM ANALYZE SERVICE_FEE_GPTMP_TODAY;
+select pg_relation_size('SERVICE_FEE_GPTMP_TODAY');
+
+\echo ---------------SERVICE_LIST----------------
+select pg_relation_size('SERVICE_LIST_GPTMP_TODAY');
+VACUUM ANALYZE SERVICE_LIST_GPTMP_TODAY;
+select pg_relation_size('SERVICE_LIST_GPTMP_TODAY');
+
+\echo ---------------SHIP_TONNAGE----------------
+select pg_relation_size('SHIP_TONNAGE_GPTMP_TODAY');
+VACUUM ANALYZE SHIP_TONNAGE_GPTMP_TODAY;
+select pg_relation_size('SHIP_TONNAGE_GPTMP_TODAY');
+
+\echo ---------------SPECIAL_ENTRY----------------
+select pg_relation_size('SPECIAL_ENTRY_GPTMP_TODAY');
+VACUUM ANALYZE SPECIAL_ENTRY_GPTMP_TODAY;
+select pg_relation_size('SPECIAL_ENTRY_GPTMP_TODAY');
+
+\echo ---------------STATUS_DETAIL----------------
+select pg_relation_size('STATUS_DETAIL_GPTMP_TODAY');
+VACUUM ANALYZE STATUS_DETAIL_GPTMP_TODAY;
+select pg_relation_size('STATUS_DETAIL_GPTMP_TODAY');
+
+\echo ---------------STATUS_DETAIL----------------
+select pg_relation_size('STATUS_DETAIL_GPTMP_TODAY');
+VACUUM ANALYZE STATUS_DETAIL_GPTMP_TODAY;
+select pg_relation_size('STATUS_DETAIL_GPTMP_TODAY');
+
+\echo ---------------STF_RECORD----------------
+select pg_relation_size('STF_RECORD_GPTMP_TODAY');
+VACUUM ANALYZE STF_RECORD_GPTMP_TODAY;
+select pg_relation_size('STF_RECORD_GPTMP_TODAY');
+
+\echo ---------------STL_DATA_CONTA_LIST----------------
+select pg_relation_size('STL_DATA_CONTA_LIST_GPTMP_TODAY');
+VACUUM ANALYZE STL_DATA_CONTA_LIST_GPTMP_TODAY;
+select pg_relation_size('STL_DATA_CONTA_LIST_GPTMP_TODAY');
+
+\echo ---------------STL_DATA_HEAD----------------
+select pg_relation_size('STL_DATA_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE STL_DATA_HEAD_GPTMP_TODAY;
+select pg_relation_size('STL_DATA_HEAD_GPTMP_TODAY');
+
+\echo ---------------STL_DATA_TS_LIST----------------
+select pg_relation_size('STL_DATA_TS_LIST_GPTMP_TODAY');
+VACUUM ANALYZE STL_DATA_TS_LIST_GPTMP_TODAY;
+select pg_relation_size('STL_DATA_TS_LIST_GPTMP_TODAY');
+
+\echo ---------------STL_REQUEST_CHK----------------
+select pg_relation_size('STL_REQUEST_CHK_GPTMP_TODAY');
+VACUUM ANALYZE STL_REQUEST_CHK_GPTMP_TODAY;
+select pg_relation_size('STL_REQUEST_CHK_GPTMP_TODAY');
+
+\echo ---------------TAR_DEL_LOG----------------
+select pg_relation_size('TAR_DEL_LOG_GPTMP_TODAY');
+VACUUM ANALYZE TAR_DEL_LOG_GPTMP_TODAY;
+select pg_relation_size('TAR_DEL_LOG_GPTMP_TODAY');
+
+\echo ---------------TCS_COUNTER----------------
+select pg_relation_size('TCS_COUNTER_GPTMP_TODAY');
+VACUUM ANALYZE TCS_COUNTER_GPTMP_TODAY;
+select pg_relation_size('TCS_COUNTER_GPTMP_TODAY');
+
+\echo ---------------TCS_DETAIL_HEAD----------------
+select pg_relation_size('TCS_DETAIL_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE TCS_DETAIL_HEAD_GPTMP_TODAY;
+select pg_relation_size('TCS_DETAIL_HEAD_GPTMP_TODAY');
+
+\echo ---------------TCS_DETAIL_LIST----------------
+select pg_relation_size('TCS_DETAIL_LIST_GPTMP_TODAY');
+VACUUM ANALYZE TCS_DETAIL_LIST_GPTMP_TODAY;
+select pg_relation_size('TCS_DETAIL_LIST_GPTMP_TODAY');
+
+\echo ---------------TCS_ERROR_LOG----------------
+select pg_relation_size('TCS_ERROR_LOG_GPTMP_TODAY');
+VACUUM ANALYZE TCS_ERROR_LOG_GPTMP_TODAY;
+select pg_relation_size('TCS_ERROR_LOG_GPTMP_TODAY');
+
+\echo ---------------TCS_SEND_LOG----------------
+select pg_relation_size('TCS_SEND_LOG_GPTMP_TODAY');
+VACUUM ANALYZE TCS_SEND_LOG_GPTMP_TODAY;
+select pg_relation_size('TCS_SEND_LOG_GPTMP_TODAY');
+
+\echo ---------------TCS_STATISTIC_REPORT----------------
+select pg_relation_size('TCS_STATISTIC_REPORT_GPTMP_TODAY');
+VACUUM ANALYZE TCS_STATISTIC_REPORT_GPTMP_TODAY;
+select pg_relation_size('TCS_STATISTIC_REPORT_GPTMP_TODAY');
+
+\echo ---------------TEMP_DB----------------
+select pg_relation_size('TEMP_DB_GPTMP_TODAY');
+VACUUM ANALYZE TEMP_DB_GPTMP_TODAY;
+select pg_relation_size('TEMP_DB_GPTMP_TODAY');
+
+\echo ---------------TEMP_DEL_EMS_CONSUME----------------
+select pg_relation_size('TEMP_DEL_EMS_CONSUME_GPTMP_TODAY');
+VACUUM ANALYZE TEMP_DEL_EMS_CONSUME_GPTMP_TODAY;
+select pg_relation_size('TEMP_DEL_EMS_CONSUME_GPTMP_TODAY');
+
+\echo ---------------TEMP_DEL_EMS_HEAD----------------
+select pg_relation_size('TEMP_DEL_EMS_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE TEMP_DEL_EMS_HEAD_GPTMP_TODAY;
+select pg_relation_size('TEMP_DEL_EMS_HEAD_GPTMP_TODAY');
+
+\echo ---------------TEMP_PAGE_RANGE----------------
+select pg_relation_size('TEMP_PAGE_RANGE_GPTMP_TODAY');
+VACUUM ANALYZE TEMP_PAGE_RANGE_GPTMP_TODAY;
+select pg_relation_size('TEMP_PAGE_RANGE_GPTMP_TODAY');
+
+\echo ---------------TEP_COMPANY----------------
+select pg_relation_size('TEP_COMPANY_GPTMP_TODAY');
+VACUUM ANALYZE TEP_COMPANY_GPTMP_TODAY;
+select pg_relation_size('TEP_COMPANY_GPTMP_TODAY');
+
+\echo ---------------TEP_DEBIT_REC_REQUEST----------------
+select pg_relation_size('TEP_DEBIT_REC_REQUEST_GPTMP_TODAY');
+VACUUM ANALYZE TEP_DEBIT_REC_REQUEST_GPTMP_TODAY;
+select pg_relation_size('TEP_DEBIT_REC_REQUEST_GPTMP_TODAY');
+
+\echo ---------------TEP_DEBIT_REC_RESPONSE----------------
+select pg_relation_size('TEP_DEBIT_REC_RESPONSE_GPTMP_TODAY');
+VACUUM ANALYZE TEP_DEBIT_REC_RESPONSE_GPTMP_TODAY;
+select pg_relation_size('TEP_DEBIT_REC_RESPONSE_GPTMP_TODAY');
+
+\echo ---------------TEP_EPLAT_RESPONSE----------------
+select pg_relation_size('TEP_EPLAT_RESPONSE_GPTMP_TODAY');
+VACUUM ANALYZE TEP_EPLAT_RESPONSE_GPTMP_TODAY;
+select pg_relation_size('TEP_EPLAT_RESPONSE_GPTMP_TODAY');
+
+\echo ---------------TEP_ERR_LOG----------------
+select pg_relation_size('TEP_ERR_LOG_GPTMP_TODAY');
+VACUUM ANALYZE TEP_ERR_LOG_GPTMP_TODAY;
+select pg_relation_size('TEP_ERR_LOG_GPTMP_TODAY');
+
+\echo ---------------TEP_LOG----------------
+select pg_relation_size('TEP_LOG_GPTMP_TODAY');
+VACUUM ANALYZE TEP_LOG_GPTMP_TODAY;
+select pg_relation_size('TEP_LOG_GPTMP_TODAY');
+
+\echo ---------------TEP_PAY_LOG----------------
+select pg_relation_size('TEP_PAY_LOG_GPTMP_TODAY');
+VACUUM ANALYZE TEP_PAY_LOG_GPTMP_TODAY;
+select pg_relation_size('TEP_PAY_LOG_GPTMP_TODAY');
+
+\echo ---------------TEP_PAY_REC_REQUEST----------------
+select pg_relation_size('TEP_PAY_REC_REQUEST_GPTMP_TODAY');
+VACUUM ANALYZE TEP_PAY_REC_REQUEST_GPTMP_TODAY;
+select pg_relation_size('TEP_PAY_REC_REQUEST_GPTMP_TODAY');
+
+\echo ---------------TEP_PAY_REC_RESPONSE----------------
+select pg_relation_size('TEP_PAY_REC_RESPONSE_GPTMP_TODAY');
+VACUUM ANALYZE TEP_PAY_REC_RESPONSE_GPTMP_TODAY;
+select pg_relation_size('TEP_PAY_REC_RESPONSE_GPTMP_TODAY');
+
+\echo ---------------TEP_REC_LOG----------------
+select pg_relation_size('TEP_REC_LOG_GPTMP_TODAY');
+VACUUM ANALYZE TEP_REC_LOG_GPTMP_TODAY;
+select pg_relation_size('TEP_REC_LOG_GPTMP_TODAY');
+
+\echo ---------------TEP_SEQ----------------
+select pg_relation_size('TEP_SEQ_GPTMP_TODAY');
+VACUUM ANALYZE TEP_SEQ_GPTMP_TODAY;
+select pg_relation_size('TEP_SEQ_GPTMP_TODAY');
+
+\echo ---------------TEP_STATUS_QUERY----------------
+select pg_relation_size('TEP_STATUS_QUERY_GPTMP_TODAY');
+VACUUM ANALYZE TEP_STATUS_QUERY_GPTMP_TODAY;
+select pg_relation_size('TEP_STATUS_QUERY_GPTMP_TODAY');
+
+\echo ---------------TEP_VOUCHER_REC_LIST----------------
+select pg_relation_size('TEP_VOUCHER_REC_LIST_GPTMP_TODAY');
+VACUUM ANALYZE TEP_VOUCHER_REC_LIST_GPTMP_TODAY;
+select pg_relation_size('TEP_VOUCHER_REC_LIST_GPTMP_TODAY');
+
+\echo ---------------TEP_VOUCHER_REC_LIST_DETAIL----------------
+select pg_relation_size('TEP_VOUCHER_REC_LIST_DETAIL_GPTMP_TODAY');
+VACUUM ANALYZE TEP_VOUCHER_REC_LIST_DETAIL_GPTMP_TODAY;
+select pg_relation_size('TEP_VOUCHER_REC_LIST_DETAIL_GPTMP_TODAY');
+
+\echo ---------------TEP_VOUCHER_REC_PAGE_LIST----------------
+select pg_relation_size('TEP_VOUCHER_REC_PAGE_LIST_GPTMP_TODAY');
+VACUUM ANALYZE TEP_VOUCHER_REC_PAGE_LIST_GPTMP_TODAY;
+select pg_relation_size('TEP_VOUCHER_REC_PAGE_LIST_GPTMP_TODAY');
+
+\echo ---------------TMP_EMS_CONSUME----------------
+select pg_relation_size('TMP_EMS_CONSUME_GPTMP_TODAY');
+VACUUM ANALYZE TMP_EMS_CONSUME_GPTMP_TODAY;
+select pg_relation_size('TMP_EMS_CONSUME_GPTMP_TODAY');
+
+\echo ---------------TMP_EMS_DCR_ENT----------------
+select pg_relation_size('TMP_EMS_DCR_ENT_GPTMP_TODAY');
+VACUUM ANALYZE TMP_EMS_DCR_ENT_GPTMP_TODAY;
+select pg_relation_size('TMP_EMS_DCR_ENT_GPTMP_TODAY');
+
+\echo ---------------TMP_EMS_HEAD----------------
+select pg_relation_size('TMP_EMS_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE TMP_EMS_HEAD_GPTMP_TODAY;
+select pg_relation_size('TMP_EMS_HEAD_GPTMP_TODAY');
+
+\echo ---------------TMP_EMS_LIST----------------
+select pg_relation_size('TMP_EMS_LIST_GPTMP_TODAY');
+VACUUM ANALYZE TMP_EMS_LIST_GPTMP_TODAY;
+select pg_relation_size('TMP_EMS_LIST_GPTMP_TODAY');
+
+\echo ---------------TRADE_ERR----------------
+select pg_relation_size('TRADE_ERR_GPTMP_TODAY');
+VACUUM ANALYZE TRADE_ERR_GPTMP_TODAY;
+select pg_relation_size('TRADE_ERR_GPTMP_TODAY');
+
+\echo ---------------TRADE_GPM_RTX----------------
+select pg_relation_size('TRADE_GPM_RTX_GPTMP_TODAY');
+VACUUM ANALYZE TRADE_GPM_RTX_GPTMP_TODAY;
+select pg_relation_size('TRADE_GPM_RTX_GPTMP_TODAY');
+
+\echo ---------------TRANSFER_FEE----------------
+select pg_relation_size('TRANSFER_FEE_GPTMP_TODAY');
+VACUUM ANALYZE TRANSFER_FEE_GPTMP_TODAY;
+select pg_relation_size('TRANSFER_FEE_GPTMP_TODAY');
+
+\echo ---------------TRANSFER_FEE_LOG----------------
+select pg_relation_size('TRANSFER_FEE_LOG_GPTMP_TODAY');
+VACUUM ANALYZE TRANSFER_FEE_LOG_GPTMP_TODAY;
+select pg_relation_size('TRANSFER_FEE_LOG_GPTMP_TODAY');
+
+\echo ---------------TRN_ALC_REL----------------
+select pg_relation_size('TRN_ALC_REL_GPTMP_TODAY');
+VACUUM ANALYZE TRN_ALC_REL_GPTMP_TODAY;
+select pg_relation_size('TRN_ALC_REL_GPTMP_TODAY');
+
+\echo ---------------TRN_CHECK----------------
+select pg_relation_size('TRN_CHECK_GPTMP_TODAY');
+VACUUM ANALYZE TRN_CHECK_GPTMP_TODAY;
+select pg_relation_size('TRN_CHECK_GPTMP_TODAY');
+
+\echo ---------------TRN_CHK_GOODS----------------
+select pg_relation_size('TRN_CHK_GOODS_GPTMP_TODAY');
+VACUUM ANALYZE TRN_CHK_GOODS_GPTMP_TODAY;
+select pg_relation_size('TRN_CHK_GOODS_GPTMP_TODAY');
+
+\echo ---------------TRN_COP_REL----------------
+select pg_relation_size('TRN_COP_REL_GPTMP_TODAY');
+VACUUM ANALYZE TRN_COP_REL_GPTMP_TODAY;
+select pg_relation_size('TRN_COP_REL_GPTMP_TODAY');
+
+\echo ---------------TRN_DELAY_FORM----------------
+select pg_relation_size('TRN_DELAY_FORM_GPTMP_TODAY');
+VACUUM ANALYZE TRN_DELAY_FORM_GPTMP_TODAY;
+select pg_relation_size('TRN_DELAY_FORM_GPTMP_TODAY');
+
+\echo ---------------TRN_DR_REL----------------
+select pg_relation_size('TRN_DR_REL_GPTMP_TODAY');
+VACUUM ANALYZE TRN_DR_REL_GPTMP_TODAY;
+select pg_relation_size('TRN_DR_REL_GPTMP_TODAY');
+
+\echo ---------------TRN_ESEAL_REL----------------
+select pg_relation_size('TRN_ESEAL_REL_GPTMP_TODAY');
+VACUUM ANALYZE TRN_ESEAL_REL_GPTMP_TODAY;
+select pg_relation_size('TRN_ESEAL_REL_GPTMP_TODAY');
+
+\echo ---------------TRN_EXAM_MAX_SEQ----------------
+select pg_relation_size('TRN_EXAM_MAX_SEQ_GPTMP_TODAY');
+VACUUM ANALYZE TRN_EXAM_MAX_SEQ_GPTMP_TODAY;
+select pg_relation_size('TRN_EXAM_MAX_SEQ_GPTMP_TODAY');
+
+\echo ---------------TRN_I_E_PORT----------------
+select pg_relation_size('TRN_I_E_PORT_GPTMP_TODAY');
+VACUUM ANALYZE TRN_I_E_PORT_GPTMP_TODAY;
+select pg_relation_size('TRN_I_E_PORT_GPTMP_TODAY');
+
+\echo ---------------TRN_PARAMETER----------------
+select pg_relation_size('TRN_PARAMETER_GPTMP_TODAY');
+VACUUM ANALYZE TRN_PARAMETER_GPTMP_TODAY;
+select pg_relation_size('TRN_PARAMETER_GPTMP_TODAY');
+
+\echo ---------------TRN_POP_COP_REL----------------
+select pg_relation_size('TRN_POP_COP_REL_GPTMP_TODAY');
+VACUUM ANALYZE TRN_POP_COP_REL_GPTMP_TODAY;
+select pg_relation_size('TRN_POP_COP_REL_GPTMP_TODAY');
+
+\echo ---------------TRN_POP_HEAD----------------
+select pg_relation_size('TRN_POP_HEAD_GPTMP_TODAY');
+VACUUM ANALYZE TRN_POP_HEAD_GPTMP_TODAY;
+select pg_relation_size('TRN_POP_HEAD_GPTMP_TODAY');
+
+\echo ---------------TRN_POP_LIST----------------
+select pg_relation_size('TRN_POP_LIST_GPTMP_TODAY');
+VACUUM ANALYZE TRN_POP_LIST_GPTMP_TODAY;
+select pg_relation_size('TRN_POP_LIST_GPTMP_TODAY');
+
+\echo ---------------TRN_PRE_MAX_SEQ----------------
+select pg_relation_size('TRN_PRE_MAX_SEQ_GPTMP_TODAY');
+VACUUM ANALYZE TRN_PRE_MAX_SEQ_GPTMP_TODAY;
+select pg_relation_size('TRN_PRE_MAX_SEQ_GPTMP_TODAY');
+
+\echo ---------------TRN_SHIP----------------
+select pg_relation_size('TRN_SHIP_GPTMP_TODAY');
+VACUUM ANALYZE TRN_SHIP_GPTMP_TODAY;
+select pg_relation_size('TRN_SHIP_GPTMP_TODAY');
+
+\echo ---------------TRN_VE_REL----------------
+select pg_relation_size('TRN_VE_REL_GPTMP_TODAY');
+VACUUM ANALYZE TRN_VE_REL_GPTMP_TODAY;
+select pg_relation_size('TRN_VE_REL_GPTMP_TODAY');
+
+\echo ---------------TRN_VEHICLE----------------
+select pg_relation_size('TRN_VEHICLE_GPTMP_TODAY');
+VACUUM ANALYZE TRN_VEHICLE_GPTMP_TODAY;
+select pg_relation_size('TRN_VEHICLE_GPTMP_TODAY');
+
+\echo ---------------YD_DECLARE_REL----------------
+select pg_relation_size('YD_DECLARE_REL_GPTMP_TODAY');
+VACUUM ANALYZE YD_DECLARE_REL_GPTMP_TODAY;
+select pg_relation_size('YD_DECLARE_REL_GPTMP_TODAY');
+
+

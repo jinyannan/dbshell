@@ -1,0 +1,9 @@
+\echo ------------------TRADE_ERR----------------
+select now();
+\timing
+delete from TRADE_ERR_GPTMP;
+insert into TRADE_ERR_GPTMP (CMD_TYPE,HG_CODE) select CMD_TYPE,HG_CODE from TRADE_ERR_INC_EXT;
+delete from TRADE_ERR_GPTMP_TODAY using TRADE_ERR_GPTMP where TRADE_ERR_GPTMP.HG_CODE=TRADE_ERR_GPTMP_TODAY.HG_CODE ;
+insert into TRADE_ERR_GPTMP_TODAY (CMD_TYPE,HG_CODE,HG_NAME,CURR_DATE) select CMD_TYPE,HG_CODE,HG_NAME,CURR_DATE from TRADE_ERR_INC_EXT;
+delete from TRADE_ERR_GPTMP;
+\timing

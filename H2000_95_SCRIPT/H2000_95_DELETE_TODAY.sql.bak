@@ -1,0 +1,1201 @@
+select now();
+\timing
+\echo ---------------ACCOUNT----------------
+delete from ACCOUNT_GPTMP_TODAY;
+\echo ---------------AGREEMENT_GOODS_LIST----------------
+delete from AGREEMENT_GOODS_LIST_GPTMP_TODAY;
+\echo ---------------AMS_MODI_LOG----------------
+delete from AMS_MODI_LOG_GPTMP_TODAY;
+\echo ---------------AMSLIST_BODY----------------
+delete from AMSLIST_BODY_GPTMP_TODAY;
+\echo ---------------AMSLIST_HEAD----------------
+delete from AMSLIST_HEAD_GPTMP_TODAY;
+\echo ---------------APPL_CLOSE----------------
+delete from APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------APPL_CLOSE_CONSUME----------------
+delete from APPL_CLOSE_CONSUME_GPTMP_TODAY;
+\echo ---------------APPLY_HEAD----------------
+delete from APPLY_HEAD_GPTMP_TODAY;
+\echo ---------------APPLY_LIST----------------
+delete from APPLY_LIST_GPTMP_TODAY;
+\echo ---------------ARRIVAL_INFO_HEAD----------------
+delete from ARRIVAL_INFO_HEAD_GPTMP_TODAY;
+\echo ---------------ARRIVAL_INFO_LIST----------------
+delete from ARRIVAL_INFO_LIST_GPTMP_TODAY;
+\echo ---------------BAK_BWS_EXAM_CERT_LIST----------------
+delete from BAK_BWS_EXAM_CERT_LIST_GPTMP_TODAY;
+\echo ---------------BAK_BWS_EXAM_GOOD_LIST----------------
+delete from BAK_BWS_EXAM_GOOD_LIST_GPTMP_TODAY;
+\echo ---------------BAK_BWS_EXAM_HEAD----------------
+delete from BAK_BWS_EXAM_HEAD_GPTMP_TODAY;
+\echo ---------------BAK_CONSUME----------------
+delete from BAK_CONSUME_GPTMP_TODAY;
+\echo ---------------BAK_CONTRACT_HEAD----------------
+delete from BAK_CONTRACT_HEAD_GPTMP_TODAY;
+\echo ---------------BAK_DCG_BILL_HEAD----------------
+delete from BAK_DCG_BILL_HEAD_GPTMP_TODAY;
+\echo ---------------BAK_DCG_BILL_LIST----------------
+delete from BAK_DCG_BILL_LIST_GPTMP_TODAY;
+\echo ---------------BAK_DCG_DEDUCT----------------
+delete from BAK_DCG_DEDUCT_GPTMP_TODAY;
+\echo ---------------BAK_DCG_DEDUCT_LOG----------------
+delete from BAK_DCG_DEDUCT_LOG_GPTMP_TODAY;
+\echo ---------------BAK_DCG_HEAD----------------
+delete from BAK_DCG_HEAD_GPTMP_TODAY;
+\echo ---------------BAK_DCG_LIST----------------
+delete from BAK_DCG_LIST_GPTMP_TODAY;
+\echo ---------------BAK_EMS_APPR_HEAD----------------
+delete from BAK_EMS_APPR_HEAD_GPTMP_TODAY;
+\echo ---------------BAK_EMS_APPR_LIST----------------
+delete from BAK_EMS_APPR_LIST_GPTMP_TODAY;
+\echo ---------------BAK_EMS_CONSUME----------------
+delete from BAK_EMS_CONSUME_GPTMP_TODAY;
+\echo ---------------BAK_EMS_DEDUCT_CLR----------------
+delete from BAK_EMS_DEDUCT_CLR_GPTMP_TODAY;
+\echo ---------------BAK_EMS_HEAD----------------
+delete from BAK_EMS_HEAD_GPTMP_TODAY;
+\echo ---------------BAK_EMS_LIST----------------
+delete from BAK_EMS_LIST_GPTMP_TODAY;
+\echo ---------------BAK_EX_CONTRACT_LIST----------------
+delete from BAK_EX_CONTRACT_LIST_GPTMP_TODAY;
+\echo ---------------BAK_EX_FASCICLE_LIST----------------
+delete from BAK_EX_FASCICLE_LIST_GPTMP_TODAY;
+\echo ---------------BAK_FASCICLE_HEAD----------------
+delete from BAK_FASCICLE_HEAD_GPTMP_TODAY;
+\echo ---------------BAK_IM_CONTRACT_LIST----------------
+delete from BAK_IM_CONTRACT_LIST_GPTMP_TODAY;
+\echo ---------------BAK_IM_FASCICLE_LIST----------------
+delete from BAK_IM_FASCICLE_LIST_GPTMP_TODAY;
+\echo ---------------BANK_ACCOUNT----------------
+delete from BANK_ACCOUNT_GPTMP_TODAY;
+\echo ---------------BCK_COP_HEAD----------------
+delete from BCK_COP_HEAD_GPTMP_TODAY;
+\echo ---------------BCK_COP_LIST----------------
+delete from BCK_COP_LIST_GPTMP_TODAY;
+\echo ---------------BCK_COP_LIST_TEMP----------------
+delete from BCK_COP_LIST_TEMP_GPTMP_TODAY;
+\echo ---------------BCK_COP_PARA_HEAD----------------
+delete from BCK_COP_PARA_HEAD_GPTMP_TODAY;
+\echo ---------------BCK_COP_PARA_LIST----------------
+delete from BCK_COP_PARA_LIST_GPTMP_TODAY;
+\echo ---------------BCK_EXECUTOR----------------
+delete from BCK_EXECUTOR_GPTMP_TODAY;
+\echo ---------------BCK_HANDOVER----------------
+delete from BCK_HANDOVER_GPTMP_TODAY;
+\echo ---------------BCK_HANDOVER_TYPE----------------
+delete from BCK_HANDOVER_TYPE_GPTMP_TODAY;
+\echo ---------------BCK_HEAD----------------
+delete from BCK_HEAD_GPTMP_TODAY;
+\echo ---------------BCK_SEQ----------------
+delete from BCK_SEQ_GPTMP_TODAY;
+\echo ---------------BCK_STOCK_HEAD----------------
+delete from BCK_STOCK_HEAD_GPTMP_TODAY;
+\echo ---------------BCK_STOCK_LIST----------------
+delete from BCK_STOCK_LIST_GPTMP_TODAY;
+\echo ---------------BCK_WORKFLOW----------------
+delete from BCK_WORKFLOW_GPTMP_TODAY;
+\echo ---------------BTI_DATA_CONTA_LIST----------------
+delete from BTI_DATA_CONTA_LIST_GPTMP_TODAY;
+\echo ---------------BTI_DATA_HEAD----------------
+delete from BTI_DATA_HEAD_GPTMP_TODAY;
+\echo ---------------BTI_DATA_TS_LIST----------------
+delete from BTI_DATA_TS_LIST_GPTMP_TODAY;
+\echo ---------------BWS_AUDIT_HEAD----------------
+delete from BWS_AUDIT_HEAD_GPTMP_TODAY;
+\echo ---------------BWS_AUDIT_LIST----------------
+delete from BWS_AUDIT_LIST_GPTMP_TODAY;
+\echo ---------------BWS_DCR_BILL_LIST----------------
+delete from BWS_DCR_BILL_LIST_GPTMP_TODAY;
+\echo ---------------BWS_DCR_HEAD----------------
+delete from BWS_DCR_HEAD_GPTMP_TODAY;
+\echo ---------------BWS_DCR_LIST----------------
+delete from BWS_DCR_LIST_GPTMP_TODAY;
+\echo ---------------BWS_DEDUCT----------------
+delete from BWS_DEDUCT_GPTMP_TODAY;
+\echo ---------------BWS_DEDUCT_LOG----------------
+delete from BWS_DEDUCT_LOG_GPTMP_TODAY;
+\echo ---------------BWS_EXAM_CERT_LIST----------------
+delete from BWS_EXAM_CERT_LIST_GPTMP_TODAY;
+\echo ---------------BWS_EXAM_GOOD_LIST----------------
+delete from BWS_EXAM_GOOD_LIST_GPTMP_TODAY;
+\echo ---------------BWS_EXAM_HEAD----------------
+delete from BWS_EXAM_HEAD_GPTMP_TODAY;
+\echo ---------------BWS_EXAM_PASSCERT----------------
+delete from BWS_EXAM_PASSCERT_GPTMP_TODAY;
+\echo ---------------BWS_FORM_HEAD----------------
+delete from BWS_FORM_HEAD_GPTMP_TODAY;
+\echo ---------------BWS_FORM_LIST----------------
+delete from BWS_FORM_LIST_GPTMP_TODAY;
+\echo ---------------BWS_GB_LIST----------------
+delete from BWS_GB_LIST_GPTMP_TODAY;
+\echo ---------------BWS_HEAD----------------
+delete from BWS_HEAD_GPTMP_TODAY;
+\echo ---------------BWS_LIST----------------
+delete from BWS_LIST_GPTMP_TODAY;
+\echo ---------------BWS_MANIFEST_HEAD----------------
+delete from BWS_MANIFEST_HEAD_GPTMP_TODAY;
+\echo ---------------BWS_MANIFEST_LIST----------------
+delete from BWS_MANIFEST_LIST_GPTMP_TODAY;
+\echo ---------------BWS_SEQ----------------
+delete from BWS_SEQ_GPTMP_TODAY;
+\echo ---------------BWS_VAR----------------
+delete from BWS_VAR_GPTMP_TODAY;
+\echo ---------------BWS_WORKFLOW----------------
+delete from BWS_WORKFLOW_GPTMP_TODAY;
+\echo ---------------CCTS_ERROR_LOG----------------
+delete from CCTS_ERROR_LOG_GPTMP_TODAY;
+\echo ---------------CCTS_ONLINE_RESULT----------------
+delete from CCTS_ONLINE_RESULT_GPTMP_TODAY;
+\echo ---------------CCTS_ONLINE_RESULT_BAK----------------
+delete from CCTS_ONLINE_RESULT_BAK_GPTMP_TODAY;
+\echo ---------------CCTS_PERFORMANCE----------------
+delete from CCTS_PERFORMANCE_GPTMP_TODAY;
+\echo ---------------CCTS_RSK_RESULT----------------
+delete from CCTS_RSK_RESULT_GPTMP_TODAY;
+\echo ---------------CCTS_RSK_RESULT_BAK----------------
+delete from CCTS_RSK_RESULT_BAK_GPTMP_TODAY;
+\echo ---------------CDL_CERTIFICATE----------------
+delete from CDL_CERTIFICATE_GPTMP_TODAY;
+\echo ---------------CDL_CHK----------------
+delete from CDL_CHK_GPTMP_TODAY;
+\echo ---------------CDL_COMMODITY----------------
+delete from CDL_COMMODITY_GPTMP_TODAY;
+\echo ---------------CDL_COMP_COMM_MODIFY_LOG----------------
+delete from CDL_COMP_COMM_MODIFY_LOG_GPTMP_TODAY;
+\echo ---------------CDL_COMP_COMM_OP_LOG----------------
+delete from CDL_COMP_COMM_OP_LOG_GPTMP_TODAY;
+\echo ---------------CDL_COMPANY----------------
+delete from CDL_COMPANY_GPTMP_TODAY;
+\echo ---------------CDL_CONTAINER----------------
+delete from CDL_CONTAINER_GPTMP_TODAY;
+\echo ---------------CDL_DEL_CERTIFICATE_LOG----------------
+delete from CDL_DEL_CERTIFICATE_LOG_GPTMP_TODAY;
+\echo ---------------CDL_DEL_CONTAINER_LOG----------------
+delete from CDL_DEL_CONTAINER_LOG_GPTMP_TODAY;
+\echo ---------------CDL_DEL_HEAD_LOG----------------
+delete from CDL_DEL_HEAD_LOG_GPTMP_TODAY;
+\echo ---------------CDL_DEL_LIST_LOG----------------
+delete from CDL_DEL_LIST_LOG_GPTMP_TODAY;
+\echo ---------------CDL_EDI_MESS----------------
+delete from CDL_EDI_MESS_GPTMP_TODAY;
+\echo ---------------CDL_EMS_DEDUCT----------------
+delete from CDL_EMS_DEDUCT_GPTMP_TODAY;
+\echo ---------------CDL_EMS_DEDUCT_LOG----------------
+delete from CDL_EMS_DEDUCT_LOG_GPTMP_TODAY;
+\echo ---------------CDL_ENTRY_HEAD----------------
+delete from CDL_ENTRY_HEAD_GPTMP_TODAY;
+\echo ---------------CDL_ENTRY_LIST----------------
+delete from CDL_ENTRY_LIST_GPTMP_TODAY;
+\echo ---------------CDL_HEAD----------------
+delete from CDL_HEAD_GPTMP_TODAY;
+\echo ---------------CDL_LICENSE_DEDUCT----------------
+delete from CDL_LICENSE_DEDUCT_GPTMP_TODAY;
+\echo ---------------CDL_LIST----------------
+delete from CDL_LIST_GPTMP_TODAY;
+\echo ---------------CDL_LOCK_COMMODITY----------------
+delete from CDL_LOCK_COMMODITY_GPTMP_TODAY;
+\echo ---------------CDL_MODI_LOG----------------
+delete from CDL_MODI_LOG_GPTMP_TODAY;
+\echo ---------------CDL_OP_LOG----------------
+delete from CDL_OP_LOG_GPTMP_TODAY;
+\echo ---------------CDL_OVERDUE_LIST----------------
+delete from CDL_OVERDUE_LIST_GPTMP_TODAY;
+\echo ---------------CDL_STATUS_DETAIL----------------
+delete from CDL_STATUS_DETAIL_GPTMP_TODAY;
+\echo ---------------CDL_WORKFLOW----------------
+delete from CDL_WORKFLOW_GPTMP_TODAY;
+\echo ---------------CHK_COP_RATIO----------------
+delete from CHK_COP_RATIO_GPTMP_TODAY;
+\echo ---------------CHK_COUNTER----------------
+delete from CHK_COUNTER_GPTMP_TODAY;
+\echo ---------------CHK_RATE_LIMIT----------------
+delete from CHK_RATE_LIMIT_GPTMP_TODAY;
+\echo ---------------CHKHS_MNLPROC----------------
+delete from CHKHS_MNLPROC_GPTMP_TODAY;
+\echo ---------------CIC_CODE----------------
+delete from CIC_CODE_GPTMP_TODAY;
+\echo ---------------CIC_HEAD----------------
+delete from CIC_HEAD_GPTMP_TODAY;
+\echo ---------------CIC_LIST----------------
+delete from CIC_LIST_GPTMP_TODAY;
+\echo ---------------CIC_MAXID----------------
+delete from CIC_MAXID_GPTMP_TODAY;
+\echo ---------------CIC_SEND_REL----------------
+delete from CIC_SEND_REL_GPTMP_TODAY;
+\echo ---------------CLAIM----------------
+delete from CLAIM_GPTMP_TODAY;
+\echo ---------------CLC_CHKRATE_LIMIT----------------
+delete from CLC_CHKRATE_LIMIT_GPTMP_TODAY;
+\echo ---------------CLC_GPR_RATIO----------------
+delete from CLC_GPR_RATIO_GPTMP_TODAY;
+\echo ---------------CLC_GPR_RATIO_BAK----------------
+delete from CLC_GPR_RATIO_BAK_GPTMP_TODAY;
+\echo ---------------CNS_COUNTER_TABLE----------------
+delete from CNS_COUNTER_TABLE_GPTMP_TODAY;
+\echo ---------------CO_CLASS_REL----------------
+delete from CO_CLASS_REL_GPTMP_TODAY;
+\echo ---------------COMPANY_REL----------------
+delete from COMPANY_REL_GPTMP_TODAY;
+\echo ---------------CONSUME----------------
+delete from CONSUME_GPTMP_TODAY;
+\echo ---------------CONSUME_DB----------------
+delete from CONSUME_DB_GPTMP_TODAY;
+\echo ---------------CONSUME_GOODS----------------
+delete from CONSUME_GOODS_GPTMP_TODAY;
+\echo ---------------CONTA----------------
+delete from CONTA_GPTMP_TODAY;
+\echo ---------------CONTA_MONITOR----------------
+delete from CONTA_MONITOR_GPTMP_TODAY;
+\echo ---------------CONTRACT_HEAD----------------
+delete from CONTRACT_HEAD_GPTMP_TODAY;
+\echo ---------------CONTRACT_WORKFLOW----------------
+delete from CONTRACT_WORKFLOW_GPTMP_TODAY;
+\echo ---------------CONVEYANCE----------------
+delete from CONVEYANCE_GPTMP_TODAY;
+\echo ---------------CONVEYANCE_SEGMENT----------------
+delete from CONVEYANCE_SEGMENT_GPTMP_TODAY;
+\echo ---------------COP_CONSUME----------------
+delete from COP_CONSUME_GPTMP_TODAY;
+\echo ---------------COP_SPEC_REL----------------
+delete from COP_SPEC_REL_GPTMP_TODAY;
+\echo ---------------COPLOG_DELETE_REL----------------
+delete from COPLOG_DELETE_REL_GPTMP_TODAY;
+\echo ---------------COPLOG_MODIFY_REL----------------
+delete from COPLOG_MODIFY_REL_GPTMP_TODAY;
+\echo ---------------CORP_HEAD----------------
+delete from CORP_HEAD_GPTMP_TODAY;
+\echo ---------------CORP_LIST----------------
+delete from CORP_LIST_GPTMP_TODAY;
+\echo ---------------CORP_TABLE----------------
+delete from CORP_TABLE_GPTMP_TODAY;
+\echo ---------------CORP_TYPE----------------
+delete from CORP_TYPE_GPTMP_TODAY;
+\echo ---------------COUNTER_TABLE----------------
+delete from COUNTER_TABLE_GPTMP_TODAY;
+\echo ---------------CREDIT_INFO----------------
+delete from CREDIT_INFO_GPTMP_TODAY;
+\echo ---------------CTS_CHKRATE_LIMIT----------------
+delete from CTS_CHKRATE_LIMIT_GPTMP_TODAY;
+\echo ---------------CTS_CHKRATE_LIMIT_BAK----------------
+delete from CTS_CHKRATE_LIMIT_BAK_GPTMP_TODAY;
+\echo ---------------CTS_PERIOD----------------
+delete from CTS_PERIOD_GPTMP_TODAY;
+\echo ---------------CUS_GOOD_CONSUME----------------
+delete from CUS_GOOD_CONSUME_GPTMP_TODAY;
+\echo ---------------CUSTOMS_DEFAULT----------------
+delete from CUSTOMS_DEFAULT_GPTMP_TODAY;
+\echo ---------------CUSTOMS_ESEAL_CONFIG----------------
+delete from CUSTOMS_ESEAL_CONFIG_GPTMP_TODAY;
+\echo ---------------DCG_BAK_LIST----------------
+delete from DCG_BAK_LIST_GPTMP_TODAY;
+\echo ---------------DCG_BILL_HEAD----------------
+delete from DCG_BILL_HEAD_GPTMP_TODAY;
+\echo ---------------DCG_BILL_LIST----------------
+delete from DCG_BILL_LIST_GPTMP_TODAY;
+\echo ---------------DCG_COPR_INFO----------------
+delete from DCG_COPR_INFO_GPTMP_TODAY;
+\echo ---------------DCG_DEDUCT----------------
+delete from DCG_DEDUCT_GPTMP_TODAY;
+\echo ---------------DCG_DEDUCT_LOG----------------
+delete from DCG_DEDUCT_LOG_GPTMP_TODAY;
+\echo ---------------DCG_HEAD----------------
+delete from DCG_HEAD_GPTMP_TODAY;
+\echo ---------------DCG_LIST----------------
+delete from DCG_LIST_GPTMP_TODAY;
+\echo ---------------DCG_SEQ----------------
+delete from DCG_SEQ_GPTMP_TODAY;
+\echo ---------------DCG_WORKFLOW----------------
+delete from DCG_WORKFLOW_GPTMP_TODAY;
+\echo ---------------DECL_CO_ENTRY_COUNT----------------
+delete from DECL_CO_ENTRY_COUNT_GPTMP_TODAY;
+\echo ---------------DECL_CO_ENTRY_COUNT_TEMP----------------
+delete from DECL_CO_ENTRY_COUNT_TEMP_GPTMP_TODAY;
+\echo ---------------DECLAR_COUNTER_REL----------------
+delete from DECLAR_COUNTER_REL_GPTMP_TODAY;
+\echo ---------------DECLAR_REL----------------
+delete from DECLAR_REL_GPTMP_TODAY;
+\echo ---------------DECLARER_REL----------------
+delete from DECLARER_REL_GPTMP_TODAY;
+\echo ---------------DECLOG_FULL_REL----------------
+delete from DECLOG_FULL_REL_GPTMP_TODAY;
+\echo ---------------DECLOG_MOD_REL----------------
+delete from DECLOG_MOD_REL_GPTMP_TODAY;
+\echo ---------------DECLOG_MODIFY_REL----------------
+delete from DECLOG_MODIFY_REL_GPTMP_TODAY;
+\echo ---------------DECLOG_SCORE_HEAD----------------
+delete from DECLOG_SCORE_HEAD_GPTMP_TODAY;
+\echo ---------------DECLOG_SCORE_LIST----------------
+delete from DECLOG_SCORE_LIST_GPTMP_TODAY;
+\echo ---------------DEL_EGS_ARC_AGENT_LIST----------------
+delete from DEL_EGS_ARC_AGENT_LIST_GPTMP_TODAY;
+\echo ---------------DEL_EGS_ARC_HEAD----------------
+delete from DEL_EGS_ARC_HEAD_GPTMP_TODAY;
+\echo ---------------DEL_EGS_ARC_LIST----------------
+delete from DEL_EGS_ARC_LIST_GPTMP_TODAY;
+\echo ---------------DEL_EGS_ARC_MERCHANT_LIST----------------
+delete from DEL_EGS_ARC_MERCHANT_LIST_GPTMP_TODAY;
+\echo ---------------DEL_EGS_CLEAR_CERT----------------
+delete from DEL_EGS_CLEAR_CERT_GPTMP_TODAY;
+\echo ---------------DEL_EGS_CLEAR_HEAD----------------
+delete from DEL_EGS_CLEAR_HEAD_GPTMP_TODAY;
+\echo ---------------DEL_EGS_CLEAR_LIST----------------
+delete from DEL_EGS_CLEAR_LIST_GPTMP_TODAY;
+\echo ---------------DEL_EGS_DECLARE_CERT----------------
+delete from DEL_EGS_DECLARE_CERT_GPTMP_TODAY;
+\echo ---------------DEL_EGS_DECLARE_HEAD----------------
+delete from DEL_EGS_DECLARE_HEAD_GPTMP_TODAY;
+\echo ---------------DEL_EGS_DECLARE_LIST----------------
+delete from DEL_EGS_DECLARE_LIST_GPTMP_TODAY;
+\echo ---------------DEL_MOD_APPLY----------------
+delete from DEL_MOD_APPLY_GPTMP_TODAY;
+\echo ---------------DISTRIBUTIVE_BILL_DECLARE----------------
+delete from DISTRIBUTIVE_BILL_DECLARE_GPTMP_TODAY;
+\echo ---------------DISTRIBUTIVE_DECLARE----------------
+delete from DISTRIBUTIVE_DECLARE_GPTMP_TODAY;
+\echo ---------------DISTRIBUTIVE_TRANSIT_WAY----------------
+delete from DISTRIBUTIVE_TRANSIT_WAY_GPTMP_TODAY;
+\echo ---------------DST_COUNTER_TABLE----------------
+delete from DST_COUNTER_TABLE_GPTMP_TODAY;
+\echo ---------------DST_DEDUCT----------------
+delete from DST_DEDUCT_GPTMP_TODAY;
+\echo ---------------DST_EXG----------------
+delete from DST_EXG_GPTMP_TODAY;
+\echo ---------------DST_EXG_ORI_ENTRY----------------
+delete from DST_EXG_ORI_ENTRY_GPTMP_TODAY;
+\echo ---------------DST_HEAD----------------
+delete from DST_HEAD_GPTMP_TODAY;
+\echo ---------------DST_IMG----------------
+delete from DST_IMG_GPTMP_TODAY;
+\echo ---------------DST_IMG_ORI_ENTRY----------------
+delete from DST_IMG_ORI_ENTRY_GPTMP_TODAY;
+\echo ---------------DTT_COP_PARAM----------------
+delete from DTT_COP_PARAM_GPTMP_TODAY;
+\echo ---------------DUTY_CHECK_LOG----------------
+delete from DUTY_CHECK_LOG_GPTMP_TODAY;
+\echo ---------------DUTYFORM_HEAD----------------
+delete from DUTYFORM_HEAD_GPTMP_TODAY;
+\echo ---------------DUTYFORM_LIST----------------
+delete from DUTYFORM_LIST_GPTMP_TODAY;
+\echo ---------------ECO_HEAD----------------
+delete from ECO_HEAD_GPTMP_TODAY;
+\echo ---------------ECO_LIST----------------
+delete from ECO_LIST_GPTMP_TODAY;
+\echo ---------------ECO_PARTS----------------
+delete from ECO_PARTS_GPTMP_TODAY;
+\echo ---------------ECO_WORKFLOW----------------
+delete from ECO_WORKFLOW_GPTMP_TODAY;
+\echo ---------------EGS_ADMIT_HEAD----------------
+delete from EGS_ADMIT_HEAD_GPTMP_TODAY;
+\echo ---------------EGS_ADMIT_HS----------------
+delete from EGS_ADMIT_HS_GPTMP_TODAY;
+\echo ---------------EGS_ADMIT_LIST----------------
+delete from EGS_ADMIT_LIST_GPTMP_TODAY;
+\echo ---------------EGS_ARC_AGENT_LIST----------------
+delete from EGS_ARC_AGENT_LIST_GPTMP_TODAY;
+\echo ---------------EGS_ARC_HEAD----------------
+delete from EGS_ARC_HEAD_GPTMP_TODAY;
+\echo ---------------EGS_ARC_LIST----------------
+delete from EGS_ARC_LIST_GPTMP_TODAY;
+\echo ---------------EGS_ARC_MERCHANT_LIST----------------
+delete from EGS_ARC_MERCHANT_LIST_GPTMP_TODAY;
+\echo ---------------EGS_CHECK_LOG----------------
+delete from EGS_CHECK_LOG_GPTMP_TODAY;
+\echo ---------------EGS_CLEAR_CERT----------------
+delete from EGS_CLEAR_CERT_GPTMP_TODAY;
+\echo ---------------EGS_CLEAR_HEAD----------------
+delete from EGS_CLEAR_HEAD_GPTMP_TODAY;
+\echo ---------------EGS_CLEAR_LIST----------------
+delete from EGS_CLEAR_LIST_GPTMP_TODAY;
+\echo ---------------EGS_DECLARE_CERT----------------
+delete from EGS_DECLARE_CERT_GPTMP_TODAY;
+\echo ---------------EGS_DECLARE_HEAD----------------
+delete from EGS_DECLARE_HEAD_GPTMP_TODAY;
+\echo ---------------EGS_DECLARE_LIST----------------
+delete from EGS_DECLARE_LIST_GPTMP_TODAY;
+\echo ---------------EGS_DEDUCT----------------
+delete from EGS_DEDUCT_GPTMP_TODAY;
+\echo ---------------EGS_LEND_HEAD----------------
+delete from EGS_LEND_HEAD_GPTMP_TODAY;
+\echo ---------------EGS_LEND_LIST----------------
+delete from EGS_LEND_LIST_GPTMP_TODAY;
+\echo ---------------EGS_PATROL_HEAD----------------
+delete from EGS_PATROL_HEAD_GPTMP_TODAY;
+\echo ---------------EGS_PATROL_LIST----------------
+delete from EGS_PATROL_LIST_GPTMP_TODAY;
+\echo ---------------EGS_SEQ----------------
+delete from EGS_SEQ_GPTMP_TODAY;
+\echo ---------------EGS_WORKFLOW----------------
+delete from EGS_WORKFLOW_GPTMP_TODAY;
+\echo ---------------EMS_ACCOUNT----------------
+delete from EMS_ACCOUNT_GPTMP_TODAY;
+\echo ---------------EMS_APPR_HEAD----------------
+delete from EMS_APPR_HEAD_GPTMP_TODAY;
+\echo ---------------EMS_APPR_LIST----------------
+delete from EMS_APPR_LIST_GPTMP_TODAY;
+\echo ---------------EMS_CLAIM----------------
+delete from EMS_CLAIM_GPTMP_TODAY;
+\echo ---------------EMS_CLR_LIST----------------
+delete from EMS_CLR_LIST_GPTMP_TODAY;
+\echo ---------------EMS_CLR_TMP----------------
+delete from EMS_CLR_TMP_GPTMP_TODAY;
+\echo ---------------EMS_COMPLEX----------------
+delete from EMS_COMPLEX_GPTMP_TODAY;
+\echo ---------------EMS_COMPLEX2----------------
+delete from EMS_COMPLEX2_GPTMP_TODAY;
+\echo ---------------EMS_CONSUME----------------
+delete from EMS_CONSUME_GPTMP_TODAY;
+\echo ---------------EMS_CONSUME_CLR----------------
+delete from EMS_CONSUME_CLR_GPTMP_TODAY;
+\echo ---------------EMS_CONSUME_CLR_D----------------
+delete from EMS_CONSUME_CLR_D_GPTMP_TODAY;
+\echo ---------------EMS_DCR_CONSUME----------------
+delete from EMS_DCR_CONSUME_GPTMP_TODAY;
+\echo ---------------EMS_DCR_ENT----------------
+delete from EMS_DCR_ENT_GPTMP_TODAY;
+\echo ---------------EMS_DCR_HEAD----------------
+delete from EMS_DCR_HEAD_GPTMP_TODAY;
+\echo ---------------EMS_DCR_LIST----------------
+delete from EMS_DCR_LIST_GPTMP_TODAY;
+\echo ---------------EMS_DCR_RUB_LIST----------------
+delete from EMS_DCR_RUB_LIST_GPTMP_TODAY;
+\echo ---------------EMS_DEDUCT----------------
+delete from EMS_DEDUCT_GPTMP_TODAY;
+\echo ---------------EMS_DEDUCT_CLR----------------
+delete from EMS_DEDUCT_CLR_GPTMP_TODAY;
+\echo ---------------EMS_DEDUCT_LOG----------------
+delete from EMS_DEDUCT_LOG_GPTMP_TODAY;
+\echo ---------------EMS_ENP----------------
+delete from EMS_ENP_GPTMP_TODAY;
+\echo ---------------EMS_ENP_JOU----------------
+delete from EMS_ENP_JOU_GPTMP_TODAY;
+\echo ---------------EMS_HEAD----------------
+delete from EMS_HEAD_GPTMP_TODAY;
+\echo ---------------EMS_LIST----------------
+delete from EMS_LIST_GPTMP_TODAY;
+\echo ---------------EMS_MESSAGE_LOG----------------
+delete from EMS_MESSAGE_LOG_GPTMP_TODAY;
+\echo ---------------EMS_PRESS----------------
+delete from EMS_PRESS_GPTMP_TODAY;
+\echo ---------------EMS_PRESS_CLEAR----------------
+delete from EMS_PRESS_CLEAR_GPTMP_TODAY;
+\echo ---------------EMS_SEQ----------------
+delete from EMS_SEQ_GPTMP_TODAY;
+\echo ---------------EMS_TMP_CLR----------------
+delete from EMS_TMP_CLR_GPTMP_TODAY;
+\echo ---------------EMS_VAR----------------
+delete from EMS_VAR_GPTMP_TODAY;
+\echo ---------------EMS_VERIFY----------------
+delete from EMS_VERIFY_GPTMP_TODAY;
+\echo ---------------EMS_VERIFY_DETAIL----------------
+delete from EMS_VERIFY_DETAIL_GPTMP_TODAY;
+\echo ---------------EMS_WORKFLOW----------------
+delete from EMS_WORKFLOW_GPTMP_TODAY;
+\echo ---------------ENTRY_AUTOREL_ERR_LIST----------------
+delete from ENTRY_AUTOREL_ERR_LIST_GPTMP_TODAY;
+\echo ---------------ENTRY_AUTOREL_ERR_LOG----------------
+delete from ENTRY_AUTOREL_ERR_LOG_GPTMP_TODAY;
+\echo ---------------ENTRY_CENTRY_SELECT----------------
+delete from ENTRY_CENTRY_SELECT_GPTMP_TODAY;
+\echo ---------------ENTRY_CENTRY_SELECT_DEL----------------
+delete from ENTRY_CENTRY_SELECT_DEL_GPTMP_TODAY;
+\echo ---------------ENTRY_CERTIFICATE----------------
+delete from ENTRY_CERTIFICATE_GPTMP_TODAY;
+\echo ---------------ENTRY_CERTIFICATE_LOG----------------
+delete from ENTRY_CERTIFICATE_LOG_GPTMP_TODAY;
+\echo ---------------ENTRY_CONTAINER----------------
+delete from ENTRY_CONTAINER_GPTMP_TODAY;
+\echo ---------------ENTRY_CONTAINER_LOG----------------
+delete from ENTRY_CONTAINER_LOG_GPTMP_TODAY;
+\echo ---------------ENTRY_DEL_HEAD_LOG----------------
+delete from ENTRY_DEL_HEAD_LOG_GPTMP_TODAY;
+\echo ---------------ENTRY_DEL_LIST_LOG----------------
+delete from ENTRY_DEL_LIST_LOG_GPTMP_TODAY;
+\echo ---------------ENTRY_EVALUATION----------------
+delete from ENTRY_EVALUATION_GPTMP_TODAY;
+\echo ---------------ENTRY_GPM_RTX----------------
+delete from ENTRY_GPM_RTX_GPTMP_TODAY;
+\echo ---------------ENTRY_GPM_RTX_PRINTLOG----------------
+delete from ENTRY_GPM_RTX_PRINTLOG_GPTMP_TODAY;
+\echo ---------------ENTRY_GPM_RTX_SENDLOG----------------
+delete from ENTRY_GPM_RTX_SENDLOG_GPTMP_TODAY;
+\echo ---------------ENTRY_HEAD----------------
+delete from ENTRY_HEAD_GPTMP_TODAY;
+\echo ---------------ENTRY_LIST----------------
+delete from ENTRY_LIST_GPTMP_TODAY;
+\echo ---------------ENTRY_MODI_LOG----------------
+delete from ENTRY_MODI_LOG_GPTMP_TODAY;
+\echo ---------------ENTRY_OP_LOG----------------
+delete from ENTRY_OP_LOG_GPTMP_TODAY;
+\echo ---------------ENTRY_PROC----------------
+delete from ENTRY_PROC_GPTMP_TODAY;
+\echo ---------------ENTRY_PROC_LOG----------------
+delete from ENTRY_PROC_LOG_GPTMP_TODAY;
+\echo ---------------ENTRY_QUERY----------------
+delete from ENTRY_QUERY_GPTMP_TODAY;
+\echo ---------------ENTRY_WORKFLOW----------------
+delete from ENTRY_WORKFLOW_GPTMP_TODAY;
+\echo ---------------EPA_CHEM_CERT----------------
+delete from EPA_CHEM_CERT_GPTMP_TODAY;
+\echo ---------------EPA_CHK----------------
+delete from EPA_CHK_GPTMP_TODAY;
+\echo ---------------EPA_SCARP_CERT----------------
+delete from EPA_SCARP_CERT_GPTMP_TODAY;
+\echo ---------------ERR_LOG----------------
+delete from ERR_LOG_GPTMP_TODAY;
+\echo ---------------EX_APPL_CLOSE----------------
+delete from EX_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------EX_ARRIVAL_CONTA----------------
+delete from EX_ARRIVAL_CONTA_GPTMP_TODAY;
+\echo ---------------EX_ARRIVAL_ERR_CHK----------------
+delete from EX_ARRIVAL_ERR_CHK_GPTMP_TODAY;
+\echo ---------------EX_ARRIVAL_SHIP----------------
+delete from EX_ARRIVAL_SHIP_GPTMP_TODAY;
+\echo ---------------EX_CDL_MNL_DEDUCT----------------
+delete from EX_CDL_MNL_DEDUCT_GPTMP_TODAY;
+\echo ---------------EX_CONTA_ENTRY_CHK----------------
+delete from EX_CONTA_ENTRY_CHK_GPTMP_TODAY;
+\echo ---------------EX_CONTRACT_CLEAR----------------
+delete from EX_CONTRACT_CLEAR_GPTMP_TODAY;
+\echo ---------------EX_CONTRACT_DEDUC----------------
+delete from EX_CONTRACT_DEDUC_GPTMP_TODAY;
+\echo ---------------EX_CONTRACT_LIST----------------
+delete from EX_CONTRACT_LIST_GPTMP_TODAY;
+\echo ---------------EX_COP_RATE----------------
+delete from EX_COP_RATE_GPTMP_TODAY;
+\echo ---------------EX_DECL_ALARM_HEAD----------------
+delete from EX_DECL_ALARM_HEAD_GPTMP_TODAY;
+\echo ---------------EX_DECL_ALARM_LIST----------------
+delete from EX_DECL_ALARM_LIST_GPTMP_TODAY;
+\echo ---------------EX_DECL_CUR_HEAD----------------
+delete from EX_DECL_CUR_HEAD_GPTMP_TODAY;
+\echo ---------------EX_DECL_CUR_LIST----------------
+delete from EX_DECL_CUR_LIST_GPTMP_TODAY;
+\echo ---------------EX_DECL_HIS_HEAD----------------
+delete from EX_DECL_HIS_HEAD_GPTMP_TODAY;
+\echo ---------------EX_DECL_HIS_LIST----------------
+delete from EX_DECL_HIS_LIST_GPTMP_TODAY;
+\echo ---------------EX_ELE_HEAD----------------
+delete from EX_ELE_HEAD_GPTMP_TODAY;
+\echo ---------------EX_ELE_LIST----------------
+delete from EX_ELE_LIST_GPTMP_TODAY;
+\echo ---------------EX_EXAM_JOU----------------
+delete from EX_EXAM_JOU_GPTMP_TODAY;
+\echo ---------------EX_EXAM_MANA_HEAD----------------
+delete from EX_EXAM_MANA_HEAD_GPTMP_TODAY;
+\echo ---------------EX_EXAM_MANA_LIST----------------
+delete from EX_EXAM_MANA_LIST_GPTMP_TODAY;
+\echo ---------------EX_FASCICLE_LIST----------------
+delete from EX_FASCICLE_LIST_GPTMP_TODAY;
+\echo ---------------EX_LIC_CODE_TS----------------
+delete from EX_LIC_CODE_TS_GPTMP_TODAY;
+\echo ---------------EX_TRAN_JOU----------------
+delete from EX_TRAN_JOU_GPTMP_TODAY;
+\echo ---------------EX_TRANS_ALARM_CONTA_REL----------------
+delete from EX_TRANS_ALARM_CONTA_REL_GPTMP_TODAY;
+\echo ---------------EX_TRANS_ALARM_GOODS_CONTA_REL----------------
+delete from EX_TRANS_ALARM_GOODS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------EX_TRANS_ALARM_LIST_REL----------------
+delete from EX_TRANS_ALARM_LIST_REL_GPTMP_TODAY;
+\echo ---------------EX_TRANS_CONTA_REL----------------
+delete from EX_TRANS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------EX_TRANS_GOODS_CONTA_REL----------------
+delete from EX_TRANS_GOODS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------EX_TRANS_HIS_CONTA_REL----------------
+delete from EX_TRANS_HIS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------EX_TRANS_HIS_GOODS_CONTA_REL----------------
+delete from EX_TRANS_HIS_GOODS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------EX_TRANS_HIS_LIST_REL----------------
+delete from EX_TRANS_HIS_LIST_REL_GPTMP_TODAY;
+\echo ---------------EX_TRANS_LIST_REL----------------
+delete from EX_TRANS_LIST_REL_GPTMP_TODAY;
+\echo ---------------EX_TRN_ARRIVAL_CONTA----------------
+delete from EX_TRN_ARRIVAL_CONTA_GPTMP_TODAY;
+\echo ---------------EX_TRN_CONTA_ENTRY_ARV----------------
+delete from EX_TRN_CONTA_ENTRY_ARV_GPTMP_TODAY;
+\echo ---------------EX_TRN_CONTA_ENTRY_CHK----------------
+delete from EX_TRN_CONTA_ENTRY_CHK_GPTMP_TODAY;
+\echo ---------------EXA_APPL_CLOSE----------------
+delete from EXA_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------EXAM_CONTA_END_LOG----------------
+delete from EXAM_CONTA_END_LOG_GPTMP_TODAY;
+\echo ---------------EXAM_CONTA_HEAD----------------
+delete from EXAM_CONTA_HEAD_GPTMP_TODAY;
+\echo ---------------EXAM_CONTA_LIST----------------
+delete from EXAM_CONTA_LIST_GPTMP_TODAY;
+\echo ---------------EXC_ELE----------------
+delete from EXC_ELE_GPTMP_TODAY;
+\echo ---------------EXC_EX_CHK----------------
+delete from EXC_EX_CHK_GPTMP_TODAY;
+\echo ---------------EXC_EXAM----------------
+delete from EXC_EXAM_GPTMP_TODAY;
+\echo ---------------EXP_MFT_CHK_RESULT----------------
+delete from EXP_MFT_CHK_RESULT_GPTMP_TODAY;
+\echo ---------------EXTERNAL_JOU----------------
+delete from EXTERNAL_JOU_GPTMP_TODAY;
+\echo ---------------FASCICLE_HEAD----------------
+delete from FASCICLE_HEAD_GPTMP_TODAY;
+\echo ---------------FCB_CHK----------------
+delete from FCB_CHK_GPTMP_TODAY;
+\echo ---------------FCB_CONTA----------------
+delete from FCB_CONTA_GPTMP_TODAY;
+\echo ---------------FCB_CONTA_MODI----------------
+delete from FCB_CONTA_MODI_GPTMP_TODAY;
+\echo ---------------FCB_HEAD----------------
+delete from FCB_HEAD_GPTMP_TODAY;
+\echo ---------------FCB_HEAD_MODI----------------
+delete from FCB_HEAD_MODI_GPTMP_TODAY;
+\echo ---------------FCB_LIST----------------
+delete from FCB_LIST_GPTMP_TODAY;
+\echo ---------------FCB_LIST_MODI----------------
+delete from FCB_LIST_MODI_GPTMP_TODAY;
+\echo ---------------FCB_RSK----------------
+delete from FCB_RSK_GPTMP_TODAY;
+\echo ---------------FCB_WORKFLOW----------------
+delete from FCB_WORKFLOW_GPTMP_TODAY;
+\echo ---------------FEE_INVOICE----------------
+delete from FEE_INVOICE_GPTMP_TODAY;
+\echo ---------------FORFEIT_FORM----------------
+delete from FORFEIT_FORM_GPTMP_TODAY;
+\echo ---------------FORM_CHK----------------
+delete from FORM_CHK_GPTMP_TODAY;
+\echo ---------------GUARANTEE_DEL_LOG----------------
+delete from GUARANTEE_DEL_LOG_GPTMP_TODAY;
+\echo ---------------GUARANTEE_LIST----------------
+delete from GUARANTEE_LIST_GPTMP_TODAY;
+\echo ---------------GUARANTEE_R----------------
+delete from GUARANTEE_R_GPTMP_TODAY;
+\echo ---------------H2000_SMS_SEND----------------
+delete from H2000_SMS_SEND_GPTMP_TODAY;
+\echo ---------------H2000_SMS_SENDLOG----------------
+delete from H2000_SMS_SENDLOG_GPTMP_TODAY;
+\echo ---------------HIS_TRN_COP_REL----------------
+delete from HIS_TRN_COP_REL_GPTMP_TODAY;
+\echo ---------------HIS_TRN_DR_REL----------------
+delete from HIS_TRN_DR_REL_GPTMP_TODAY;
+\echo ---------------HIS_TRN_ESEAL_REL----------------
+delete from HIS_TRN_ESEAL_REL_GPTMP_TODAY;
+\echo ---------------HIS_TRN_VE_REL----------------
+delete from HIS_TRN_VE_REL_GPTMP_TODAY;
+\echo ---------------IM_APPL_CLOSE----------------
+delete from IM_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------IM_CDL_MNL_DEDUCT----------------
+delete from IM_CDL_MNL_DEDUCT_GPTMP_TODAY;
+\echo ---------------IM_CONTRACT_CLEAR----------------
+delete from IM_CONTRACT_CLEAR_GPTMP_TODAY;
+\echo ---------------IM_CONTRACT_DEDUC----------------
+delete from IM_CONTRACT_DEDUC_GPTMP_TODAY;
+\echo ---------------IM_CONTRACT_LIST----------------
+delete from IM_CONTRACT_LIST_GPTMP_TODAY;
+\echo ---------------IM_COP_RATE----------------
+delete from IM_COP_RATE_GPTMP_TODAY;
+\echo ---------------IM_DECL_ALARM_HEAD----------------
+delete from IM_DECL_ALARM_HEAD_GPTMP_TODAY;
+\echo ---------------IM_DECL_ALARM_LIST----------------
+delete from IM_DECL_ALARM_LIST_GPTMP_TODAY;
+\echo ---------------IM_DECL_CUR_HEAD----------------
+delete from IM_DECL_CUR_HEAD_GPTMP_TODAY;
+\echo ---------------IM_DECL_CUR_LIST----------------
+delete from IM_DECL_CUR_LIST_GPTMP_TODAY;
+\echo ---------------IM_DECL_HIS_HEAD----------------
+delete from IM_DECL_HIS_HEAD_GPTMP_TODAY;
+\echo ---------------IM_DECL_HIS_LIST----------------
+delete from IM_DECL_HIS_LIST_GPTMP_TODAY;
+\echo ---------------IM_ELE_HEAD----------------
+delete from IM_ELE_HEAD_GPTMP_TODAY;
+\echo ---------------IM_ELE_LIST----------------
+delete from IM_ELE_LIST_GPTMP_TODAY;
+\echo ---------------IM_EXAM_JOU----------------
+delete from IM_EXAM_JOU_GPTMP_TODAY;
+\echo ---------------IM_EXAM_MANA_HEAD----------------
+delete from IM_EXAM_MANA_HEAD_GPTMP_TODAY;
+\echo ---------------IM_EXAM_MANA_LIST----------------
+delete from IM_EXAM_MANA_LIST_GPTMP_TODAY;
+\echo ---------------IM_FASCICLE_LIST----------------
+delete from IM_FASCICLE_LIST_GPTMP_TODAY;
+\echo ---------------IM_LIC_CODE_TS----------------
+delete from IM_LIC_CODE_TS_GPTMP_TODAY;
+\echo ---------------IM_TRAN_JOU----------------
+delete from IM_TRAN_JOU_GPTMP_TODAY;
+\echo ---------------IM_TRANS_ALARM_CONTA_REL----------------
+delete from IM_TRANS_ALARM_CONTA_REL_GPTMP_TODAY;
+\echo ---------------IM_TRANS_ALARM_GOODS_CONTA_REL----------------
+delete from IM_TRANS_ALARM_GOODS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------IM_TRANS_ALARM_LIST_REL----------------
+delete from IM_TRANS_ALARM_LIST_REL_GPTMP_TODAY;
+\echo ---------------IM_TRANS_CONTA_REL----------------
+delete from IM_TRANS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------IM_TRANS_GOODS_CONTA_REL----------------
+delete from IM_TRANS_GOODS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------IM_TRANS_HIS_CONTA_REL----------------
+delete from IM_TRANS_HIS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------IM_TRANS_HIS_GOODS_CONTA_REL----------------
+delete from IM_TRANS_HIS_GOODS_CONTA_REL_GPTMP_TODAY;
+\echo ---------------IM_TRANS_HIS_LIST_REL----------------
+delete from IM_TRANS_HIS_LIST_REL_GPTMP_TODAY;
+\echo ---------------IM_TRANS_LIST_REL----------------
+delete from IM_TRANS_LIST_REL_GPTMP_TODAY;
+\echo ---------------IMA_APPL_CLOSE----------------
+delete from IMA_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------INCOME_INFO----------------
+delete from INCOME_INFO_GPTMP_TODAY;
+\echo ---------------INVESTER_REL----------------
+delete from INVESTER_REL_GPTMP_TODAY;
+\echo ---------------INVLOG_REL----------------
+delete from INVLOG_REL_GPTMP_TODAY;
+\echo ---------------JOB_PARAMETER----------------
+delete from JOB_PARAMETER_GPTMP_TODAY;
+\echo ---------------LSP_CHK----------------
+delete from LSP_CHK_GPTMP_TODAY;
+\echo ---------------LSP_HEAD----------------
+delete from LSP_HEAD_GPTMP_TODAY;
+\echo ---------------LSP_LIST----------------
+delete from LSP_LIST_GPTMP_TODAY;
+\echo ---------------MAIL_FILE----------------
+delete from MAIL_FILE_GPTMP_TODAY;
+\echo ---------------MANA_REL----------------
+delete from MANA_REL_GPTMP_TODAY;
+\echo ---------------MANIFEST_CHK----------------
+delete from MANIFEST_CHK_GPTMP_TODAY;
+\echo ---------------MANIFEST_CHK_LOG----------------
+delete from MANIFEST_CHK_LOG_GPTMP_TODAY;
+\echo ---------------MANIFEST_CONTA----------------
+delete from MANIFEST_CONTA_GPTMP_TODAY;
+\echo ---------------MANIFEST_EXCH_LOG----------------
+delete from MANIFEST_EXCH_LOG_GPTMP_TODAY;
+\echo ---------------MANIFEST_EXCH_LOG_BAK----------------
+delete from MANIFEST_EXCH_LOG_BAK_GPTMP_TODAY;
+\echo ---------------MANIFEST_HEAD----------------
+delete from MANIFEST_HEAD_GPTMP_TODAY;
+\echo ---------------MANIFEST_HEAD_XMS_LOG----------------
+delete from MANIFEST_HEAD_XMS_LOG_GPTMP_TODAY;
+\echo ---------------MANIFEST_LIST----------------
+delete from MANIFEST_LIST_GPTMP_TODAY;
+\echo ---------------MANIFEST_LIST_CONTA----------------
+delete from MANIFEST_LIST_CONTA_GPTMP_TODAY;
+\echo ---------------MANIFEST_LIST_LOG----------------
+delete from MANIFEST_LIST_LOG_GPTMP_TODAY;
+\echo ---------------MANIFEST_LIST_RSKINFO_LOG----------------
+delete from MANIFEST_LIST_RSKINFO_LOG_GPTMP_TODAY;
+\echo ---------------MNL_PARA----------------
+delete from MNL_PARA_GPTMP_TODAY;
+\echo ---------------MNL_PRESS----------------
+delete from MNL_PRESS_GPTMP_TODAY;
+\echo ---------------MNL_RECEIVE_RECEIPT----------------
+delete from MNL_RECEIVE_RECEIPT_GPTMP_TODAY;
+\echo ---------------MNL_SEQ----------------
+delete from MNL_SEQ_GPTMP_TODAY;
+\echo ---------------MNLBAK_ACCOUNT----------------
+delete from MNLBAK_ACCOUNT_GPTMP_TODAY;
+\echo ---------------MNLBAK_APPL_CLOSE----------------
+delete from MNLBAK_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------MNLBAK_CLAIM----------------
+delete from MNLBAK_CLAIM_GPTMP_TODAY;
+\echo ---------------MNLBAK_CONSUME----------------
+delete from MNLBAK_CONSUME_GPTMP_TODAY;
+\echo ---------------MNLBAK_CONTRACT_HEAD----------------
+delete from MNLBAK_CONTRACT_HEAD_GPTMP_TODAY;
+\echo ---------------MNLBAK_CONTRACT_WORKFLOW----------------
+delete from MNLBAK_CONTRACT_WORKFLOW_GPTMP_TODAY;
+\echo ---------------MNLBAK_EX_CONTRACT_CLEAR----------------
+delete from MNLBAK_EX_CONTRACT_CLEAR_GPTMP_TODAY;
+\echo ---------------MNLBAK_EX_CONTRACT_DEDUC----------------
+delete from MNLBAK_EX_CONTRACT_DEDUC_GPTMP_TODAY;
+\echo ---------------MNLBAK_EX_CONTRACT_LIST----------------
+delete from MNLBAK_EX_CONTRACT_LIST_GPTMP_TODAY;
+\echo ---------------MNLBAK_EX_FASCICLE_LIST----------------
+delete from MNLBAK_EX_FASCICLE_LIST_GPTMP_TODAY;
+\echo ---------------MNLBAK_FASCICLE_HEAD----------------
+delete from MNLBAK_FASCICLE_HEAD_GPTMP_TODAY;
+\echo ---------------MNLBAK_FEE_INVOICE----------------
+delete from MNLBAK_FEE_INVOICE_GPTMP_TODAY;
+\echo ---------------MNLBAK_IM_CONTRACT_CLEAR----------------
+delete from MNLBAK_IM_CONTRACT_CLEAR_GPTMP_TODAY;
+\echo ---------------MNLBAK_IM_CONTRACT_DEDUC----------------
+delete from MNLBAK_IM_CONTRACT_DEDUC_GPTMP_TODAY;
+\echo ---------------MNLBAK_IM_CONTRACT_LIST----------------
+delete from MNLBAK_IM_CONTRACT_LIST_GPTMP_TODAY;
+\echo ---------------MNLBAK_IM_FASCICLE_LIST----------------
+delete from MNLBAK_IM_FASCICLE_LIST_GPTMP_TODAY;
+\echo ---------------MNLBAK_PRESS_CLEAR----------------
+delete from MNLBAK_PRESS_CLEAR_GPTMP_TODAY;
+\echo ---------------MNLBAK_SERVICE_FEE----------------
+delete from MNLBAK_SERVICE_FEE_GPTMP_TODAY;
+\echo ---------------MNLBAK_SERVICE_LIST----------------
+delete from MNLBAK_SERVICE_LIST_GPTMP_TODAY;
+\echo ---------------MOD_PROJECT_HEAD----------------
+delete from MOD_PROJECT_HEAD_GPTMP_TODAY;
+\echo ---------------MOD_PROJECT_LIST----------------
+delete from MOD_PROJECT_LIST_GPTMP_TODAY;
+\echo ---------------MOD_RED_HEAD----------------
+delete from MOD_RED_HEAD_GPTMP_TODAY;
+\echo ---------------MOD_RED_LIST----------------
+delete from MOD_RED_LIST_GPTMP_TODAY;
+\echo ---------------NONENTRY_CHK_RESULT----------------
+delete from NONENTRY_CHK_RESULT_GPTMP_TODAY;
+\echo ---------------NORSK_COMPANY----------------
+delete from NORSK_COMPANY_GPTMP_TODAY;
+\echo ---------------NORSK_COMPANY_BAK----------------
+delete from NORSK_COMPANY_BAK_GPTMP_TODAY;
+\echo ---------------NORSK_CONDITION----------------
+delete from NORSK_CONDITION_GPTMP_TODAY;
+\echo ---------------NORSK_CONDITION_BAK----------------
+delete from NORSK_CONDITION_BAK_GPTMP_TODAY;
+\echo ---------------NORSK_TRADE_MODE----------------
+delete from NORSK_TRADE_MODE_GPTMP_TODAY;
+\echo ---------------NORSK_TRADE_MODE_BAK----------------
+delete from NORSK_TRADE_MODE_BAK_GPTMP_TODAY;
+\echo ---------------OCC_ELE_HEAD----------------
+delete from OCC_ELE_HEAD_GPTMP_TODAY;
+\echo ---------------OCC_ELE_LIST----------------
+delete from OCC_ELE_LIST_GPTMP_TODAY;
+\echo ---------------OCC_EXAM----------------
+delete from OCC_EXAM_GPTMP_TODAY;
+\echo ---------------OCC_RECEIPT----------------
+delete from OCC_RECEIPT_GPTMP_TODAY;
+\echo ---------------OTHER_STF_RECORD----------------
+delete from OTHER_STF_RECORD_GPTMP_TODAY;
+\echo ---------------PAPERLESS_SELFSAVE_CERT----------------
+delete from PAPERLESS_SELFSAVE_CERT_GPTMP_TODAY;
+\echo ---------------PAYOUT_REMIT_HEAD----------------
+delete from PAYOUT_REMIT_HEAD_GPTMP_TODAY;
+\echo ---------------PAYOUT_REMIT_LIST----------------
+delete from PAYOUT_REMIT_LIST_GPTMP_TODAY;
+\echo ---------------PES_CANCEL----------------
+delete from PES_CANCEL_GPTMP_TODAY;
+\echo ---------------PES_NOTE----------------
+delete from PES_NOTE_GPTMP_TODAY;
+\echo ---------------PES_WORKFLOW----------------
+delete from PES_WORKFLOW_GPTMP_TODAY;
+\echo ---------------PORT_BIND_REL----------------
+delete from PORT_BIND_REL_GPTMP_TODAY;
+\echo ---------------PRE_APPL_CLOSE----------------
+delete from PRE_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------PRE_APPL_CLOSE_CONSUME----------------
+delete from PRE_APPL_CLOSE_CONSUME_GPTMP_TODAY;
+\echo ---------------PRE_CDL_COMMODITY----------------
+delete from PRE_CDL_COMMODITY_GPTMP_TODAY;
+\echo ---------------PRE_CDL_COMPANY----------------
+delete from PRE_CDL_COMPANY_GPTMP_TODAY;
+\echo ---------------PRE_COMPANY_REL----------------
+delete from PRE_COMPANY_REL_GPTMP_TODAY;
+\echo ---------------PRE_CONSUME----------------
+delete from PRE_CONSUME_GPTMP_TODAY;
+\echo ---------------PRE_CONTRACT_HEAD----------------
+delete from PRE_CONTRACT_HEAD_GPTMP_TODAY;
+\echo ---------------PRE_DECL_REL----------------
+delete from PRE_DECL_REL_GPTMP_TODAY;
+\echo ---------------PRE_EX_APPL_CLOSE----------------
+delete from PRE_EX_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------PRE_EX_CONTRACT_LIST----------------
+delete from PRE_EX_CONTRACT_LIST_GPTMP_TODAY;
+\echo ---------------PRE_EX_FASCICLE_LIST----------------
+delete from PRE_EX_FASCICLE_LIST_GPTMP_TODAY;
+\echo ---------------PRE_EXA_APPL_CLOSE----------------
+delete from PRE_EXA_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------PRE_FASCICLE_HEAD----------------
+delete from PRE_FASCICLE_HEAD_GPTMP_TODAY;
+\echo ---------------PRE_IM_APPL_CLOSE----------------
+delete from PRE_IM_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------PRE_IM_CONTRACT_LIST----------------
+delete from PRE_IM_CONTRACT_LIST_GPTMP_TODAY;
+\echo ---------------PRE_IM_FASCICLE_LIST----------------
+delete from PRE_IM_FASCICLE_LIST_GPTMP_TODAY;
+\echo ---------------PRE_IMA_APPL_CLOSE----------------
+delete from PRE_IMA_APPL_CLOSE_GPTMP_TODAY;
+\echo ---------------PRE_INVESTER_REL----------------
+delete from PRE_INVESTER_REL_GPTMP_TODAY;
+\echo ---------------PRE_MANA_REL----------------
+delete from PRE_MANA_REL_GPTMP_TODAY;
+\echo ---------------PRE_PROJECT_HEAD----------------
+delete from PRE_PROJECT_HEAD_GPTMP_TODAY;
+\echo ---------------PRE_PROJECT_LIST----------------
+delete from PRE_PROJECT_LIST_GPTMP_TODAY;
+\echo ---------------PRE_RED_HEAD----------------
+delete from PRE_RED_HEAD_GPTMP_TODAY;
+\echo ---------------PRE_RED_LIST----------------
+delete from PRE_RED_LIST_GPTMP_TODAY;
+\echo ---------------PRE_REL_ALC_WORK----------------
+delete from PRE_REL_ALC_WORK_GPTMP_TODAY;
+\echo ---------------PRESS_CLEAR----------------
+delete from PRESS_CLEAR_GPTMP_TODAY;
+\echo ---------------PRICE_LIBRARY----------------
+delete from PRICE_LIBRARY_GPTMP_TODAY;
+\echo ---------------PRICE_LIBRARY_ENTRY----------------
+delete from PRICE_LIBRARY_ENTRY_GPTMP_TODAY;
+\echo ---------------PRICE_LIBRARY_MAN----------------
+delete from PRICE_LIBRARY_MAN_GPTMP_TODAY;
+\echo ---------------PRICE_LIBRARY_RISK----------------
+delete from PRICE_LIBRARY_RISK_GPTMP_TODAY;
+\echo ---------------PROJECT_HEAD----------------
+delete from PROJECT_HEAD_GPTMP_TODAY;
+\echo ---------------PROJECT_LIST----------------
+delete from PROJECT_LIST_GPTMP_TODAY;
+\echo ---------------PROJECT_MAX_NO----------------
+delete from PROJECT_MAX_NO_GPTMP_TODAY;
+\echo ---------------PROJECT_MAX_NO_2007----------------
+delete from PROJECT_MAX_NO_2007_GPTMP_TODAY;
+\echo ---------------RAM_HEAD----------------
+delete from RAM_HEAD_GPTMP_TODAY;
+\echo ---------------RAM_LIST----------------
+delete from RAM_LIST_GPTMP_TODAY;
+\echo ---------------RAM_PRINT_LOG----------------
+delete from RAM_PRINT_LOG_GPTMP_TODAY;
+\echo ---------------RAM_RG_COP_OWNER----------------
+delete from RAM_RG_COP_OWNER_GPTMP_TODAY;
+\echo ---------------RAM_RG_COP_PROJECT----------------
+delete from RAM_RG_COP_PROJECT_GPTMP_TODAY;
+\echo ---------------RAM_RG_COPINFO----------------
+delete from RAM_RG_COPINFO_GPTMP_TODAY;
+\echo ---------------RAM_RG_HEAD----------------
+delete from RAM_RG_HEAD_GPTMP_TODAY;
+\echo ---------------RAM_RN_INFO----------------
+delete from RAM_RN_INFO_GPTMP_TODAY;
+\echo ---------------RAM_RY_COMMUNICATION----------------
+delete from RAM_RY_COMMUNICATION_GPTMP_TODAY;
+\echo ---------------RAM_STATUS----------------
+delete from RAM_STATUS_GPTMP_TODAY;
+\echo ---------------RAM_STATUS_LIST----------------
+delete from RAM_STATUS_LIST_GPTMP_TODAY;
+\echo ---------------RAM_STATUS_MODI_LOG----------------
+delete from RAM_STATUS_MODI_LOG_GPTMP_TODAY;
+\echo ---------------RCP_INCOME_HEAD----------------
+delete from RCP_INCOME_HEAD_GPTMP_TODAY;
+\echo ---------------RCP_INCOME_HEAD_BAK----------------
+delete from RCP_INCOME_HEAD_BAK_GPTMP_TODAY;
+\echo ---------------RCP_INCOME_LIST----------------
+delete from RCP_INCOME_LIST_GPTMP_TODAY;
+\echo ---------------RCP_INCOME_LIST_BAK----------------
+delete from RCP_INCOME_LIST_BAK_GPTMP_TODAY;
+\echo ---------------RCP_PAYMENT_HEAD----------------
+delete from RCP_PAYMENT_HEAD_GPTMP_TODAY;
+\echo ---------------RCP_PAYMENT_HEAD_BAK----------------
+delete from RCP_PAYMENT_HEAD_BAK_GPTMP_TODAY;
+\echo ---------------RCP_PAYMENT_LIST----------------
+delete from RCP_PAYMENT_LIST_GPTMP_TODAY;
+\echo ---------------RCP_PAYMENT_LIST_BAK----------------
+delete from RCP_PAYMENT_LIST_BAK_GPTMP_TODAY;
+\echo ---------------RCP_RECORD_HEAD----------------
+delete from RCP_RECORD_HEAD_GPTMP_TODAY;
+\echo ---------------RCP_RECORD_HEAD_BAK----------------
+delete from RCP_RECORD_HEAD_BAK_GPTMP_TODAY;
+\echo ---------------RCP_RECORD_LIST----------------
+delete from RCP_RECORD_LIST_GPTMP_TODAY;
+\echo ---------------RCP_RECORD_LIST_BAK----------------
+delete from RCP_RECORD_LIST_BAK_GPTMP_TODAY;
+\echo ---------------RCP_WORKFLOW----------------
+delete from RCP_WORKFLOW_GPTMP_TODAY;
+\echo ---------------RED_ENTRY_HEAD----------------
+delete from RED_ENTRY_HEAD_GPTMP_TODAY;
+\echo ---------------RED_ENTRY_LIST----------------
+delete from RED_ENTRY_LIST_GPTMP_TODAY;
+\echo ---------------RED_FEE_INVOICE----------------
+delete from RED_FEE_INVOICE_GPTMP_TODAY;
+\echo ---------------RED_HEAD----------------
+delete from RED_HEAD_GPTMP_TODAY;
+\echo ---------------RED_LIST----------------
+delete from RED_LIST_GPTMP_TODAY;
+\echo ---------------RED_MAX_NO----------------
+delete from RED_MAX_NO_GPTMP_TODAY;
+\echo ---------------RED_MAX_NO_2007----------------
+delete from RED_MAX_NO_2007_GPTMP_TODAY;
+\echo ---------------RED_RECEIVE_RECEIPT----------------
+delete from RED_RECEIVE_RECEIPT_GPTMP_TODAY;
+\echo ---------------RED_SERVICE_FEE----------------
+delete from RED_SERVICE_FEE_GPTMP_TODAY;
+\echo ---------------REL_ALC_WORK----------------
+delete from REL_ALC_WORK_GPTMP_TODAY;
+\echo ---------------RETURN_REL----------------
+delete from RETURN_REL_GPTMP_TODAY;
+\echo ---------------RISK_CONTROL----------------
+delete from RISK_CONTROL_GPTMP_TODAY;
+\echo ---------------RSK_ASSAY_APPLICATION----------------
+delete from RSK_ASSAY_APPLICATION_GPTMP_TODAY;
+\echo ---------------RSK_CASE_FEEDBACK_HEAD----------------
+delete from RSK_CASE_FEEDBACK_HEAD_GPTMP_TODAY;
+\echo ---------------RSK_CASE_FEEDBACK_LIST----------------
+delete from RSK_CASE_FEEDBACK_LIST_GPTMP_TODAY;
+\echo ---------------RSK_CASE_FEEDBACK_LIST_CERT----------------
+delete from RSK_CASE_FEEDBACK_LIST_CERT_GPTMP_TODAY;
+\echo ---------------RSK_CASE_TRANSFER_G_NO----------------
+delete from RSK_CASE_TRANSFER_G_NO_GPTMP_TODAY;
+\echo ---------------RSK_CASE_TRANSFER_HEAD----------------
+delete from RSK_CASE_TRANSFER_HEAD_GPTMP_TODAY;
+\echo ---------------RSK_CASE_TRANSFER_LIST----------------
+delete from RSK_CASE_TRANSFER_LIST_GPTMP_TODAY;
+\echo ---------------RSK_CODE_TS----------------
+delete from RSK_CODE_TS_GPTMP_TODAY;
+\echo ---------------RSK_CODE_TS_BAK----------------
+delete from RSK_CODE_TS_BAK_GPTMP_TODAY;
+\echo ---------------RSK_CONDITION----------------
+delete from RSK_CONDITION_GPTMP_TODAY;
+\echo ---------------RSK_CONDITION_BAK----------------
+delete from RSK_CONDITION_BAK_GPTMP_TODAY;
+\echo ---------------RSK_CONTA_CAPACITY----------------
+delete from RSK_CONTA_CAPACITY_GPTMP_TODAY;
+\echo ---------------RSK_CONTA_CAPACITY_BAK----------------
+delete from RSK_CONTA_CAPACITY_BAK_GPTMP_TODAY;
+\echo ---------------RSK_EXAM_HEAD_REL----------------
+delete from RSK_EXAM_HEAD_REL_GPTMP_TODAY;
+\echo ---------------RSK_EXAM_LIST_CONTAINER----------------
+delete from RSK_EXAM_LIST_CONTAINER_GPTMP_TODAY;
+\echo ---------------RSK_EXAM_LIST_REL----------------
+delete from RSK_EXAM_LIST_REL_GPTMP_TODAY;
+\echo ---------------RSK_EXAM_OP_LOG----------------
+delete from RSK_EXAM_OP_LOG_GPTMP_TODAY;
+\echo ---------------RSK_FAKE_CODE_TS----------------
+delete from RSK_FAKE_CODE_TS_GPTMP_TODAY;
+\echo ---------------RSK_FAKE_CODE_TS_BAK----------------
+delete from RSK_FAKE_CODE_TS_BAK_GPTMP_TODAY;
+\echo ---------------RSK_FIT_LOG_REL----------------
+delete from RSK_FIT_LOG_REL_GPTMP_TODAY;
+\echo ---------------RSK_FIT_RESULT_LOG----------------
+delete from RSK_FIT_RESULT_LOG_GPTMP_TODAY;
+\echo ---------------RSK_INSTR_ATTR_REL----------------
+delete from RSK_INSTR_ATTR_REL_GPTMP_TODAY;
+\echo ---------------RSK_INSTR_PROC_REL----------------
+delete from RSK_INSTR_PROC_REL_GPTMP_TODAY;
+\echo ---------------RSK_OP_LOG----------------
+delete from RSK_OP_LOG_GPTMP_TODAY;
+\echo ---------------RSK_RECHECK_REL----------------
+delete from RSK_RECHECK_REL_GPTMP_TODAY;
+\echo ---------------RSK_REPLICATION_LOG----------------
+delete from RSK_REPLICATION_LOG_GPTMP_TODAY;
+\echo ---------------RSK_RESULT_REL----------------
+delete from RSK_RESULT_REL_GPTMP_TODAY;
+\echo ---------------RSK_TRADE_CO----------------
+delete from RSK_TRADE_CO_GPTMP_TODAY;
+\echo ---------------RSK_TRADE_CO_BAK----------------
+delete from RSK_TRADE_CO_BAK_GPTMP_TODAY;
+\echo ---------------RSK_UNLOCK_OP_LOG----------------
+delete from RSK_UNLOCK_OP_LOG_GPTMP_TODAY;
+\echo ---------------RSK_VS_EXAM----------------
+delete from RSK_VS_EXAM_GPTMP_TODAY;
+\echo ---------------RSK_WORKFLOW----------------
+delete from RSK_WORKFLOW_GPTMP_TODAY;
+\echo ---------------SERVICE_FEE----------------
+delete from SERVICE_FEE_GPTMP_TODAY;
+\echo ---------------SERVICE_LIST----------------
+delete from SERVICE_LIST_GPTMP_TODAY;
+\echo ---------------SHIP_TONNAGE----------------
+delete from SHIP_TONNAGE_GPTMP_TODAY;
+\echo ---------------SPECIAL_ENTRY----------------
+delete from SPECIAL_ENTRY_GPTMP_TODAY;
+\echo ---------------STATUS_DETAIL----------------
+delete from STATUS_DETAIL_GPTMP_TODAY;
+\echo ---------------STATUS_DETAIL----------------
+delete from STATUS_DETAIL_GPTMP_TODAY;
+\echo ---------------STF_RECORD----------------
+delete from STF_RECORD_GPTMP_TODAY;
+\echo ---------------STL_DATA_CONTA_LIST----------------
+delete from STL_DATA_CONTA_LIST_GPTMP_TODAY;
+\echo ---------------STL_DATA_HEAD----------------
+delete from STL_DATA_HEAD_GPTMP_TODAY;
+\echo ---------------STL_DATA_TS_LIST----------------
+delete from STL_DATA_TS_LIST_GPTMP_TODAY;
+\echo ---------------STL_REQUEST_CHK----------------
+delete from STL_REQUEST_CHK_GPTMP_TODAY;
+\echo ---------------TAR_DEL_LOG----------------
+delete from TAR_DEL_LOG_GPTMP_TODAY;
+\echo ---------------TCS_COUNTER----------------
+delete from TCS_COUNTER_GPTMP_TODAY;
+\echo ---------------TCS_DETAIL_HEAD----------------
+delete from TCS_DETAIL_HEAD_GPTMP_TODAY;
+\echo ---------------TCS_DETAIL_LIST----------------
+delete from TCS_DETAIL_LIST_GPTMP_TODAY;
+\echo ---------------TCS_ERROR_LOG----------------
+delete from TCS_ERROR_LOG_GPTMP_TODAY;
+\echo ---------------TCS_SEND_LOG----------------
+delete from TCS_SEND_LOG_GPTMP_TODAY;
+\echo ---------------TCS_STATISTIC_REPORT----------------
+delete from TCS_STATISTIC_REPORT_GPTMP_TODAY;
+\echo ---------------TEMP_DB----------------
+delete from TEMP_DB_GPTMP_TODAY;
+\echo ---------------TEMP_DEL_EMS_CONSUME----------------
+delete from TEMP_DEL_EMS_CONSUME_GPTMP_TODAY;
+\echo ---------------TEMP_DEL_EMS_HEAD----------------
+delete from TEMP_DEL_EMS_HEAD_GPTMP_TODAY;
+\echo ---------------TEMP_PAGE_RANGE----------------
+delete from TEMP_PAGE_RANGE_GPTMP_TODAY;
+\echo ---------------TEP_COMPANY----------------
+delete from TEP_COMPANY_GPTMP_TODAY;
+\echo ---------------TEP_DEBIT_REC_REQUEST----------------
+delete from TEP_DEBIT_REC_REQUEST_GPTMP_TODAY;
+\echo ---------------TEP_DEBIT_REC_RESPONSE----------------
+delete from TEP_DEBIT_REC_RESPONSE_GPTMP_TODAY;
+\echo ---------------TEP_EPLAT_RESPONSE----------------
+delete from TEP_EPLAT_RESPONSE_GPTMP_TODAY;
+\echo ---------------TEP_ERR_LOG----------------
+delete from TEP_ERR_LOG_GPTMP_TODAY;
+\echo ---------------TEP_LOG----------------
+delete from TEP_LOG_GPTMP_TODAY;
+\echo ---------------TEP_PAY_LOG----------------
+delete from TEP_PAY_LOG_GPTMP_TODAY;
+\echo ---------------TEP_PAY_REC_REQUEST----------------
+delete from TEP_PAY_REC_REQUEST_GPTMP_TODAY;
+\echo ---------------TEP_PAY_REC_RESPONSE----------------
+delete from TEP_PAY_REC_RESPONSE_GPTMP_TODAY;
+\echo ---------------TEP_REC_LOG----------------
+delete from TEP_REC_LOG_GPTMP_TODAY;
+\echo ---------------TEP_SEQ----------------
+delete from TEP_SEQ_GPTMP_TODAY;
+\echo ---------------TEP_STATUS_QUERY----------------
+delete from TEP_STATUS_QUERY_GPTMP_TODAY;
+\echo ---------------TEP_VOUCHER_REC_LIST----------------
+delete from TEP_VOUCHER_REC_LIST_GPTMP_TODAY;
+\echo ---------------TEP_VOUCHER_REC_LIST_DETAIL----------------
+delete from TEP_VOUCHER_REC_LIST_DETAIL_GPTMP_TODAY;
+\echo ---------------TEP_VOUCHER_REC_PAGE_LIST----------------
+delete from TEP_VOUCHER_REC_PAGE_LIST_GPTMP_TODAY;
+\echo ---------------TMP_EMS_CONSUME----------------
+delete from TMP_EMS_CONSUME_GPTMP_TODAY;
+\echo ---------------TMP_EMS_DCR_ENT----------------
+delete from TMP_EMS_DCR_ENT_GPTMP_TODAY;
+\echo ---------------TMP_EMS_HEAD----------------
+delete from TMP_EMS_HEAD_GPTMP_TODAY;
+\echo ---------------TMP_EMS_LIST----------------
+delete from TMP_EMS_LIST_GPTMP_TODAY;
+\echo ---------------TRADE_ERR----------------
+delete from TRADE_ERR_GPTMP_TODAY;
+\echo ---------------TRADE_GPM_RTX----------------
+delete from TRADE_GPM_RTX_GPTMP_TODAY;
+\echo ---------------TRANSFER_FEE----------------
+delete from TRANSFER_FEE_GPTMP_TODAY;
+\echo ---------------TRANSFER_FEE_LOG----------------
+delete from TRANSFER_FEE_LOG_GPTMP_TODAY;
+\echo ---------------TRN_ALC_REL----------------
+delete from TRN_ALC_REL_GPTMP_TODAY;
+\echo ---------------TRN_CHECK----------------
+delete from TRN_CHECK_GPTMP_TODAY;
+\echo ---------------TRN_CHK_GOODS----------------
+delete from TRN_CHK_GOODS_GPTMP_TODAY;
+\echo ---------------TRN_COP_REL----------------
+delete from TRN_COP_REL_GPTMP_TODAY;
+\echo ---------------TRN_DELAY_FORM----------------
+delete from TRN_DELAY_FORM_GPTMP_TODAY;
+\echo ---------------TRN_DR_REL----------------
+delete from TRN_DR_REL_GPTMP_TODAY;
+\echo ---------------TRN_ESEAL_REL----------------
+delete from TRN_ESEAL_REL_GPTMP_TODAY;
+\echo ---------------TRN_EXAM_MAX_SEQ----------------
+delete from TRN_EXAM_MAX_SEQ_GPTMP_TODAY;
+\echo ---------------TRN_I_E_PORT----------------
+delete from TRN_I_E_PORT_GPTMP_TODAY;
+\echo ---------------TRN_PARAMETER----------------
+delete from TRN_PARAMETER_GPTMP_TODAY;
+\echo ---------------TRN_POP_COP_REL----------------
+delete from TRN_POP_COP_REL_GPTMP_TODAY;
+\echo ---------------TRN_POP_HEAD----------------
+delete from TRN_POP_HEAD_GPTMP_TODAY;
+\echo ---------------TRN_POP_LIST----------------
+delete from TRN_POP_LIST_GPTMP_TODAY;
+\echo ---------------TRN_PRE_MAX_SEQ----------------
+delete from TRN_PRE_MAX_SEQ_GPTMP_TODAY;
+\echo ---------------TRN_SHIP----------------
+delete from TRN_SHIP_GPTMP_TODAY;
+\echo ---------------TRN_VE_REL----------------
+delete from TRN_VE_REL_GPTMP_TODAY;
+\echo ---------------TRN_VEHICLE----------------
+delete from TRN_VEHICLE_GPTMP_TODAY;
+\echo ---------------YD_DECLARE_REL----------------
+delete from YD_DECLARE_REL_GPTMP_TODAY;
+select now();

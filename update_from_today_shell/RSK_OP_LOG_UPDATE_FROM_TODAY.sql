@@ -1,0 +1,6 @@
+\echo -----------------------RSK_OP_LOG------------------------
+select now();
+\timing
+delete from RSK_OP_LOG using RSK_OP_LOG_GPTMP_TODAY where RSK_OP_LOG.FORM_ID=RSK_OP_LOG_GPTMP_TODAY.FORM_ID AND RSK_OP_LOG.OP_TIME=RSK_OP_LOG_GPTMP_TODAY.OP_TIME ;
+insert into RSK_OP_LOG (FORM_ID,FORM_TYPE,CUSTOMS_CODE,OP_ER,OP_TIME,OP_POS) select FORM_ID,FORM_TYPE,CUSTOMS_CODE,OP_ER,OP_TIME,OP_POS from RSK_OP_LOG_GPTMP_TODAY  where CMD_TYPE='I';
+\timing

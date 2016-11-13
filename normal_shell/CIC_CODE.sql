@@ -1,0 +1,12 @@
+\echo ------------------CIC_CODE----------------
+select now();
+\timing
+insert into CIC_CODE_GPTMP (CMD_TYPE,FIRST_NO) select CMD_TYPE,FIRST_NO from CIC_CODE_INC_EXT;
+
+delete from CIC_CODE using CIC_CODE_GPTMP where CIC_CODE_GPTMP.FIRST_NO=CIC_CODE.FIRST_NO ;
+
+insert into CIC_CODE(FIRST_NO,LAST_NO,CUS_CODE,LOCAL_FLAG,INPUT_ER,INPUT_DATE,PRINT_DATE) select FIRST_NO,LAST_NO,CUS_CODE,LOCAL_FLAG,INPUT_ER,INPUT_DATE,PRINT_DATE from CIC_CODE_INC_EXT where CMD_TYPE='I';
+
+delete from CIC_CODE_GPTMP;
+
+\timing

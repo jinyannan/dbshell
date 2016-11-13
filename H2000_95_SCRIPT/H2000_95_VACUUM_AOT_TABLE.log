@@ -1,0 +1,24 @@
+---------------ENTRY_HEAD_TMP----------------
+---------------ENTRY_LIST_TMP----------------
+psql:./H2000_95_VACUUM_AOT_ENTRY_HEAD.sql:2: ERROR:  syntax error at or near "#"
+LINE 1: #select pg_relation_size('ENTRY_HEAD_TMP');
+        ^
+psql:./H2000_95_VACUUM_AOT_ENTRY_LIST.sql:2: ERROR:  syntax error at or near "#"
+LINE 1: #select pg_relation_size('ENTRY_LIST_TMP');
+        ^
+---------------ENTRY_WORKFLOW_TMP----------------
+psql:./H2000_95_VACUUM_AOT_ENTRY_WORKFLOW.sql:2: ERROR:  syntax error at or near "#"
+LINE 1: #select pg_relation_size('ENTRY_WORKFLOW_TMP');
+        ^
+VACUUM
+psql:./H2000_95_VACUUM_AOT_ENTRY_HEAD.sql:4: ERROR:  syntax error at or near "#"
+LINE 1: #select pg_relation_size('ENTRY_HEAD_TMP');
+        ^
+VACUUM
+psql:./H2000_95_VACUUM_AOT_ENTRY_WORKFLOW.sql:4: ERROR:  syntax error at or near "#"
+LINE 1: #select pg_relation_size('ENTRY_WORKFLOW_TMP');
+        ^
+VACUUM
+psql:./H2000_95_VACUUM_AOT_ENTRY_LIST.sql:4: ERROR:  syntax error at or near "#"
+LINE 1: #select pg_relation_size('ENTRY_LIST_TMP');
+        ^

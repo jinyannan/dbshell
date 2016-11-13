@@ -1,0 +1,6 @@
+\echo -----------------------DEL_EGS_ARC_LIST------------------------
+select now();
+\timing
+delete from DEL_EGS_ARC_LIST using DEL_EGS_ARC_LIST_GPTMP_TODAY where DEL_EGS_ARC_LIST.EGS_NO=DEL_EGS_ARC_LIST_GPTMP_TODAY.EGS_NO AND DEL_EGS_ARC_LIST.G_NO=DEL_EGS_ARC_LIST_GPTMP_TODAY.G_NO ;
+insert into DEL_EGS_ARC_LIST (EGS_NO,G_NO,CODE_TS,G_NAME) select EGS_NO,G_NO,CODE_TS,G_NAME from DEL_EGS_ARC_LIST_GPTMP_TODAY  where CMD_TYPE='I';
+\timing

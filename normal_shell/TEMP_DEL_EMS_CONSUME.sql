@@ -1,0 +1,12 @@
+\echo ------------------TEMP_DEL_EMS_CONSUME----------------
+select now();
+\timing
+insert into TEMP_DEL_EMS_CONSUME_GPTMP (CMD_TYPE,RID) select CMD_TYPE,RID from TEMP_DEL_EMS_CONSUME_INC_EXT;
+
+delete from TEMP_DEL_EMS_CONSUME using TEMP_DEL_EMS_CONSUME_GPTMP where TEMP_DEL_EMS_CONSUME_GPTMP.RID=TEMP_DEL_EMS_CONSUME.RID ;
+
+insert into TEMP_DEL_EMS_CONSUME(RID) select RID from TEMP_DEL_EMS_CONSUME_INC_EXT where CMD_TYPE='I';
+
+delete from TEMP_DEL_EMS_CONSUME_GPTMP;
+
+\timing

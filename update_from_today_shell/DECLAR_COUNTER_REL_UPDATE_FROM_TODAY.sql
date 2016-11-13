@@ -1,0 +1,6 @@
+\echo -----------------------DECLAR_COUNTER_REL------------------------
+select now();
+\timing
+delete from DECLAR_COUNTER_REL using DECLAR_COUNTER_REL_GPTMP_TODAY where DECLAR_COUNTER_REL.DECL_KEY=DECLAR_COUNTER_REL_GPTMP_TODAY.DECL_KEY ;
+insert into DECLAR_COUNTER_REL (DECL_KEY,COUNTER) select DECL_KEY,COUNTER from DECLAR_COUNTER_REL_GPTMP_TODAY  where CMD_TYPE='I';
+\timing

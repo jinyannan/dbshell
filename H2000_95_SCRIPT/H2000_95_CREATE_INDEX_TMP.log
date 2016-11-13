@@ -1,0 +1,77 @@
+              now              
+-------------------------------
+ 2011-11-07 15:37:41.572347+08
+(1 row)
+
+"PK_ENTRY_HEAD_TMP on ENTRY_HEAD (ENTRY_ID)"
+CREATE INDEX
+              now              
+-------------------------------
+ 2011-11-07 15:41:56.980942+08
+(1 row)
+
+"PK_ENTRY_LIST_TMP on ENTRY_LIST_TMP (ENTRY_ID, G_NO)"
+CREATE INDEX
+              now              
+-------------------------------
+ 2011-11-07 15:50:12.615314+08
+(1 row)
+
+"PK_ENTRY_WORKFLOW_TMP on ENTRY_WORKFLOW_TMP (ENTRY_ID, STEP_ID, CREATE_DATE)"
+CREATE INDEX
+              now              
+-------------------------------
+ 2011-11-07 16:37:52.260227+08
+(1 row)
+
+"create index IX_ENTRYHEAD_CONTRNO_TMP on ENTRY_HEAD_TMP (CONTR_NO);"
+CREATE INDEX
+              now              
+-------------------------------
+ 2011-11-07 16:42:30.884317+08
+(1 row)
+
+"create index IX_ENTRYHEAD_DDATE_TMP on ENTRY_HEAD_TMP (D_DATE);"
+CREATE INDEX
+              now              
+-------------------------------
+ 2011-11-07 16:47:20.077113+08
+(1 row)
+
+"create index IX_ENTRYHEAD_DECLPORT_TMP on ENTRY_HEAD_TMP (DECL_PORT);"
+CREATE INDEX
+              now              
+-------------------------------
+ 2011-11-07 16:52:29.128769+08
+(1 row)
+
+"create index IX_ENTRYHEAD_IEPORT_TMP on ENTRY_HEAD_TMP (I_E_PORT);"
+CREATE INDEX
+              now              
+-------------------------------
+ 2011-11-07 16:58:41.446573+08
+(1 row)
+
+"create index IX_ENTRYHEAD_MANUALNO_TMP on ENTRY_HEAD_TMP (MANUAL_NO);"
+CREATE INDEX
+              now              
+-------------------------------
+ 2011-11-07 17:03:28.940131+08
+(1 row)
+
+"create index IX_ENTRYHEAD_RELATIVEID_TMP on ENTRY_HEAD_TMP (RELATIVE_ID);"
+CREATE INDEX
+              now              
+-------------------------------
+ 2011-11-07 17:09:03.459546+08
+(1 row)
+
+"create index IX_ENTRYHEAD_TRADECO_TMP on ENTRY_HEAD_TMP (TRADE_CO);"
+CREATE INDEX
+              now              
+-------------------------------
+ 2011-11-07 17:15:28.283879+08
+(1 row)
+
+"create index IX_ENTRY_WORKFLOW_TMP on ENTRY_WORKFLOW_TMP (CREATE_DATE, STEP_ID);"
+CREATE INDEX

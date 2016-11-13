@@ -1,0 +1,6 @@
+echo `date` Begin Create PK....................
+psql -d h2000 -f ./H2000_95_CREATE_PK.sql 2>&1 |tee ./H2000_95_CREATE_PK.log
+echo Finished Create PK
+echo `date` Begin Create Index...................
+psql -d h2000 -f ./H2000_95_CREATE_INDEX.sql 2>&1 |tee /H2000_95_CREATE_INDEX.log
+echo Finished Create Index
